@@ -4,7 +4,7 @@ Created on Fri Mar 25 13:34:41 2016
 
 @author: Swan
 """
-
+#Hello?
 #import a bunch of stuff
 import pandas as pd
 import requests
@@ -54,6 +54,9 @@ for obj in obs:
     obj['new_date'] = datetime.datetime.strptime(obj['date'],'%Y-%m-%d').date()
     obj['start'] = datetime.datetime.strptime(obj['realtime_start'],'%Y-%m-%d').date()
     obj['end'] = datetime.datetime.strptime(obj['realtime_end'],'%Y-%m-%d').date()
+    
+    
+    
     ###I think this should be the function, but I am having some trouble
     if obj['realtime_end'] == '9999-12-31':
         obj['current_est'] = obj['value']

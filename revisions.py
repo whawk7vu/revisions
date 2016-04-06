@@ -54,7 +54,16 @@ for obj in obs:
     obj['new_date'] = datetime.datetime.strptime(obj['date'],'%Y-%m-%d').date()
     obj['start'] = datetime.datetime.strptime(obj['realtime_start'],'%Y-%m-%d').date()
     obj['end'] = datetime.datetime.strptime(obj['realtime_end'],'%Y-%m-%d').date()
-    
+    if obj['new_date'].month == 1:
+        obj['date_label'] = str(obj['new_date'].year) + ' Q1'
+    elif  obj['new_date'].month == 4:
+        obj['date_label'] = str(obj['new_date'].year) + ' Q2'
+    elif  obj['new_date'].month == 7:
+        obj['date_label'] = str(obj['new_date'].year) + ' Q3'
+    elif  obj['new_date'].month == 10:
+        obj['date_label'] = str(obj['new_date'].year) + ' Q4'
+    else:
+        obj['date_label'] = 'NaN'
     
     
     ###I think this should be the function, but I am having some trouble
@@ -73,7 +82,7 @@ for obj in obs:
           obj['new_date'] + datetime.timedelta(days=182) > obj['start']):
               obj['label'] = 'Third'
     else: obj['label'] = 'NaN'
-        
+      
 
 
 obs[-10:]

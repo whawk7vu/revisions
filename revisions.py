@@ -74,7 +74,7 @@ for obj in obs:
         
     if (obj['new_date'] + datetime.timedelta(days=91) < obj['start'] and
         obj['new_date'] + datetime.timedelta(days=121) > obj['start']):
-            obj['label'] = 'Advanced'
+            obj['label'] = 'First'
     elif (obj['new_date'] + datetime.timedelta(days=121) < obj['start'] and
           obj['new_date'] + datetime.timedelta(days=152) > obj['start']):
               obj['label'] = 'Second'
@@ -86,6 +86,8 @@ for obj in obs:
 
 
 obs[-10:]
+
+#All I want is date_label: 2015 Q4, First: 0.7, Second: 1.0, Third: 1.4, current_est: 1.4
 
 
 vals_by_date={}

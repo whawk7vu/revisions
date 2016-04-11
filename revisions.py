@@ -48,8 +48,6 @@ series = r.json()
 
 obs = series['observations']
 
-
-
 for obj in obs:
     obj['new_date'] = datetime.datetime.strptime(obj['date'],'%Y-%m-%d').date()
     obj['start'] = datetime.datetime.strptime(obj['realtime_start'],'%Y-%m-%d').date()
@@ -64,14 +62,8 @@ for obj in obs:
         obj['date_label'] = str(obj['new_date'].year) + ' Q4'
     else:
         obj['date_label'] = 'NaN'
-    
-    
-    ###I think this should be the function, but I am having some trouble
-    if obj['realtime_end'] == '9999-12-31':
-        obj['current_est'] = obj['value']
-    else:
-        obj['current_est'] = 'NaN'
-        
+     
+    ###I think this should be the function, but I am having some trouble        
     if (obj['new_date'] + datetime.timedelta(days=91) < obj['start'] and
         obj['new_date'] + datetime.timedelta(days=121) > obj['start']):
             obj['label'] = 'First'
@@ -83,43 +75,18 @@ for obj in obs:
               obj['label'] = 'Third'
     else: obj['label'] = 'NaN'
       
-
-
-obs[-10:]
-
-#All I want is date_label: 2015 Q4, First: 0.7, Second: 1.0, Third: 1.4, current_est: 1.4
-
-
 vals_by_date={}
 series_change={}
 
-#remove if value == '.'
-#change data to int?
-#remove if date < 2000-01-01
-
 # read in observations
-for item in series['observations']:
-    # akr: make datetime objects, do date math to find difference
-    # set label based on difference
-    # item['label'] = 'advance'
-    if not item['date'] in vals_by_date:
-        vals_by_date[item['date']] = munge_item(item) # { item['label']: item['value'], item['label'] + '_realtime_start': item['realtiem_start']}
+for item in obs:
+    if not item['date_label'] in vals_by_date:
+        vals_by_date[item['date_label']] = {item['label']:float(item['value'])}
     else:
-        vals_by_date[item['date']].merge/update(munge_item(item))
-
-
-for date,value in vals_by_date.items():
-    series_change[date] = round(abs(float(value[0])-float(value[-1])),2)
-    #series_change[date] = float(value)
+        vals_by_date[item['date_label']].update({item['label']:float(item['value'])})
+    if item['realtime_end'] == '9999-12-31':
+        vals_by_date[item['date_label']].update({'current':float(item['value'])})
 
 vals_by_date
-series_change
 
-series_change_data = pd.Series(series_change, name='DateValue')
 
-series_change_data.index.name = 'Date'
-
-series_change_data.reset_index()
-
-vals_by_date
-series_change_data

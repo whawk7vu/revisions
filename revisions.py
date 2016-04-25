@@ -7,6 +7,7 @@ Created on Fri Mar 25 13:34:41 2016
 import pandas as pd
 import requests
 import datetime
+import pandas_highcharts
 
 writer = pd.ExcelWriter('output.xlsx')
 
@@ -14,9 +15,9 @@ with open('api.txt', 'r') as api:
     api=api.read()
 
 percent_change_list = ["A353RY2Q224SBEA", "DSERRY2Q224SBEA", "A006RY2Q224SBEA", "A008RY2Q224SBEA",	"A011RY2Q224SBEA",	"A014RY2Q224SBEA",	"A019RY2Q224SBEA",	"A020RY2Q224SBEA",	"A253RY2Q224SBEA",	"A646RY2Q224SBEA",	"A021RY2Q224SBEA",	"A255RY2Q224SBEA",	"A656RY2Q224SBEA",	"A822RY2Q224SBEA",	"A823RY2Q224SBEA",	"A824RY2Q224SBEA",	"A825RY2Q224SBEA",	"A829RY2Q224SBEA"]
-indicator = ''
+indicator = ['A353RY2Q224SBEA']
 
-mylist = percent_change_list
+mylist = indicator
 
 for element in mylist:
 
@@ -66,6 +67,17 @@ for element in mylist:
             vals_by_date[item['date_label']].update({'current':float(item['value'])})
     
     r = pd.DataFrame.from_dict(vals_by_date, orient='index', dtype=None)
+    cols=['First', 'Second', 'Third', 'NaN', 'current']
+    r = r[cols]
+    r['diff_1to3'] = r['Third'] - r['First']
+    r['abs_diff_1to3'] = abs(r['First'] - r['Third'])
+    r['one_year_avg'] = pd.rolling_mean(r['abs_diff_1to3'], window=4, min_periods=1)
+    r['total_avg'] = r['abs_diff_1to3'].mean()
+    
     r.to_excel(writer, element)
+    
 
 writer.save()
+
+chart = serialize(r['total_avg'], render_to="my-chart", title="My Chart")
+

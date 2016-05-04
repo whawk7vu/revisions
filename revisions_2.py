@@ -94,9 +94,26 @@ for x in range(1, 10):
 '''                   
                     
 #Testing ground
-                    
 
-if f_test['date_pub'] == urls_test['date_pub']:
+hist_test = hist_file  
+urls_test = urls     
+final_test = urls  
+
+for index1, row1 in hist_test.iterrows():
+    for index2, row2 in urls_test.iterrows():
+        if row1['date_pub'] == row2['date_pub']:
+            final_test['value'] = hist_test.ix[:,-2]
+            print("True")
+        else:
+            print("False")
+        
+
+
+
+for r in hist_test:
+    print(hist_test['Code'][0])
+
+if hist_test['date_pub'] == urls_test['date_pub']:
     print("True")
 else:
     print("False")

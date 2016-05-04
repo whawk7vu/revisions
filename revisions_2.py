@@ -9,7 +9,7 @@ import pandas as pd
 import datetime
 
 ###
-#Step 1.0 Create URLS dataframe 
+### Step 1.0 Create URLS dataframe 
 ###
 
 urls = pd.read_csv('url.csv', index_col = 0)
@@ -41,7 +41,7 @@ urls = urls[['date','est', 'date_pub']]
 ###
 
 x=0
-#Range should be 1 to 164. using 10 just to test.
+#Range should be 1 to 150. using 10 just to test.
 for x in range(1, 10):
     xls_file = pd.ExcelFile('histData' + str(x) + '.xls')
     
@@ -50,26 +50,42 @@ for x in range(1, 10):
         my_list = hist_date[0].astype(str)
         matching = [s for s in my_list if "Data published" in s]
         matching = [matching.replace("Data published","") for matching in matching]
+        
+        #change date into datime.date() format
         date_pub = datetime.datetime.strptime(matching[0].strip(' '), '%B %d, %Y').date()
         
+        #parse each xls file
         hist_file = xls_file.parse(sheetname = '10105 Qtr', skiprows=7, header=None)
+        
+        #Change rows into column names
         hist_col = hist_file[:2].transpose()
-        
         hist_col["period"] = hist_col[0].apply(str).str[:4] + '_Q' + hist_col[1].apply(str).str[:1]
-        
         col_names = hist_col['period'].tolist()
         col_names[0] = 'Line'
         col_names[1] = 'Description'
         col_names[2] = 'Code'
-        
         hist_file.columns = col_names
+        
+        #drop NAs
         hist_file.dropna(inplace=True)
+        
+        #add date_pub to the files
         hist_file['date_pub'] = date_pub
-#Save these files to show what I want:        
+        #test = hist_file[list(hist_file.columns[:2]) + list(hist_file.columns[:-2])].copy()
+
+        #Save these files to show what I want:        
         hist_file.to_csv('mock'+str(x)+'.csv')
-        
+
+
+###        
 #This is where I can't figure it out
+###
         
+test = hist_file[hist_file.columns[0:3], hist_file.columns[4]] 
+
+newdf = df[df.columns[2:4]]
+
+
         result =  pd.DataFrame()
                 
         for hist_row in hist_file.iterrows():
@@ -100,7 +116,9 @@ urls_test = urls
 final_test = urls  
 
 for index1, row1 in hist_test.iterrows():
+    
     for index2, row2 in urls_test.iterrows():
+        
         if row1['date_pub'] == row2['date_pub']:
             final_test['value'] = hist_test.ix[:,-2]
             print("True")

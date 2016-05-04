@@ -9,15 +9,16 @@ import requests
 import datetime
 import pandas_highcharts
 
-writer = pd.ExcelWriter('output.xlsx')
+writer = pd.ExcelWriter('output2.xlsx')
 
 with open('api.txt', 'r') as api:
     api=api.read()
 
 percent_change_list = ["A353RY2Q224SBEA", "DSERRY2Q224SBEA", "A006RY2Q224SBEA", "A008RY2Q224SBEA",	"A011RY2Q224SBEA",	"A014RY2Q224SBEA",	"A019RY2Q224SBEA",	"A020RY2Q224SBEA",	"A253RY2Q224SBEA",	"A646RY2Q224SBEA",	"A021RY2Q224SBEA",	"A255RY2Q224SBEA",	"A656RY2Q224SBEA",	"A822RY2Q224SBEA",	"A823RY2Q224SBEA",	"A824RY2Q224SBEA",	"A825RY2Q224SBEA",	"A829RY2Q224SBEA"]
-indicator = ['A353RY2Q224SBEA']
+nominal_GDP = ["A253RC1Q027SBEA", 	"A255RC1Q027SBEA", 	"A646RC1Q027SBEA", 	"B009RC1Q027SBEA", 	"B656RC1Q027SBEA", 	"CBI", 	"DGDSRC1Q027SBEA", 	"EXPGS", 	"FDEFX", 	"FGCE", 	"FNDEFX", 	"FPI", 	"GCE", 	"GDP", 	"GPDI", 	"IMPGS", 	"NETEXP", 	"PCDG", 	"PCEC", 	"PCESV", 	"PCND", 	"PNFI", 	"PRFI", 	"SLCE", 	"Y001RC1Q027SBEA", 	"Y033RC1Q027SBEA"]
+indicator = ['GDP']
 
-mylist = indicator
+mylist = nominal_GDP
 
 for element in mylist:
 
@@ -26,8 +27,12 @@ for element in mylist:
     series = r.json()
     
     obs = series['observations']
-    
+
+    obs = [d for d in obs if d.get('value') != '.']
+        
     for obj in obs:
+        if obj['value'] == '.':
+            print(obj)
         obj['new_date'] = datetime.datetime.strptime(obj['date'],'%Y-%m-%d').date()
         obj['start'] = datetime.datetime.strptime(obj['realtime_start'],'%Y-%m-%d').date()
         obj['end'] = datetime.datetime.strptime(obj['realtime_end'],'%Y-%m-%d').date()
@@ -43,22 +48,24 @@ for element in mylist:
             obj['date_label'] = 'NaN'
          
         ###I think this should be the function, but I am having some trouble        
-        if (obj['new_date'] + datetime.timedelta(days=91) < obj['start'] and
-            obj['new_date'] + datetime.timedelta(days=121) > obj['start']):
+        if (obj['new_date'] + datetime.timedelta(days=85) < obj['start'] and
+            obj['new_date'] + datetime.timedelta(days=130) > obj['start']):
                 obj['label'] = 'First'
-        elif (obj['new_date'] + datetime.timedelta(days=121) < obj['start'] and
+        elif (obj['new_date'] + datetime.timedelta(days=130) < obj['start'] and
               obj['new_date'] + datetime.timedelta(days=152) > obj['start']):
                   obj['label'] = 'Second'
         elif (obj['new_date'] + datetime.timedelta(days=152) < obj['start'] and
               obj['new_date'] + datetime.timedelta(days=182) > obj['start']):
                   obj['label'] = 'Third'
         else: obj['label'] = 'NaN'
+               
+        
           
     vals_by_date={}
     series_change={}
     
     # read in observations
-    for item in obs:
+    for item in obs:        
         if not item['date_label'] in vals_by_date:
             vals_by_date[item['date_label']] = {item['label']:float(item['value'])}
         else:
@@ -79,5 +86,4 @@ for element in mylist:
 
 writer.save()
 
-chart = serialize(r['total_avg'], render_to="my-chart", title="My Chart")
 

@@ -1,0 +1,17 @@
+leftover code for revisions:
+
+for date,value in vals_by_date.items():
+    series_change[date] = round(abs(float(value[0])-float(value[-1])),2)
+    #series_change[date] = float(value)
+
+vals_by_date
+series_change
+
+series_change_data = pd.Series(series_change, name='DateValue')
+
+series_change_data.index.name = 'Date'
+
+series_change_data.reset_index()
+
+vals_by_date
+series_change_data

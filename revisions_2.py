@@ -81,7 +81,7 @@ for x in range(1, 10):
         #test = hist_file[list(hist_file.columns[:2]) + list(hist_file.columns[:-2])].copy()
 
         #Save these files to show what I want:        
-       #hist_file.to_csv('mock'+str(x)+'.csv')
+        #hist_file.to_csv('mock'+str(x)+'.csv')
 
 
 ###        
@@ -92,7 +92,7 @@ test = hist_file[hist_file.columns[0:3], hist_file.columns[4]]
 
 newdf = df[df.columns[2:4]]
 
-
+len(hist_file.index)
         result =  pd.DataFrame()
                 
         for hist_row in hist_file.iterrows():

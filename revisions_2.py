@@ -85,16 +85,25 @@ for x in range(1, 149):
         #drop NAs
         hist_file.dropna(inplace=True)
         
+        # change codes for consistency
+        hist_file.ix[hist_file['code']=='A002RC1', 'code'] = 'DPCERC1'
+        hist_file.ix[hist_file['code']=='B003RC1', 'code'] = 'DDURRC1'
+        hist_file.ix[hist_file['code']=='B004RC1', 'code'] = 'DNDGRC1'
+        hist_file.ix[hist_file['code']=='B005RC1', 'code'] = 'DSERRC1'
+        
         #add date_pub to the files
         hist_file['date_pub'] = date_pub
         #test = hist_file[list(hist_file.columns[:2]) + list(hist_file.columns[:-2])].copy()
         
-        
+        # keep columns 1-3 and the last 2
         hist_file = hist_file.ix[:,[0,1,2,-1,-2]]
         #Save these files to show what I want:        
         #hist_file.to_csv('mock'+str(x)+'.csv')
+        
+        #create a large file with all the data together
         hist_file_all = pd.concat([hist_file_all, hist_file])
         
+        #if reading in the most recent vintage, create a long_file with the current GDP codes
         if x==1:
             codes = hist_file['code']
             urls_all = urls
@@ -102,10 +111,17 @@ for x in range(1, 149):
                 urls_all['code'] = item
                 long_file = pd.concat([long_file, urls_all])
 
+#sort the file
 hist_file_all.sort_values(by=['date_pub', 'line'], inplace=True)
+
+#change two release dates so they match up
 hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 1, 31).date(), 'date_pub'] = pd.datetime(2007, 1, 27).date()
 hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 3, 29).date(), 'date_pub'] = pd.datetime(2007, 3, 30).date()
+
+#create final_data
 final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
+
+pivot = final_data.pivot_table('value', ['code', 'description', 'date'], 'est')
 
 
 '''                   

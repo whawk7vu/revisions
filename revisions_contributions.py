@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 27 10:40:20 2016
+Created on Thu May  5 09:23:34 2016
 
 @author: Swan
 """
-
 import pandas as pd
 import datetime
 
@@ -55,14 +54,14 @@ x=0
 hist_file_all = pd.DataFrame()
 long_file = pd.DataFrame()
 #Range should be 1 to 150. using 10 just to test.
-for x in range(1, 149):
+for x in range(1, 150):
     #read in xls files
     xls_file = pd.ExcelFile('histData' + str(x) + '.xls')
     
-    if '10105 Qtr' in xls_file.sheet_names:
+    if '10102 Qtr' in xls_file.sheet_names:
         
         #This section is simply to get the date_pub variable to match with date_pub from urls
-        hist_date = xls_file.parse(sheetname = '10105 Qtr', header=None)
+        hist_date = xls_file.parse(sheetname = '10102 Qtr', header=None)
         my_list = hist_date[0].astype(str)
         matching = [s for s in my_list if "Data published" in s]
         matching = [matching.replace("Data published","") for matching in matching]
@@ -70,7 +69,7 @@ for x in range(1, 149):
         date_pub = datetime.datetime.strptime(matching[0].strip(' '), '%B %d, %Y').date()
         
         #Get the actual data values by parsing each xls file
-        hist_file = xls_file.parse(sheetname = '10105 Qtr', skiprows=7, header=None)
+        hist_file = xls_file.parse(sheetname = '10102 Qtr', skiprows=7, header=None)
         
         #Change rows into column names
         hist_col = hist_file[:2].transpose()
@@ -86,10 +85,10 @@ for x in range(1, 149):
         hist_file.dropna(inplace=True)
         
         # change codes for consistency
-        hist_file.ix[hist_file['code']=='A002RC1', 'code'] = 'DPCERC1'
-        hist_file.ix[hist_file['code']=='B003RC1', 'code'] = 'DDURRC1'
-        hist_file.ix[hist_file['code']=='B004RC1', 'code'] = 'DNDGRC1'
-        hist_file.ix[hist_file['code']=='B005RC1', 'code'] = 'DSERRC1'
+        hist_file.ix[hist_file['code']=='A002RY2', 'code'] = 'DPCERY2'
+        hist_file.ix[hist_file['code']=='A003RY2', 'code'] = 'DDURRY2'
+        hist_file.ix[hist_file['code']=='A004RY2', 'code'] = 'DNDGRY2'
+        hist_file.ix[hist_file['code']=='A005RY2', 'code'] = 'DSERRY2'
         
         #add date_pub to the files
         hist_file['date_pub'] = date_pub
@@ -121,7 +120,7 @@ hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 3, 29).date(), 'da
 #create final_data
 final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
 
-pivot = final_data.pivot_table('value', ['code', 'description', 'date'], 'est')
+pivot = final_data.pivot_table('value', ['line', 'code', 'description', 'date'], 'est')
 
 pivot['adv_less_second'] = pivot['ADVANCE'] - pivot['SECOND']
 pivot['adv_less_third'] = pivot['ADVANCE'] - pivot['THIRD']
@@ -131,9 +130,13 @@ pivot['abs_adv_less_second'] = abs(pivot['ADVANCE'] - pivot['SECOND'])
 pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD'])
 pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD'])
 
+pivot.to_pickle('GDP_cont')
 
-pivot.to_pickle('GDP_level')
+pivot.to_excel('GDP_cont.xlsx')
 
+#abs_change = pivot.pivot_table('abs_adv_less_third', 'date')
+
+#df.pivot(index='date', columns='variable', values='value')
 
 '''                   
 #Use this when you get the code going                    

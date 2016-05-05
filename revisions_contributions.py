@@ -121,6 +121,7 @@ hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 3, 29).date(), 'da
 final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
 
 final_data.to_pickle('final_GDP_cont')
+final_data.to_excel('final_GDP_cont.xlsx')
 
 pivot = final_data.pivot_table('value', ['line', 'code', 'description', 'date'], 'est')
 
@@ -133,7 +134,6 @@ pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD'])
 pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD'])
 
 pivot.to_pickle('GDP_cont')
-
 pivot.to_excel('GDP_cont.xlsx')
 
 #abs_change = pivot.pivot_table('abs_adv_less_third', 'date')

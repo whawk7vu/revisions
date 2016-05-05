@@ -120,6 +120,8 @@ hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 3, 29).date(), 'da
 #create final_data
 final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
 
+final_data.to_pickle('final_GDP_cont')
+
 pivot = final_data.pivot_table('value', ['line', 'code', 'description', 'date'], 'est')
 
 pivot['adv_less_second'] = pivot['ADVANCE'] - pivot['SECOND']

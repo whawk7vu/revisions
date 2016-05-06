@@ -120,6 +120,28 @@ hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 3, 29).date(), 'da
 #create final_data
 final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
 
+'''
+>>> table = pivot_table(df, values='D', index=['A', 'B'],
+...                     columns=['C'], aggfunc=np.sum)
+>>> table
+          small  large
+foo  one  1      4
+     two  6      NaN
+bar  one  5      4
+     two  6      7
+     
+     
+     
+df = df.set_index(['BORDER'], append=True)
+df.columns.name = 'HOUR'
+df = df.unstack('BORDER')
+df = df.stack('HOUR')
+df = df.reset_index('HOUR')
+df['HOUR'] = df['HOUR'].str.replace('HOUR', '').astype('int')
+print(df)
+'''
+
+
 final_data.to_pickle('final_GDP_cont')
 final_data.to_excel('final_GDP_cont.xlsx')
 
@@ -132,6 +154,14 @@ pivot['second_less_third'] = pivot['SECOND'] - pivot['THIRD']
 pivot['abs_adv_less_second'] = abs(pivot['ADVANCE'] - pivot['SECOND'])
 pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD'])
 pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD'])
+
+pivot.reset_index(inplace=True)
+pivot.sort_values(['date','line'],inplace=True)
+
+
+abs_revision_t = 
+
+
 
 pivot.to_pickle('GDP_cont')
 pivot.to_excel('GDP_cont.xlsx')

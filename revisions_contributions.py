@@ -105,6 +105,7 @@ for x in range(1, 150):
         #if reading in the most recent vintage, create a long_file with the current GDP codes
         if x==1:
             codes = hist_file['code']
+            descrip = hist_file[['code','description']]
             urls_all = urls
             for item in codes:
                 urls_all['code'] = item
@@ -142,8 +143,8 @@ print(df)
 '''
 
 
-final_data.to_pickle('final_GDP_cont')
-final_data.to_excel('final_GDP_cont.xlsx')
+#final_data.to_pickle('final_GDP_cont')
+#final_data.to_excel('final_GDP_cont.xlsx')
 
 pivot = final_data.pivot_table('value', ['line', 'code', 'description', 'date'], 'est')
 
@@ -159,12 +160,12 @@ pivot.reset_index(inplace=True)
 pivot.sort_values(['date','line'],inplace=True)
 
 
-abs_revision_t = 
+abs_revision_t = pivot.pivot_table('abs_adv_less_third', ['code', 'description'], 'date')
 
 
 
-pivot.to_pickle('GDP_cont')
-pivot.to_excel('GDP_cont.xlsx')
+#pivot.to_pickle('GDP_cont')
+#pivot.to_excel('GDP_cont.xlsx')
 
 #abs_change = pivot.pivot_table('abs_adv_less_third', 'date')
 
@@ -177,5 +178,15 @@ pivot.to_excel('GDP_cont.xlsx')
         hist_file = xls_file.parse(sheetname = '101 Qtr', skiprows=7, skip_footer=0)
 '''                   
         
+test_l = hist_file_all
+test_r = descrip
+
+test_l.merge(descrip)
+
+merged_left = pd.merge(left=test_l,right=test_r, how='left', on='code')
+
+
+
+
 
            

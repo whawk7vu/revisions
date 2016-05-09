@@ -118,29 +118,14 @@ hist_file_all.sort_values(by=['date_pub', 'line'], inplace=True)
 hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 1, 31).date(), 'date_pub'] = pd.datetime(2007, 1, 27).date()
 hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 3, 29).date(), 'date_pub'] = pd.datetime(2007, 3, 30).date()
 
+hist_file_all = pd.merge(hist_file_all, descrip, how='left', on='code')
+
+hist_file_all["description_y"].fillna(hist_file_all["description_x"], inplace=True)
+hist_file_all.drop('description_x', axis=1, inplace=True)
+hist_file_all.rename(columns = {'description_y':'description'}, inplace = True)
+
 #create final_data
 final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
-
-'''
->>> table = pivot_table(df, values='D', index=['A', 'B'],
-...                     columns=['C'], aggfunc=np.sum)
->>> table
-          small  large
-foo  one  1      4
-     two  6      NaN
-bar  one  5      4
-     two  6      7
-     
-     
-     
-df = df.set_index(['BORDER'], append=True)
-df.columns.name = 'HOUR'
-df = df.unstack('BORDER')
-df = df.stack('HOUR')
-df = df.reset_index('HOUR')
-df['HOUR'] = df['HOUR'].str.replace('HOUR', '').astype('int')
-print(df)
-'''
 
 
 #final_data.to_pickle('final_GDP_cont')
@@ -157,34 +142,17 @@ pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD'])
 pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD'])
 
 pivot.reset_index(inplace=True)
+
+#rolling_mean is deprecated and needs to be replaced with Series.rolling(min_periods=1,center=False,window=8).mean()
+pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rolling_mean, 8, min_periods=1)
+
 pivot.sort_values(['date','line'],inplace=True)
 
 
+#if I use line as an index then the codes don't combine, if I don't i get out of order
 abs_revision_t = pivot.pivot_table('abs_adv_less_third', ['code', 'description'], 'date')
-
-
-
-#pivot.to_pickle('GDP_cont')
-#pivot.to_excel('GDP_cont.xlsx')
-
-#abs_change = pivot.pivot_table('abs_adv_less_third', 'date')
-
-#df.pivot(index='date', columns='variable', values='value')
-
-'''                   
-#Use this when you get the code going                    
-    elif '101 Qtr' in xls_file.sheet_names:
-        xls_file = xls_file.parse(sheetname = '101 Qtr', header=None)
-        hist_file = xls_file.parse(sheetname = '101 Qtr', skiprows=7, skip_footer=0)
-'''                   
-        
-test_l = hist_file_all
-test_r = descrip
-
-test_l.merge(descrip)
-
-merged_left = pd.merge(left=test_l,right=test_r, how='left', on='code')
-
+abs_revision_t.reset_index(inplace=True) 
+#abs_revision_t.sort_values(['date','line'],inplace=True)  
 
 
 

@@ -4,8 +4,21 @@ Created on Thu May  5 09:23:34 2016
 
 @author: Swan
 """
+
+
 import pandas as pd
 import datetime
+import matplotlib.pyplot as plt
+from pylab import figure, axes, pie, title, show
+from matplotlib.backends.backend_pdf import PdfPages
+
+from plotly import __version__
+from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
+
+from plotly.offline import plot
+from plotly.graph_objs import Scatter
+
+plt.style.use('ggplot')
 
 ###
 ### Step 1.0 Create URLS dataframe 
@@ -58,10 +71,10 @@ for x in range(1, 150):
     #read in xls files
     xls_file = pd.ExcelFile('histData' + str(x) + '.xls')
     
-    if '10102 Qtr' in xls_file.sheet_names:
+    if '10502 Qtr' in xls_file.sheet_names:
         
         #This section is simply to get the date_pub variable to match with date_pub from urls
-        hist_date = xls_file.parse(sheetname = '10102 Qtr', header=None)
+        hist_date = xls_file.parse(sheetname = '10502 Qtr', header=None)
         my_list = hist_date[0].astype(str)
         matching = [s for s in my_list if "Data published" in s]
         matching = [matching.replace("Data published","") for matching in matching]
@@ -69,7 +82,7 @@ for x in range(1, 150):
         date_pub = datetime.datetime.strptime(matching[0].strip(' '), '%B %d, %Y').date()
         
         #Get the actual data values by parsing each xls file
-        hist_file = xls_file.parse(sheetname = '10102 Qtr', skiprows=7, header=None)
+        hist_file = xls_file.parse(sheetname = '10502 Qtr', skiprows=7, header=None)
         
         #Change rows into column names
         hist_col = hist_file[:2].transpose()
@@ -84,11 +97,13 @@ for x in range(1, 150):
         #drop NAs
         hist_file.dropna(inplace=True)
         
+        '''
         # change codes for consistency
         hist_file.ix[hist_file['code']=='A002RY2', 'code'] = 'DPCERY2'
         hist_file.ix[hist_file['code']=='A003RY2', 'code'] = 'DDURRY2'
         hist_file.ix[hist_file['code']=='A004RY2', 'code'] = 'DNDGRY2'
         hist_file.ix[hist_file['code']=='A005RY2', 'code'] = 'DSERRY2'
+        '''
         
         #add date_pub to the files
         hist_file['date_pub'] = date_pub
@@ -104,6 +119,7 @@ for x in range(1, 150):
         
         #if reading in the most recent vintage, create a long_file with the current GDP codes
         if x==1:
+            hist_file_current = hist_file
             codes = hist_file['code']
             descrip = hist_file[['code','description']]
             urls_all = urls
@@ -127,11 +143,38 @@ hist_file_all.rename(columns = {'description_y':'description'}, inplace = True)
 #create final_data
 final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
 
+final_data.to_csv('final_data.csv')
+
 
 #final_data.to_pickle('final_GDP_cont')
 #final_data.to_excel('final_GDP_cont.xlsx')
 
 pivot = final_data.pivot_table('value', ['line', 'code', 'description', 'date'], 'est')
+
+#testing ground
+test = pivot
+
+test.reset_index(inplace=True)
+
+
+
+
+
+
+
+
+
+#End testing ground
+
+
+
+
+
+
+
+
+
+
 
 pivot['adv_less_second'] = pivot['ADVANCE'] - pivot['SECOND']
 pivot['adv_less_third'] = pivot['ADVANCE'] - pivot['THIRD']
@@ -149,10 +192,39 @@ pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rol
 pivot.sort_values(['date','line'],inplace=True)
 
 
+abs_rev = PdfPages('abs_rev.pdf')
+for i, group in pivot.groupby('description'):
+    plt.figure()
+    group.plot(x='date', y='abs_two_year', title=str(i))
+    abs_rev.savefig()
+
+abs_rev.close()
+
+
+
 #if I use line as an index then the codes don't combine, if I don't i get out of order
-abs_revision_t = pivot.pivot_table('abs_adv_less_third', ['code', 'description'], 'date')
-abs_revision_t.reset_index(inplace=True) 
+abs_revision_index = pivot.pivot_table('abs_two_year', ['code', 'description'], 'date')
+abs_revision_t = abs_revision_index.reset_index() 
 #abs_revision_t.sort_values(['date','line'],inplace=True)  
+
+
+tree = abs_revision_t[['code','2015_Q4']]
+tree_map = pd.merge(descrip, tree, how='left', on='code')
+
+tree_2 = pd.read_csv('tree_map_copy_manual.csv')
+
+
+
+pp = PdfPages('multipage.pdf')
+
+for i, group in final_data.groupby('description'):
+    plt.figure()
+    group.plot(x='date', y='value', title=str(i))
+    pp.savefig()
+
+pp.close()
+
+
 
 
 

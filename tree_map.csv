@@ -1,0 +1,63 @@
+,code,description,2015_Q4
+0,A191RL1,    Gross domestic product,1.0875000000000001
+1,DPCERY2,Personal consumption expenditures,0.4237499999999999
+2,DGDSRY2,  Goods,0.14625000000000005
+3,DDURRY2,    Durable goods,0.04500000000000001
+4,DMOTRY2,      Motor vehicles and parts,0.036250000000000046
+5,DFDHRY2,      Furnishings and durable household equipment,0.018749999999999996
+6,DREQRY2,      Recreational goods and vehicles,0.02125
+7,DODGRY2,      Other durable goods,0.022500000000000006
+8,DNDGRY2,    Nondurable goods,0.10875000000000001
+9,DFXARY2,      Food and beverages purchased for off-premises consumption,0.05374999999999999
+10,DCLORY2,      Clothing and footwear,0.02625
+11,DGOERY2,      Gasoline and other energy goods,0.03125000000000002
+12,DONGRY2,      Other nondurable goods,0.05749999999999998
+13,DSERRY2,  Services,0.40125
+14,DHCERY2,    Household consumption expenditures (for services),0.42874999999999985
+15,DHUTRY2,      Housing and utilities,0.03000000000000002
+16,DHLCRY2,      Health care,0.3162499999999999
+17,DTRSRY2,      Transportation services,0.03875000000000001
+18,DRCARY2,      Recreation services,0.08
+19,DFSARY2,      Food services and accommodations,0.03374999999999999
+20,DIFSRY2,      Financial services and insurance,0.11875
+21,DOTSRY2,      Other services,0.1025
+22,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,0.08375
+23,DNPERY2,      Gross output of nonprofit institutions \2\,0.22000000000000006
+24,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,0.28874999999999995
+25,A006RY2,Gross private domestic investment,0.6025
+26,A007RY2,  Fixed investment,0.3412499999999999
+27,A008RY2,    Nonresidential,0.2824999999999999
+28,A009RY2,      Structures,0.12749999999999995
+29,Y033RY2,      Equipment,0.185
+30,Y034RY2,        Information processing equipment,0.09499999999999999
+31,B935RY2,          Computers and peripheral equipment,0.03375
+32,A937RY2,          Other,0.06249999999999999
+33,A680RY2,        Industrial equipment,0.051250000000000004
+34,A681RY2,        Transportation equipment,0.07500000000000001
+35,A862RY2,        Other equipment,0.05124999999999999
+36,Y001RY2,      Intellectual property products,0.11875000000000002
+37,B985RY2,        Software \4\,0.0325
+38,Y006RY2,        Research and development \5\,0.11875
+39,Y020RY2,"        Entertainment, literary, and artistic originals",0.015000000000000001
+40,A011RY2,    Residential,0.06625000000000003
+41,A014RY2,  Change in private inventories,0.5225000000000001
+42,B018RY2,    Farm,0.04250000000000001
+43,A015RY2,    Nonfarm,0.5150000000000001
+44,A019RY2,Net exports of goods and services,0.3462499999999994
+45,A020RY2,  Exports,0.1787499999999999
+46,A253RY2,    Goods,0.10749999999999987
+47,A646RY2,    Services,0.08625000000000003
+48,A021RY2,  Imports,0.27624999999999994
+49,A255RY2,    Goods,0.25125000000000003
+50,A656RY2,    Services,0.03874999999999998
+51,A822RY2,Government consumption expenditures and gross investment,0.0775
+52,A823RY2,  Federal,0.020000000000000014
+53,A824RY2,    National defense,0.0175
+54,A997RY2,      Consumption expenditures,0.018750000000000003
+55,A788RY2,      Gross investment,0.001250000000000002
+56,A825RY2,    Nondefense,6.071532165918825e-18
+57,A542RY2,      Consumption expenditures,0.011250000000000001
+58,A798RY2,      Gross investment,0.00874999999999999
+59,A829RY2,  State and local,0.06375000000000006
+60,A991RY2,    Consumption expenditures,0.011250000000000003
+61,A799RY2,    Gross investment,0.06625000000000009

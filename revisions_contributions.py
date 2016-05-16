@@ -97,11 +97,13 @@ for x in range(1, 150):
             hist_file_current.dropna(inplace=True)
             
             #add date_pub to the files
-            hist_file_current['date_pub'] = date_pub
+            #hist_file_current['date_pub'] = date_pub
             #test = hist_file[list(hist_file.columns[:2]) + list(hist_file.columns[:-2])].copy()
             
-            hist_file_current = pd.melt(hist_file_current, id_vars=["line", "description", "code", 'date_pub'], 
-                              var_name="Date", value_name="Current")
+            hist_file_current = pd.melt(hist_file_current, id_vars=["line", "description", "code"], 
+                              var_name="date", value_name="current")
+            hist_file_current = hist_file_current[(hist_file_current.date >= '2004_Q1')][['code','date','current']]        
+
         
         #This section is simply to get the date_pub variable to match with date_pub from urls
         hist_date = xls_file.parse(sheetname = '10502 Qtr', header=None)
@@ -149,7 +151,6 @@ for x in range(1, 150):
         
         #if reading in the most recent vintage, create a long_file with the current GDP codes
         if x==1:
-            hist_file_current = hist_file
             codes = hist_file['code']
             descrip = hist_file[['code','description']]
             line = hist_file[['line','code']]
@@ -207,7 +208,12 @@ pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rol
 
 pivot.sort_values(['date','line'],inplace=True)
 
-test = pd.merge(pivot, hist_file_current, how='left', on=['code'])
+pivot = pd.merge(pivot, hist_file_current, how='left', on=['code', 'date'])
+
+pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['current'])
+pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['current'])
+
+
 
 
 
@@ -243,50 +249,6 @@ for i, group in pivot.groupby('description'):
     abs_rev.savefig()
 abs_rev.close()
 '''
-
-
-#hist_file current values
-
-xls_file = pd.ExcelFile('histData1.xls')
-    
-        
-#Get the actual data values by parsing each xls file
-hist_file_current = xls_file.parse(sheetname = '10502 Qtr', skiprows=7, header=None)
-
-#Change rows into column names
-hist_col = hist_file_current[:2].transpose()
-hist_col["period"] = hist_col[0].apply(str).str[:4] + '_Q' + hist_col[1].apply(str).str[:1]
-col_names = hist_col['period'].tolist()
-col_names[0] = 'line'
-col_names[1] = 'description'
-col_names[2] = 'code'
-#col_names[-1] = 'value'
-hist_file_current.columns = col_names
-
-#drop NAs
-hist_file_current.dropna(inplace=True)
-
-#add date_pub to the files
-#hist_file_current['date_pub'] = date_pub
-#test = hist_file[list(hist_file.columns[:2]) + list(hist_file.columns[:-2])].copy()
-
-hist_file_current = pd.melt(hist_file_current, id_vars=["line", "description", "code"], 
-                  var_name="date", value_name="current")
-                  
-
-hist_file_current = hist_file_current[(hist_file_current.date >= '2004_Q1')][['code','date','current']]        
-
-final_pivot = pd.merge(pivot, hist_file_current, how='left', on=('code', 'date'))
-
-
-#This section is simply to get the date_pub variable to match with date_pub from urls
-hist_date = xls_file.parse(sheetname = '10502 Qtr', header=None)
-my_list = hist_date[0].astype(str)
-matching = [s for s in my_list if "Data published" in s]
-matching = [matching.replace("Data published","") for matching in matching]
-#change date into datime.date() format
-date_pub = datetime.datetime.strptime(matching[0].strip(' '), '%B %d, %Y').date()
-
 
 
 

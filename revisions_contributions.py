@@ -159,11 +159,7 @@ for x in range(1, 150):
                 urls_all['code'] = item
                 long_file = pd.concat([long_file, urls_all])
                 
-#list(set(list))
-#"sdddd %s"%var
-                
-for something in list:
-    pandas[if code == something].to_csv('%s.csv'%something)
+
 
 #sort the file
 hist_file_all.sort_values(by=['date_pub', 'line'], inplace=True)
@@ -251,6 +247,8 @@ abs_rev.close()
 '''
 
 
+for something in pivot['code']:
+    pivot[(pivot['code']==something)].to_csv('%s.csv'%something)
 
 
 

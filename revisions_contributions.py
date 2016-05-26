@@ -277,14 +277,16 @@ show(p)
 
 
 import pandas as pd
-from bokeh.plotting import figure, output_file, show
+from bokeh.plotting import figure, output_file, show, save
 
-output_file("datetime.html")
+output_file('' + gdp_test['description'].iloc[0] + '.html')
 
 # create a new plot with a datetime axis type
-p = figure(a="W", width=800, height=250, title=gdp_test['description'].iloc[0], x_axis_type="datetime", y_range=(gdp_test['current'].min() -1,gdp_test['current'].max()+1), outline_line_color = None)
+p = figure(width=800, height=250, title=gdp_test['description'].iloc[0], x_axis_type="datetime", y_range=(gdp_test['current'].min() -1,gdp_test['current'].max()+1), outline_line_color = None)
 p.xgrid.grid_line_color = None
 p.ygrid.grid_line_color = None
+p.yaxis.minor_tick_line_color = None
+p.xaxis.minor_tick_line_color = None
 
 
 p.quad(top=gdp_test['current'], bottom=0, left=gdp_test['date_t'][:-1] + pd.DateOffset(10) , right=gdp_test['date_t'][1:] - pd.DateOffset(10)) 
@@ -293,6 +295,7 @@ p.line(gdp_test['date_t'], gdp_test['abs_two_year'], color='red', line_width=4)
 
 
 
+save(p)
 show(p)
 
            

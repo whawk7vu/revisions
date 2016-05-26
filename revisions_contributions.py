@@ -276,58 +276,23 @@ show(p)
 
 
 
+import pandas as pd
 from bokeh.plotting import figure, output_file, show
-from bokeh.models.ranges import Range1d
-import numpy
-
-
-output_file("line_bar.html")
-
-p = figure(plot_width=400, plot_height=400)
-
-# add a line renderer
-p.line(gdp_test['date'], gdp_test['abs_two_year'], line_width=2)
-
-'''
-# setting bar values
-h = numpy.array([2, 8, 5, 10, 7])
-
-# Correcting the bottom position of the bars to be on the 0 line.
-adj_h = h/2
-'''
-
-AAPL = pd.read_csv(
-        "http://ichart.yahoo.com/table.csv?s=AAPL&a=0&b=1&c=2000&d=0&e=1&f=2010",
-        parse_dates=['Date']
-    )
-    
-
 
 output_file("datetime.html")
 
 # create a new plot with a datetime axis type
-p = figure(width=800, height=250, x_axis_type= 'datetime')
+p = figure(a="W", width=800, height=250, title=gdp_test['description'].iloc[0], x_axis_type="datetime", y_range=(gdp_test['current'].min() -1,gdp_test['current'].max()+1), outline_line_color = None)
+p.xgrid.grid_line_color = None
+p.ygrid.grid_line_color = None
 
-p.line(gdp_test['date_t'], gdp_test['abs_two_year'], color='navy', alpha=0.5)
+
+p.quad(top=gdp_test['current'], bottom=0, left=gdp_test['date_t'][:-1] + pd.DateOffset(10) , right=gdp_test['date_t'][1:] - pd.DateOffset(10)) 
+
+p.line(gdp_test['date_t'], gdp_test['abs_two_year'], color='red', line_width=4)
+
+
 
 show(p)
-# add bar renderer
-p.rect(gdp_test, x=[1, 2, 3, 4, 5], y=adj_h, width=0.4, height=h, color="#CAB2D6")
-
-# Setting the y  axis range   
-p.y_range = Range1d(0, 12)
-
-p.title = "Line and Bar"
-
-show(p)
-
-
-
-
-
-
-
-
-
 
            

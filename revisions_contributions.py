@@ -9,7 +9,6 @@ import bokeh
 import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
-from pylab import figure, axes, pie, title, show
 from matplotlib.backends.backend_pdf import PdfPages
 
 from plotly import __version__
@@ -255,31 +254,61 @@ for i, group in pivot.groupby('description'):
 abs_rev.close()
 '''
 
+from bokeh.plotting import figure, output_file, show, save
 
-for something in pivot['code']:
+for something in pivot['code'].unique():
     pivot[(pivot['code']==something)].to_csv('%s.csv'%something)
+    
+    temp_graph = pivot[(pivot['code']==something)]
+    
+    output_file('' + temp_graph['description'].iloc[0].strip().replace('\\', '') + '.html')
+    
+    # create a new plot with a datetime axis type
+    p = figure(width=800, height=250, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
+    p.xgrid.grid_line_color = None
+    p.ygrid.grid_line_color = None
+    p.yaxis.minor_tick_line_color = None
+    p.xaxis.minor_tick_line_color = None
+    
+    p.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+    
+    p.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3)
+    
+    save(p)
+    show(p)
 
-
-
- 
- 
-from bokeh.charts import Bar, output_file, show
 
 gdp_test = pivot[(pivot['code']=='A191RL1')]
 
-p = Bar(gdp_test, 'date', values='current', title="Total MPG by CYL", plot_width=1000, xgrid = None, ygrid = None)
+temp_graph = gdp_test
 
-output_file("bar.html")
+output_file('' + temp_graph['description'].iloc[0].strip().replace('\\', '') + '.html')
+
+# create a new plot with a datetime axis type
+p = figure(width=800, height=350, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
+p.xgrid.grid_line_color = None
+p.ygrid.grid_line_color = None
+p.yaxis.minor_tick_line_color = None
+p.xaxis.minor_tick_line_color = None
+p.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+
+p.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+
+p.legend.location = "bottom_left"
 
 show(p)
+save(p)
 
 
 
+test = temp_graph['current'].min() - abs(temp_graph['current'].min()*.1)
 
-import pandas as pd
-from bokeh.plotting import figure, output_file, show, save
+test
 
-output_file('' + gdp_test['description'].iloc[0] + '.html')
+test = temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)
+
+
+output_file('' + gdp_test['description'].iloc[0].strip() + '.html')
 
 # create a new plot with a datetime axis type
 p = figure(width=800, height=250, title=gdp_test['description'].iloc[0], x_axis_type="datetime", y_range=(gdp_test['current'].min() -1,gdp_test['current'].max()+1), outline_line_color = None)
@@ -291,11 +320,12 @@ p.xaxis.minor_tick_line_color = None
 
 p.quad(top=gdp_test['current'], bottom=0, left=gdp_test['date_t'][:-1] + pd.DateOffset(10) , right=gdp_test['date_t'][1:] - pd.DateOffset(10)) 
 
-p.line(gdp_test['date_t'], gdp_test['abs_two_year'], color='red', line_width=4)
-
-
+p.line(gdp_test['date_t'], gdp_test['abs_two_year'], color='red', line_width=3)
 
 save(p)
 show(p)
+
+
+
 
            

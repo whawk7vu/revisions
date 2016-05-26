@@ -5,7 +5,7 @@ Created on Thu May  5 09:23:34 2016
 @author: Swan
 """
 
-
+import bokeh
 import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
@@ -187,6 +187,10 @@ final_data.to_csv('final_data.csv')
 
 pivot = final_data.pivot_table('value', ['line', 'code', 'description', 'date'], 'est')
 
+pivot.reset_index(inplace=True)
+
+pivot = pd.merge(pivot, hist_file_current, how='left', on=['code', 'date'])
+
 pivot['adv_less_second'] = pivot['ADVANCE'] - pivot['SECOND']
 pivot['adv_less_third'] = pivot['ADVANCE'] - pivot['THIRD']
 pivot['second_less_third'] = pivot['SECOND'] - pivot['THIRD']
@@ -195,22 +199,25 @@ pivot['abs_adv_less_second'] = abs(pivot['ADVANCE'] - pivot['SECOND'])
 pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD'])
 pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD'])
 
-pivot.reset_index(inplace=True)
-
-
 
 #rolling_mean is deprecated and needs to be replaced with Series.rolling(min_periods=1,center=False,window=8).mean()
 pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rolling_mean, 8, min_periods=1)
 
 pivot.sort_values(['date','line'],inplace=True)
 
-pivot = pd.merge(pivot, hist_file_current, how='left', on=['code', 'date'])
 
 pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['current'])
 pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['current'])
 
 
+pivot['year'] = pivot['date'].str[:4]
+pivot['month'] = pivot['date'].str[-1:]
 
+pivot['month'][pivot['month']=='4'] = '10'
+pivot['month'][pivot['month']=='3'] = '7'
+pivot['month'][pivot['month']=='2'] = '4'
+
+pivot['date_t'] = pd.to_datetime(pivot['year']+pivot['month'],format='%Y%m')
 
 
 #if I use line as an index then the codes don't combine, if I don't i get out of order
@@ -225,6 +232,8 @@ tree = abs_revision_t[['code','2015_Q4']]
 tree_map = pd.merge(descrip, tree, how='left', on='code')
 
 tree_2 = pd.read_csv('tree_map_copy_manual.csv')
+
+tree_test = abs_revision_t[['code', 'description', str(abs_revision_t.columns[-1])]]
 
 
 '''
@@ -252,13 +261,65 @@ for something in pivot['code']:
 
 
 
+ 
+ 
+from bokeh.charts import Bar, output_file, show
+
+gdp_test = pivot[(pivot['code']=='A191RL1')]
+
+p = Bar(gdp_test, 'date', values='current', title="Total MPG by CYL", plot_width=1000, xgrid = None, ygrid = None)
+
+output_file("bar.html")
+
+show(p)
 
 
 
 
+from bokeh.plotting import figure, output_file, show
+from bokeh.models.ranges import Range1d
+import numpy
 
 
+output_file("line_bar.html")
 
+p = figure(plot_width=400, plot_height=400)
+
+# add a line renderer
+p.line(gdp_test['date'], gdp_test['abs_two_year'], line_width=2)
+
+'''
+# setting bar values
+h = numpy.array([2, 8, 5, 10, 7])
+
+# Correcting the bottom position of the bars to be on the 0 line.
+adj_h = h/2
+'''
+
+AAPL = pd.read_csv(
+        "http://ichart.yahoo.com/table.csv?s=AAPL&a=0&b=1&c=2000&d=0&e=1&f=2010",
+        parse_dates=['Date']
+    )
+    
+
+
+output_file("datetime.html")
+
+# create a new plot with a datetime axis type
+p = figure(width=800, height=250, x_axis_type= 'datetime')
+
+p.line(gdp_test['date_t'], gdp_test['abs_two_year'], color='navy', alpha=0.5)
+
+show(p)
+# add bar renderer
+p.rect(gdp_test, x=[1, 2, 3, 4, 5], y=adj_h, width=0.4, height=h, color="#CAB2D6")
+
+# Setting the y  axis range   
+p.y_range = Range1d(0, 12)
+
+p.title = "Line and Bar"
+
+show(p)
 
 
 

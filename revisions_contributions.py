@@ -214,7 +214,25 @@ pivot['date_t'] = pd.to_datetime(pivot['year']+pivot['month'],format='%Y%m')
 
 main_table = pivot.drop(['line', 'year', 'month', 'date_t'], axis=1)
 
+test_table = pivot.drop(['line', 'year', 'month'], axis=1)
+
+test_table.to_csv('test_table.csv')
+
 main_table = main_table[(main_table['date'] == main_table['date'].iloc[-1])]
+
+main_table.to_csv('gdp_revisions.csv')
+main_table.to_json('gdp_revisions.json')
+
+main_table.to_html('main_table.html', classes = 'my_class" id = "gdp_main')
+
+main_table_indexed = main_table.set_index(['code', 'description', 'date'])
+main_table_indexed = main_table_indexed.stack()
+main_table_indexed = main_table_indexed.reset_index()
+main_table_indexed = main_table_indexed.rename(columns = {0:'value'})
+
+cols = list(main_table)
+
+main_table.column_names()
 
 
 #if I use line as an index then the codes don't combine, if I don't i get out of order

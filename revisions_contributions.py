@@ -184,23 +184,23 @@ pivot.reset_index(inplace=True)
 
 pivot = pd.merge(pivot, hist_file_current, how='left', on=['code', 'date'])
 
-pivot['adv_less_second'] = pivot['ADVANCE'] - pivot['SECOND']
-pivot['adv_less_third'] = pivot['ADVANCE'] - pivot['THIRD']
-pivot['second_less_third'] = pivot['SECOND'] - pivot['THIRD']
+pivot['adv_less_second'] = (pivot['ADVANCE'] - pivot['SECOND']).round(2)
+pivot['adv_less_third'] = (pivot['ADVANCE'] - pivot['THIRD']).round(2)
+pivot['second_less_third'] = (pivot['SECOND'] - pivot['THIRD']).round(2)
 
-pivot['abs_adv_less_second'] = abs(pivot['ADVANCE'] - pivot['SECOND'])
-pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD'])
-pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD'])
+pivot['abs_adv_less_second'] = abs(pivot['ADVANCE'] - pivot['SECOND']).round(2)
+pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD']).round(2)
+pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD']).round(2)
 
 
 #rolling_mean is deprecated and needs to be replaced with Series.rolling(min_periods=1,center=False,window=8).mean()
-pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rolling_mean, 8, min_periods=1)
+pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rolling_mean, 8, min_periods=1).round(2)
 
 pivot.sort_values(['date','line'],inplace=True)
 
 
-pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['current'])
-pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['current'])
+pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['current']).round(2)
+pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['current']).round(2)
 
 
 pivot['year'] = pivot['date'].str[:4]
@@ -230,9 +230,7 @@ main_table_indexed = main_table_indexed.stack()
 main_table_indexed = main_table_indexed.reset_index()
 main_table_indexed = main_table_indexed.rename(columns = {0:'value'})
 
-cols = list(main_table)
-
-main_table.column_names()
+main_table_indexed.to_csv('gdp_revisions.csv')
 
 
 #if I use line as an index then the codes don't combine, if I don't i get out of order
@@ -319,6 +317,36 @@ p.legend.location = "bottom_left"
 save(p)
 
 
+
+
+
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
+from bokeh.io import output_file, show, vform
+
+output_file("data_table.html")
+
+data_table = DataTable(source=main_table, width=400, height=280)
+
+show(vform(data_table))
+save(data_table)
+
+from datetime import date
+from random import randint
+
+from bokeh.models import ColumnDataSource
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
+from bokeh.io import output_file, show, vform
+
+output_file("data_table.html")
+
+source = ColumnDataSource(main_table)
+
+columns = [
+        TableColumn(field=c, title=c) for c in main_table.columns 
+    ]
+data_table = DataTable(source=source, columns=columns, width=2000, height=1000)
+
+show(vform(data_table))
 
 
            

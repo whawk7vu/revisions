@@ -129,15 +129,7 @@ for x in range(1, 150):
         
         #drop NAs
         hist_file.dropna(inplace=True)
-        
-        '''
-        # change codes for consistency
-        hist_file.ix[hist_file['code']=='A002RY2', 'code'] = 'DPCERY2'
-        hist_file.ix[hist_file['code']=='A003RY2', 'code'] = 'DDURRY2'
-        hist_file.ix[hist_file['code']=='A004RY2', 'code'] = 'DNDGRY2'
-        hist_file.ix[hist_file['code']=='A005RY2', 'code'] = 'DSERRY2'
-        '''
-        
+               
         #add date_pub to the files
         hist_file['date_pub'] = date_pub
         #test = hist_file[list(hist_file.columns[:2]) + list(hist_file.columns[:-2])].copy()
@@ -220,6 +212,10 @@ pivot['month'][pivot['month']=='2'] = '4'
 
 pivot['date_t'] = pd.to_datetime(pivot['year']+pivot['month'],format='%Y%m')
 
+main_table = pivot.drop(['line', 'year', 'month', 'date_t'], axis=1)
+
+main_table = main_table[(main_table['date'] == main_table['date'].iloc[-1])]
+
 
 #if I use line as an index then the codes don't combine, if I don't i get out of order
 abs_revision_index = pivot.pivot_table('abs_two_year', ['code', 'description'], 'date')
@@ -228,33 +224,6 @@ abs_revision_t = pd.merge(line, abs_revision_t, how='left', on=['code'])
 
 abs_revision_t.to_csv('Two_year_abs_revision.csv')
 
-
-tree = abs_revision_t[['code','2015_Q4']]
-tree_map = pd.merge(descrip, tree, how='left', on='code')
-
-tree_2 = pd.read_csv('tree_map_copy_manual.csv')
-
-tree_test = abs_revision_t[['code', 'description', str(abs_revision_t.columns[-1])]]
-
-
-'''
-pp = PdfPages('multipage.pdf')
-
-for i, group in final_data.groupby('description'):
-    plt.figure()
-    group.plot(x='date', y='value', title=str(i))
-    pp.savefig()
-
-pp.close()
-
-
-abs_rev = PdfPages('abs_rev.pdf')
-for i, group in pivot.groupby('description'):
-    plt.figure()
-    group.plot(x='date', y='abs_two_year', title=str(i))
-    abs_rev.savefig()
-abs_rev.close()
-'''
 
 
 for something in pivot['code'].unique():
@@ -278,14 +247,41 @@ for something in pivot['code'].unique():
     
     #show(p)
     save(p)
+    
 
 
+temp_graph = pivot[(pivot['code']=='A191RL1')]
+
+output_file("line.html")
+
+p = figure(plot_width=800, plot_height=400, title=temp_graph['description'].iloc[0], x_axis_type="datetime", outline_line_color = None )
 
 
-# testing ground for charts
-gdp_test = pivot[(pivot['code']=='A191RL1')]
+p.xgrid.grid_line_color = None
+p.ygrid.grid_line_color = None
+p.yaxis.minor_tick_line_color = None
+p.xaxis.minor_tick_line_color = None
 
-temp_graph = gdp_test
+# add a line renderer
+p.line(temp_graph['date_t'], temp_graph['adv_less_third'], color='red', line_width=3, legend="Revision")
+
+p.legend.location = "bottom_left"
+
+show(p)    
+
+
+from bokeh.charts import Bar, output_file, show
+from bokeh.sampledata.autompg import autompg as df
+
+p = Bar(temp_graph, values='adv_less_third', title="Total MPG by CYL")
+
+output_file("bar.html")
+
+show(p)
+
+
+    
+
 
 output_file('' + temp_graph['description'].iloc[0].strip().replace('\\', '') + '.html')
 
@@ -301,8 +297,9 @@ p.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width
 
 p.legend.location = "bottom_left"
 
-show(p)
+#show(p)
 save(p)
+
 
 
 

@@ -83,23 +83,22 @@ p = gridplot([[p1, p2], [p3, p4]])
 # show the results
 #show(p)
 
-
+main_table['description'].map(len).max()
+main_table['code'].map(len).max()
 
 
 ########## BUILD FIGURES ################
 
-PLOT_OPTIONS = dict(plot_width=800, plot_height=300)
-SCATTER_OPTIONS = dict(size=12, alpha=0.5)
-
-data = lambda: [random.choice([i for i in range(100)]) for r in range(10)]
-
-source = ColumnDataSource(temp_graph)
+source = ColumnDataSource(main_table)
 columns = [
-        TableColumn(field=c, title=c) for c in temp_graph.columns 
+        TableColumn(field='code', title = "BEA - Code", width = main_table['code'].map(len).max()),
+        TableColumn(field='description', title = "Description", width = main_table['description'].map(len).max()),
+        TableColumn(field='ADVANCE', title = "Advanced Est", width = main_table['ADVANCE'].map(len).max()),
+        TableColumn(field='SECOND', title = "Second Est", width = main_table['SECOND'].map(len).max()),
+        TableColumn(field='THIRD', title = "Third Est", width = main_table['THIRD'].map(len).max()),
+        TableColumn(field='adv_less_third', title = "Revision (advance est less third est)", width = main_table['adv_less_third'].map(len).max())
     ]
 data_table = DataTable(source=source, columns=columns, width=2000, height=1000)
-
-green = data_table
 
 
 ########## RENDER PLOTS ################
@@ -161,6 +160,8 @@ template = Template('''<!DOCTYPE html>
     <h3>Contributions to GDP revisions</h3>
     <a href="https://raw.githubusercontent.com/whawk7vu/revisions/master/A191RL1.csv">Download GDP revisions csv</a>
     {{ plot_div.data_table }}
+    {{ plot_script }}
+    
     <footer></footer>
     </body>
 </html>

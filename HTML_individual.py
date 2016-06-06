@@ -11,7 +11,6 @@ abs_revision_t = pd.read_pickle('abs_revision_t')
 abs_revision_index = pd.read_pickle('abs_revision_index')
 main_table = pd. read_pickle('main_table')
 
-pivot['adv_less_current'] = (pivot['ADVANCE'] - pivot['current']).round(2)
 
 for something in pivot['code'].unique():
     pivot[(pivot['code']==something)].to_csv('%s.csv'%something)

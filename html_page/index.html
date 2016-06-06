@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/4.2.3/highcharts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.1/dygraph-combined-dev.js"></script>
+  <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"></script>
+
+  <script src="js/common.js"></script>
+  <script src="js/gdp_main.js"></script>
+  <script src="js/employment_by_category.js"></script>
+  <script src="js/employment_by_state.js"></script>
+  <script src="js/app.js"></script>
+
+  <title>GDP Revisions</title>
+</head>
+<body>
+  <header>
+    <div class="intro">
+      <h1>GDP Revisions</h1>
+      <p>More information on from the Bureau of Economic Analysis:</p>
+      <a href="http://www.bea.gov/newsreleases/national/gdp/gdpnewsrelease.htm">Gross Domestic Product</a>
+    </div>
+  </header>
+  <main>
+    <p>
+      Gross domestic product (GDP), measures the value of the goods and services produced by
+      the U.S. economy in a given time period. GDP is one of the most comprehensive and closely
+      watched economic statistics. GDP is revised when additional data are avaible.
+    </p>
+
+    <p>
+      Below are some different links to help understand gdp.
+    </p>
+
+    <section class="salaries-by-state">
+      <h2>Current revisions to GDP</h2>
+      <p class="info">
+        Current quarter revisions.
+      </p>
+      <table id="example" class="display" cellspacing="0" width="100%">
+    </section>
+
+    <section class="employment">
+      <h2>Employment over Time</h2>
+      <p class="info">
+        Use the dropdowns below to explore data on employment over time, by
+        either state or manufacturing sector.
+      </p>
+      <section>
+        <h3>By State</h3>
+        <select class="states"></select>
+        <div class="graph-container">
+          <div id="employment-by-state" class="year-graph"></div>
+        </div>
+      </section>
+      <section>
+        <h3>By Category (NAICS Code)</h3>
+        <select class="naics"></select>
+        <div class="graph-container">
+          <div id="employment-by-category" class="year-graph"></div>
+        </div>
+      </section>
+    </section>
+
+  </main>
+  <footer></footer>
+</body>
+</html>

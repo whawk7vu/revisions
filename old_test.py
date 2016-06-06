@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu May  5 09:23:34 2016
+Created on Mon Jun  6 12:46:28 2016
 
-@author: Swan
+@author: whawk
 """
 
+import bokeh
 import pandas as pd
 import datetime
 
@@ -43,8 +44,6 @@ urls = urls[['date','est', 'date_pub']]
 
 #keep only files after 2004_Q1
 urls = urls[urls['date_pub'] >= pd.datetime(2004, 4, 1).date()]
-
-urls.to_pickle('urls')
 
 
 #get list for final data:
@@ -164,7 +163,6 @@ final_data = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'cod
 final_data.dropna(inplace=True)
 
 final_data.to_csv('final_data.csv')
-final_data.to_pickle('final_data')
 
 
 #final_data.to_pickle('final_GDP_cont')
@@ -204,11 +202,11 @@ pivot['month'][pivot['month']=='2'] = '4'
 
 pivot['date_t'] = pd.to_datetime(pivot['year']+pivot['month'],format='%Y%m')
 
-
-pivot.to_pickle('pivot')
-
-
 main_table = pivot.drop(['line', 'year', 'month', 'date_t'], axis=1)
+
+test_table = pivot.drop(['line', 'year', 'month'], axis=1)
+
+test_table.to_csv('test_table.csv')
 
 main_table = main_table[(main_table['date'] == main_table['date'].iloc[-1])]
 
@@ -224,7 +222,6 @@ main_table_indexed = main_table_indexed.rename(columns = {0:'value'})
 
 main_table_indexed.to_csv('gdp_revisions.csv')
 
-main_table.to_pickle('main_table')
 
 #if I use line as an index then the codes don't combine, if I don't i get out of order
 abs_revision_index = pivot.pivot_table('abs_two_year', ['code', 'description'], 'date')
@@ -233,15 +230,26 @@ abs_revision_t = pd.merge(line, abs_revision_t, how='left', on=['code'])
 
 abs_revision_t.to_csv('Two_year_abs_revision.csv')
 
-abs_revision_t.to_pickle('abs_revision_t')
-abs_revision_index.to_pickle('abs_revision_index')
 
 
-
-
-
-
-
-
-
-           
+for something in pivot['code'].unique():
+    pivot[(pivot['code']==something)].to_csv('%s.csv'%something)
+    
+    temp_graph = pivot[(pivot['code']==something)]
+    
+    output_file('' + temp_graph['description'].iloc[0].strip().replace('\\', '') + '.html')
+    
+    # create a new plot with a datetime axis type
+    p = figure(width=800, height=400, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
+    p.xgrid.grid_line_color = None
+    p.ygrid.grid_line_color = None
+    p.yaxis.minor_tick_line_color = None
+    p.xaxis.minor_tick_line_color = None
+    p.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+    
+    p.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+    
+    p.legend.location = "bottom_left"
+    
+    #show(p)
+    save(p)

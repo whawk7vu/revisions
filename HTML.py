@@ -93,12 +93,13 @@ source = ColumnDataSource(main_table)
 columns = [
         TableColumn(field='code', title = "BEA - Code", width = main_table['code'].map(len).max()),
         TableColumn(field='description', title = "Description", width = main_table['description'].map(len).max()),
-        TableColumn(field='ADVANCE', title = "Advanced Est", width = main_table['ADVANCE'].map(len).max()),
-        TableColumn(field='SECOND', title = "Second Est", width = main_table['SECOND'].map(len).max()),
-        TableColumn(field='THIRD', title = "Third Est", width = main_table['THIRD'].map(len).max()),
-        TableColumn(field='adv_less_third', title = "Revision (advance est less third est)", width = main_table['adv_less_third'].map(len).max())
+        TableColumn(field='ADVANCE', title = "Advanced Est", width = 5),
+        TableColumn(field='SECOND', title = "Second Est", width = 5),
+        TableColumn(field='THIRD', title = "Third Est", width = 5),
+        TableColumn(field='adv_less_third', title = "Revision (advance est less third est)", width = 10),
+        TableColumn(field='abs_two_year', title = "Revision (absolute avg(2-year))", width = 10)
     ]
-data_table = DataTable(source=source, columns=columns, width=2000, height=1000)
+data_table = DataTable(source=source, columns=columns, width=1000, height=1000)
 
 
 ########## RENDER PLOTS ################

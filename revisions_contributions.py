@@ -93,8 +93,8 @@ for x in range(1, 150):
             #test = hist_file[list(hist_file.columns[:2]) + list(hist_file.columns[:-2])].copy()
             
             hist_file_current = pd.melt(hist_file_current, id_vars=["line", "description", "code"], 
-                              var_name="date", value_name="current")
-            hist_file_current = hist_file_current[(hist_file_current.date >= '2004_Q1')][['code','date','current']]        
+                              var_name="date", value_name="CURRENT")
+            hist_file_current = hist_file_current[(hist_file_current.date >= '2004_Q1')][['code','date','CURRENT']]        
 
         
         #This section is simply to get the date_pub variable to match with date_pub from urls
@@ -178,7 +178,9 @@ pivot = pd.merge(pivot, hist_file_current, how='left', on=['code', 'date'])
 
 pivot['adv_less_second'] = (pivot['ADVANCE'] - pivot['SECOND']).round(2)
 pivot['adv_less_third'] = (pivot['ADVANCE'] - pivot['THIRD']).round(2)
+pivot['adv_less_current'] = (pivot['ADVANCE'] - pivot['CURRENT']).round(2)
 pivot['second_less_third'] = (pivot['SECOND'] - pivot['THIRD']).round(2)
+
 
 pivot['abs_adv_less_second'] = abs(pivot['ADVANCE'] - pivot['SECOND']).round(2)
 pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD']).round(2)
@@ -191,8 +193,8 @@ pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rol
 pivot.sort_values(['date','line'],inplace=True)
 
 
-pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['current']).round(2)
-pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['current']).round(2)
+pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['CURRENT']).round(2)
+pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['CURRENT']).round(2)
 
 
 pivot['year'] = pivot['date'].str[:4]

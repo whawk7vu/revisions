@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  6 13:16:05 2016
-
-@author: whawk
-"""
-
 import pandas as pd
 import datetime
 
@@ -18,6 +11,30 @@ abs_revision_t = pd.read_pickle('abs_revision_t')
 abs_revision_index = pd.read_pickle('abs_revision_index')
 main_table = pd. read_pickle('main_table')
 
+pivot['adv_less_current'] = (pivot['ADVANCE'] - pivot['current']).round(2)
+
+for something in pivot['code'].unique():
+    pivot[(pivot['code']==something)].to_csv('%s.csv'%something)
+    
+    temp_graph = pivot[(pivot['code']==something)]
+    
+    output_file('' + temp_graph['description'].iloc[0].strip().replace('\\', '') + '.html')
+    
+    # create a new plot with a datetime axis type
+    p = figure(width=800, height=400, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
+    p.xgrid.grid_line_color = None
+    p.ygrid.grid_line_color = None
+    p.yaxis.minor_tick_line_color = None
+    p.xaxis.minor_tick_line_color = None
+    p.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+    
+    p.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+    
+    p.legend.location = "bottom_left"
+    
+    #show(p)
+    save(p)
+    
 
 from bokeh.io import gridplot, output_file, show, vform
 from bokeh.plotting import figure
@@ -160,7 +177,11 @@ template = Template('''<!DOCTYPE html>
     {{ plot_div.p }}
     <h3>Contributions to GDP revisions</h3>
     <a href="https://raw.githubusercontent.com/whawk7vu/revisions/master/A191RL1.csv">Download GDP revisions csv</a>
-    {{ plot_div.data_table }}
+    {{ plot_div.green }}
+    <h3>Blue - pan tool, not responsive</h3>
+    {{ plot_div.blue }}
+    {{ plot_script }}
+    
     <footer></footer>
     </body>
 </html>
@@ -171,7 +192,7 @@ resources = INLINE
 js_resources = resources.render_js()
 css_resources = resources.render_css()
 
-script, div = components({'p': p, 'data_table': data_table})
+script, div = components({'p': p, 'green': green})
 
 html = template.render(js_resources=js_resources,
                        css_resources=css_resources,
@@ -187,5 +208,3 @@ view(filename)
 
 
 ###############################
-
-

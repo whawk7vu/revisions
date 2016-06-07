@@ -2,18 +2,30 @@ import pandas as pd
 import datetime
 
 from bokeh.plotting import figure, output_file, show, save
-
+from bokeh.io import gridplot, output_file, show, vform
+from bokeh.plotting import figure
+import random
+from jinja2 import Template
+from bokeh.embed import components
+from bokeh.plotting import figure
+from bokeh.resources import INLINE
+from bokeh.util.browser import view
+from bokeh.models import ColumnDataSource
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
+import os, sys
 
 urls = pd.read_pickle('urls')
 final_data = pd.read_pickle('final_data')
 pivot = pd.read_pickle('pivot')
 abs_revision_t = pd.read_pickle('abs_revision_t')
 abs_revision_index = pd.read_pickle('abs_revision_index')
-main_table = pd. read_pickle('main_table')
-
+main_table = pd.read_pickle('main_table')
 
 for something in pivot['code'].unique():
-    pivot[(pivot['code']==something)].to_csv('%s.csv'%something)
+    newpath = (r'C:\Users\whawk\revisions\%s'%something)
+    if not os.path.exists(newpath): 
+        os.makedirs(newpath)
+    pivot[(pivot['code']==something)].to_csv(str(newpath) + '\%s.csv'%something)  
     
     temp_graph = pivot[(pivot['code']==something)]
     
@@ -33,18 +45,7 @@ for something in pivot['code'].unique():
     
     #show(p)
     save(p)
-    
 
-from bokeh.io import gridplot, output_file, show, vform
-from bokeh.plotting import figure
-import random
-from jinja2 import Template
-from bokeh.embed import components
-from bokeh.plotting import figure
-from bokeh.resources import INLINE
-from bokeh.util.browser import view
-from bokeh.models import ColumnDataSource
-from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 
 temp_graph = pivot[(pivot['code']=='A191RL1')]
 
@@ -104,10 +105,6 @@ p = gridplot([[p1, p2], [p3, p4]])
 
 ########## BUILD FIGURES ################
 
-PLOT_OPTIONS = dict(plot_width=800, plot_height=300)
-SCATTER_OPTIONS = dict(size=12, alpha=0.5)
-
-data = lambda: [random.choice([i for i in range(100)]) for r in range(10)]
 
 source = ColumnDataSource(temp_graph)
 columns = [
@@ -128,14 +125,14 @@ template = Template('''<!DOCTYPE html>
           <link rel="stylesheet" href="html_page/styles/main.css">
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-        <title>GDP Revisions</title>
+        <title>GDP Revisions%s</title>
         {{ js_resources }}
         {{ css_resources }}
     </head>
     <body>
         <header>
             <div class="intro">
-              <h1>GDP Revisions</h1>
+              <h1>GDP Revisions {something}</h1>
               <p>More information on from the Bureau of Economic Analysis:</p>
               <a href="http://www.bea.gov/newsreleases/national/gdp/gdpnewsrelease.htm">Gross Domestic Product</a>
             </div>

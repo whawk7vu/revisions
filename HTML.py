@@ -7,6 +7,7 @@ Created on Mon Jun  6 13:16:05 2016
 
 import pandas as pd
 import datetime
+import gc
 
 from bokeh.plotting import figure, output_file, show, save
 
@@ -17,6 +18,9 @@ pivot = pd.read_pickle('pivot')
 abs_revision_t = pd.read_pickle('abs_revision_t')
 abs_revision_index = pd.read_pickle('abs_revision_index')
 main_table = pd. read_pickle('main_table')
+
+main_table_list = ['A191RL1','DPCERY2', 'DGDSRY2', 'DSERRY2', 'A007RY2', 'A008RY2', 'A011RY2', 'A014RY2', 'A019RY2', 'A020RY2', 'A253RY2', 'A646RY2', 'A021RY2', 'A255RY2', 'A656RY2', 'A822RY2', 'A823RY2','A824RY2', 'A825RY2', 'A829RY2']
+main_table_short = main_table[main_table['code'].isin(main_table_list)]
 
 
 from bokeh.io import gridplot, output_file, show, vform
@@ -83,13 +87,10 @@ p = gridplot([[p1, p2], [p3, p4]])
 # show the results
 #show(p)
 
-main_table['description'].map(len).max()
-main_table['code'].map(len).max()
-
 
 ########## BUILD FIGURES ################
 
-source = ColumnDataSource(main_table)
+source = ColumnDataSource(main_table_short)
 columns = [
         TableColumn(field='code', title = "BEA - Code", width = main_table['code'].map(len).max()),
         TableColumn(field='description', title = "Description", width = main_table['description'].map(len).max()),
@@ -162,7 +163,8 @@ template = Template('''<!DOCTYPE html>
     <a href="https://raw.githubusercontent.com/whawk7vu/revisions/master/A191RL1.csv">Download GDP revisions csv</a>
     {{ plot_div.data_table }}
     {{ plot_script }}
-    
+    <h3>Data</h3>
+    <a href="http://www.bea.gov/histdata/histChildLevels.cfm?HMI=7">BEA Data Archive - National accounts</a>
     <footer></footer>
     </body>
 </html>
@@ -186,6 +188,10 @@ with open(filename, 'w') as f:
     f.write(html)
 
 view(filename)
+
+gc.collect()
+
+gc.enable()
 
 
 ###############################

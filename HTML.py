@@ -8,8 +8,17 @@ Created on Mon Jun  6 13:16:05 2016
 import pandas as pd
 import datetime
 import gc
-
+from bokeh.io import gridplot, output_file, show, vform
 from bokeh.plotting import figure, output_file, show, save
+import random
+from jinja2 import Template
+from bokeh.embed import components
+from bokeh.plotting import figure
+from bokeh.resources import INLINE
+from bokeh.util.browser import view
+from bokeh.models import ColumnDataSource
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
+from bokeh.charts import Bar
 
 
 urls = pd.read_pickle('urls')
@@ -23,29 +32,18 @@ main_table_list = ['A191RL1','DPCERY2', 'DGDSRY2', 'DSERRY2', 'A007RY2', 'A008RY
 main_table_short = main_table[main_table['code'].isin(main_table_list)]
 
 
-from bokeh.io import gridplot, output_file, show, vform
-from bokeh.plotting import figure
-import random
-from jinja2 import Template
-from bokeh.embed import components
-from bokeh.plotting import figure
-from bokeh.resources import INLINE
-from bokeh.util.browser import view
-from bokeh.models import ColumnDataSource
-from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
-
 temp_graph = pivot[(pivot['code']=='A191RL1')]
 
 
 output_file('' + temp_graph['description'].iloc[0].strip().replace('\\', '') + '.html')
 
 # create a new plot with a datetime axis type
-p1 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
+p1 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['CURRENT'].min() - abs(temp_graph['CURRENT'].min()*.1), temp_graph['CURRENT'].max() + abs(temp_graph['CURRENT'].max()*.1)), outline_line_color = None)
 p1.xgrid.grid_line_color = None
 p1.ygrid.grid_line_color = None
 p1.yaxis.minor_tick_line_color = None
 p1.xaxis.minor_tick_line_color = None
-p1.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+p1.quad(top=temp_graph['CURRENT'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
 
 p1.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
 
@@ -53,14 +51,11 @@ p1.legend.location = "bottom_left"
 
 
 # create another one
-p2 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", outline_line_color = None)
-p2.xgrid.grid_line_color = None
-p2.ygrid.grid_line_color = None
-p2.yaxis.minor_tick_line_color = None
-p2.xaxis.minor_tick_line_color = None
-p2.line(temp_graph['date_t'], temp_graph['adv_less_third'], color='red', line_width=3, legend="Advanced less third")
-
-p2.legend.location = "bottom_left"
+temp_bar = temp_graph[['abs_current', 'abs_adv_less_third']].mean()
+temp_bar = temp_bar.reset_index()
+temp_bar = temp_bar.rename(columns = {0:'values'})    
+p2 = Bar(temp_bar, 'est', values='values', title=temp_graph['description'].iloc[0], plot_width=400, plot_height=600, outline_line_color = None)
+ 
 
 # create another one
 p3 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", outline_line_color = None)
@@ -100,7 +95,7 @@ columns = [
         TableColumn(field='adv_less_third', title = "Revision (advance est less third est)", width = 10),
         TableColumn(field='abs_two_year', title = "Revision (absolute avg(2-year))", width = 10)
     ]
-data_table = DataTable(source=source, columns=columns, width=1000, height=1000)
+data_table = DataTable(source=source, columns=columns, width=1000, height=600)
 
 
 ########## RENDER PLOTS ################
@@ -121,8 +116,8 @@ template = Template('''<!DOCTYPE html>
         <header>
             <div class="intro">
               <h1>GDP Revisions</h1>
-              <p>More information on from the Bureau of Economic Analysis:</p>
-              <a href="http://www.bea.gov/newsreleases/national/gdp/gdpnewsrelease.htm">Gross Domestic Product</a>
+              <p>GDP Revisions: <a href="GDP_index.html">Home</a></p>
+              <p>More information on from the Bureau of Economic Analysis: <a href="http://www.bea.gov/newsreleases/national/gdp/gdpnewsrelease.htm">Gross Domestic Product</a></p>
             </div>
           </header>
     
@@ -159,10 +154,79 @@ template = Template('''<!DOCTYPE html>
           </li>
         </ul>
     {{ plot_div.p }}
+    
     <h3>Contributions to GDP revisions</h3>
-    <a href="https://raw.githubusercontent.com/whawk7vu/revisions/master/A191RL1.csv">Download GDP revisions csv</a>
+    <p><a href="A191RL1\A191RL1.csv">Download GDP revisions csv</a></p>
     {{ plot_div.data_table }}
     {{ plot_script }}
+    
+    
+        <h3>Contributions to GDP revisions</h3>
+    <p><a href="A191RL1\A191RL1.html">    Gross domestic product</a></p>
+    <p><a href="A006RY2\A006RY2.html">Gross private domestic investment</a></p>
+    <p><a href="A007RY2\A007RY2.html">  Fixed investment</a></p>
+    <p><a href="A008RY2\A008RY2.html">    Nonresidential</a></p>
+    <p><a href="A009RY2\A009RY2.html">      Structures</a></p>
+    <p><a href="B935RY2\B935RY2.html">          Computers and peripheral equipment</a></p>
+    <p><a href="B985RY2\B985RY2.html">        Software \4\</a></p>
+    <p><a href="A937RY2\A937RY2.html">          Other</a></p>
+    <p><a href="A680RY2\A680RY2.html">        Industrial equipment</a></p>
+    <p><a href="A681RY2\A681RY2.html">        Transportation equipment</a></p>
+    <p><a href="A862RY2\A862RY2.html">        Other equipment</a></p>
+    <p><a href="A011RY2\A011RY2.html">    Residential</a></p>
+    <p><a href="A014RY2\A014RY2.html">  Change in private inventories</a></p>
+    <p><a href="B018RY2\B018RY2.html">    Farm</a></p>
+    <p><a href="A015RY2\A015RY2.html">    Nonfarm</a></p>
+    <p><a href="A019RY2\A019RY2.html">Net exports of goods and services</a></p>
+    <p><a href="A020RY2\A020RY2.html">  Exports</a></p>
+    <p><a href="A253RY2\A253RY2.html">    Goods</a></p>
+    <p><a href="A646RY2\A646RY2.html">    Services</a></p>
+    <p><a href="A021RY2\A021RY2.html">  Imports</a></p>
+    <p><a href="A255RY2\A255RY2.html">    Goods</a></p>
+    <p><a href="A656RY2\A656RY2.html">    Services</a></p>
+    <p><a href="A822RY2\A822RY2.html">Government consumption expenditures and gross investment</a></p>
+    <p><a href="A823RY2\A823RY2.html">  Federal</a></p>
+    <p><a href="A824RY2\A824RY2.html">    National defense</a></p>
+    <p><a href="A997RY2\A997RY2.html">      Consumption expenditures</a></p>
+    <p><a href="A788RY2\A788RY2.html">      Gross investment</a></p>
+    <p><a href="A825RY2\A825RY2.html">    Nondefense</a></p>
+    <p><a href="A542RY2\A542RY2.html">      Consumption expenditures</a></p>
+    <p><a href="A798RY2\A798RY2.html">      Gross investment</a></p>
+    <p><a href="A829RY2\A829RY2.html">  State and local</a></p>
+    <p><a href="A991RY2\A991RY2.html">    Consumption expenditures</a></p>
+    <p><a href="A799RY2\A799RY2.html">    Gross investment</a></p>
+    <p><a href="DPCERY2\DPCERY2.html">Personal consumption expenditures</a></p>
+    <p><a href="DGDSRY2\DGDSRY2.html">  Goods</a></p>
+    <p><a href="DDURRY2\DDURRY2.html">    Durable goods</a></p>
+    <p><a href="DMOTRY2\DMOTRY2.html">      Motor vehicles and parts</a></p>
+    <p><a href="DFDHRY2\DFDHRY2.html">      Furnishings and durable household equipment</a></p>
+    <p><a href="DREQRY2\DREQRY2.html">      Recreational goods and vehicles</a></p>
+    <p><a href="DODGRY2\DODGRY2.html">      Other durable goods</a></p>
+    <p><a href="DNDGRY2\DNDGRY2.html">    Nondurable goods</a></p>
+    <p><a href="DFXARY2\DFXARY2.html">      Food and beverages purchased for off-premises consumption</a></p>
+    <p><a href="DCLORY2\DCLORY2.html">      Clothing and footwear</a></p>
+    <p><a href="DGOERY2\DGOERY2.html">      Gasoline and other energy goods</a></p>
+    <p><a href="DONGRY2\DONGRY2.html">      Other nondurable goods</a></p>
+    <p><a href="DSERRY2\DSERRY2.html">  Services</a></p>
+    <p><a href="DHCERY2\DHCERY2.html">    Household consumption expenditures (for services)</a></p>
+    <p><a href="DHUTRY2\DHUTRY2.html">      Housing and utilities</a></p>
+    <p><a href="DHLCRY2\DHLCRY2.html">      Health care</a></p>
+    <p><a href="DTRSRY2\DTRSRY2.html">      Transportation services</a></p>
+    <p><a href="DRCARY2\DRCARY2.html">      Recreation services</a></p>
+    <p><a href="DFSARY2\DFSARY2.html">      Food services and accommodations</a></p>
+    <p><a href="DIFSRY2\DIFSRY2.html">      Financial services and insurance</a></p>
+    <p><a href="DOTSRY2\DOTSRY2.html">      Other services</a></p>
+    <p><a href="DNPIRY2\DNPIRY2.html">    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\</a></p>
+    <p><a href="DNPERY2\DNPERY2.html">      Gross output of nonprofit institutions \2\</a></p>
+    <p><a href="DNPSRY2\DNPSRY2.html">      Less: Receipts from sales of goods and services by nonprofit institutions \3\</a></p>
+    <p><a href="Y033RY2\Y033RY2.html">      Equipment</a></p>
+    <p><a href="Y034RY2\Y034RY2.html">        Information processing equipment</a></p>
+    <p><a href="Y001RY2\Y001RY2.html">      Intellectual property products</a></p>
+    <p><a href="Y006RY2\Y006RY2.html">        Research and development \5\</a></p>
+    <p><a href="Y020RY2\Y020RY2.html">        Entertainment, literary, and artistic originals</a></p>
+
+    
+    
     <h3>Data</h3>
     <a href="http://www.bea.gov/histdata/histChildLevels.cfm?HMI=7">BEA Data Archive - National accounts</a>
     <footer></footer>
@@ -182,12 +246,12 @@ html = template.render(js_resources=js_resources,
                        plot_script=script,
                        plot_div=div)
 
-filename = 'embed_multiple_responsive.html'
+filename = 'GDP_index.html'
 
 with open(filename, 'w') as f:
     f.write(html)
 
-view(filename)
+#view(filename)
 
 gc.collect()
 

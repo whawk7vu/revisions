@@ -13,6 +13,7 @@ from bokeh.util.browser import view
 from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 import os, sys
+from bokeh.charts import Bar
 
 urls = pd.read_pickle('urls')
 final_data = pd.read_pickle('final_data')
@@ -20,6 +21,17 @@ pivot = pd.read_pickle('pivot')
 abs_revision_t = pd.read_pickle('abs_revision_t')
 abs_revision_index = pd.read_pickle('abs_revision_index')
 main_table = pd.read_pickle('main_table')
+
+html_str = pivot[['code', 'description']].drop_duplicates(keep='first')
+
+
+#<p><a href="A191RL1\A191RL1.html">A191RL1</a></p>
+    
+html_str['html_code'] = '<p><a href="' + html_str['code'] + '\\' + html_str['code'] + '.html">' + html_str['description'] + '</a></p>'
+
+html_str['html_code'].to_csv('html_code.csv')
+
+
 
 for something in pivot['code'].unique():
     newpath = (r'C:\Users\whawk\revisions\%s'%something)
@@ -29,22 +41,91 @@ for something in pivot['code'].unique():
     
     temp_graph = pivot[(pivot['code']==something)]
     
-    output_file('' + temp_graph['description'].iloc[0].strip().replace('\\', '') + '.html')
+    output_file(str(newpath) + '\%s.html'%something)
     
-    # create a new plot with a datetime axis type
-    p = figure(width=800, height=400, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
-    p.xgrid.grid_line_color = None
-    p.ygrid.grid_line_color = None
-    p.yaxis.minor_tick_line_color = None
-    p.xaxis.minor_tick_line_color = None
-    p.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+    p1 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['CURRENT'].min() - abs(temp_graph['CURRENT'].min()*.1), temp_graph['CURRENT'].max() + abs(temp_graph['CURRENT'].max()*.1)), outline_line_color = None)
+    p1.xgrid.grid_line_color = None
+    p1.ygrid.grid_line_color = None
+    p1.yaxis.minor_tick_line_color = None
+    p1.xaxis.minor_tick_line_color = None
+    p1.quad(top=temp_graph['CURRENT'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
     
-    p.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+    p1.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
     
-    p.legend.location = "bottom_left"
+    p1.legend.location = "bottom_left"
     
+    temp_bar = temp_graph[['abs_current', 'abs_adv_less_third']].mean()
+    temp_bar = temp_bar.reset_index()
+    temp_bar = temp_bar.rename(columns = {0:'values'})    
+    p2 = Bar(temp_bar, 'est', values='values', title=temp_graph['description'].iloc[0], plot_width=400, plot_height=600, outline_line_color = None)
+    #p2.xgrid.grid_line_color = None
+    #p2.ygrid.grid_line_color = None
+    #p2.yaxis.minor_tick_line_color = None
+    #p2.xaxis.minor_tick_line_color = None
+    
+    # create another one
+    p3 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+    p3.xgrid.grid_line_color = None
+    p3.ygrid.grid_line_color = None
+    p3.yaxis.minor_tick_line_color = None
+    p3.xaxis.minor_tick_line_color = None
+    p3.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+    
+    p3.legend.location = "bottom_left"
+    
+    p4 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+    p4.xgrid.grid_line_color = None
+    p4.ygrid.grid_line_color = None
+    p4.yaxis.minor_tick_line_color = None
+    p4.xaxis.minor_tick_line_color = None
+    p4.line(temp_graph['date_t'], temp_graph['adv_less_current'], color='red', line_width=3, legend="Advance less current")
+    
+    p4.legend.location = "bottom_left"
+    
+    # put all the plots in a grid layout
+    p = gridplot([[p1, p2], [p3, p4]])
+    
+    # show the results
     #show(p)
-    save(p)
+    
+    
+    ########## BUILD FIGURES ################
+    
+    source = ColumnDataSource(temp_graph)
+    columns = [
+            TableColumn(field='code', title = "BEA - Code", width = temp_graph['code'].map(len).max()),
+            TableColumn(field='description', title = "Description", width = temp_graph['description'].map(len).max()),
+            TableColumn(field='ADVANCE', title = "Advanced Est", width = 5),
+            TableColumn(field='SECOND', title = "Second Est", width = 5),
+            TableColumn(field='THIRD', title = "Third Est", width = 5),
+            TableColumn(field='adv_less_third', title = "Revision (advance est less third est)", width = 10),
+            TableColumn(field='abs_two_year', title = "Revision (absolute avg(2-year))", width = 10)
+        ]
+    data_table = DataTable(source=source, columns=columns, width=1000, height=1000)
+    
+    
+    layout = vform(p, data_table)
+    
+    #show(layout)
+    save(layout)
+        
+
+
+
+# create a new plot with a datetime axis type
+p = figure(width=800, height=400, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
+p.xgrid.grid_line_color = None
+p.ygrid.grid_line_color = None
+p.yaxis.minor_tick_line_color = None
+p.xaxis.minor_tick_line_color = None
+p.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+
+p.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+
+p.legend.location = "bottom_left"
+
+#show(p)
+save(p)
 
 
 temp_graph = pivot[(pivot['code']=='A191RL1')]

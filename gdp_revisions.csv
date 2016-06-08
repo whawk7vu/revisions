@@ -2,806 +2,930 @@
 0,A191RL1,    Gross domestic product,2015_Q4,ADVANCE,0.7
 1,A191RL1,    Gross domestic product,2015_Q4,SECOND,1.0
 2,A191RL1,    Gross domestic product,2015_Q4,THIRD,1.4
-3,A191RL1,    Gross domestic product,2015_Q4,current,1.4
+3,A191RL1,    Gross domestic product,2015_Q4,CURRENT,1.4
 4,A191RL1,    Gross domestic product,2015_Q4,adv_less_second,-0.3
 5,A191RL1,    Gross domestic product,2015_Q4,adv_less_third,-0.7
-6,A191RL1,    Gross domestic product,2015_Q4,second_less_third,-0.4
-7,A191RL1,    Gross domestic product,2015_Q4,abs_adv_less_second,0.3
-8,A191RL1,    Gross domestic product,2015_Q4,abs_adv_less_third,0.7
-9,A191RL1,    Gross domestic product,2015_Q4,abs_second_less_third,0.4
-10,A191RL1,    Gross domestic product,2015_Q4,abs_two_year,1.09
-11,A191RL1,    Gross domestic product,2015_Q4,abs_adv_less_current,0.7
-12,A191RL1,    Gross domestic product,2015_Q4,abs_third_less_current,0.0
-13,DPCERY2,Personal consumption expenditures,2015_Q4,ADVANCE,1.46
-14,DPCERY2,Personal consumption expenditures,2015_Q4,SECOND,1.38
-15,DPCERY2,Personal consumption expenditures,2015_Q4,THIRD,1.66
-16,DPCERY2,Personal consumption expenditures,2015_Q4,current,1.66
-17,DPCERY2,Personal consumption expenditures,2015_Q4,adv_less_second,0.08
-18,DPCERY2,Personal consumption expenditures,2015_Q4,adv_less_third,-0.2
-19,DPCERY2,Personal consumption expenditures,2015_Q4,second_less_third,-0.28
-20,DPCERY2,Personal consumption expenditures,2015_Q4,abs_adv_less_second,0.08
-21,DPCERY2,Personal consumption expenditures,2015_Q4,abs_adv_less_third,0.2
-22,DPCERY2,Personal consumption expenditures,2015_Q4,abs_second_less_third,0.28
-23,DPCERY2,Personal consumption expenditures,2015_Q4,abs_two_year,0.42
-24,DPCERY2,Personal consumption expenditures,2015_Q4,abs_adv_less_current,0.2
-25,DPCERY2,Personal consumption expenditures,2015_Q4,abs_third_less_current,0.0
-26,DGDSRY2,  Goods,2015_Q4,ADVANCE,0.53
-27,DGDSRY2,  Goods,2015_Q4,SECOND,0.42
-28,DGDSRY2,  Goods,2015_Q4,THIRD,0.36
-29,DGDSRY2,  Goods,2015_Q4,current,0.36
-30,DGDSRY2,  Goods,2015_Q4,adv_less_second,0.11
-31,DGDSRY2,  Goods,2015_Q4,adv_less_third,0.17
-32,DGDSRY2,  Goods,2015_Q4,second_less_third,0.06
-33,DGDSRY2,  Goods,2015_Q4,abs_adv_less_second,0.11
-34,DGDSRY2,  Goods,2015_Q4,abs_adv_less_third,0.17
-35,DGDSRY2,  Goods,2015_Q4,abs_second_less_third,0.06
-36,DGDSRY2,  Goods,2015_Q4,abs_two_year,0.15
-37,DGDSRY2,  Goods,2015_Q4,abs_adv_less_current,0.17
-38,DGDSRY2,  Goods,2015_Q4,abs_third_less_current,0.0
-39,DDURRY2,    Durable goods,2015_Q4,ADVANCE,0.32
-40,DDURRY2,    Durable goods,2015_Q4,SECOND,0.25
-41,DDURRY2,    Durable goods,2015_Q4,THIRD,0.28
-42,DDURRY2,    Durable goods,2015_Q4,current,0.28
-43,DDURRY2,    Durable goods,2015_Q4,adv_less_second,0.07
-44,DDURRY2,    Durable goods,2015_Q4,adv_less_third,0.04
-45,DDURRY2,    Durable goods,2015_Q4,second_less_third,-0.03
-46,DDURRY2,    Durable goods,2015_Q4,abs_adv_less_second,0.07
-47,DDURRY2,    Durable goods,2015_Q4,abs_adv_less_third,0.04
-48,DDURRY2,    Durable goods,2015_Q4,abs_second_less_third,0.03
-49,DDURRY2,    Durable goods,2015_Q4,abs_two_year,0.04
-50,DDURRY2,    Durable goods,2015_Q4,abs_adv_less_current,0.04
-51,DDURRY2,    Durable goods,2015_Q4,abs_third_less_current,0.0
-52,DMOTRY2,      Motor vehicles and parts,2015_Q4,ADVANCE,-0.13
-53,DMOTRY2,      Motor vehicles and parts,2015_Q4,SECOND,-0.17
-54,DMOTRY2,      Motor vehicles and parts,2015_Q4,THIRD,-0.15
-55,DMOTRY2,      Motor vehicles and parts,2015_Q4,current,-0.15
-56,DMOTRY2,      Motor vehicles and parts,2015_Q4,adv_less_second,0.04
-57,DMOTRY2,      Motor vehicles and parts,2015_Q4,adv_less_third,0.02
-58,DMOTRY2,      Motor vehicles and parts,2015_Q4,second_less_third,-0.02
-59,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_adv_less_second,0.04
-60,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_adv_less_third,0.02
-61,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_second_less_third,0.02
-62,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_two_year,0.04
-63,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_adv_less_current,0.02
-64,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_third_less_current,0.0
-65,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,ADVANCE,0.09
-66,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,SECOND,0.08
-67,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,THIRD,0.09
-68,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,current,0.09
-69,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,adv_less_second,0.01
-70,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,adv_less_third,0.0
-71,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,second_less_third,-0.01
-72,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_adv_less_second,0.01
-73,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_adv_less_third,0.0
-74,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_second_less_third,0.01
-75,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_two_year,0.02
-76,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_adv_less_current,0.0
-77,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_third_less_current,0.0
-78,DREQRY2,      Recreational goods and vehicles,2015_Q4,ADVANCE,0.24
-79,DREQRY2,      Recreational goods and vehicles,2015_Q4,SECOND,0.26
-80,DREQRY2,      Recreational goods and vehicles,2015_Q4,THIRD,0.26
-81,DREQRY2,      Recreational goods and vehicles,2015_Q4,current,0.26
-82,DREQRY2,      Recreational goods and vehicles,2015_Q4,adv_less_second,-0.02
-83,DREQRY2,      Recreational goods and vehicles,2015_Q4,adv_less_third,-0.02
-84,DREQRY2,      Recreational goods and vehicles,2015_Q4,second_less_third,0.0
-85,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_adv_less_second,0.02
-86,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_adv_less_third,0.02
-87,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_second_less_third,0.0
-88,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_two_year,0.02
-89,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_adv_less_current,0.02
-90,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_third_less_current,0.0
-91,DODGRY2,      Other durable goods,2015_Q4,ADVANCE,0.12
-92,DODGRY2,      Other durable goods,2015_Q4,SECOND,0.08
-93,DODGRY2,      Other durable goods,2015_Q4,THIRD,0.08
-94,DODGRY2,      Other durable goods,2015_Q4,current,0.08
-95,DODGRY2,      Other durable goods,2015_Q4,adv_less_second,0.04
-96,DODGRY2,      Other durable goods,2015_Q4,adv_less_third,0.04
-97,DODGRY2,      Other durable goods,2015_Q4,second_less_third,0.0
-98,DODGRY2,      Other durable goods,2015_Q4,abs_adv_less_second,0.04
-99,DODGRY2,      Other durable goods,2015_Q4,abs_adv_less_third,0.04
-100,DODGRY2,      Other durable goods,2015_Q4,abs_second_less_third,0.0
-101,DODGRY2,      Other durable goods,2015_Q4,abs_two_year,0.02
-102,DODGRY2,      Other durable goods,2015_Q4,abs_adv_less_current,0.04
-103,DODGRY2,      Other durable goods,2015_Q4,abs_third_less_current,0.0
-104,DNDGRY2,    Nondurable goods,2015_Q4,ADVANCE,0.22
-105,DNDGRY2,    Nondurable goods,2015_Q4,SECOND,0.17
-106,DNDGRY2,    Nondurable goods,2015_Q4,THIRD,0.09
-107,DNDGRY2,    Nondurable goods,2015_Q4,current,0.09
-108,DNDGRY2,    Nondurable goods,2015_Q4,adv_less_second,0.05
-109,DNDGRY2,    Nondurable goods,2015_Q4,adv_less_third,0.13
-110,DNDGRY2,    Nondurable goods,2015_Q4,second_less_third,0.08
-111,DNDGRY2,    Nondurable goods,2015_Q4,abs_adv_less_second,0.05
-112,DNDGRY2,    Nondurable goods,2015_Q4,abs_adv_less_third,0.13
-113,DNDGRY2,    Nondurable goods,2015_Q4,abs_second_less_third,0.08
-114,DNDGRY2,    Nondurable goods,2015_Q4,abs_two_year,0.11
-115,DNDGRY2,    Nondurable goods,2015_Q4,abs_adv_less_current,0.13
-116,DNDGRY2,    Nondurable goods,2015_Q4,abs_third_less_current,0.0
-117,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,ADVANCE,-0.09
-118,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,SECOND,-0.02
-119,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,THIRD,-0.02
-120,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,current,-0.02
-121,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,adv_less_second,-0.07
-122,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,adv_less_third,-0.07
-123,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,second_less_third,0.0
-124,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_adv_less_second,0.07
-125,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_adv_less_third,0.07
-126,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_second_less_third,0.0
-127,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_two_year,0.05
-128,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_adv_less_current,0.07
-129,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_third_less_current,0.0
-130,DCLORY2,      Clothing and footwear,2015_Q4,ADVANCE,0.04
-131,DCLORY2,      Clothing and footwear,2015_Q4,SECOND,0.0
-132,DCLORY2,      Clothing and footwear,2015_Q4,THIRD,0.0
-133,DCLORY2,      Clothing and footwear,2015_Q4,current,0.0
-134,DCLORY2,      Clothing and footwear,2015_Q4,adv_less_second,0.04
-135,DCLORY2,      Clothing and footwear,2015_Q4,adv_less_third,0.04
-136,DCLORY2,      Clothing and footwear,2015_Q4,second_less_third,0.0
-137,DCLORY2,      Clothing and footwear,2015_Q4,abs_adv_less_second,0.04
-138,DCLORY2,      Clothing and footwear,2015_Q4,abs_adv_less_third,0.04
-139,DCLORY2,      Clothing and footwear,2015_Q4,abs_second_less_third,0.0
-140,DCLORY2,      Clothing and footwear,2015_Q4,abs_two_year,0.03
-141,DCLORY2,      Clothing and footwear,2015_Q4,abs_adv_less_current,0.04
-142,DCLORY2,      Clothing and footwear,2015_Q4,abs_third_less_current,0.0
-143,DGOERY2,      Gasoline and other energy goods,2015_Q4,ADVANCE,-0.01
-144,DGOERY2,      Gasoline and other energy goods,2015_Q4,SECOND,-0.05
-145,DGOERY2,      Gasoline and other energy goods,2015_Q4,THIRD,-0.04
-146,DGOERY2,      Gasoline and other energy goods,2015_Q4,current,-0.04
-147,DGOERY2,      Gasoline and other energy goods,2015_Q4,adv_less_second,0.04
-148,DGOERY2,      Gasoline and other energy goods,2015_Q4,adv_less_third,0.03
-149,DGOERY2,      Gasoline and other energy goods,2015_Q4,second_less_third,-0.01
-150,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_adv_less_second,0.04
-151,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_adv_less_third,0.03
-152,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_second_less_third,0.01
-153,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_two_year,0.03
-154,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_adv_less_current,0.03
-155,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_third_less_current,0.0
-156,DONGRY2,      Other nondurable goods,2015_Q4,ADVANCE,0.27
-157,DONGRY2,      Other nondurable goods,2015_Q4,SECOND,0.25
-158,DONGRY2,      Other nondurable goods,2015_Q4,THIRD,0.14
-159,DONGRY2,      Other nondurable goods,2015_Q4,current,0.14
-160,DONGRY2,      Other nondurable goods,2015_Q4,adv_less_second,0.02
-161,DONGRY2,      Other nondurable goods,2015_Q4,adv_less_third,0.13
-162,DONGRY2,      Other nondurable goods,2015_Q4,second_less_third,0.11
-163,DONGRY2,      Other nondurable goods,2015_Q4,abs_adv_less_second,0.02
-164,DONGRY2,      Other nondurable goods,2015_Q4,abs_adv_less_third,0.13
-165,DONGRY2,      Other nondurable goods,2015_Q4,abs_second_less_third,0.11
-166,DONGRY2,      Other nondurable goods,2015_Q4,abs_two_year,0.06
-167,DONGRY2,      Other nondurable goods,2015_Q4,abs_adv_less_current,0.13
-168,DONGRY2,      Other nondurable goods,2015_Q4,abs_third_less_current,0.0
-169,DSERRY2,  Services,2015_Q4,ADVANCE,0.93
-170,DSERRY2,  Services,2015_Q4,SECOND,0.96
-171,DSERRY2,  Services,2015_Q4,THIRD,1.3
-172,DSERRY2,  Services,2015_Q4,current,1.3
-173,DSERRY2,  Services,2015_Q4,adv_less_second,-0.03
-174,DSERRY2,  Services,2015_Q4,adv_less_third,-0.37
-175,DSERRY2,  Services,2015_Q4,second_less_third,-0.34
-176,DSERRY2,  Services,2015_Q4,abs_adv_less_second,0.03
-177,DSERRY2,  Services,2015_Q4,abs_adv_less_third,0.37
-178,DSERRY2,  Services,2015_Q4,abs_second_less_third,0.34
-179,DSERRY2,  Services,2015_Q4,abs_two_year,0.4
-180,DSERRY2,  Services,2015_Q4,abs_adv_less_current,0.37
-181,DSERRY2,  Services,2015_Q4,abs_third_less_current,0.0
-182,DHCERY2,    Household consumption expenditures (for services),2015_Q4,ADVANCE,0.81
-183,DHCERY2,    Household consumption expenditures (for services),2015_Q4,SECOND,0.83
-184,DHCERY2,    Household consumption expenditures (for services),2015_Q4,THIRD,1.1
-185,DHCERY2,    Household consumption expenditures (for services),2015_Q4,current,1.1
-186,DHCERY2,    Household consumption expenditures (for services),2015_Q4,adv_less_second,-0.02
-187,DHCERY2,    Household consumption expenditures (for services),2015_Q4,adv_less_third,-0.29
-188,DHCERY2,    Household consumption expenditures (for services),2015_Q4,second_less_third,-0.27
-189,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_adv_less_second,0.02
-190,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_adv_less_third,0.29
-191,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_second_less_third,0.27
-192,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_two_year,0.43
-193,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_adv_less_current,0.29
-194,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_third_less_current,0.0
-195,DHUTRY2,      Housing and utilities,2015_Q4,ADVANCE,-0.17
-196,DHUTRY2,      Housing and utilities,2015_Q4,SECOND,-0.18
-197,DHUTRY2,      Housing and utilities,2015_Q4,THIRD,-0.19
-198,DHUTRY2,      Housing and utilities,2015_Q4,current,-0.19
-199,DHUTRY2,      Housing and utilities,2015_Q4,adv_less_second,0.01
-200,DHUTRY2,      Housing and utilities,2015_Q4,adv_less_third,0.02
-201,DHUTRY2,      Housing and utilities,2015_Q4,second_less_third,0.01
-202,DHUTRY2,      Housing and utilities,2015_Q4,abs_adv_less_second,0.01
-203,DHUTRY2,      Housing and utilities,2015_Q4,abs_adv_less_third,0.02
-204,DHUTRY2,      Housing and utilities,2015_Q4,abs_second_less_third,0.01
-205,DHUTRY2,      Housing and utilities,2015_Q4,abs_two_year,0.03
-206,DHUTRY2,      Housing and utilities,2015_Q4,abs_adv_less_current,0.02
-207,DHUTRY2,      Housing and utilities,2015_Q4,abs_third_less_current,0.0
-208,DHLCRY2,      Health care,2015_Q4,ADVANCE,0.43
-209,DHLCRY2,      Health care,2015_Q4,SECOND,0.41
-210,DHLCRY2,      Health care,2015_Q4,THIRD,0.3
-211,DHLCRY2,      Health care,2015_Q4,current,0.3
-212,DHLCRY2,      Health care,2015_Q4,adv_less_second,0.02
-213,DHLCRY2,      Health care,2015_Q4,adv_less_third,0.13
-214,DHLCRY2,      Health care,2015_Q4,second_less_third,0.11
-215,DHLCRY2,      Health care,2015_Q4,abs_adv_less_second,0.02
-216,DHLCRY2,      Health care,2015_Q4,abs_adv_less_third,0.13
-217,DHLCRY2,      Health care,2015_Q4,abs_second_less_third,0.11
-218,DHLCRY2,      Health care,2015_Q4,abs_two_year,0.32
-219,DHLCRY2,      Health care,2015_Q4,abs_adv_less_current,0.13
-220,DHLCRY2,      Health care,2015_Q4,abs_third_less_current,0.0
-221,DTRSRY2,      Transportation services,2015_Q4,ADVANCE,0.05
-222,DTRSRY2,      Transportation services,2015_Q4,SECOND,0.04
-223,DTRSRY2,      Transportation services,2015_Q4,THIRD,0.14
-224,DTRSRY2,      Transportation services,2015_Q4,current,0.14
-225,DTRSRY2,      Transportation services,2015_Q4,adv_less_second,0.01
-226,DTRSRY2,      Transportation services,2015_Q4,adv_less_third,-0.09
-227,DTRSRY2,      Transportation services,2015_Q4,second_less_third,-0.1
-228,DTRSRY2,      Transportation services,2015_Q4,abs_adv_less_second,0.01
-229,DTRSRY2,      Transportation services,2015_Q4,abs_adv_less_third,0.09
-230,DTRSRY2,      Transportation services,2015_Q4,abs_second_less_third,0.1
-231,DTRSRY2,      Transportation services,2015_Q4,abs_two_year,0.04
-232,DTRSRY2,      Transportation services,2015_Q4,abs_adv_less_current,0.09
-233,DTRSRY2,      Transportation services,2015_Q4,abs_third_less_current,0.0
-234,DRCARY2,      Recreation services,2015_Q4,ADVANCE,0.15
-235,DRCARY2,      Recreation services,2015_Q4,SECOND,0.13
-236,DRCARY2,      Recreation services,2015_Q4,THIRD,0.35
-237,DRCARY2,      Recreation services,2015_Q4,current,0.35
-238,DRCARY2,      Recreation services,2015_Q4,adv_less_second,0.02
-239,DRCARY2,      Recreation services,2015_Q4,adv_less_third,-0.2
-240,DRCARY2,      Recreation services,2015_Q4,second_less_third,-0.22
-241,DRCARY2,      Recreation services,2015_Q4,abs_adv_less_second,0.02
-242,DRCARY2,      Recreation services,2015_Q4,abs_adv_less_third,0.2
-243,DRCARY2,      Recreation services,2015_Q4,abs_second_less_third,0.22
-244,DRCARY2,      Recreation services,2015_Q4,abs_two_year,0.08
-245,DRCARY2,      Recreation services,2015_Q4,abs_adv_less_current,0.2
-246,DRCARY2,      Recreation services,2015_Q4,abs_third_less_current,0.0
-247,DFSARY2,      Food services and accommodations,2015_Q4,ADVANCE,0.18
-248,DFSARY2,      Food services and accommodations,2015_Q4,SECOND,0.2
-249,DFSARY2,      Food services and accommodations,2015_Q4,THIRD,0.19
-250,DFSARY2,      Food services and accommodations,2015_Q4,current,0.19
-251,DFSARY2,      Food services and accommodations,2015_Q4,adv_less_second,-0.02
-252,DFSARY2,      Food services and accommodations,2015_Q4,adv_less_third,-0.01
-253,DFSARY2,      Food services and accommodations,2015_Q4,second_less_third,0.01
-254,DFSARY2,      Food services and accommodations,2015_Q4,abs_adv_less_second,0.02
-255,DFSARY2,      Food services and accommodations,2015_Q4,abs_adv_less_third,0.01
-256,DFSARY2,      Food services and accommodations,2015_Q4,abs_second_less_third,0.01
-257,DFSARY2,      Food services and accommodations,2015_Q4,abs_two_year,0.03
-258,DFSARY2,      Food services and accommodations,2015_Q4,abs_adv_less_current,0.01
-259,DFSARY2,      Food services and accommodations,2015_Q4,abs_third_less_current,0.0
-260,DIFSRY2,      Financial services and insurance,2015_Q4,ADVANCE,0.02
-261,DIFSRY2,      Financial services and insurance,2015_Q4,SECOND,0.09
-262,DIFSRY2,      Financial services and insurance,2015_Q4,THIRD,0.16
-263,DIFSRY2,      Financial services and insurance,2015_Q4,current,0.16
-264,DIFSRY2,      Financial services and insurance,2015_Q4,adv_less_second,-0.07
-265,DIFSRY2,      Financial services and insurance,2015_Q4,adv_less_third,-0.14
-266,DIFSRY2,      Financial services and insurance,2015_Q4,second_less_third,-0.07
-267,DIFSRY2,      Financial services and insurance,2015_Q4,abs_adv_less_second,0.07
-268,DIFSRY2,      Financial services and insurance,2015_Q4,abs_adv_less_third,0.14
-269,DIFSRY2,      Financial services and insurance,2015_Q4,abs_second_less_third,0.07
-270,DIFSRY2,      Financial services and insurance,2015_Q4,abs_two_year,0.12
-271,DIFSRY2,      Financial services and insurance,2015_Q4,abs_adv_less_current,0.14
-272,DIFSRY2,      Financial services and insurance,2015_Q4,abs_third_less_current,0.0
-273,DOTSRY2,      Other services,2015_Q4,ADVANCE,0.16
-274,DOTSRY2,      Other services,2015_Q4,SECOND,0.14
-275,DOTSRY2,      Other services,2015_Q4,THIRD,0.15
-276,DOTSRY2,      Other services,2015_Q4,current,0.15
-277,DOTSRY2,      Other services,2015_Q4,adv_less_second,0.02
-278,DOTSRY2,      Other services,2015_Q4,adv_less_third,0.01
-279,DOTSRY2,      Other services,2015_Q4,second_less_third,-0.01
-280,DOTSRY2,      Other services,2015_Q4,abs_adv_less_second,0.02
-281,DOTSRY2,      Other services,2015_Q4,abs_adv_less_third,0.01
-282,DOTSRY2,      Other services,2015_Q4,abs_second_less_third,0.01
-283,DOTSRY2,      Other services,2015_Q4,abs_two_year,0.1
-284,DOTSRY2,      Other services,2015_Q4,abs_adv_less_current,0.01
-285,DOTSRY2,      Other services,2015_Q4,abs_third_less_current,0.0
-286,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,ADVANCE,0.12
-287,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,SECOND,0.13
-288,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,THIRD,0.19
-289,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,current,0.19
-290,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,adv_less_second,-0.01
-291,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,adv_less_third,-0.07
-292,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,second_less_third,-0.06
-293,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_adv_less_second,0.01
-294,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_adv_less_third,0.07
-295,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_second_less_third,0.06
-296,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_two_year,0.08
-297,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_adv_less_current,0.07
-298,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_third_less_current,0.0
-299,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,ADVANCE,0.31
-300,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,SECOND,0.31
-301,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,THIRD,0.2
-302,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,current,0.2
-303,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,adv_less_second,0.0
-304,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,adv_less_third,0.11
-305,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,second_less_third,0.11
-306,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_adv_less_second,0.0
-307,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_adv_less_third,0.11
-308,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_second_less_third,0.11
-309,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_two_year,0.22
-310,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_adv_less_current,0.11
-311,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_third_less_current,0.0
-312,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,ADVANCE,0.19
-313,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,SECOND,0.17
-314,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,THIRD,0.01
-315,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,current,0.01
-316,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,adv_less_second,0.02
-317,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,adv_less_third,0.18
-318,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,second_less_third,0.16
-319,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_adv_less_second,0.02
-320,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_adv_less_third,0.18
-321,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_second_less_third,0.16
-322,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_two_year,0.29
-323,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_adv_less_current,0.18
-324,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_third_less_current,0.0
-325,A006RY2,Gross private domestic investment,2015_Q4,ADVANCE,-0.41
-326,A006RY2,Gross private domestic investment,2015_Q4,SECOND,-0.12
-327,A006RY2,Gross private domestic investment,2015_Q4,THIRD,-0.16
-328,A006RY2,Gross private domestic investment,2015_Q4,current,-0.16
-329,A006RY2,Gross private domestic investment,2015_Q4,adv_less_second,-0.29
-330,A006RY2,Gross private domestic investment,2015_Q4,adv_less_third,-0.25
-331,A006RY2,Gross private domestic investment,2015_Q4,second_less_third,0.04
-332,A006RY2,Gross private domestic investment,2015_Q4,abs_adv_less_second,0.29
-333,A006RY2,Gross private domestic investment,2015_Q4,abs_adv_less_third,0.25
-334,A006RY2,Gross private domestic investment,2015_Q4,abs_second_less_third,0.04
-335,A006RY2,Gross private domestic investment,2015_Q4,abs_two_year,0.6
-336,A006RY2,Gross private domestic investment,2015_Q4,abs_adv_less_current,0.25
-337,A006RY2,Gross private domestic investment,2015_Q4,abs_third_less_current,0.0
-338,A007RY2,  Fixed investment,2015_Q4,ADVANCE,0.03
-339,A007RY2,  Fixed investment,2015_Q4,SECOND,0.02
-340,A007RY2,  Fixed investment,2015_Q4,THIRD,0.06
-341,A007RY2,  Fixed investment,2015_Q4,current,0.06
-342,A007RY2,  Fixed investment,2015_Q4,adv_less_second,0.01
-343,A007RY2,  Fixed investment,2015_Q4,adv_less_third,-0.03
-344,A007RY2,  Fixed investment,2015_Q4,second_less_third,-0.04
-345,A007RY2,  Fixed investment,2015_Q4,abs_adv_less_second,0.01
-346,A007RY2,  Fixed investment,2015_Q4,abs_adv_less_third,0.03
-347,A007RY2,  Fixed investment,2015_Q4,abs_second_less_third,0.04
-348,A007RY2,  Fixed investment,2015_Q4,abs_two_year,0.34
-349,A007RY2,  Fixed investment,2015_Q4,abs_adv_less_current,0.03
-350,A007RY2,  Fixed investment,2015_Q4,abs_third_less_current,0.0
-351,A008RY2,    Nonresidential,2015_Q4,ADVANCE,-0.24
-352,A008RY2,    Nonresidential,2015_Q4,SECOND,-0.24
-353,A008RY2,    Nonresidential,2015_Q4,THIRD,-0.27
-354,A008RY2,    Nonresidential,2015_Q4,current,-0.27
-355,A008RY2,    Nonresidential,2015_Q4,adv_less_second,0.0
-356,A008RY2,    Nonresidential,2015_Q4,adv_less_third,0.03
-357,A008RY2,    Nonresidential,2015_Q4,second_less_third,0.03
-358,A008RY2,    Nonresidential,2015_Q4,abs_adv_less_second,0.0
-359,A008RY2,    Nonresidential,2015_Q4,abs_adv_less_third,0.03
-360,A008RY2,    Nonresidential,2015_Q4,abs_second_less_third,0.03
-361,A008RY2,    Nonresidential,2015_Q4,abs_two_year,0.28
-362,A008RY2,    Nonresidential,2015_Q4,abs_adv_less_current,0.03
-363,A008RY2,    Nonresidential,2015_Q4,abs_third_less_current,0.0
-364,A009RY2,      Structures,2015_Q4,ADVANCE,-0.15
-365,A009RY2,      Structures,2015_Q4,SECOND,-0.18
-366,A009RY2,      Structures,2015_Q4,THIRD,-0.14
-367,A009RY2,      Structures,2015_Q4,current,-0.14
-368,A009RY2,      Structures,2015_Q4,adv_less_second,0.03
-369,A009RY2,      Structures,2015_Q4,adv_less_third,-0.01
-370,A009RY2,      Structures,2015_Q4,second_less_third,-0.04
-371,A009RY2,      Structures,2015_Q4,abs_adv_less_second,0.03
-372,A009RY2,      Structures,2015_Q4,abs_adv_less_third,0.01
-373,A009RY2,      Structures,2015_Q4,abs_second_less_third,0.04
-374,A009RY2,      Structures,2015_Q4,abs_two_year,0.13
-375,A009RY2,      Structures,2015_Q4,abs_adv_less_current,0.01
-376,A009RY2,      Structures,2015_Q4,abs_third_less_current,0.0
-377,Y033RY2,      Equipment,2015_Q4,ADVANCE,-0.15
-378,Y033RY2,      Equipment,2015_Q4,SECOND,-0.11
-379,Y033RY2,      Equipment,2015_Q4,THIRD,-0.12
-380,Y033RY2,      Equipment,2015_Q4,current,-0.12
-381,Y033RY2,      Equipment,2015_Q4,adv_less_second,-0.04
-382,Y033RY2,      Equipment,2015_Q4,adv_less_third,-0.03
-383,Y033RY2,      Equipment,2015_Q4,second_less_third,0.01
-384,Y033RY2,      Equipment,2015_Q4,abs_adv_less_second,0.04
-385,Y033RY2,      Equipment,2015_Q4,abs_adv_less_third,0.03
-386,Y033RY2,      Equipment,2015_Q4,abs_second_less_third,0.01
-387,Y033RY2,      Equipment,2015_Q4,abs_two_year,0.18
-388,Y033RY2,      Equipment,2015_Q4,abs_adv_less_current,0.03
-389,Y033RY2,      Equipment,2015_Q4,abs_third_less_current,0.0
-390,Y034RY2,        Information processing equipment,2015_Q4,ADVANCE,0.12
-391,Y034RY2,        Information processing equipment,2015_Q4,SECOND,0.05
-392,Y034RY2,        Information processing equipment,2015_Q4,THIRD,0.04
-393,Y034RY2,        Information processing equipment,2015_Q4,current,0.04
-394,Y034RY2,        Information processing equipment,2015_Q4,adv_less_second,0.07
-395,Y034RY2,        Information processing equipment,2015_Q4,adv_less_third,0.08
-396,Y034RY2,        Information processing equipment,2015_Q4,second_less_third,0.01
-397,Y034RY2,        Information processing equipment,2015_Q4,abs_adv_less_second,0.07
-398,Y034RY2,        Information processing equipment,2015_Q4,abs_adv_less_third,0.08
-399,Y034RY2,        Information processing equipment,2015_Q4,abs_second_less_third,0.01
-400,Y034RY2,        Information processing equipment,2015_Q4,abs_two_year,0.1
-401,Y034RY2,        Information processing equipment,2015_Q4,abs_adv_less_current,0.08
-402,Y034RY2,        Information processing equipment,2015_Q4,abs_third_less_current,0.0
-403,B935RY2,          Computers and peripheral equipment,2015_Q4,ADVANCE,-0.11
-404,B935RY2,          Computers and peripheral equipment,2015_Q4,SECOND,-0.16
-405,B935RY2,          Computers and peripheral equipment,2015_Q4,THIRD,-0.16
-406,B935RY2,          Computers and peripheral equipment,2015_Q4,current,-0.16
-407,B935RY2,          Computers and peripheral equipment,2015_Q4,adv_less_second,0.05
-408,B935RY2,          Computers and peripheral equipment,2015_Q4,adv_less_third,0.05
-409,B935RY2,          Computers and peripheral equipment,2015_Q4,second_less_third,0.0
-410,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_adv_less_second,0.05
-411,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_adv_less_third,0.05
-412,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_second_less_third,0.0
-413,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_two_year,0.03
-414,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_adv_less_current,0.05
-415,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_third_less_current,0.0
-416,A937RY2,          Other,2015_Q4,ADVANCE,0.22
-417,A937RY2,          Other,2015_Q4,SECOND,0.21
-418,A937RY2,          Other,2015_Q4,THIRD,0.2
-419,A937RY2,          Other,2015_Q4,current,0.2
-420,A937RY2,          Other,2015_Q4,adv_less_second,0.01
-421,A937RY2,          Other,2015_Q4,adv_less_third,0.02
-422,A937RY2,          Other,2015_Q4,second_less_third,0.01
-423,A937RY2,          Other,2015_Q4,abs_adv_less_second,0.01
-424,A937RY2,          Other,2015_Q4,abs_adv_less_third,0.02
-425,A937RY2,          Other,2015_Q4,abs_second_less_third,0.01
-426,A937RY2,          Other,2015_Q4,abs_two_year,0.06
-427,A937RY2,          Other,2015_Q4,abs_adv_less_current,0.02
-428,A937RY2,          Other,2015_Q4,abs_third_less_current,0.0
-429,A680RY2,        Industrial equipment,2015_Q4,ADVANCE,0.1
-430,A680RY2,        Industrial equipment,2015_Q4,SECOND,0.14
-431,A680RY2,        Industrial equipment,2015_Q4,THIRD,0.14
-432,A680RY2,        Industrial equipment,2015_Q4,current,0.14
-433,A680RY2,        Industrial equipment,2015_Q4,adv_less_second,-0.04
-434,A680RY2,        Industrial equipment,2015_Q4,adv_less_third,-0.04
-435,A680RY2,        Industrial equipment,2015_Q4,second_less_third,0.0
-436,A680RY2,        Industrial equipment,2015_Q4,abs_adv_less_second,0.04
-437,A680RY2,        Industrial equipment,2015_Q4,abs_adv_less_third,0.04
-438,A680RY2,        Industrial equipment,2015_Q4,abs_second_less_third,0.0
-439,A680RY2,        Industrial equipment,2015_Q4,abs_two_year,0.05
-440,A680RY2,        Industrial equipment,2015_Q4,abs_adv_less_current,0.04
-441,A680RY2,        Industrial equipment,2015_Q4,abs_third_less_current,0.0
-442,A681RY2,        Transportation equipment,2015_Q4,ADVANCE,-0.25
-443,A681RY2,        Transportation equipment,2015_Q4,SECOND,-0.18
-444,A681RY2,        Transportation equipment,2015_Q4,THIRD,-0.18
-445,A681RY2,        Transportation equipment,2015_Q4,current,-0.18
-446,A681RY2,        Transportation equipment,2015_Q4,adv_less_second,-0.07
-447,A681RY2,        Transportation equipment,2015_Q4,adv_less_third,-0.07
-448,A681RY2,        Transportation equipment,2015_Q4,second_less_third,0.0
-449,A681RY2,        Transportation equipment,2015_Q4,abs_adv_less_second,0.07
-450,A681RY2,        Transportation equipment,2015_Q4,abs_adv_less_third,0.07
-451,A681RY2,        Transportation equipment,2015_Q4,abs_second_less_third,0.0
-452,A681RY2,        Transportation equipment,2015_Q4,abs_two_year,0.08
-453,A681RY2,        Transportation equipment,2015_Q4,abs_adv_less_current,0.07
-454,A681RY2,        Transportation equipment,2015_Q4,abs_third_less_current,0.0
-455,A862RY2,        Other equipment,2015_Q4,ADVANCE,-0.12
-456,A862RY2,        Other equipment,2015_Q4,SECOND,-0.13
-457,A862RY2,        Other equipment,2015_Q4,THIRD,-0.13
-458,A862RY2,        Other equipment,2015_Q4,current,-0.13
-459,A862RY2,        Other equipment,2015_Q4,adv_less_second,0.01
-460,A862RY2,        Other equipment,2015_Q4,adv_less_third,0.01
-461,A862RY2,        Other equipment,2015_Q4,second_less_third,0.0
-462,A862RY2,        Other equipment,2015_Q4,abs_adv_less_second,0.01
-463,A862RY2,        Other equipment,2015_Q4,abs_adv_less_third,0.01
-464,A862RY2,        Other equipment,2015_Q4,abs_second_less_third,0.0
-465,A862RY2,        Other equipment,2015_Q4,abs_two_year,0.05
-466,A862RY2,        Other equipment,2015_Q4,abs_adv_less_current,0.01
-467,A862RY2,        Other equipment,2015_Q4,abs_third_less_current,0.0
-468,Y001RY2,      Intellectual property products,2015_Q4,ADVANCE,0.07
-469,Y001RY2,      Intellectual property products,2015_Q4,SECOND,0.05
-470,Y001RY2,      Intellectual property products,2015_Q4,THIRD,-0.01
-471,Y001RY2,      Intellectual property products,2015_Q4,current,-0.01
-472,Y001RY2,      Intellectual property products,2015_Q4,adv_less_second,0.02
-473,Y001RY2,      Intellectual property products,2015_Q4,adv_less_third,0.08
-474,Y001RY2,      Intellectual property products,2015_Q4,second_less_third,0.06
-475,Y001RY2,      Intellectual property products,2015_Q4,abs_adv_less_second,0.02
-476,Y001RY2,      Intellectual property products,2015_Q4,abs_adv_less_third,0.08
-477,Y001RY2,      Intellectual property products,2015_Q4,abs_second_less_third,0.06
-478,Y001RY2,      Intellectual property products,2015_Q4,abs_two_year,0.12
-479,Y001RY2,      Intellectual property products,2015_Q4,abs_adv_less_current,0.08
-480,Y001RY2,      Intellectual property products,2015_Q4,abs_third_less_current,0.0
-481,B985RY2,        Software \4\,2015_Q4,ADVANCE,0.03
-482,B985RY2,        Software \4\,2015_Q4,SECOND,0.03
-483,B985RY2,        Software \4\,2015_Q4,THIRD,0.03
-484,B985RY2,        Software \4\,2015_Q4,current,0.03
-485,B985RY2,        Software \4\,2015_Q4,adv_less_second,0.0
-486,B985RY2,        Software \4\,2015_Q4,adv_less_third,0.0
-487,B985RY2,        Software \4\,2015_Q4,second_less_third,0.0
-488,B985RY2,        Software \4\,2015_Q4,abs_adv_less_second,0.0
-489,B985RY2,        Software \4\,2015_Q4,abs_adv_less_third,0.0
-490,B985RY2,        Software \4\,2015_Q4,abs_second_less_third,0.0
-491,B985RY2,        Software \4\,2015_Q4,abs_two_year,0.03
-492,B985RY2,        Software \4\,2015_Q4,abs_adv_less_current,0.0
-493,B985RY2,        Software \4\,2015_Q4,abs_third_less_current,0.0
-494,Y006RY2,        Research and development \5\,2015_Q4,ADVANCE,0.04
-495,Y006RY2,        Research and development \5\,2015_Q4,SECOND,0.03
-496,Y006RY2,        Research and development \5\,2015_Q4,THIRD,-0.03
-497,Y006RY2,        Research and development \5\,2015_Q4,current,-0.03
-498,Y006RY2,        Research and development \5\,2015_Q4,adv_less_second,0.01
-499,Y006RY2,        Research and development \5\,2015_Q4,adv_less_third,0.07
-500,Y006RY2,        Research and development \5\,2015_Q4,second_less_third,0.06
-501,Y006RY2,        Research and development \5\,2015_Q4,abs_adv_less_second,0.01
-502,Y006RY2,        Research and development \5\,2015_Q4,abs_adv_less_third,0.07
-503,Y006RY2,        Research and development \5\,2015_Q4,abs_second_less_third,0.06
-504,Y006RY2,        Research and development \5\,2015_Q4,abs_two_year,0.12
-505,Y006RY2,        Research and development \5\,2015_Q4,abs_adv_less_current,0.07
-506,Y006RY2,        Research and development \5\,2015_Q4,abs_third_less_current,0.0
-507,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,ADVANCE,-0.01
-508,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,SECOND,-0.01
-509,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,THIRD,0.0
-510,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,current,0.0
-511,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,adv_less_second,0.0
-512,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,adv_less_third,-0.01
-513,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,second_less_third,-0.01
-514,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_adv_less_second,0.0
-515,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_adv_less_third,0.01
-516,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_second_less_third,0.01
-517,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_two_year,0.02
-518,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_adv_less_current,0.01
-519,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_third_less_current,0.0
-520,A011RY2,    Residential,2015_Q4,ADVANCE,0.27
-521,A011RY2,    Residential,2015_Q4,SECOND,0.26
-522,A011RY2,    Residential,2015_Q4,THIRD,0.33
-523,A011RY2,    Residential,2015_Q4,current,0.33
-524,A011RY2,    Residential,2015_Q4,adv_less_second,0.01
-525,A011RY2,    Residential,2015_Q4,adv_less_third,-0.06
-526,A011RY2,    Residential,2015_Q4,second_less_third,-0.07
-527,A011RY2,    Residential,2015_Q4,abs_adv_less_second,0.01
-528,A011RY2,    Residential,2015_Q4,abs_adv_less_third,0.06
-529,A011RY2,    Residential,2015_Q4,abs_second_less_third,0.07
-530,A011RY2,    Residential,2015_Q4,abs_two_year,0.07
-531,A011RY2,    Residential,2015_Q4,abs_adv_less_current,0.06
-532,A011RY2,    Residential,2015_Q4,abs_third_less_current,0.0
-533,A014RY2,  Change in private inventories,2015_Q4,ADVANCE,-0.45
-534,A014RY2,  Change in private inventories,2015_Q4,SECOND,-0.14
-535,A014RY2,  Change in private inventories,2015_Q4,THIRD,-0.22
-536,A014RY2,  Change in private inventories,2015_Q4,current,-0.22
-537,A014RY2,  Change in private inventories,2015_Q4,adv_less_second,-0.31
-538,A014RY2,  Change in private inventories,2015_Q4,adv_less_third,-0.23
-539,A014RY2,  Change in private inventories,2015_Q4,second_less_third,0.08
-540,A014RY2,  Change in private inventories,2015_Q4,abs_adv_less_second,0.31
-541,A014RY2,  Change in private inventories,2015_Q4,abs_adv_less_third,0.23
-542,A014RY2,  Change in private inventories,2015_Q4,abs_second_less_third,0.08
-543,A014RY2,  Change in private inventories,2015_Q4,abs_two_year,0.52
-544,A014RY2,  Change in private inventories,2015_Q4,abs_adv_less_current,0.23
-545,A014RY2,  Change in private inventories,2015_Q4,abs_third_less_current,0.0
-546,B018RY2,    Farm,2015_Q4,ADVANCE,-0.07
-547,B018RY2,    Farm,2015_Q4,SECOND,-0.08
-548,B018RY2,    Farm,2015_Q4,THIRD,-0.1
-549,B018RY2,    Farm,2015_Q4,current,-0.1
-550,B018RY2,    Farm,2015_Q4,adv_less_second,0.01
-551,B018RY2,    Farm,2015_Q4,adv_less_third,0.03
-552,B018RY2,    Farm,2015_Q4,second_less_third,0.02
-553,B018RY2,    Farm,2015_Q4,abs_adv_less_second,0.01
-554,B018RY2,    Farm,2015_Q4,abs_adv_less_third,0.03
-555,B018RY2,    Farm,2015_Q4,abs_second_less_third,0.02
-556,B018RY2,    Farm,2015_Q4,abs_two_year,0.04
-557,B018RY2,    Farm,2015_Q4,abs_adv_less_current,0.03
-558,B018RY2,    Farm,2015_Q4,abs_third_less_current,0.0
-559,A015RY2,    Nonfarm,2015_Q4,ADVANCE,-0.38
-560,A015RY2,    Nonfarm,2015_Q4,SECOND,-0.06
-561,A015RY2,    Nonfarm,2015_Q4,THIRD,-0.12
-562,A015RY2,    Nonfarm,2015_Q4,current,-0.12
-563,A015RY2,    Nonfarm,2015_Q4,adv_less_second,-0.32
-564,A015RY2,    Nonfarm,2015_Q4,adv_less_third,-0.26
-565,A015RY2,    Nonfarm,2015_Q4,second_less_third,0.06
-566,A015RY2,    Nonfarm,2015_Q4,abs_adv_less_second,0.32
-567,A015RY2,    Nonfarm,2015_Q4,abs_adv_less_third,0.26
-568,A015RY2,    Nonfarm,2015_Q4,abs_second_less_third,0.06
-569,A015RY2,    Nonfarm,2015_Q4,abs_two_year,0.51
-570,A015RY2,    Nonfarm,2015_Q4,abs_adv_less_current,0.26
-571,A015RY2,    Nonfarm,2015_Q4,abs_third_less_current,0.0
-572,A019RY2,Net exports of goods and services,2015_Q4,ADVANCE,-0.47
-573,A019RY2,Net exports of goods and services,2015_Q4,SECOND,-0.25
-574,A019RY2,Net exports of goods and services,2015_Q4,THIRD,-0.14
-575,A019RY2,Net exports of goods and services,2015_Q4,current,-0.14
-576,A019RY2,Net exports of goods and services,2015_Q4,adv_less_second,-0.22
-577,A019RY2,Net exports of goods and services,2015_Q4,adv_less_third,-0.33
-578,A019RY2,Net exports of goods and services,2015_Q4,second_less_third,-0.11
-579,A019RY2,Net exports of goods and services,2015_Q4,abs_adv_less_second,0.22
-580,A019RY2,Net exports of goods and services,2015_Q4,abs_adv_less_third,0.33
-581,A019RY2,Net exports of goods and services,2015_Q4,abs_second_less_third,0.11
-582,A019RY2,Net exports of goods and services,2015_Q4,abs_two_year,0.35
-583,A019RY2,Net exports of goods and services,2015_Q4,abs_adv_less_current,0.33
-584,A019RY2,Net exports of goods and services,2015_Q4,abs_third_less_current,0.0
-585,A020RY2,  Exports,2015_Q4,ADVANCE,-0.31
-586,A020RY2,  Exports,2015_Q4,SECOND,-0.34
-587,A020RY2,  Exports,2015_Q4,THIRD,-0.25
-588,A020RY2,  Exports,2015_Q4,current,-0.25
-589,A020RY2,  Exports,2015_Q4,adv_less_second,0.03
-590,A020RY2,  Exports,2015_Q4,adv_less_third,-0.06
-591,A020RY2,  Exports,2015_Q4,second_less_third,-0.09
-592,A020RY2,  Exports,2015_Q4,abs_adv_less_second,0.03
-593,A020RY2,  Exports,2015_Q4,abs_adv_less_third,0.06
-594,A020RY2,  Exports,2015_Q4,abs_second_less_third,0.09
-595,A020RY2,  Exports,2015_Q4,abs_two_year,0.18
-596,A020RY2,  Exports,2015_Q4,abs_adv_less_current,0.06
-597,A020RY2,  Exports,2015_Q4,abs_third_less_current,0.0
-598,A253RY2,    Goods,2015_Q4,ADVANCE,-0.46
-599,A253RY2,    Goods,2015_Q4,SECOND,-0.49
-600,A253RY2,    Goods,2015_Q4,THIRD,-0.45
-601,A253RY2,    Goods,2015_Q4,current,-0.45
-602,A253RY2,    Goods,2015_Q4,adv_less_second,0.03
-603,A253RY2,    Goods,2015_Q4,adv_less_third,-0.01
-604,A253RY2,    Goods,2015_Q4,second_less_third,-0.04
-605,A253RY2,    Goods,2015_Q4,abs_adv_less_second,0.03
-606,A253RY2,    Goods,2015_Q4,abs_adv_less_third,0.01
-607,A253RY2,    Goods,2015_Q4,abs_second_less_third,0.04
-608,A253RY2,    Goods,2015_Q4,abs_two_year,0.11
-609,A253RY2,    Goods,2015_Q4,abs_adv_less_current,0.01
-610,A253RY2,    Goods,2015_Q4,abs_third_less_current,0.0
-611,A646RY2,    Services,2015_Q4,ADVANCE,0.15
-612,A646RY2,    Services,2015_Q4,SECOND,0.15
-613,A646RY2,    Services,2015_Q4,THIRD,0.2
-614,A646RY2,    Services,2015_Q4,current,0.2
-615,A646RY2,    Services,2015_Q4,adv_less_second,0.0
-616,A646RY2,    Services,2015_Q4,adv_less_third,-0.05
-617,A646RY2,    Services,2015_Q4,second_less_third,-0.05
-618,A646RY2,    Services,2015_Q4,abs_adv_less_second,0.0
-619,A646RY2,    Services,2015_Q4,abs_adv_less_third,0.05
-620,A646RY2,    Services,2015_Q4,abs_second_less_third,0.05
-621,A646RY2,    Services,2015_Q4,abs_two_year,0.09
-622,A646RY2,    Services,2015_Q4,abs_adv_less_current,0.05
-623,A646RY2,    Services,2015_Q4,abs_third_less_current,0.0
-624,A021RY2,  Imports,2015_Q4,ADVANCE,-0.16
-625,A021RY2,  Imports,2015_Q4,SECOND,0.09
-626,A021RY2,  Imports,2015_Q4,THIRD,0.11
-627,A021RY2,  Imports,2015_Q4,current,0.11
-628,A021RY2,  Imports,2015_Q4,adv_less_second,-0.25
-629,A021RY2,  Imports,2015_Q4,adv_less_third,-0.27
-630,A021RY2,  Imports,2015_Q4,second_less_third,-0.02
-631,A021RY2,  Imports,2015_Q4,abs_adv_less_second,0.25
-632,A021RY2,  Imports,2015_Q4,abs_adv_less_third,0.27
-633,A021RY2,  Imports,2015_Q4,abs_second_less_third,0.02
-634,A021RY2,  Imports,2015_Q4,abs_two_year,0.28
-635,A021RY2,  Imports,2015_Q4,abs_adv_less_current,0.27
-636,A021RY2,  Imports,2015_Q4,abs_third_less_current,0.0
-637,A255RY2,    Goods,2015_Q4,ADVANCE,-0.08
-638,A255RY2,    Goods,2015_Q4,SECOND,0.15
-639,A255RY2,    Goods,2015_Q4,THIRD,0.17
-640,A255RY2,    Goods,2015_Q4,current,0.17
-641,A255RY2,    Goods,2015_Q4,adv_less_second,-0.23
-642,A255RY2,    Goods,2015_Q4,adv_less_third,-0.25
-643,A255RY2,    Goods,2015_Q4,second_less_third,-0.02
-644,A255RY2,    Goods,2015_Q4,abs_adv_less_second,0.23
-645,A255RY2,    Goods,2015_Q4,abs_adv_less_third,0.25
-646,A255RY2,    Goods,2015_Q4,abs_second_less_third,0.02
-647,A255RY2,    Goods,2015_Q4,abs_two_year,0.25
-648,A255RY2,    Goods,2015_Q4,abs_adv_less_current,0.25
-649,A255RY2,    Goods,2015_Q4,abs_third_less_current,0.0
-650,A656RY2,    Services,2015_Q4,ADVANCE,-0.08
-651,A656RY2,    Services,2015_Q4,SECOND,-0.07
-652,A656RY2,    Services,2015_Q4,THIRD,-0.05
-653,A656RY2,    Services,2015_Q4,current,-0.05
-654,A656RY2,    Services,2015_Q4,adv_less_second,-0.01
-655,A656RY2,    Services,2015_Q4,adv_less_third,-0.03
-656,A656RY2,    Services,2015_Q4,second_less_third,-0.02
-657,A656RY2,    Services,2015_Q4,abs_adv_less_second,0.01
-658,A656RY2,    Services,2015_Q4,abs_adv_less_third,0.03
-659,A656RY2,    Services,2015_Q4,abs_second_less_third,0.02
-660,A656RY2,    Services,2015_Q4,abs_two_year,0.04
-661,A656RY2,    Services,2015_Q4,abs_adv_less_current,0.03
-662,A656RY2,    Services,2015_Q4,abs_third_less_current,0.0
-663,A822RY2,Government consumption expenditures and gross investment,2015_Q4,ADVANCE,0.12
-664,A822RY2,Government consumption expenditures and gross investment,2015_Q4,SECOND,-0.01
-665,A822RY2,Government consumption expenditures and gross investment,2015_Q4,THIRD,0.02
-666,A822RY2,Government consumption expenditures and gross investment,2015_Q4,current,0.02
-667,A822RY2,Government consumption expenditures and gross investment,2015_Q4,adv_less_second,0.13
-668,A822RY2,Government consumption expenditures and gross investment,2015_Q4,adv_less_third,0.1
-669,A822RY2,Government consumption expenditures and gross investment,2015_Q4,second_less_third,-0.03
-670,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_adv_less_second,0.13
-671,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_adv_less_third,0.1
-672,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_second_less_third,0.03
-673,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_two_year,0.08
-674,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_adv_less_current,0.1
-675,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_third_less_current,0.0
-676,A823RY2,  Federal,2015_Q4,ADVANCE,0.18
-677,A823RY2,  Federal,2015_Q4,SECOND,0.15
-678,A823RY2,  Federal,2015_Q4,THIRD,0.15
-679,A823RY2,  Federal,2015_Q4,current,0.15
-680,A823RY2,  Federal,2015_Q4,adv_less_second,0.03
-681,A823RY2,  Federal,2015_Q4,adv_less_third,0.03
-682,A823RY2,  Federal,2015_Q4,second_less_third,0.0
-683,A823RY2,  Federal,2015_Q4,abs_adv_less_second,0.03
-684,A823RY2,  Federal,2015_Q4,abs_adv_less_third,0.03
-685,A823RY2,  Federal,2015_Q4,abs_second_less_third,0.0
-686,A823RY2,  Federal,2015_Q4,abs_two_year,0.02
-687,A823RY2,  Federal,2015_Q4,abs_adv_less_current,0.03
-688,A823RY2,  Federal,2015_Q4,abs_third_less_current,0.0
-689,A824RY2,    National defense,2015_Q4,ADVANCE,0.14
-690,A824RY2,    National defense,2015_Q4,SECOND,0.11
-691,A824RY2,    National defense,2015_Q4,THIRD,0.11
-692,A824RY2,    National defense,2015_Q4,current,0.11
-693,A824RY2,    National defense,2015_Q4,adv_less_second,0.03
-694,A824RY2,    National defense,2015_Q4,adv_less_third,0.03
-695,A824RY2,    National defense,2015_Q4,second_less_third,0.0
-696,A824RY2,    National defense,2015_Q4,abs_adv_less_second,0.03
-697,A824RY2,    National defense,2015_Q4,abs_adv_less_third,0.03
-698,A824RY2,    National defense,2015_Q4,abs_second_less_third,0.0
-699,A824RY2,    National defense,2015_Q4,abs_two_year,0.02
-700,A824RY2,    National defense,2015_Q4,abs_adv_less_current,0.03
-701,A824RY2,    National defense,2015_Q4,abs_third_less_current,0.0
-702,A997RY2,      Consumption expenditures,2015_Q4,ADVANCE,0.07
-703,A997RY2,      Consumption expenditures,2015_Q4,SECOND,0.04
-704,A997RY2,      Consumption expenditures,2015_Q4,THIRD,0.04
-705,A997RY2,      Consumption expenditures,2015_Q4,current,0.04
-706,A997RY2,      Consumption expenditures,2015_Q4,adv_less_second,0.03
-707,A997RY2,      Consumption expenditures,2015_Q4,adv_less_third,0.03
-708,A997RY2,      Consumption expenditures,2015_Q4,second_less_third,0.0
-709,A997RY2,      Consumption expenditures,2015_Q4,abs_adv_less_second,0.03
-710,A997RY2,      Consumption expenditures,2015_Q4,abs_adv_less_third,0.03
-711,A997RY2,      Consumption expenditures,2015_Q4,abs_second_less_third,0.0
-712,A997RY2,      Consumption expenditures,2015_Q4,abs_two_year,0.02
-713,A997RY2,      Consumption expenditures,2015_Q4,abs_adv_less_current,0.03
-714,A997RY2,      Consumption expenditures,2015_Q4,abs_third_less_current,0.0
-715,A788RY2,      Gross investment,2015_Q4,ADVANCE,0.07
-716,A788RY2,      Gross investment,2015_Q4,SECOND,0.07
-717,A788RY2,      Gross investment,2015_Q4,THIRD,0.07
-718,A788RY2,      Gross investment,2015_Q4,current,0.07
-719,A788RY2,      Gross investment,2015_Q4,adv_less_second,0.0
-720,A788RY2,      Gross investment,2015_Q4,adv_less_third,0.0
-721,A788RY2,      Gross investment,2015_Q4,second_less_third,0.0
-722,A788RY2,      Gross investment,2015_Q4,abs_adv_less_second,0.0
-723,A788RY2,      Gross investment,2015_Q4,abs_adv_less_third,0.0
-724,A788RY2,      Gross investment,2015_Q4,abs_second_less_third,0.0
-725,A788RY2,      Gross investment,2015_Q4,abs_two_year,0.0
-726,A788RY2,      Gross investment,2015_Q4,abs_adv_less_current,0.0
-727,A788RY2,      Gross investment,2015_Q4,abs_third_less_current,0.0
-728,A825RY2,    Nondefense,2015_Q4,ADVANCE,0.04
-729,A825RY2,    Nondefense,2015_Q4,SECOND,0.04
-730,A825RY2,    Nondefense,2015_Q4,THIRD,0.04
-731,A825RY2,    Nondefense,2015_Q4,current,0.04
-732,A825RY2,    Nondefense,2015_Q4,adv_less_second,0.0
-733,A825RY2,    Nondefense,2015_Q4,adv_less_third,0.0
-734,A825RY2,    Nondefense,2015_Q4,second_less_third,0.0
-735,A825RY2,    Nondefense,2015_Q4,abs_adv_less_second,0.0
-736,A825RY2,    Nondefense,2015_Q4,abs_adv_less_third,0.0
-737,A825RY2,    Nondefense,2015_Q4,abs_second_less_third,0.0
-738,A825RY2,    Nondefense,2015_Q4,abs_two_year,0.0
-739,A825RY2,    Nondefense,2015_Q4,abs_adv_less_current,0.0
-740,A825RY2,    Nondefense,2015_Q4,abs_third_less_current,0.0
-741,A542RY2,      Consumption expenditures,2015_Q4,ADVANCE,0.0
-742,A542RY2,      Consumption expenditures,2015_Q4,SECOND,0.02
-743,A542RY2,      Consumption expenditures,2015_Q4,THIRD,0.02
-744,A542RY2,      Consumption expenditures,2015_Q4,current,0.02
-745,A542RY2,      Consumption expenditures,2015_Q4,adv_less_second,-0.02
-746,A542RY2,      Consumption expenditures,2015_Q4,adv_less_third,-0.02
-747,A542RY2,      Consumption expenditures,2015_Q4,second_less_third,0.0
-748,A542RY2,      Consumption expenditures,2015_Q4,abs_adv_less_second,0.02
-749,A542RY2,      Consumption expenditures,2015_Q4,abs_adv_less_third,0.02
-750,A542RY2,      Consumption expenditures,2015_Q4,abs_second_less_third,0.0
-751,A542RY2,      Consumption expenditures,2015_Q4,abs_two_year,0.01
-752,A542RY2,      Consumption expenditures,2015_Q4,abs_adv_less_current,0.02
-753,A542RY2,      Consumption expenditures,2015_Q4,abs_third_less_current,0.0
-754,A798RY2,      Gross investment,2015_Q4,ADVANCE,0.04
-755,A798RY2,      Gross investment,2015_Q4,SECOND,0.02
-756,A798RY2,      Gross investment,2015_Q4,THIRD,0.02
-757,A798RY2,      Gross investment,2015_Q4,current,0.02
-758,A798RY2,      Gross investment,2015_Q4,adv_less_second,0.02
-759,A798RY2,      Gross investment,2015_Q4,adv_less_third,0.02
-760,A798RY2,      Gross investment,2015_Q4,second_less_third,0.0
-761,A798RY2,      Gross investment,2015_Q4,abs_adv_less_second,0.02
-762,A798RY2,      Gross investment,2015_Q4,abs_adv_less_third,0.02
-763,A798RY2,      Gross investment,2015_Q4,abs_second_less_third,0.0
-764,A798RY2,      Gross investment,2015_Q4,abs_two_year,0.01
-765,A798RY2,      Gross investment,2015_Q4,abs_adv_less_current,0.02
-766,A798RY2,      Gross investment,2015_Q4,abs_third_less_current,0.0
-767,A829RY2,  State and local,2015_Q4,ADVANCE,-0.06
-768,A829RY2,  State and local,2015_Q4,SECOND,-0.16
-769,A829RY2,  State and local,2015_Q4,THIRD,-0.13
-770,A829RY2,  State and local,2015_Q4,current,-0.13
-771,A829RY2,  State and local,2015_Q4,adv_less_second,0.1
-772,A829RY2,  State and local,2015_Q4,adv_less_third,0.07
-773,A829RY2,  State and local,2015_Q4,second_less_third,-0.03
-774,A829RY2,  State and local,2015_Q4,abs_adv_less_second,0.1
-775,A829RY2,  State and local,2015_Q4,abs_adv_less_third,0.07
-776,A829RY2,  State and local,2015_Q4,abs_second_less_third,0.03
-777,A829RY2,  State and local,2015_Q4,abs_two_year,0.06
-778,A829RY2,  State and local,2015_Q4,abs_adv_less_current,0.07
-779,A829RY2,  State and local,2015_Q4,abs_third_less_current,0.0
-780,A991RY2,    Consumption expenditures,2015_Q4,ADVANCE,0.05
-781,A991RY2,    Consumption expenditures,2015_Q4,SECOND,0.03
-782,A991RY2,    Consumption expenditures,2015_Q4,THIRD,0.03
-783,A991RY2,    Consumption expenditures,2015_Q4,current,0.03
-784,A991RY2,    Consumption expenditures,2015_Q4,adv_less_second,0.02
-785,A991RY2,    Consumption expenditures,2015_Q4,adv_less_third,0.02
-786,A991RY2,    Consumption expenditures,2015_Q4,second_less_third,0.0
-787,A991RY2,    Consumption expenditures,2015_Q4,abs_adv_less_second,0.02
-788,A991RY2,    Consumption expenditures,2015_Q4,abs_adv_less_third,0.02
-789,A991RY2,    Consumption expenditures,2015_Q4,abs_second_less_third,0.0
-790,A991RY2,    Consumption expenditures,2015_Q4,abs_two_year,0.01
-791,A991RY2,    Consumption expenditures,2015_Q4,abs_adv_less_current,0.02
-792,A991RY2,    Consumption expenditures,2015_Q4,abs_third_less_current,0.0
-793,A799RY2,    Gross investment,2015_Q4,ADVANCE,-0.11
-794,A799RY2,    Gross investment,2015_Q4,SECOND,-0.19
-795,A799RY2,    Gross investment,2015_Q4,THIRD,-0.16
-796,A799RY2,    Gross investment,2015_Q4,current,-0.16
-797,A799RY2,    Gross investment,2015_Q4,adv_less_second,0.08
-798,A799RY2,    Gross investment,2015_Q4,adv_less_third,0.05
-799,A799RY2,    Gross investment,2015_Q4,second_less_third,-0.03
-800,A799RY2,    Gross investment,2015_Q4,abs_adv_less_second,0.08
-801,A799RY2,    Gross investment,2015_Q4,abs_adv_less_third,0.05
-802,A799RY2,    Gross investment,2015_Q4,abs_second_less_third,0.03
-803,A799RY2,    Gross investment,2015_Q4,abs_two_year,0.07
-804,A799RY2,    Gross investment,2015_Q4,abs_adv_less_current,0.05
-805,A799RY2,    Gross investment,2015_Q4,abs_third_less_current,0.0
+6,A191RL1,    Gross domestic product,2015_Q4,adv_less_current,-0.7
+7,A191RL1,    Gross domestic product,2015_Q4,second_less_third,-0.4
+8,A191RL1,    Gross domestic product,2015_Q4,abs_adv_less_second,0.3
+9,A191RL1,    Gross domestic product,2015_Q4,abs_adv_less_third,0.7
+10,A191RL1,    Gross domestic product,2015_Q4,abs_second_less_third,0.4
+11,A191RL1,    Gross domestic product,2015_Q4,abs_two_year,1.09
+12,A191RL1,    Gross domestic product,2015_Q4,abs_current,1.4
+13,A191RL1,    Gross domestic product,2015_Q4,abs_adv_less_current,0.7
+14,A191RL1,    Gross domestic product,2015_Q4,abs_third_less_current,0.0
+15,DPCERY2,Personal consumption expenditures,2015_Q4,ADVANCE,1.46
+16,DPCERY2,Personal consumption expenditures,2015_Q4,SECOND,1.38
+17,DPCERY2,Personal consumption expenditures,2015_Q4,THIRD,1.66
+18,DPCERY2,Personal consumption expenditures,2015_Q4,CURRENT,1.66
+19,DPCERY2,Personal consumption expenditures,2015_Q4,adv_less_second,0.08
+20,DPCERY2,Personal consumption expenditures,2015_Q4,adv_less_third,-0.2
+21,DPCERY2,Personal consumption expenditures,2015_Q4,adv_less_current,-0.2
+22,DPCERY2,Personal consumption expenditures,2015_Q4,second_less_third,-0.28
+23,DPCERY2,Personal consumption expenditures,2015_Q4,abs_adv_less_second,0.08
+24,DPCERY2,Personal consumption expenditures,2015_Q4,abs_adv_less_third,0.2
+25,DPCERY2,Personal consumption expenditures,2015_Q4,abs_second_less_third,0.28
+26,DPCERY2,Personal consumption expenditures,2015_Q4,abs_two_year,0.42
+27,DPCERY2,Personal consumption expenditures,2015_Q4,abs_current,1.66
+28,DPCERY2,Personal consumption expenditures,2015_Q4,abs_adv_less_current,0.2
+29,DPCERY2,Personal consumption expenditures,2015_Q4,abs_third_less_current,0.0
+30,DGDSRY2,  Goods,2015_Q4,ADVANCE,0.53
+31,DGDSRY2,  Goods,2015_Q4,SECOND,0.42
+32,DGDSRY2,  Goods,2015_Q4,THIRD,0.36
+33,DGDSRY2,  Goods,2015_Q4,CURRENT,0.36
+34,DGDSRY2,  Goods,2015_Q4,adv_less_second,0.11
+35,DGDSRY2,  Goods,2015_Q4,adv_less_third,0.17
+36,DGDSRY2,  Goods,2015_Q4,adv_less_current,0.17
+37,DGDSRY2,  Goods,2015_Q4,second_less_third,0.06
+38,DGDSRY2,  Goods,2015_Q4,abs_adv_less_second,0.11
+39,DGDSRY2,  Goods,2015_Q4,abs_adv_less_third,0.17
+40,DGDSRY2,  Goods,2015_Q4,abs_second_less_third,0.06
+41,DGDSRY2,  Goods,2015_Q4,abs_two_year,0.15
+42,DGDSRY2,  Goods,2015_Q4,abs_current,0.36
+43,DGDSRY2,  Goods,2015_Q4,abs_adv_less_current,0.17
+44,DGDSRY2,  Goods,2015_Q4,abs_third_less_current,0.0
+45,DDURRY2,    Durable goods,2015_Q4,ADVANCE,0.32
+46,DDURRY2,    Durable goods,2015_Q4,SECOND,0.25
+47,DDURRY2,    Durable goods,2015_Q4,THIRD,0.28
+48,DDURRY2,    Durable goods,2015_Q4,CURRENT,0.28
+49,DDURRY2,    Durable goods,2015_Q4,adv_less_second,0.07
+50,DDURRY2,    Durable goods,2015_Q4,adv_less_third,0.04
+51,DDURRY2,    Durable goods,2015_Q4,adv_less_current,0.04
+52,DDURRY2,    Durable goods,2015_Q4,second_less_third,-0.03
+53,DDURRY2,    Durable goods,2015_Q4,abs_adv_less_second,0.07
+54,DDURRY2,    Durable goods,2015_Q4,abs_adv_less_third,0.04
+55,DDURRY2,    Durable goods,2015_Q4,abs_second_less_third,0.03
+56,DDURRY2,    Durable goods,2015_Q4,abs_two_year,0.04
+57,DDURRY2,    Durable goods,2015_Q4,abs_current,0.28
+58,DDURRY2,    Durable goods,2015_Q4,abs_adv_less_current,0.04
+59,DDURRY2,    Durable goods,2015_Q4,abs_third_less_current,0.0
+60,DMOTRY2,      Motor vehicles and parts,2015_Q4,ADVANCE,-0.13
+61,DMOTRY2,      Motor vehicles and parts,2015_Q4,SECOND,-0.17
+62,DMOTRY2,      Motor vehicles and parts,2015_Q4,THIRD,-0.15
+63,DMOTRY2,      Motor vehicles and parts,2015_Q4,CURRENT,-0.15
+64,DMOTRY2,      Motor vehicles and parts,2015_Q4,adv_less_second,0.04
+65,DMOTRY2,      Motor vehicles and parts,2015_Q4,adv_less_third,0.02
+66,DMOTRY2,      Motor vehicles and parts,2015_Q4,adv_less_current,0.02
+67,DMOTRY2,      Motor vehicles and parts,2015_Q4,second_less_third,-0.02
+68,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_adv_less_second,0.04
+69,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_adv_less_third,0.02
+70,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_second_less_third,0.02
+71,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_two_year,0.04
+72,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_current,0.15
+73,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_adv_less_current,0.02
+74,DMOTRY2,      Motor vehicles and parts,2015_Q4,abs_third_less_current,0.0
+75,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,ADVANCE,0.09
+76,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,SECOND,0.08
+77,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,THIRD,0.09
+78,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,CURRENT,0.09
+79,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,adv_less_second,0.01
+80,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,adv_less_third,0.0
+81,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,adv_less_current,0.0
+82,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,second_less_third,-0.01
+83,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_adv_less_second,0.01
+84,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_adv_less_third,0.0
+85,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_second_less_third,0.01
+86,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_two_year,0.02
+87,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_current,0.09
+88,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_adv_less_current,0.0
+89,DFDHRY2,      Furnishings and durable household equipment,2015_Q4,abs_third_less_current,0.0
+90,DREQRY2,      Recreational goods and vehicles,2015_Q4,ADVANCE,0.24
+91,DREQRY2,      Recreational goods and vehicles,2015_Q4,SECOND,0.26
+92,DREQRY2,      Recreational goods and vehicles,2015_Q4,THIRD,0.26
+93,DREQRY2,      Recreational goods and vehicles,2015_Q4,CURRENT,0.26
+94,DREQRY2,      Recreational goods and vehicles,2015_Q4,adv_less_second,-0.02
+95,DREQRY2,      Recreational goods and vehicles,2015_Q4,adv_less_third,-0.02
+96,DREQRY2,      Recreational goods and vehicles,2015_Q4,adv_less_current,-0.02
+97,DREQRY2,      Recreational goods and vehicles,2015_Q4,second_less_third,0.0
+98,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_adv_less_second,0.02
+99,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_adv_less_third,0.02
+100,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_second_less_third,0.0
+101,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_two_year,0.02
+102,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_current,0.26
+103,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_adv_less_current,0.02
+104,DREQRY2,      Recreational goods and vehicles,2015_Q4,abs_third_less_current,0.0
+105,DODGRY2,      Other durable goods,2015_Q4,ADVANCE,0.12
+106,DODGRY2,      Other durable goods,2015_Q4,SECOND,0.08
+107,DODGRY2,      Other durable goods,2015_Q4,THIRD,0.08
+108,DODGRY2,      Other durable goods,2015_Q4,CURRENT,0.08
+109,DODGRY2,      Other durable goods,2015_Q4,adv_less_second,0.04
+110,DODGRY2,      Other durable goods,2015_Q4,adv_less_third,0.04
+111,DODGRY2,      Other durable goods,2015_Q4,adv_less_current,0.04
+112,DODGRY2,      Other durable goods,2015_Q4,second_less_third,0.0
+113,DODGRY2,      Other durable goods,2015_Q4,abs_adv_less_second,0.04
+114,DODGRY2,      Other durable goods,2015_Q4,abs_adv_less_third,0.04
+115,DODGRY2,      Other durable goods,2015_Q4,abs_second_less_third,0.0
+116,DODGRY2,      Other durable goods,2015_Q4,abs_two_year,0.02
+117,DODGRY2,      Other durable goods,2015_Q4,abs_current,0.08
+118,DODGRY2,      Other durable goods,2015_Q4,abs_adv_less_current,0.04
+119,DODGRY2,      Other durable goods,2015_Q4,abs_third_less_current,0.0
+120,DNDGRY2,    Nondurable goods,2015_Q4,ADVANCE,0.22
+121,DNDGRY2,    Nondurable goods,2015_Q4,SECOND,0.17
+122,DNDGRY2,    Nondurable goods,2015_Q4,THIRD,0.09
+123,DNDGRY2,    Nondurable goods,2015_Q4,CURRENT,0.09
+124,DNDGRY2,    Nondurable goods,2015_Q4,adv_less_second,0.05
+125,DNDGRY2,    Nondurable goods,2015_Q4,adv_less_third,0.13
+126,DNDGRY2,    Nondurable goods,2015_Q4,adv_less_current,0.13
+127,DNDGRY2,    Nondurable goods,2015_Q4,second_less_third,0.08
+128,DNDGRY2,    Nondurable goods,2015_Q4,abs_adv_less_second,0.05
+129,DNDGRY2,    Nondurable goods,2015_Q4,abs_adv_less_third,0.13
+130,DNDGRY2,    Nondurable goods,2015_Q4,abs_second_less_third,0.08
+131,DNDGRY2,    Nondurable goods,2015_Q4,abs_two_year,0.11
+132,DNDGRY2,    Nondurable goods,2015_Q4,abs_current,0.09
+133,DNDGRY2,    Nondurable goods,2015_Q4,abs_adv_less_current,0.13
+134,DNDGRY2,    Nondurable goods,2015_Q4,abs_third_less_current,0.0
+135,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,ADVANCE,-0.09
+136,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,SECOND,-0.02
+137,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,THIRD,-0.02
+138,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,CURRENT,-0.02
+139,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,adv_less_second,-0.07
+140,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,adv_less_third,-0.07
+141,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,adv_less_current,-0.07
+142,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,second_less_third,0.0
+143,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_adv_less_second,0.07
+144,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_adv_less_third,0.07
+145,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_second_less_third,0.0
+146,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_two_year,0.05
+147,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_current,0.02
+148,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_adv_less_current,0.07
+149,DFXARY2,      Food and beverages purchased for off-premises consumption,2015_Q4,abs_third_less_current,0.0
+150,DCLORY2,      Clothing and footwear,2015_Q4,ADVANCE,0.04
+151,DCLORY2,      Clothing and footwear,2015_Q4,SECOND,0.0
+152,DCLORY2,      Clothing and footwear,2015_Q4,THIRD,0.0
+153,DCLORY2,      Clothing and footwear,2015_Q4,CURRENT,0.0
+154,DCLORY2,      Clothing and footwear,2015_Q4,adv_less_second,0.04
+155,DCLORY2,      Clothing and footwear,2015_Q4,adv_less_third,0.04
+156,DCLORY2,      Clothing and footwear,2015_Q4,adv_less_current,0.04
+157,DCLORY2,      Clothing and footwear,2015_Q4,second_less_third,0.0
+158,DCLORY2,      Clothing and footwear,2015_Q4,abs_adv_less_second,0.04
+159,DCLORY2,      Clothing and footwear,2015_Q4,abs_adv_less_third,0.04
+160,DCLORY2,      Clothing and footwear,2015_Q4,abs_second_less_third,0.0
+161,DCLORY2,      Clothing and footwear,2015_Q4,abs_two_year,0.03
+162,DCLORY2,      Clothing and footwear,2015_Q4,abs_current,0.0
+163,DCLORY2,      Clothing and footwear,2015_Q4,abs_adv_less_current,0.04
+164,DCLORY2,      Clothing and footwear,2015_Q4,abs_third_less_current,0.0
+165,DGOERY2,      Gasoline and other energy goods,2015_Q4,ADVANCE,-0.01
+166,DGOERY2,      Gasoline and other energy goods,2015_Q4,SECOND,-0.05
+167,DGOERY2,      Gasoline and other energy goods,2015_Q4,THIRD,-0.04
+168,DGOERY2,      Gasoline and other energy goods,2015_Q4,CURRENT,-0.04
+169,DGOERY2,      Gasoline and other energy goods,2015_Q4,adv_less_second,0.04
+170,DGOERY2,      Gasoline and other energy goods,2015_Q4,adv_less_third,0.03
+171,DGOERY2,      Gasoline and other energy goods,2015_Q4,adv_less_current,0.03
+172,DGOERY2,      Gasoline and other energy goods,2015_Q4,second_less_third,-0.01
+173,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_adv_less_second,0.04
+174,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_adv_less_third,0.03
+175,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_second_less_third,0.01
+176,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_two_year,0.03
+177,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_current,0.04
+178,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_adv_less_current,0.03
+179,DGOERY2,      Gasoline and other energy goods,2015_Q4,abs_third_less_current,0.0
+180,DONGRY2,      Other nondurable goods,2015_Q4,ADVANCE,0.27
+181,DONGRY2,      Other nondurable goods,2015_Q4,SECOND,0.25
+182,DONGRY2,      Other nondurable goods,2015_Q4,THIRD,0.14
+183,DONGRY2,      Other nondurable goods,2015_Q4,CURRENT,0.14
+184,DONGRY2,      Other nondurable goods,2015_Q4,adv_less_second,0.02
+185,DONGRY2,      Other nondurable goods,2015_Q4,adv_less_third,0.13
+186,DONGRY2,      Other nondurable goods,2015_Q4,adv_less_current,0.13
+187,DONGRY2,      Other nondurable goods,2015_Q4,second_less_third,0.11
+188,DONGRY2,      Other nondurable goods,2015_Q4,abs_adv_less_second,0.02
+189,DONGRY2,      Other nondurable goods,2015_Q4,abs_adv_less_third,0.13
+190,DONGRY2,      Other nondurable goods,2015_Q4,abs_second_less_third,0.11
+191,DONGRY2,      Other nondurable goods,2015_Q4,abs_two_year,0.06
+192,DONGRY2,      Other nondurable goods,2015_Q4,abs_current,0.14
+193,DONGRY2,      Other nondurable goods,2015_Q4,abs_adv_less_current,0.13
+194,DONGRY2,      Other nondurable goods,2015_Q4,abs_third_less_current,0.0
+195,DSERRY2,  Services,2015_Q4,ADVANCE,0.93
+196,DSERRY2,  Services,2015_Q4,SECOND,0.96
+197,DSERRY2,  Services,2015_Q4,THIRD,1.3
+198,DSERRY2,  Services,2015_Q4,CURRENT,1.3
+199,DSERRY2,  Services,2015_Q4,adv_less_second,-0.03
+200,DSERRY2,  Services,2015_Q4,adv_less_third,-0.37
+201,DSERRY2,  Services,2015_Q4,adv_less_current,-0.37
+202,DSERRY2,  Services,2015_Q4,second_less_third,-0.34
+203,DSERRY2,  Services,2015_Q4,abs_adv_less_second,0.03
+204,DSERRY2,  Services,2015_Q4,abs_adv_less_third,0.37
+205,DSERRY2,  Services,2015_Q4,abs_second_less_third,0.34
+206,DSERRY2,  Services,2015_Q4,abs_two_year,0.4
+207,DSERRY2,  Services,2015_Q4,abs_current,1.3
+208,DSERRY2,  Services,2015_Q4,abs_adv_less_current,0.37
+209,DSERRY2,  Services,2015_Q4,abs_third_less_current,0.0
+210,DHCERY2,    Household consumption expenditures (for services),2015_Q4,ADVANCE,0.81
+211,DHCERY2,    Household consumption expenditures (for services),2015_Q4,SECOND,0.83
+212,DHCERY2,    Household consumption expenditures (for services),2015_Q4,THIRD,1.1
+213,DHCERY2,    Household consumption expenditures (for services),2015_Q4,CURRENT,1.1
+214,DHCERY2,    Household consumption expenditures (for services),2015_Q4,adv_less_second,-0.02
+215,DHCERY2,    Household consumption expenditures (for services),2015_Q4,adv_less_third,-0.29
+216,DHCERY2,    Household consumption expenditures (for services),2015_Q4,adv_less_current,-0.29
+217,DHCERY2,    Household consumption expenditures (for services),2015_Q4,second_less_third,-0.27
+218,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_adv_less_second,0.02
+219,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_adv_less_third,0.29
+220,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_second_less_third,0.27
+221,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_two_year,0.43
+222,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_current,1.1
+223,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_adv_less_current,0.29
+224,DHCERY2,    Household consumption expenditures (for services),2015_Q4,abs_third_less_current,0.0
+225,DHUTRY2,      Housing and utilities,2015_Q4,ADVANCE,-0.17
+226,DHUTRY2,      Housing and utilities,2015_Q4,SECOND,-0.18
+227,DHUTRY2,      Housing and utilities,2015_Q4,THIRD,-0.19
+228,DHUTRY2,      Housing and utilities,2015_Q4,CURRENT,-0.19
+229,DHUTRY2,      Housing and utilities,2015_Q4,adv_less_second,0.01
+230,DHUTRY2,      Housing and utilities,2015_Q4,adv_less_third,0.02
+231,DHUTRY2,      Housing and utilities,2015_Q4,adv_less_current,0.02
+232,DHUTRY2,      Housing and utilities,2015_Q4,second_less_third,0.01
+233,DHUTRY2,      Housing and utilities,2015_Q4,abs_adv_less_second,0.01
+234,DHUTRY2,      Housing and utilities,2015_Q4,abs_adv_less_third,0.02
+235,DHUTRY2,      Housing and utilities,2015_Q4,abs_second_less_third,0.01
+236,DHUTRY2,      Housing and utilities,2015_Q4,abs_two_year,0.03
+237,DHUTRY2,      Housing and utilities,2015_Q4,abs_current,0.19
+238,DHUTRY2,      Housing and utilities,2015_Q4,abs_adv_less_current,0.02
+239,DHUTRY2,      Housing and utilities,2015_Q4,abs_third_less_current,0.0
+240,DHLCRY2,      Health care,2015_Q4,ADVANCE,0.43
+241,DHLCRY2,      Health care,2015_Q4,SECOND,0.41
+242,DHLCRY2,      Health care,2015_Q4,THIRD,0.3
+243,DHLCRY2,      Health care,2015_Q4,CURRENT,0.3
+244,DHLCRY2,      Health care,2015_Q4,adv_less_second,0.02
+245,DHLCRY2,      Health care,2015_Q4,adv_less_third,0.13
+246,DHLCRY2,      Health care,2015_Q4,adv_less_current,0.13
+247,DHLCRY2,      Health care,2015_Q4,second_less_third,0.11
+248,DHLCRY2,      Health care,2015_Q4,abs_adv_less_second,0.02
+249,DHLCRY2,      Health care,2015_Q4,abs_adv_less_third,0.13
+250,DHLCRY2,      Health care,2015_Q4,abs_second_less_third,0.11
+251,DHLCRY2,      Health care,2015_Q4,abs_two_year,0.32
+252,DHLCRY2,      Health care,2015_Q4,abs_current,0.3
+253,DHLCRY2,      Health care,2015_Q4,abs_adv_less_current,0.13
+254,DHLCRY2,      Health care,2015_Q4,abs_third_less_current,0.0
+255,DTRSRY2,      Transportation services,2015_Q4,ADVANCE,0.05
+256,DTRSRY2,      Transportation services,2015_Q4,SECOND,0.04
+257,DTRSRY2,      Transportation services,2015_Q4,THIRD,0.14
+258,DTRSRY2,      Transportation services,2015_Q4,CURRENT,0.14
+259,DTRSRY2,      Transportation services,2015_Q4,adv_less_second,0.01
+260,DTRSRY2,      Transportation services,2015_Q4,adv_less_third,-0.09
+261,DTRSRY2,      Transportation services,2015_Q4,adv_less_current,-0.09
+262,DTRSRY2,      Transportation services,2015_Q4,second_less_third,-0.1
+263,DTRSRY2,      Transportation services,2015_Q4,abs_adv_less_second,0.01
+264,DTRSRY2,      Transportation services,2015_Q4,abs_adv_less_third,0.09
+265,DTRSRY2,      Transportation services,2015_Q4,abs_second_less_third,0.1
+266,DTRSRY2,      Transportation services,2015_Q4,abs_two_year,0.04
+267,DTRSRY2,      Transportation services,2015_Q4,abs_current,0.14
+268,DTRSRY2,      Transportation services,2015_Q4,abs_adv_less_current,0.09
+269,DTRSRY2,      Transportation services,2015_Q4,abs_third_less_current,0.0
+270,DRCARY2,      Recreation services,2015_Q4,ADVANCE,0.15
+271,DRCARY2,      Recreation services,2015_Q4,SECOND,0.13
+272,DRCARY2,      Recreation services,2015_Q4,THIRD,0.35
+273,DRCARY2,      Recreation services,2015_Q4,CURRENT,0.35
+274,DRCARY2,      Recreation services,2015_Q4,adv_less_second,0.02
+275,DRCARY2,      Recreation services,2015_Q4,adv_less_third,-0.2
+276,DRCARY2,      Recreation services,2015_Q4,adv_less_current,-0.2
+277,DRCARY2,      Recreation services,2015_Q4,second_less_third,-0.22
+278,DRCARY2,      Recreation services,2015_Q4,abs_adv_less_second,0.02
+279,DRCARY2,      Recreation services,2015_Q4,abs_adv_less_third,0.2
+280,DRCARY2,      Recreation services,2015_Q4,abs_second_less_third,0.22
+281,DRCARY2,      Recreation services,2015_Q4,abs_two_year,0.08
+282,DRCARY2,      Recreation services,2015_Q4,abs_current,0.35
+283,DRCARY2,      Recreation services,2015_Q4,abs_adv_less_current,0.2
+284,DRCARY2,      Recreation services,2015_Q4,abs_third_less_current,0.0
+285,DFSARY2,      Food services and accommodations,2015_Q4,ADVANCE,0.18
+286,DFSARY2,      Food services and accommodations,2015_Q4,SECOND,0.2
+287,DFSARY2,      Food services and accommodations,2015_Q4,THIRD,0.19
+288,DFSARY2,      Food services and accommodations,2015_Q4,CURRENT,0.19
+289,DFSARY2,      Food services and accommodations,2015_Q4,adv_less_second,-0.02
+290,DFSARY2,      Food services and accommodations,2015_Q4,adv_less_third,-0.01
+291,DFSARY2,      Food services and accommodations,2015_Q4,adv_less_current,-0.01
+292,DFSARY2,      Food services and accommodations,2015_Q4,second_less_third,0.01
+293,DFSARY2,      Food services and accommodations,2015_Q4,abs_adv_less_second,0.02
+294,DFSARY2,      Food services and accommodations,2015_Q4,abs_adv_less_third,0.01
+295,DFSARY2,      Food services and accommodations,2015_Q4,abs_second_less_third,0.01
+296,DFSARY2,      Food services and accommodations,2015_Q4,abs_two_year,0.03
+297,DFSARY2,      Food services and accommodations,2015_Q4,abs_current,0.19
+298,DFSARY2,      Food services and accommodations,2015_Q4,abs_adv_less_current,0.01
+299,DFSARY2,      Food services and accommodations,2015_Q4,abs_third_less_current,0.0
+300,DIFSRY2,      Financial services and insurance,2015_Q4,ADVANCE,0.02
+301,DIFSRY2,      Financial services and insurance,2015_Q4,SECOND,0.09
+302,DIFSRY2,      Financial services and insurance,2015_Q4,THIRD,0.16
+303,DIFSRY2,      Financial services and insurance,2015_Q4,CURRENT,0.16
+304,DIFSRY2,      Financial services and insurance,2015_Q4,adv_less_second,-0.07
+305,DIFSRY2,      Financial services and insurance,2015_Q4,adv_less_third,-0.14
+306,DIFSRY2,      Financial services and insurance,2015_Q4,adv_less_current,-0.14
+307,DIFSRY2,      Financial services and insurance,2015_Q4,second_less_third,-0.07
+308,DIFSRY2,      Financial services and insurance,2015_Q4,abs_adv_less_second,0.07
+309,DIFSRY2,      Financial services and insurance,2015_Q4,abs_adv_less_third,0.14
+310,DIFSRY2,      Financial services and insurance,2015_Q4,abs_second_less_third,0.07
+311,DIFSRY2,      Financial services and insurance,2015_Q4,abs_two_year,0.12
+312,DIFSRY2,      Financial services and insurance,2015_Q4,abs_current,0.16
+313,DIFSRY2,      Financial services and insurance,2015_Q4,abs_adv_less_current,0.14
+314,DIFSRY2,      Financial services and insurance,2015_Q4,abs_third_less_current,0.0
+315,DOTSRY2,      Other services,2015_Q4,ADVANCE,0.16
+316,DOTSRY2,      Other services,2015_Q4,SECOND,0.14
+317,DOTSRY2,      Other services,2015_Q4,THIRD,0.15
+318,DOTSRY2,      Other services,2015_Q4,CURRENT,0.15
+319,DOTSRY2,      Other services,2015_Q4,adv_less_second,0.02
+320,DOTSRY2,      Other services,2015_Q4,adv_less_third,0.01
+321,DOTSRY2,      Other services,2015_Q4,adv_less_current,0.01
+322,DOTSRY2,      Other services,2015_Q4,second_less_third,-0.01
+323,DOTSRY2,      Other services,2015_Q4,abs_adv_less_second,0.02
+324,DOTSRY2,      Other services,2015_Q4,abs_adv_less_third,0.01
+325,DOTSRY2,      Other services,2015_Q4,abs_second_less_third,0.01
+326,DOTSRY2,      Other services,2015_Q4,abs_two_year,0.1
+327,DOTSRY2,      Other services,2015_Q4,abs_current,0.15
+328,DOTSRY2,      Other services,2015_Q4,abs_adv_less_current,0.01
+329,DOTSRY2,      Other services,2015_Q4,abs_third_less_current,0.0
+330,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,ADVANCE,0.12
+331,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,SECOND,0.13
+332,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,THIRD,0.19
+333,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,CURRENT,0.19
+334,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,adv_less_second,-0.01
+335,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,adv_less_third,-0.07
+336,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,adv_less_current,-0.07
+337,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,second_less_third,-0.06
+338,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_adv_less_second,0.01
+339,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_adv_less_third,0.07
+340,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_second_less_third,0.06
+341,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_two_year,0.08
+342,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_current,0.19
+343,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_adv_less_current,0.07
+344,DNPIRY2,    Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,2015_Q4,abs_third_less_current,0.0
+345,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,ADVANCE,0.31
+346,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,SECOND,0.31
+347,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,THIRD,0.2
+348,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,CURRENT,0.2
+349,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,adv_less_second,0.0
+350,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,adv_less_third,0.11
+351,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,adv_less_current,0.11
+352,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,second_less_third,0.11
+353,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_adv_less_second,0.0
+354,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_adv_less_third,0.11
+355,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_second_less_third,0.11
+356,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_two_year,0.22
+357,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_current,0.2
+358,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_adv_less_current,0.11
+359,DNPERY2,      Gross output of nonprofit institutions \2\,2015_Q4,abs_third_less_current,0.0
+360,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,ADVANCE,0.19
+361,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,SECOND,0.17
+362,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,THIRD,0.01
+363,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,CURRENT,0.01
+364,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,adv_less_second,0.02
+365,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,adv_less_third,0.18
+366,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,adv_less_current,0.18
+367,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,second_less_third,0.16
+368,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_adv_less_second,0.02
+369,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_adv_less_third,0.18
+370,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_second_less_third,0.16
+371,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_two_year,0.29
+372,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_current,0.01
+373,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_adv_less_current,0.18
+374,DNPSRY2,      Less: Receipts from sales of goods and services by nonprofit institutions \3\,2015_Q4,abs_third_less_current,0.0
+375,A006RY2,Gross private domestic investment,2015_Q4,ADVANCE,-0.41
+376,A006RY2,Gross private domestic investment,2015_Q4,SECOND,-0.12
+377,A006RY2,Gross private domestic investment,2015_Q4,THIRD,-0.16
+378,A006RY2,Gross private domestic investment,2015_Q4,CURRENT,-0.16
+379,A006RY2,Gross private domestic investment,2015_Q4,adv_less_second,-0.29
+380,A006RY2,Gross private domestic investment,2015_Q4,adv_less_third,-0.25
+381,A006RY2,Gross private domestic investment,2015_Q4,adv_less_current,-0.25
+382,A006RY2,Gross private domestic investment,2015_Q4,second_less_third,0.04
+383,A006RY2,Gross private domestic investment,2015_Q4,abs_adv_less_second,0.29
+384,A006RY2,Gross private domestic investment,2015_Q4,abs_adv_less_third,0.25
+385,A006RY2,Gross private domestic investment,2015_Q4,abs_second_less_third,0.04
+386,A006RY2,Gross private domestic investment,2015_Q4,abs_two_year,0.6
+387,A006RY2,Gross private domestic investment,2015_Q4,abs_current,0.16
+388,A006RY2,Gross private domestic investment,2015_Q4,abs_adv_less_current,0.25
+389,A006RY2,Gross private domestic investment,2015_Q4,abs_third_less_current,0.0
+390,A007RY2,  Fixed investment,2015_Q4,ADVANCE,0.03
+391,A007RY2,  Fixed investment,2015_Q4,SECOND,0.02
+392,A007RY2,  Fixed investment,2015_Q4,THIRD,0.06
+393,A007RY2,  Fixed investment,2015_Q4,CURRENT,0.06
+394,A007RY2,  Fixed investment,2015_Q4,adv_less_second,0.01
+395,A007RY2,  Fixed investment,2015_Q4,adv_less_third,-0.03
+396,A007RY2,  Fixed investment,2015_Q4,adv_less_current,-0.03
+397,A007RY2,  Fixed investment,2015_Q4,second_less_third,-0.04
+398,A007RY2,  Fixed investment,2015_Q4,abs_adv_less_second,0.01
+399,A007RY2,  Fixed investment,2015_Q4,abs_adv_less_third,0.03
+400,A007RY2,  Fixed investment,2015_Q4,abs_second_less_third,0.04
+401,A007RY2,  Fixed investment,2015_Q4,abs_two_year,0.34
+402,A007RY2,  Fixed investment,2015_Q4,abs_current,0.06
+403,A007RY2,  Fixed investment,2015_Q4,abs_adv_less_current,0.03
+404,A007RY2,  Fixed investment,2015_Q4,abs_third_less_current,0.0
+405,A008RY2,    Nonresidential,2015_Q4,ADVANCE,-0.24
+406,A008RY2,    Nonresidential,2015_Q4,SECOND,-0.24
+407,A008RY2,    Nonresidential,2015_Q4,THIRD,-0.27
+408,A008RY2,    Nonresidential,2015_Q4,CURRENT,-0.27
+409,A008RY2,    Nonresidential,2015_Q4,adv_less_second,0.0
+410,A008RY2,    Nonresidential,2015_Q4,adv_less_third,0.03
+411,A008RY2,    Nonresidential,2015_Q4,adv_less_current,0.03
+412,A008RY2,    Nonresidential,2015_Q4,second_less_third,0.03
+413,A008RY2,    Nonresidential,2015_Q4,abs_adv_less_second,0.0
+414,A008RY2,    Nonresidential,2015_Q4,abs_adv_less_third,0.03
+415,A008RY2,    Nonresidential,2015_Q4,abs_second_less_third,0.03
+416,A008RY2,    Nonresidential,2015_Q4,abs_two_year,0.28
+417,A008RY2,    Nonresidential,2015_Q4,abs_current,0.27
+418,A008RY2,    Nonresidential,2015_Q4,abs_adv_less_current,0.03
+419,A008RY2,    Nonresidential,2015_Q4,abs_third_less_current,0.0
+420,A009RY2,      Structures,2015_Q4,ADVANCE,-0.15
+421,A009RY2,      Structures,2015_Q4,SECOND,-0.18
+422,A009RY2,      Structures,2015_Q4,THIRD,-0.14
+423,A009RY2,      Structures,2015_Q4,CURRENT,-0.14
+424,A009RY2,      Structures,2015_Q4,adv_less_second,0.03
+425,A009RY2,      Structures,2015_Q4,adv_less_third,-0.01
+426,A009RY2,      Structures,2015_Q4,adv_less_current,-0.01
+427,A009RY2,      Structures,2015_Q4,second_less_third,-0.04
+428,A009RY2,      Structures,2015_Q4,abs_adv_less_second,0.03
+429,A009RY2,      Structures,2015_Q4,abs_adv_less_third,0.01
+430,A009RY2,      Structures,2015_Q4,abs_second_less_third,0.04
+431,A009RY2,      Structures,2015_Q4,abs_two_year,0.13
+432,A009RY2,      Structures,2015_Q4,abs_current,0.14
+433,A009RY2,      Structures,2015_Q4,abs_adv_less_current,0.01
+434,A009RY2,      Structures,2015_Q4,abs_third_less_current,0.0
+435,Y033RY2,      Equipment,2015_Q4,ADVANCE,-0.15
+436,Y033RY2,      Equipment,2015_Q4,SECOND,-0.11
+437,Y033RY2,      Equipment,2015_Q4,THIRD,-0.12
+438,Y033RY2,      Equipment,2015_Q4,CURRENT,-0.12
+439,Y033RY2,      Equipment,2015_Q4,adv_less_second,-0.04
+440,Y033RY2,      Equipment,2015_Q4,adv_less_third,-0.03
+441,Y033RY2,      Equipment,2015_Q4,adv_less_current,-0.03
+442,Y033RY2,      Equipment,2015_Q4,second_less_third,0.01
+443,Y033RY2,      Equipment,2015_Q4,abs_adv_less_second,0.04
+444,Y033RY2,      Equipment,2015_Q4,abs_adv_less_third,0.03
+445,Y033RY2,      Equipment,2015_Q4,abs_second_less_third,0.01
+446,Y033RY2,      Equipment,2015_Q4,abs_two_year,0.18
+447,Y033RY2,      Equipment,2015_Q4,abs_current,0.12
+448,Y033RY2,      Equipment,2015_Q4,abs_adv_less_current,0.03
+449,Y033RY2,      Equipment,2015_Q4,abs_third_less_current,0.0
+450,Y034RY2,        Information processing equipment,2015_Q4,ADVANCE,0.12
+451,Y034RY2,        Information processing equipment,2015_Q4,SECOND,0.05
+452,Y034RY2,        Information processing equipment,2015_Q4,THIRD,0.04
+453,Y034RY2,        Information processing equipment,2015_Q4,CURRENT,0.04
+454,Y034RY2,        Information processing equipment,2015_Q4,adv_less_second,0.07
+455,Y034RY2,        Information processing equipment,2015_Q4,adv_less_third,0.08
+456,Y034RY2,        Information processing equipment,2015_Q4,adv_less_current,0.08
+457,Y034RY2,        Information processing equipment,2015_Q4,second_less_third,0.01
+458,Y034RY2,        Information processing equipment,2015_Q4,abs_adv_less_second,0.07
+459,Y034RY2,        Information processing equipment,2015_Q4,abs_adv_less_third,0.08
+460,Y034RY2,        Information processing equipment,2015_Q4,abs_second_less_third,0.01
+461,Y034RY2,        Information processing equipment,2015_Q4,abs_two_year,0.1
+462,Y034RY2,        Information processing equipment,2015_Q4,abs_current,0.04
+463,Y034RY2,        Information processing equipment,2015_Q4,abs_adv_less_current,0.08
+464,Y034RY2,        Information processing equipment,2015_Q4,abs_third_less_current,0.0
+465,B935RY2,          Computers and peripheral equipment,2015_Q4,ADVANCE,-0.11
+466,B935RY2,          Computers and peripheral equipment,2015_Q4,SECOND,-0.16
+467,B935RY2,          Computers and peripheral equipment,2015_Q4,THIRD,-0.16
+468,B935RY2,          Computers and peripheral equipment,2015_Q4,CURRENT,-0.16
+469,B935RY2,          Computers and peripheral equipment,2015_Q4,adv_less_second,0.05
+470,B935RY2,          Computers and peripheral equipment,2015_Q4,adv_less_third,0.05
+471,B935RY2,          Computers and peripheral equipment,2015_Q4,adv_less_current,0.05
+472,B935RY2,          Computers and peripheral equipment,2015_Q4,second_less_third,0.0
+473,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_adv_less_second,0.05
+474,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_adv_less_third,0.05
+475,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_second_less_third,0.0
+476,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_two_year,0.03
+477,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_current,0.16
+478,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_adv_less_current,0.05
+479,B935RY2,          Computers and peripheral equipment,2015_Q4,abs_third_less_current,0.0
+480,A937RY2,          Other,2015_Q4,ADVANCE,0.22
+481,A937RY2,          Other,2015_Q4,SECOND,0.21
+482,A937RY2,          Other,2015_Q4,THIRD,0.2
+483,A937RY2,          Other,2015_Q4,CURRENT,0.2
+484,A937RY2,          Other,2015_Q4,adv_less_second,0.01
+485,A937RY2,          Other,2015_Q4,adv_less_third,0.02
+486,A937RY2,          Other,2015_Q4,adv_less_current,0.02
+487,A937RY2,          Other,2015_Q4,second_less_third,0.01
+488,A937RY2,          Other,2015_Q4,abs_adv_less_second,0.01
+489,A937RY2,          Other,2015_Q4,abs_adv_less_third,0.02
+490,A937RY2,          Other,2015_Q4,abs_second_less_third,0.01
+491,A937RY2,          Other,2015_Q4,abs_two_year,0.06
+492,A937RY2,          Other,2015_Q4,abs_current,0.2
+493,A937RY2,          Other,2015_Q4,abs_adv_less_current,0.02
+494,A937RY2,          Other,2015_Q4,abs_third_less_current,0.0
+495,A680RY2,        Industrial equipment,2015_Q4,ADVANCE,0.1
+496,A680RY2,        Industrial equipment,2015_Q4,SECOND,0.14
+497,A680RY2,        Industrial equipment,2015_Q4,THIRD,0.14
+498,A680RY2,        Industrial equipment,2015_Q4,CURRENT,0.14
+499,A680RY2,        Industrial equipment,2015_Q4,adv_less_second,-0.04
+500,A680RY2,        Industrial equipment,2015_Q4,adv_less_third,-0.04
+501,A680RY2,        Industrial equipment,2015_Q4,adv_less_current,-0.04
+502,A680RY2,        Industrial equipment,2015_Q4,second_less_third,0.0
+503,A680RY2,        Industrial equipment,2015_Q4,abs_adv_less_second,0.04
+504,A680RY2,        Industrial equipment,2015_Q4,abs_adv_less_third,0.04
+505,A680RY2,        Industrial equipment,2015_Q4,abs_second_less_third,0.0
+506,A680RY2,        Industrial equipment,2015_Q4,abs_two_year,0.05
+507,A680RY2,        Industrial equipment,2015_Q4,abs_current,0.14
+508,A680RY2,        Industrial equipment,2015_Q4,abs_adv_less_current,0.04
+509,A680RY2,        Industrial equipment,2015_Q4,abs_third_less_current,0.0
+510,A681RY2,        Transportation equipment,2015_Q4,ADVANCE,-0.25
+511,A681RY2,        Transportation equipment,2015_Q4,SECOND,-0.18
+512,A681RY2,        Transportation equipment,2015_Q4,THIRD,-0.18
+513,A681RY2,        Transportation equipment,2015_Q4,CURRENT,-0.18
+514,A681RY2,        Transportation equipment,2015_Q4,adv_less_second,-0.07
+515,A681RY2,        Transportation equipment,2015_Q4,adv_less_third,-0.07
+516,A681RY2,        Transportation equipment,2015_Q4,adv_less_current,-0.07
+517,A681RY2,        Transportation equipment,2015_Q4,second_less_third,0.0
+518,A681RY2,        Transportation equipment,2015_Q4,abs_adv_less_second,0.07
+519,A681RY2,        Transportation equipment,2015_Q4,abs_adv_less_third,0.07
+520,A681RY2,        Transportation equipment,2015_Q4,abs_second_less_third,0.0
+521,A681RY2,        Transportation equipment,2015_Q4,abs_two_year,0.08
+522,A681RY2,        Transportation equipment,2015_Q4,abs_current,0.18
+523,A681RY2,        Transportation equipment,2015_Q4,abs_adv_less_current,0.07
+524,A681RY2,        Transportation equipment,2015_Q4,abs_third_less_current,0.0
+525,A862RY2,        Other equipment,2015_Q4,ADVANCE,-0.12
+526,A862RY2,        Other equipment,2015_Q4,SECOND,-0.13
+527,A862RY2,        Other equipment,2015_Q4,THIRD,-0.13
+528,A862RY2,        Other equipment,2015_Q4,CURRENT,-0.13
+529,A862RY2,        Other equipment,2015_Q4,adv_less_second,0.01
+530,A862RY2,        Other equipment,2015_Q4,adv_less_third,0.01
+531,A862RY2,        Other equipment,2015_Q4,adv_less_current,0.01
+532,A862RY2,        Other equipment,2015_Q4,second_less_third,0.0
+533,A862RY2,        Other equipment,2015_Q4,abs_adv_less_second,0.01
+534,A862RY2,        Other equipment,2015_Q4,abs_adv_less_third,0.01
+535,A862RY2,        Other equipment,2015_Q4,abs_second_less_third,0.0
+536,A862RY2,        Other equipment,2015_Q4,abs_two_year,0.05
+537,A862RY2,        Other equipment,2015_Q4,abs_current,0.13
+538,A862RY2,        Other equipment,2015_Q4,abs_adv_less_current,0.01
+539,A862RY2,        Other equipment,2015_Q4,abs_third_less_current,0.0
+540,Y001RY2,      Intellectual property products,2015_Q4,ADVANCE,0.07
+541,Y001RY2,      Intellectual property products,2015_Q4,SECOND,0.05
+542,Y001RY2,      Intellectual property products,2015_Q4,THIRD,-0.01
+543,Y001RY2,      Intellectual property products,2015_Q4,CURRENT,-0.01
+544,Y001RY2,      Intellectual property products,2015_Q4,adv_less_second,0.02
+545,Y001RY2,      Intellectual property products,2015_Q4,adv_less_third,0.08
+546,Y001RY2,      Intellectual property products,2015_Q4,adv_less_current,0.08
+547,Y001RY2,      Intellectual property products,2015_Q4,second_less_third,0.06
+548,Y001RY2,      Intellectual property products,2015_Q4,abs_adv_less_second,0.02
+549,Y001RY2,      Intellectual property products,2015_Q4,abs_adv_less_third,0.08
+550,Y001RY2,      Intellectual property products,2015_Q4,abs_second_less_third,0.06
+551,Y001RY2,      Intellectual property products,2015_Q4,abs_two_year,0.12
+552,Y001RY2,      Intellectual property products,2015_Q4,abs_current,0.01
+553,Y001RY2,      Intellectual property products,2015_Q4,abs_adv_less_current,0.08
+554,Y001RY2,      Intellectual property products,2015_Q4,abs_third_less_current,0.0
+555,B985RY2,        Software \4\,2015_Q4,ADVANCE,0.03
+556,B985RY2,        Software \4\,2015_Q4,SECOND,0.03
+557,B985RY2,        Software \4\,2015_Q4,THIRD,0.03
+558,B985RY2,        Software \4\,2015_Q4,CURRENT,0.03
+559,B985RY2,        Software \4\,2015_Q4,adv_less_second,0.0
+560,B985RY2,        Software \4\,2015_Q4,adv_less_third,0.0
+561,B985RY2,        Software \4\,2015_Q4,adv_less_current,0.0
+562,B985RY2,        Software \4\,2015_Q4,second_less_third,0.0
+563,B985RY2,        Software \4\,2015_Q4,abs_adv_less_second,0.0
+564,B985RY2,        Software \4\,2015_Q4,abs_adv_less_third,0.0
+565,B985RY2,        Software \4\,2015_Q4,abs_second_less_third,0.0
+566,B985RY2,        Software \4\,2015_Q4,abs_two_year,0.03
+567,B985RY2,        Software \4\,2015_Q4,abs_current,0.03
+568,B985RY2,        Software \4\,2015_Q4,abs_adv_less_current,0.0
+569,B985RY2,        Software \4\,2015_Q4,abs_third_less_current,0.0
+570,Y006RY2,        Research and development \5\,2015_Q4,ADVANCE,0.04
+571,Y006RY2,        Research and development \5\,2015_Q4,SECOND,0.03
+572,Y006RY2,        Research and development \5\,2015_Q4,THIRD,-0.03
+573,Y006RY2,        Research and development \5\,2015_Q4,CURRENT,-0.03
+574,Y006RY2,        Research and development \5\,2015_Q4,adv_less_second,0.01
+575,Y006RY2,        Research and development \5\,2015_Q4,adv_less_third,0.07
+576,Y006RY2,        Research and development \5\,2015_Q4,adv_less_current,0.07
+577,Y006RY2,        Research and development \5\,2015_Q4,second_less_third,0.06
+578,Y006RY2,        Research and development \5\,2015_Q4,abs_adv_less_second,0.01
+579,Y006RY2,        Research and development \5\,2015_Q4,abs_adv_less_third,0.07
+580,Y006RY2,        Research and development \5\,2015_Q4,abs_second_less_third,0.06
+581,Y006RY2,        Research and development \5\,2015_Q4,abs_two_year,0.12
+582,Y006RY2,        Research and development \5\,2015_Q4,abs_current,0.03
+583,Y006RY2,        Research and development \5\,2015_Q4,abs_adv_less_current,0.07
+584,Y006RY2,        Research and development \5\,2015_Q4,abs_third_less_current,0.0
+585,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,ADVANCE,-0.01
+586,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,SECOND,-0.01
+587,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,THIRD,0.0
+588,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,CURRENT,0.0
+589,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,adv_less_second,0.0
+590,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,adv_less_third,-0.01
+591,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,adv_less_current,-0.01
+592,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,second_less_third,-0.01
+593,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_adv_less_second,0.0
+594,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_adv_less_third,0.01
+595,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_second_less_third,0.01
+596,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_two_year,0.02
+597,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_current,0.0
+598,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_adv_less_current,0.01
+599,Y020RY2,"        Entertainment, literary, and artistic originals",2015_Q4,abs_third_less_current,0.0
+600,A011RY2,    Residential,2015_Q4,ADVANCE,0.27
+601,A011RY2,    Residential,2015_Q4,SECOND,0.26
+602,A011RY2,    Residential,2015_Q4,THIRD,0.33
+603,A011RY2,    Residential,2015_Q4,CURRENT,0.33
+604,A011RY2,    Residential,2015_Q4,adv_less_second,0.01
+605,A011RY2,    Residential,2015_Q4,adv_less_third,-0.06
+606,A011RY2,    Residential,2015_Q4,adv_less_current,-0.06
+607,A011RY2,    Residential,2015_Q4,second_less_third,-0.07
+608,A011RY2,    Residential,2015_Q4,abs_adv_less_second,0.01
+609,A011RY2,    Residential,2015_Q4,abs_adv_less_third,0.06
+610,A011RY2,    Residential,2015_Q4,abs_second_less_third,0.07
+611,A011RY2,    Residential,2015_Q4,abs_two_year,0.07
+612,A011RY2,    Residential,2015_Q4,abs_current,0.33
+613,A011RY2,    Residential,2015_Q4,abs_adv_less_current,0.06
+614,A011RY2,    Residential,2015_Q4,abs_third_less_current,0.0
+615,A014RY2,  Change in private inventories,2015_Q4,ADVANCE,-0.45
+616,A014RY2,  Change in private inventories,2015_Q4,SECOND,-0.14
+617,A014RY2,  Change in private inventories,2015_Q4,THIRD,-0.22
+618,A014RY2,  Change in private inventories,2015_Q4,CURRENT,-0.22
+619,A014RY2,  Change in private inventories,2015_Q4,adv_less_second,-0.31
+620,A014RY2,  Change in private inventories,2015_Q4,adv_less_third,-0.23
+621,A014RY2,  Change in private inventories,2015_Q4,adv_less_current,-0.23
+622,A014RY2,  Change in private inventories,2015_Q4,second_less_third,0.08
+623,A014RY2,  Change in private inventories,2015_Q4,abs_adv_less_second,0.31
+624,A014RY2,  Change in private inventories,2015_Q4,abs_adv_less_third,0.23
+625,A014RY2,  Change in private inventories,2015_Q4,abs_second_less_third,0.08
+626,A014RY2,  Change in private inventories,2015_Q4,abs_two_year,0.52
+627,A014RY2,  Change in private inventories,2015_Q4,abs_current,0.22
+628,A014RY2,  Change in private inventories,2015_Q4,abs_adv_less_current,0.23
+629,A014RY2,  Change in private inventories,2015_Q4,abs_third_less_current,0.0
+630,B018RY2,    Farm,2015_Q4,ADVANCE,-0.07
+631,B018RY2,    Farm,2015_Q4,SECOND,-0.08
+632,B018RY2,    Farm,2015_Q4,THIRD,-0.1
+633,B018RY2,    Farm,2015_Q4,CURRENT,-0.1
+634,B018RY2,    Farm,2015_Q4,adv_less_second,0.01
+635,B018RY2,    Farm,2015_Q4,adv_less_third,0.03
+636,B018RY2,    Farm,2015_Q4,adv_less_current,0.03
+637,B018RY2,    Farm,2015_Q4,second_less_third,0.02
+638,B018RY2,    Farm,2015_Q4,abs_adv_less_second,0.01
+639,B018RY2,    Farm,2015_Q4,abs_adv_less_third,0.03
+640,B018RY2,    Farm,2015_Q4,abs_second_less_third,0.02
+641,B018RY2,    Farm,2015_Q4,abs_two_year,0.04
+642,B018RY2,    Farm,2015_Q4,abs_current,0.1
+643,B018RY2,    Farm,2015_Q4,abs_adv_less_current,0.03
+644,B018RY2,    Farm,2015_Q4,abs_third_less_current,0.0
+645,A015RY2,    Nonfarm,2015_Q4,ADVANCE,-0.38
+646,A015RY2,    Nonfarm,2015_Q4,SECOND,-0.06
+647,A015RY2,    Nonfarm,2015_Q4,THIRD,-0.12
+648,A015RY2,    Nonfarm,2015_Q4,CURRENT,-0.12
+649,A015RY2,    Nonfarm,2015_Q4,adv_less_second,-0.32
+650,A015RY2,    Nonfarm,2015_Q4,adv_less_third,-0.26
+651,A015RY2,    Nonfarm,2015_Q4,adv_less_current,-0.26
+652,A015RY2,    Nonfarm,2015_Q4,second_less_third,0.06
+653,A015RY2,    Nonfarm,2015_Q4,abs_adv_less_second,0.32
+654,A015RY2,    Nonfarm,2015_Q4,abs_adv_less_third,0.26
+655,A015RY2,    Nonfarm,2015_Q4,abs_second_less_third,0.06
+656,A015RY2,    Nonfarm,2015_Q4,abs_two_year,0.51
+657,A015RY2,    Nonfarm,2015_Q4,abs_current,0.12
+658,A015RY2,    Nonfarm,2015_Q4,abs_adv_less_current,0.26
+659,A015RY2,    Nonfarm,2015_Q4,abs_third_less_current,0.0
+660,A019RY2,Net exports of goods and services,2015_Q4,ADVANCE,-0.47
+661,A019RY2,Net exports of goods and services,2015_Q4,SECOND,-0.25
+662,A019RY2,Net exports of goods and services,2015_Q4,THIRD,-0.14
+663,A019RY2,Net exports of goods and services,2015_Q4,CURRENT,-0.14
+664,A019RY2,Net exports of goods and services,2015_Q4,adv_less_second,-0.22
+665,A019RY2,Net exports of goods and services,2015_Q4,adv_less_third,-0.33
+666,A019RY2,Net exports of goods and services,2015_Q4,adv_less_current,-0.33
+667,A019RY2,Net exports of goods and services,2015_Q4,second_less_third,-0.11
+668,A019RY2,Net exports of goods and services,2015_Q4,abs_adv_less_second,0.22
+669,A019RY2,Net exports of goods and services,2015_Q4,abs_adv_less_third,0.33
+670,A019RY2,Net exports of goods and services,2015_Q4,abs_second_less_third,0.11
+671,A019RY2,Net exports of goods and services,2015_Q4,abs_two_year,0.35
+672,A019RY2,Net exports of goods and services,2015_Q4,abs_current,0.14
+673,A019RY2,Net exports of goods and services,2015_Q4,abs_adv_less_current,0.33
+674,A019RY2,Net exports of goods and services,2015_Q4,abs_third_less_current,0.0
+675,A020RY2,  Exports,2015_Q4,ADVANCE,-0.31
+676,A020RY2,  Exports,2015_Q4,SECOND,-0.34
+677,A020RY2,  Exports,2015_Q4,THIRD,-0.25
+678,A020RY2,  Exports,2015_Q4,CURRENT,-0.25
+679,A020RY2,  Exports,2015_Q4,adv_less_second,0.03
+680,A020RY2,  Exports,2015_Q4,adv_less_third,-0.06
+681,A020RY2,  Exports,2015_Q4,adv_less_current,-0.06
+682,A020RY2,  Exports,2015_Q4,second_less_third,-0.09
+683,A020RY2,  Exports,2015_Q4,abs_adv_less_second,0.03
+684,A020RY2,  Exports,2015_Q4,abs_adv_less_third,0.06
+685,A020RY2,  Exports,2015_Q4,abs_second_less_third,0.09
+686,A020RY2,  Exports,2015_Q4,abs_two_year,0.18
+687,A020RY2,  Exports,2015_Q4,abs_current,0.25
+688,A020RY2,  Exports,2015_Q4,abs_adv_less_current,0.06
+689,A020RY2,  Exports,2015_Q4,abs_third_less_current,0.0
+690,A253RY2,    Goods,2015_Q4,ADVANCE,-0.46
+691,A253RY2,    Goods,2015_Q4,SECOND,-0.49
+692,A253RY2,    Goods,2015_Q4,THIRD,-0.45
+693,A253RY2,    Goods,2015_Q4,CURRENT,-0.45
+694,A253RY2,    Goods,2015_Q4,adv_less_second,0.03
+695,A253RY2,    Goods,2015_Q4,adv_less_third,-0.01
+696,A253RY2,    Goods,2015_Q4,adv_less_current,-0.01
+697,A253RY2,    Goods,2015_Q4,second_less_third,-0.04
+698,A253RY2,    Goods,2015_Q4,abs_adv_less_second,0.03
+699,A253RY2,    Goods,2015_Q4,abs_adv_less_third,0.01
+700,A253RY2,    Goods,2015_Q4,abs_second_less_third,0.04
+701,A253RY2,    Goods,2015_Q4,abs_two_year,0.11
+702,A253RY2,    Goods,2015_Q4,abs_current,0.45
+703,A253RY2,    Goods,2015_Q4,abs_adv_less_current,0.01
+704,A253RY2,    Goods,2015_Q4,abs_third_less_current,0.0
+705,A646RY2,    Services,2015_Q4,ADVANCE,0.15
+706,A646RY2,    Services,2015_Q4,SECOND,0.15
+707,A646RY2,    Services,2015_Q4,THIRD,0.2
+708,A646RY2,    Services,2015_Q4,CURRENT,0.2
+709,A646RY2,    Services,2015_Q4,adv_less_second,0.0
+710,A646RY2,    Services,2015_Q4,adv_less_third,-0.05
+711,A646RY2,    Services,2015_Q4,adv_less_current,-0.05
+712,A646RY2,    Services,2015_Q4,second_less_third,-0.05
+713,A646RY2,    Services,2015_Q4,abs_adv_less_second,0.0
+714,A646RY2,    Services,2015_Q4,abs_adv_less_third,0.05
+715,A646RY2,    Services,2015_Q4,abs_second_less_third,0.05
+716,A646RY2,    Services,2015_Q4,abs_two_year,0.09
+717,A646RY2,    Services,2015_Q4,abs_current,0.2
+718,A646RY2,    Services,2015_Q4,abs_adv_less_current,0.05
+719,A646RY2,    Services,2015_Q4,abs_third_less_current,0.0
+720,A021RY2,  Imports,2015_Q4,ADVANCE,-0.16
+721,A021RY2,  Imports,2015_Q4,SECOND,0.09
+722,A021RY2,  Imports,2015_Q4,THIRD,0.11
+723,A021RY2,  Imports,2015_Q4,CURRENT,0.11
+724,A021RY2,  Imports,2015_Q4,adv_less_second,-0.25
+725,A021RY2,  Imports,2015_Q4,adv_less_third,-0.27
+726,A021RY2,  Imports,2015_Q4,adv_less_current,-0.27
+727,A021RY2,  Imports,2015_Q4,second_less_third,-0.02
+728,A021RY2,  Imports,2015_Q4,abs_adv_less_second,0.25
+729,A021RY2,  Imports,2015_Q4,abs_adv_less_third,0.27
+730,A021RY2,  Imports,2015_Q4,abs_second_less_third,0.02
+731,A021RY2,  Imports,2015_Q4,abs_two_year,0.28
+732,A021RY2,  Imports,2015_Q4,abs_current,0.11
+733,A021RY2,  Imports,2015_Q4,abs_adv_less_current,0.27
+734,A021RY2,  Imports,2015_Q4,abs_third_less_current,0.0
+735,A255RY2,    Goods,2015_Q4,ADVANCE,-0.08
+736,A255RY2,    Goods,2015_Q4,SECOND,0.15
+737,A255RY2,    Goods,2015_Q4,THIRD,0.17
+738,A255RY2,    Goods,2015_Q4,CURRENT,0.17
+739,A255RY2,    Goods,2015_Q4,adv_less_second,-0.23
+740,A255RY2,    Goods,2015_Q4,adv_less_third,-0.25
+741,A255RY2,    Goods,2015_Q4,adv_less_current,-0.25
+742,A255RY2,    Goods,2015_Q4,second_less_third,-0.02
+743,A255RY2,    Goods,2015_Q4,abs_adv_less_second,0.23
+744,A255RY2,    Goods,2015_Q4,abs_adv_less_third,0.25
+745,A255RY2,    Goods,2015_Q4,abs_second_less_third,0.02
+746,A255RY2,    Goods,2015_Q4,abs_two_year,0.25
+747,A255RY2,    Goods,2015_Q4,abs_current,0.17
+748,A255RY2,    Goods,2015_Q4,abs_adv_less_current,0.25
+749,A255RY2,    Goods,2015_Q4,abs_third_less_current,0.0
+750,A656RY2,    Services,2015_Q4,ADVANCE,-0.08
+751,A656RY2,    Services,2015_Q4,SECOND,-0.07
+752,A656RY2,    Services,2015_Q4,THIRD,-0.05
+753,A656RY2,    Services,2015_Q4,CURRENT,-0.05
+754,A656RY2,    Services,2015_Q4,adv_less_second,-0.01
+755,A656RY2,    Services,2015_Q4,adv_less_third,-0.03
+756,A656RY2,    Services,2015_Q4,adv_less_current,-0.03
+757,A656RY2,    Services,2015_Q4,second_less_third,-0.02
+758,A656RY2,    Services,2015_Q4,abs_adv_less_second,0.01
+759,A656RY2,    Services,2015_Q4,abs_adv_less_third,0.03
+760,A656RY2,    Services,2015_Q4,abs_second_less_third,0.02
+761,A656RY2,    Services,2015_Q4,abs_two_year,0.04
+762,A656RY2,    Services,2015_Q4,abs_current,0.05
+763,A656RY2,    Services,2015_Q4,abs_adv_less_current,0.03
+764,A656RY2,    Services,2015_Q4,abs_third_less_current,0.0
+765,A822RY2,Government consumption expenditures and gross investment,2015_Q4,ADVANCE,0.12
+766,A822RY2,Government consumption expenditures and gross investment,2015_Q4,SECOND,-0.01
+767,A822RY2,Government consumption expenditures and gross investment,2015_Q4,THIRD,0.02
+768,A822RY2,Government consumption expenditures and gross investment,2015_Q4,CURRENT,0.02
+769,A822RY2,Government consumption expenditures and gross investment,2015_Q4,adv_less_second,0.13
+770,A822RY2,Government consumption expenditures and gross investment,2015_Q4,adv_less_third,0.1
+771,A822RY2,Government consumption expenditures and gross investment,2015_Q4,adv_less_current,0.1
+772,A822RY2,Government consumption expenditures and gross investment,2015_Q4,second_less_third,-0.03
+773,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_adv_less_second,0.13
+774,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_adv_less_third,0.1
+775,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_second_less_third,0.03
+776,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_two_year,0.08
+777,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_current,0.02
+778,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_adv_less_current,0.1
+779,A822RY2,Government consumption expenditures and gross investment,2015_Q4,abs_third_less_current,0.0
+780,A823RY2,  Federal,2015_Q4,ADVANCE,0.18
+781,A823RY2,  Federal,2015_Q4,SECOND,0.15
+782,A823RY2,  Federal,2015_Q4,THIRD,0.15
+783,A823RY2,  Federal,2015_Q4,CURRENT,0.15
+784,A823RY2,  Federal,2015_Q4,adv_less_second,0.03
+785,A823RY2,  Federal,2015_Q4,adv_less_third,0.03
+786,A823RY2,  Federal,2015_Q4,adv_less_current,0.03
+787,A823RY2,  Federal,2015_Q4,second_less_third,0.0
+788,A823RY2,  Federal,2015_Q4,abs_adv_less_second,0.03
+789,A823RY2,  Federal,2015_Q4,abs_adv_less_third,0.03
+790,A823RY2,  Federal,2015_Q4,abs_second_less_third,0.0
+791,A823RY2,  Federal,2015_Q4,abs_two_year,0.02
+792,A823RY2,  Federal,2015_Q4,abs_current,0.15
+793,A823RY2,  Federal,2015_Q4,abs_adv_less_current,0.03
+794,A823RY2,  Federal,2015_Q4,abs_third_less_current,0.0
+795,A824RY2,    National defense,2015_Q4,ADVANCE,0.14
+796,A824RY2,    National defense,2015_Q4,SECOND,0.11
+797,A824RY2,    National defense,2015_Q4,THIRD,0.11
+798,A824RY2,    National defense,2015_Q4,CURRENT,0.11
+799,A824RY2,    National defense,2015_Q4,adv_less_second,0.03
+800,A824RY2,    National defense,2015_Q4,adv_less_third,0.03
+801,A824RY2,    National defense,2015_Q4,adv_less_current,0.03
+802,A824RY2,    National defense,2015_Q4,second_less_third,0.0
+803,A824RY2,    National defense,2015_Q4,abs_adv_less_second,0.03
+804,A824RY2,    National defense,2015_Q4,abs_adv_less_third,0.03
+805,A824RY2,    National defense,2015_Q4,abs_second_less_third,0.0
+806,A824RY2,    National defense,2015_Q4,abs_two_year,0.02
+807,A824RY2,    National defense,2015_Q4,abs_current,0.11
+808,A824RY2,    National defense,2015_Q4,abs_adv_less_current,0.03
+809,A824RY2,    National defense,2015_Q4,abs_third_less_current,0.0
+810,A997RY2,      Consumption expenditures,2015_Q4,ADVANCE,0.07
+811,A997RY2,      Consumption expenditures,2015_Q4,SECOND,0.04
+812,A997RY2,      Consumption expenditures,2015_Q4,THIRD,0.04
+813,A997RY2,      Consumption expenditures,2015_Q4,CURRENT,0.04
+814,A997RY2,      Consumption expenditures,2015_Q4,adv_less_second,0.03
+815,A997RY2,      Consumption expenditures,2015_Q4,adv_less_third,0.03
+816,A997RY2,      Consumption expenditures,2015_Q4,adv_less_current,0.03
+817,A997RY2,      Consumption expenditures,2015_Q4,second_less_third,0.0
+818,A997RY2,      Consumption expenditures,2015_Q4,abs_adv_less_second,0.03
+819,A997RY2,      Consumption expenditures,2015_Q4,abs_adv_less_third,0.03
+820,A997RY2,      Consumption expenditures,2015_Q4,abs_second_less_third,0.0
+821,A997RY2,      Consumption expenditures,2015_Q4,abs_two_year,0.02
+822,A997RY2,      Consumption expenditures,2015_Q4,abs_current,0.04
+823,A997RY2,      Consumption expenditures,2015_Q4,abs_adv_less_current,0.03
+824,A997RY2,      Consumption expenditures,2015_Q4,abs_third_less_current,0.0
+825,A788RY2,      Gross investment,2015_Q4,ADVANCE,0.07
+826,A788RY2,      Gross investment,2015_Q4,SECOND,0.07
+827,A788RY2,      Gross investment,2015_Q4,THIRD,0.07
+828,A788RY2,      Gross investment,2015_Q4,CURRENT,0.07
+829,A788RY2,      Gross investment,2015_Q4,adv_less_second,0.0
+830,A788RY2,      Gross investment,2015_Q4,adv_less_third,0.0
+831,A788RY2,      Gross investment,2015_Q4,adv_less_current,0.0
+832,A788RY2,      Gross investment,2015_Q4,second_less_third,0.0
+833,A788RY2,      Gross investment,2015_Q4,abs_adv_less_second,0.0
+834,A788RY2,      Gross investment,2015_Q4,abs_adv_less_third,0.0
+835,A788RY2,      Gross investment,2015_Q4,abs_second_less_third,0.0
+836,A788RY2,      Gross investment,2015_Q4,abs_two_year,0.0
+837,A788RY2,      Gross investment,2015_Q4,abs_current,0.07
+838,A788RY2,      Gross investment,2015_Q4,abs_adv_less_current,0.0
+839,A788RY2,      Gross investment,2015_Q4,abs_third_less_current,0.0
+840,A825RY2,    Nondefense,2015_Q4,ADVANCE,0.04
+841,A825RY2,    Nondefense,2015_Q4,SECOND,0.04
+842,A825RY2,    Nondefense,2015_Q4,THIRD,0.04
+843,A825RY2,    Nondefense,2015_Q4,CURRENT,0.04
+844,A825RY2,    Nondefense,2015_Q4,adv_less_second,0.0
+845,A825RY2,    Nondefense,2015_Q4,adv_less_third,0.0
+846,A825RY2,    Nondefense,2015_Q4,adv_less_current,0.0
+847,A825RY2,    Nondefense,2015_Q4,second_less_third,0.0
+848,A825RY2,    Nondefense,2015_Q4,abs_adv_less_second,0.0
+849,A825RY2,    Nondefense,2015_Q4,abs_adv_less_third,0.0
+850,A825RY2,    Nondefense,2015_Q4,abs_second_less_third,0.0
+851,A825RY2,    Nondefense,2015_Q4,abs_two_year,0.0
+852,A825RY2,    Nondefense,2015_Q4,abs_current,0.04
+853,A825RY2,    Nondefense,2015_Q4,abs_adv_less_current,0.0
+854,A825RY2,    Nondefense,2015_Q4,abs_third_less_current,0.0
+855,A542RY2,      Consumption expenditures,2015_Q4,ADVANCE,0.0
+856,A542RY2,      Consumption expenditures,2015_Q4,SECOND,0.02
+857,A542RY2,      Consumption expenditures,2015_Q4,THIRD,0.02
+858,A542RY2,      Consumption expenditures,2015_Q4,CURRENT,0.02
+859,A542RY2,      Consumption expenditures,2015_Q4,adv_less_second,-0.02
+860,A542RY2,      Consumption expenditures,2015_Q4,adv_less_third,-0.02
+861,A542RY2,      Consumption expenditures,2015_Q4,adv_less_current,-0.02
+862,A542RY2,      Consumption expenditures,2015_Q4,second_less_third,0.0
+863,A542RY2,      Consumption expenditures,2015_Q4,abs_adv_less_second,0.02
+864,A542RY2,      Consumption expenditures,2015_Q4,abs_adv_less_third,0.02
+865,A542RY2,      Consumption expenditures,2015_Q4,abs_second_less_third,0.0
+866,A542RY2,      Consumption expenditures,2015_Q4,abs_two_year,0.01
+867,A542RY2,      Consumption expenditures,2015_Q4,abs_current,0.02
+868,A542RY2,      Consumption expenditures,2015_Q4,abs_adv_less_current,0.02
+869,A542RY2,      Consumption expenditures,2015_Q4,abs_third_less_current,0.0
+870,A798RY2,      Gross investment,2015_Q4,ADVANCE,0.04
+871,A798RY2,      Gross investment,2015_Q4,SECOND,0.02
+872,A798RY2,      Gross investment,2015_Q4,THIRD,0.02
+873,A798RY2,      Gross investment,2015_Q4,CURRENT,0.02
+874,A798RY2,      Gross investment,2015_Q4,adv_less_second,0.02
+875,A798RY2,      Gross investment,2015_Q4,adv_less_third,0.02
+876,A798RY2,      Gross investment,2015_Q4,adv_less_current,0.02
+877,A798RY2,      Gross investment,2015_Q4,second_less_third,0.0
+878,A798RY2,      Gross investment,2015_Q4,abs_adv_less_second,0.02
+879,A798RY2,      Gross investment,2015_Q4,abs_adv_less_third,0.02
+880,A798RY2,      Gross investment,2015_Q4,abs_second_less_third,0.0
+881,A798RY2,      Gross investment,2015_Q4,abs_two_year,0.01
+882,A798RY2,      Gross investment,2015_Q4,abs_current,0.02
+883,A798RY2,      Gross investment,2015_Q4,abs_adv_less_current,0.02
+884,A798RY2,      Gross investment,2015_Q4,abs_third_less_current,0.0
+885,A829RY2,  State and local,2015_Q4,ADVANCE,-0.06
+886,A829RY2,  State and local,2015_Q4,SECOND,-0.16
+887,A829RY2,  State and local,2015_Q4,THIRD,-0.13
+888,A829RY2,  State and local,2015_Q4,CURRENT,-0.13
+889,A829RY2,  State and local,2015_Q4,adv_less_second,0.1
+890,A829RY2,  State and local,2015_Q4,adv_less_third,0.07
+891,A829RY2,  State and local,2015_Q4,adv_less_current,0.07
+892,A829RY2,  State and local,2015_Q4,second_less_third,-0.03
+893,A829RY2,  State and local,2015_Q4,abs_adv_less_second,0.1
+894,A829RY2,  State and local,2015_Q4,abs_adv_less_third,0.07
+895,A829RY2,  State and local,2015_Q4,abs_second_less_third,0.03
+896,A829RY2,  State and local,2015_Q4,abs_two_year,0.06
+897,A829RY2,  State and local,2015_Q4,abs_current,0.13
+898,A829RY2,  State and local,2015_Q4,abs_adv_less_current,0.07
+899,A829RY2,  State and local,2015_Q4,abs_third_less_current,0.0
+900,A991RY2,    Consumption expenditures,2015_Q4,ADVANCE,0.05
+901,A991RY2,    Consumption expenditures,2015_Q4,SECOND,0.03
+902,A991RY2,    Consumption expenditures,2015_Q4,THIRD,0.03
+903,A991RY2,    Consumption expenditures,2015_Q4,CURRENT,0.03
+904,A991RY2,    Consumption expenditures,2015_Q4,adv_less_second,0.02
+905,A991RY2,    Consumption expenditures,2015_Q4,adv_less_third,0.02
+906,A991RY2,    Consumption expenditures,2015_Q4,adv_less_current,0.02
+907,A991RY2,    Consumption expenditures,2015_Q4,second_less_third,0.0
+908,A991RY2,    Consumption expenditures,2015_Q4,abs_adv_less_second,0.02
+909,A991RY2,    Consumption expenditures,2015_Q4,abs_adv_less_third,0.02
+910,A991RY2,    Consumption expenditures,2015_Q4,abs_second_less_third,0.0
+911,A991RY2,    Consumption expenditures,2015_Q4,abs_two_year,0.01
+912,A991RY2,    Consumption expenditures,2015_Q4,abs_current,0.03
+913,A991RY2,    Consumption expenditures,2015_Q4,abs_adv_less_current,0.02
+914,A991RY2,    Consumption expenditures,2015_Q4,abs_third_less_current,0.0
+915,A799RY2,    Gross investment,2015_Q4,ADVANCE,-0.11
+916,A799RY2,    Gross investment,2015_Q4,SECOND,-0.19
+917,A799RY2,    Gross investment,2015_Q4,THIRD,-0.16
+918,A799RY2,    Gross investment,2015_Q4,CURRENT,-0.16
+919,A799RY2,    Gross investment,2015_Q4,adv_less_second,0.08
+920,A799RY2,    Gross investment,2015_Q4,adv_less_third,0.05
+921,A799RY2,    Gross investment,2015_Q4,adv_less_current,0.05
+922,A799RY2,    Gross investment,2015_Q4,second_less_third,-0.03
+923,A799RY2,    Gross investment,2015_Q4,abs_adv_less_second,0.08
+924,A799RY2,    Gross investment,2015_Q4,abs_adv_less_third,0.05
+925,A799RY2,    Gross investment,2015_Q4,abs_second_less_third,0.03
+926,A799RY2,    Gross investment,2015_Q4,abs_two_year,0.07
+927,A799RY2,    Gross investment,2015_Q4,abs_current,0.16
+928,A799RY2,    Gross investment,2015_Q4,abs_adv_less_current,0.05
+929,A799RY2,    Gross investment,2015_Q4,abs_third_less_current,0.0

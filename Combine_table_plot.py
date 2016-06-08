@@ -24,11 +24,11 @@ output_file("vform.html")
 temp_graph = pivot[(pivot['code']=='DPCERY2')] 
 
 p1 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['current'].min() - abs(temp_graph['current'].min()*.1), temp_graph['current'].max() + abs(temp_graph['current'].max()*.1)), outline_line_color = None)
-#p1.xgrid.grid_line_color = None
-#p1.ygrid.grid_line_color = None
-#p1.yaxis.minor_tick_line_color = None
-#p1.xaxis.minor_tick_line_color = None
-#p1.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+p1.xgrid.grid_line_color = None
+p1.ygrid.grid_line_color = None
+p1.yaxis.minor_tick_line_color = None
+p1.xaxis.minor_tick_line_color = None
+p1.quad(top=temp_graph['current'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
 
 p1.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
 
@@ -89,3 +89,4 @@ data_table = DataTable(source=source, columns=columns, width=1000, height=1000)
 layout = vform(p, data_table)
 
 show(layout)
+save(layout)

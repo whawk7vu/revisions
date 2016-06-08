@@ -8,7 +8,6 @@ Created on Thu May  5 09:23:34 2016
 import pandas as pd
 import datetime
 
-from bokeh.plotting import figure, output_file, show, save
 
 ###
 ### Step 1.0 Create URLS dataframe 
@@ -192,7 +191,7 @@ pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rol
 
 pivot.sort_values(['date','line'],inplace=True)
 
-
+pivot['abs_current'] = abs(pivot['CURRENT']).round(2)
 pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['CURRENT']).round(2)
 pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['CURRENT']).round(2)
 

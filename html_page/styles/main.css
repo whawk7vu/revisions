@@ -64,3 +64,9 @@ section {
 .year-graph {
   background-color: white;
 }
+
+.data a {
+  text-decoration: none;
+  white-space: pre;
+}
+.data span, .data tr, .data td { white-space: pre; }

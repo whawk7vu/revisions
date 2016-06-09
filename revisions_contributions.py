@@ -175,25 +175,25 @@ pivot.reset_index(inplace=True)
 
 pivot = pd.merge(pivot, hist_file_current, how='left', on=['code', 'date'])
 
-pivot['adv_less_second'] = (pivot['ADVANCE'] - pivot['SECOND']).round(2)
-pivot['adv_less_third'] = (pivot['ADVANCE'] - pivot['THIRD']).round(2)
-pivot['adv_less_current'] = (pivot['ADVANCE'] - pivot['CURRENT']).round(2)
-pivot['second_less_third'] = (pivot['SECOND'] - pivot['THIRD']).round(2)
+pivot['second_less_adv'] = (pivot['SECOND'] - pivot['ADVANCE']).round(2)
+pivot['third_less_adv'] = (pivot['THIRD'] - pivot['ADVANCE']).round(2)
+pivot['current_less_adv'] = (pivot['CURRENT'] - pivot['ADVANCE']).round(2)
+pivot['third_less_second'] = (pivot['THIRD'] - pivot['SECOND']).round(2)
 
 
-pivot['abs_adv_less_second'] = abs(pivot['ADVANCE'] - pivot['SECOND']).round(2)
-pivot['abs_adv_less_third'] = abs(pivot['ADVANCE'] - pivot['THIRD']).round(2)
-pivot['abs_second_less_third'] = abs(pivot['SECOND'] - pivot['THIRD']).round(2)
+pivot['abs_second_less_adv'] = abs(pivot['SECOND'] - pivot['ADVANCE']).round(2)
+pivot['abs_third_less_adv'] = abs(pivot['THIRD'] - pivot['ADVANCE']).round(2)
+pivot['abs_third_less_second'] = abs(pivot['THIRD'] - pivot['SECOND']).round(2)
 
 
 #rolling_mean is deprecated and needs to be replaced with Series.rolling(min_periods=1,center=False,window=8).mean()
-pivot['abs_two_year'] = pivot.groupby('code')['abs_adv_less_third'].apply(pd.rolling_mean, 8, min_periods=1).round(2)
+pivot['abs_two_year'] = pivot.groupby('code')['abs_third_less_adv'].apply(pd.rolling_mean, 8, min_periods=1).round(2)
 
 pivot.sort_values(['date','line'],inplace=True)
 
 pivot['abs_current'] = abs(pivot['CURRENT']).round(2)
-pivot['abs_adv_less_current'] = abs(pivot['ADVANCE'] - pivot['CURRENT']).round(2)
-pivot['abs_third_less_current'] = abs(pivot['THIRD'] - pivot['CURRENT']).round(2)
+pivot['abs_current_less_adv'] = abs(pivot['CURRENT'] - pivot['ADVANCE']).round(2)
+pivot['abs_current_less_third'] = abs(pivot['CURRENT'] - pivot['THIRD']).round(2)
 
 
 pivot['year'] = pivot['date'].str[:4]

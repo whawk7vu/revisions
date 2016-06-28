@@ -28,9 +28,6 @@ abs_revision_t = pd.read_pickle('abs_revision_t')
 abs_revision_index = pd.read_pickle('abs_revision_index')
 main_table = pd. read_pickle('main_table')
 
-pivot
-
-
 
 #html_str = pivot[['code', 'description']].drop_duplicates(keep='first')
 #<p><a href="A191RL1\A191RL1.html">A191RL1</a></p> 
@@ -42,23 +39,7 @@ html_str = pivot[['code', 'description']].drop_duplicates(keep='first')
 html_str['html_code'] = '<p><a href="' + html_str['code'] + '.html">' + html_str['description'] + '</a></p>'
 html_str['html_code'].to_csv('html_code.csv')
 
-html_str
 
-
-comp_list = ["DMOTRY2", 	"DFDHRY2", 	"DREQRY2", 	"DODGRY2", 	"DFXARY2", 	"DCLORY2", 	"DGOERY2", 	"DONGRY2", 	"DHUTRY2", 	"DHLCRY2", 	"DTRSRY2", 	"DRCARY2", 	"DFSARY2", 	"DIFSRY2", 	"DOTSRY2", 	"DNPIRY2", 	"A009RY2", 	"B935RY2", 	"A937RY2", 	"A680RY2", 	"A681RY2", 	"A862RY2", 	"B985RY2", 	"Y006RY2", 	"Y020RY2", 	"A011RY2", 	"B018RY2", 	"A015RY2", 	"A253RY2", 	"A646RY2", 	"A255RY2", 	"A656RY2", 	"A997RY2", 	"A788RY2", 	"A542RY2", 	"A798RY2", 	"A991RY2", 	"A799RY2"] 
-
-comp_gdp = pivot[pivot['code'].isin(comp_list)]
-
-comp_gdp = comp_gdp[comp_gdp['date_t'] >= pd.datetime(2013, 4, 1).date()]
-
-
-test = comp_gdp.groupby(["code"]).mean()
-
-df.groupby(['regiment', 'company']).mean()
-
-test = comp_gdp.groupby("code")
-
-test
 
 main_table_list = ['A191RL1','DPCERY2', 'DGDSRY2', 'DSERRY2', 'A007RY2', 'A008RY2', 'A011RY2', 'A014RY2', 'A019RY2', 'A020RY2', 'A253RY2', 'A646RY2', 'A021RY2', 'A255RY2', 'A656RY2', 'A822RY2', 'A823RY2','A824RY2', 'A825RY2', 'A829RY2']
 main_table_short = main_table[main_table['code'].isin(main_table_list)]

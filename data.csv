@@ -1,0 +1,40 @@
+id,line,ADVANCE,SECOND,THIRD,abs_adv,abs_third,third_less_adv,abs_third_less_adv,Revisions Rank,Volatility,Volatility Rank 
+A015RY2 - Change in private inventories -     Nonfarm,44,0.13,0.17,0.09,0.71,0.60,-0.03,0.49,1.00,0.82,4.00
+DHLCRY2 - Services -       Health care,17,0.39,0.37,0.43,0.39,0.45,0.04,0.30,2.00,0.66,9.00
+A255RY2 - Imports -     Goods,50,-0.44,-0.50,-0.53,0.54,0.60,-0.09,0.22,3.00,0.37,22.00
+A253RY2 - Exports -     Goods,47,0.22,0.20,0.22,0.75,0.72,0.00,0.14,4.00,0.20,32.00
+A009RY2 - Nonresidential investment -       Structures,29,-0.02,0.00,0.04,0.17,0.26,0.06,0.12,5.00,0.47,14.00
+DIFSRY2 - Services -       Financial services and insurance,21,0.17,0.17,0.15,0.17,0.16,-0.02,0.10,6.00,0.61,10.00
+Y006RY2 - Nonresidential investment -         Research and development \5\,39,0.07,0.08,0.11,0.07,0.12,0.03,0.10,7.00,0.80,5.00
+DOTSRY2 - Services -       Other services,22,0.11,0.11,0.08,0.11,0.11,-0.03,0.09,8.00,0.80,6.00
+DNPIRY2 - Services -     Final consumption expenditures of nonprofit institutions serving households (NPISHs) \1\,23,-0.02,-0.01,0.04,0.10,0.10,0.06,0.09,9.00,0.86,3.00
+A681RY2 - Nonresidential investment -         Transportation equipment,35,0.05,0.09,0.10,0.18,0.17,0.05,0.07,10.00,0.43,15.00
+DRCARY2 - Services -       Recreation services,19,0.03,0.02,0.04,0.07,0.07,0.01,0.07,11.00,0.98,2.00
+A646RY2 - Exports -     Services,48,0.14,0.14,0.13,0.14,0.17,-0.01,0.07,12.00,0.40,17.00
+A011RY2 - Residential investment -     Residential,41,0.13,0.15,0.17,0.22,0.25,0.04,0.07,13.00,0.27,26.00
+DONGRY2 - Nondurable goods -       Other nondurable goods,13,0.25,0.26,0.25,0.25,0.25,0.01,0.06,14.00,0.24,28.00
+A799RY2 - State and local government -     Gross investment,62,0.02,0.01,0.05,0.12,0.16,0.02,0.06,15.00,0.37,21.00
+A937RY2 - Nonresidential investment -           Other,33,0.04,0.09,0.09,0.20,0.18,0.05,0.06,16.00,0.33,24.00
+DGOERY2 - Nondurable goods -       Gasoline and other energy goods,12,0.04,0.02,0.03,0.07,0.06,0.00,0.05,17.00,0.78,7.00
+B985RY2 - Nonresidential investment -         Software \4\,38,0.08,0.09,0.06,0.08,0.08,-0.02,0.05,18.00,0.57,11.00
+A862RY2 - Nonresidential investment -         Other equipment,36,-0.07,-0.04,-0.04,0.12,0.12,0.03,0.04,19.00,0.37,20.00
+DFXARY2 - Nondurable goods -       Food and beverages purchased for off-premises consumption,10,0.00,0.01,0.02,0.09,0.06,0.02,0.04,20.00,0.69,8.00
+A656RY2 - Imports -     Services,51,-0.10,-0.10,-0.11,0.10,0.11,-0.01,0.04,21.00,0.38,19.00
+A680RY2 - Nonresidential investment -         Industrial equipment,34,0.07,0.10,0.10,0.15,0.16,0.03,0.04,21.00,0.26,27.00
+DTRSRY2 - Services -       Transportation services,18,0.05,0.05,0.06,0.05,0.07,0.01,0.04,23.00,0.54,12.00
+DFSARY2 - Services -       Food services and accommodations,20,0.14,0.16,0.16,0.17,0.17,0.01,0.04,23.00,0.23,29.00
+B018RY2 - Change in private inventories -     Farm,43,0.03,0.01,0.02,0.06,0.09,-0.02,0.04,25.00,0.41,16.00
+DHUTRY2 - Services -       Housing and utilities,16,0.06,0.05,0.06,0.29,0.29,0.00,0.03,26.00,0.12,36.00
+B935RY2 - Nonresidential investment -           Computers and peripheral equipment,32,-0.03,-0.02,-0.01,0.07,0.10,0.01,0.03,27.00,0.33,25.00
+DMOTRY2 - Durable goods -       Motor vehicles and parts,5,0.11,0.10,0.10,0.15,0.15,-0.01,0.03,28.00,0.22,30.00
+DCLORY2 - Nondurable goods -       Clothing and footwear,11,0.07,0.05,0.05,0.11,0.09,-0.02,0.03,29.00,0.37,23.00
+DREQRY2 - Durable goods -       Recreational goods and vehicles,7,0.19,0.18,0.19,0.19,0.19,0.00,0.03,30.00,0.14,34.00
+DFDHRY2 - Durable goods -       Furnishings and durable household equipment,6,0.10,0.10,0.11,0.10,0.11,0.01,0.02,31.00,0.21,31.00
+DODGRY2 - Durable goods -       Other durable goods,8,0.06,0.05,0.06,0.07,0.06,-0.01,0.02,32.00,0.39,18.00
+A997RY2 - Federal government - defense -       Consumption expenditures,55,-0.06,-0.05,-0.05,0.22,0.21,0.00,0.02,33.00,0.09,37.00
+"Y020RY2 - Nonresidential investment -         Entertainment, literary, and artistic originals",40,0.00,0.00,0.01,0.01,0.01,0.01,0.01,34.00,1.00,1.00
+A991RY2 - State and local government -     Consumption expenditures,61,0.07,0.07,0.07,0.07,0.07,0.00,0.01,35.00,0.15,33.00
+A542RY2 - Federal government - nondefense -       Consumption expenditures,58,-0.02,-0.02,-0.02,0.08,0.08,0.00,0.01,35.00,0.13,35.00
+A798RY2 - Federal government - nondefense -       Gross investment,59,0.00,0.00,0.00,0.02,0.02,-0.01,0.01,37.00,0.53,13.00
+A788RY2 - Federal government - defense -       Gross investment,56,-0.01,-0.01,-0.01,0.08,0.08,0.00,0.00,38.00,0.04,38.00
+Total,,2.06,2.15,2.29,6.54,6.73,,,,,

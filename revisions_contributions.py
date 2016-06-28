@@ -175,25 +175,30 @@ pivot.reset_index(inplace=True)
 
 pivot = pd.merge(pivot, hist_file_current, how='left', on=['code', 'date'])
 
-pivot['second_less_adv'] = (pivot['SECOND'] - pivot['ADVANCE']).round(2)
-pivot['third_less_adv'] = (pivot['THIRD'] - pivot['ADVANCE']).round(2)
-pivot['current_less_adv'] = (pivot['CURRENT'] - pivot['ADVANCE']).round(2)
-pivot['third_less_second'] = (pivot['THIRD'] - pivot['SECOND']).round(2)
+pivot['abs_adv'] = abs(pivot['ADVANCE'])
+pivot['abs_second'] = abs(pivot['SECOND'])
+pivot['abs_third'] = abs(pivot['THIRD'])
+pivot['abs_current'] = abs(pivot['CURRENT'])
+
+pivot['second_less_adv'] = (pivot['SECOND'] - pivot['ADVANCE']).round(4)
+pivot['third_less_adv'] = (pivot['THIRD'] - pivot['ADVANCE']).round(4)
+pivot['current_less_adv'] = (pivot['CURRENT'] - pivot['ADVANCE']).round(4)
+pivot['third_less_second'] = (pivot['THIRD'] - pivot['SECOND']).round(4)
 
 
-pivot['abs_second_less_adv'] = abs(pivot['SECOND'] - pivot['ADVANCE']).round(2)
-pivot['abs_third_less_adv'] = abs(pivot['THIRD'] - pivot['ADVANCE']).round(2)
-pivot['abs_third_less_second'] = abs(pivot['THIRD'] - pivot['SECOND']).round(2)
+pivot['abs_second_less_adv'] = abs(pivot['SECOND'] - pivot['ADVANCE']).round(4)
+pivot['abs_third_less_adv'] = abs(pivot['THIRD'] - pivot['ADVANCE']).round(4)
+pivot['abs_third_less_second'] = abs(pivot['THIRD'] - pivot['SECOND']).round(4)
 
 
 #rolling_mean is deprecated and needs to be replaced with Series.rolling(min_periods=1,center=False,window=8).mean()
-pivot['abs_two_year'] = pivot.groupby('code')['abs_third_less_adv'].apply(pd.rolling_mean, 8, min_periods=1).round(2)
+pivot['abs_two_year'] = pivot.groupby('code')['abs_third_less_adv'].apply(pd.rolling_mean, 8, min_periods=1).round(4)
 
 pivot.sort_values(['date','line'],inplace=True)
 
-pivot['abs_current'] = abs(pivot['CURRENT']).round(2)
-pivot['abs_current_less_adv'] = abs(pivot['CURRENT'] - pivot['ADVANCE']).round(2)
-pivot['abs_current_less_third'] = abs(pivot['CURRENT'] - pivot['THIRD']).round(2)
+pivot['abs_current'] = abs(pivot['CURRENT']).round(4)
+pivot['abs_current_less_adv'] = abs(pivot['CURRENT'] - pivot['ADVANCE']).round(4)
+pivot['abs_current_less_third'] = abs(pivot['CURRENT'] - pivot['THIRD']).round(4)
 
 
 pivot['year'] = pivot['date'].str[:4]

@@ -1,22 +1,11 @@
 #Authors: Andrea Julca, William Hawk
 
-install.packages("data.table")
-install.packages("googleVis")
-install.packages("httr")
-install.packages("rvest")
-install.packages("RCurl")
-install.packages("gdata")
-install.packages("readxl")
-
-installXLSXsupport()
-
 library(data.table)
 library(googleVis)
 library(httr)
 library(rvest)
 library(RCurl)
 library(gdata)
-library(readxl)
 
 histUrl <- 'http://www.bea.gov/histdata/histChildLevels.cfm?HMI=7'
 
@@ -41,10 +30,10 @@ library(parallel)
 
 cl <- makePSOCKcluster(detectCores(), timeout=360000)
 
-#clusterEvalQ(cl, library(rvest))
-#clusterEvalQ(cl, library(gdata))
-#clusterEvalQ(cl, library(data.table))
-#clusterEvalQ(cl, library(readxl))
+clusterEvalQ(cl, library(rvest))
+clusterEvalQ(cl, library(gdata))
+clusterEvalQ(cl, library(data.table))
+clusterEvalQ(cl, library(readxl))
 
 clusterExport(cl, c('cleanLinks'))
 
@@ -77,12 +66,12 @@ clusterExport(cl, c('goodUrls'))
 histData <- parLapply(cl, 1:length(goodUrls),
   function(urlNo){
   #urlNo <- 43
-    temp <- paste0('C:/Users/whawk/revisions',
+    temp <- paste0('C:/Users/Swan/Documents/histData',
       urlNo,
       '.xls'
     );
     ##NOTE: MUST UNSUPPRESS IF NEED TO DOWNLOAD
-    if(urlNo < 170){
+    if(urlNo < 166){
       download.file(
         goodUrls[urlNo],
         temp,

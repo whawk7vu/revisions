@@ -15,57 +15,51 @@ from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 import os, sys
 from bokeh.charts import Bar
 
-urls = pd.read_pickle('urls')
-final_data = pd.read_pickle('final_data')
-pivot = pd.read_pickle('pivot')
-abs_revision_t = pd.read_pickle('abs_revision_t')
-abs_revision_index = pd.read_pickle('abs_revision_index')
-main_table = pd.read_pickle('main_table')
+final_gdp_data = pd.read_pickle('final_gdp_data')
 
-
-for something in pivot['code'].unique():
-    temp_graph = pivot[(pivot['code']==something)]
+for something in final_gdp_data['bea_code'].unique():
+    temp_graph = final_gdp_data[(final_gdp_data['bea_code']==something)]
 
 #    newpath = (r'C:\Users\whawk\revisions\%s'%something)
 #    if not os.path.exists(newpath): 
 #        os.makedirs(newpath)
 #   temp_graph.to_csv(str(newpath) + '\%s.csv'%something)          
     temp_graph.to_csv('%s.csv'%something)      
-    temp_path = '<p><a href="'+ temp_graph['code'] + '">Download datafile (csv)</a></p>'
+    temp_path = '<p><a href="'+ temp_graph['bea_code'] + '">Download datafile (csv)</a></p>'
     
     #output_file(str(newpath) + '\%s.html'%something)
     
-    p1 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['CURRENT'].min() - abs(temp_graph['CURRENT'].min()*.1), temp_graph['CURRENT'].max() + abs(temp_graph['CURRENT'].max()*.1)), outline_line_color = None)
+    p1 = figure(width=600, height=300, title=temp_graph['category'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['THIRD'].min() - abs(temp_graph['THIRD'].min()*.1), temp_graph['THIRD'].max() + abs(temp_graph['THIRD'].max()*.1)), outline_line_color = None)
     p1.xgrid.grid_line_color = None
     p1.ygrid.grid_line_color = None
     p1.yaxis.minor_tick_line_color = None
     p1.xaxis.minor_tick_line_color = None
-    p1.quad(top=temp_graph['CURRENT'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
+    p1.quad(top=temp_graph['THIRD'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10)) 
     
-    p1.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+    p1.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Two-year absolute revision")
     
     p1.legend.location = "bottom_left"
     
-    temp_bar = temp_graph[['abs_current', 'abs_third_less_adv']].mean()
+    temp_bar = temp_graph[['abs_third', 'abs_third_less_adv']].mean()
     temp_bar = temp_bar.reset_index()
     temp_bar = temp_bar.rename(columns = {0:'values'})    
-    p2 = Bar(temp_bar, 'est', values='values', title=temp_graph['description'].iloc[0], plot_width=400, plot_height=600, outline_line_color = None)
+    p2 = Bar(temp_bar, 'est', values='values', title=temp_graph['category'].iloc[0], plot_width=400, plot_height=600, outline_line_color = None)
     #p2.xgrid.grid_line_color = None
     #p2.ygrid.grid_line_color = None
     #p2.yaxis.minor_tick_line_color = None
     #p2.xaxis.minor_tick_line_color = None
     
     # create another one
-    p3 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+    p3 = figure(width=600, height=300, title=temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
     p3.xgrid.grid_line_color = None
     p3.ygrid.grid_line_color = None
     p3.yaxis.minor_tick_line_color = None
     p3.xaxis.minor_tick_line_color = None
-    p3.line(temp_graph['date_t'], temp_graph['abs_two_year'], color='red', line_width=3, legend="Two-year absolute revision")
+    p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Two-year absolute revision")
     
     p3.legend.location = "bottom_left"
     
-    p4 = figure(width=600, height=300, title=temp_graph['description'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+    p4 = figure(width=600, height=300, title=temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
     p4.xgrid.grid_line_color = None
     p4.ygrid.grid_line_color = None
     p4.yaxis.minor_tick_line_color = None
@@ -85,14 +79,14 @@ for something in pivot['code'].unique():
     
     source = ColumnDataSource(temp_graph)
     columns = [
-            TableColumn(field='code', title = "BEA - Code", width = temp_graph['code'].map(len).max()),
-            TableColumn(field='description', title = "Description", width = temp_graph['description'].map(len).max()),
+            TableColumn(field='bea_code', title = "BEA - bea_code", width = temp_graph['bea_code'].map(len).max()),
+            TableColumn(field='category', title = "category", width = temp_graph['category'].map(len).max()),
             TableColumn(field='date', title = "Date", width = temp_graph['date'].map(len).max()),
             TableColumn(field='ADVANCE', title = "Advanced Est", width = 5),
             TableColumn(field='SECOND', title = "Second Est", width = 5),
             TableColumn(field='THIRD', title = "Third Est", width = 5),
             TableColumn(field='third_less_adv', title = "Revision (third est less advance est)", width = 10),
-            TableColumn(field='abs_two_year', title = "Revision (absolute avg(2-year))", width = 10)
+            TableColumn(field='abs_third_less_adv', title = "Revision (absolute avg(2-year))", width = 10)
         ]
     data_table = DataTable(source=source, columns=columns, width=1000, height=1000)
     
@@ -199,7 +193,7 @@ for something in pivot['code'].unique():
         <footer></footer>
         </body>
     </html>
-    ''' % (temp_graph['description'].iloc[0].strip().replace('\\', ''), temp_graph['description'].iloc[0].strip().replace('\\', ''), something, temp_graph['description'].iloc[0].strip().replace('\\', '')))
+    ''' % (temp_graph['category'].iloc[0].strip().replace('\\', ''), temp_graph['category'].iloc[0].strip().replace('\\', ''), something, temp_graph['category'].iloc[0].strip().replace('\\', '')))
     
     resources = INLINE
     

@@ -7,13 +7,22 @@ Created on Thu Jul  7 12:47:54 2016
 import pandas as pd
 from bokeh.plotting import figure, output_file, show, save
 from bokeh.charts import Bar
-from bokeh.palettes import brewer
-
-palette = brewer["Blues"][3]
+import numpy as np
 
 final_gdp_data = pd.read_pickle('final_gdp_data')
 
-temp_graph = final_gdp_data[(final_gdp_data['bea_code']=='A191RL1')]        
+test = final_gdp_data 
+
+
+test['after12'] = np.where(test['date']>='2012_Q1', 'After', 'Before')
+
+
+test = test.groupby(['category', 'after12']).mean().reset_index()
+
+test.to_excel('Retail_sales2.xlsx')
+
+
+temp_graph = final_gdp_data[(final_gdp_data['bea_code']=='DFSARY2')]        
 temp_bar = temp_graph[['THIRD', 'abs_third_simple', 'abs_third']].mean()
 temp_bar = temp_bar.reset_index()
 temp_bar = temp_bar.rename(columns = {0:'values'})
@@ -23,14 +32,23 @@ p2.quad(top=temp_bar['values'], bottom=0, left=temp_bar['est'].values.tolist(), 
 
 #p2.xgrid.grid_line_color = None
 #p2.ygrid.grid_line_color = None
-#p2.yaxis.minor_tick_line_color = None
-#p2.xaxis.minor_tick_line_color = None
+p2.yaxis.minor_tick_line_color = None
+p2.xaxis.minor_tick_line_color = None
 #added these two lines
 p2.y_range.start = 0
 p2.y_range.end = temp_bar['values'].max()*1.1
 
-output_file("p2.html")
-show(p2)
+p3 = figure(width=600, height=300, title=temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+p3.xgrid.grid_line_color = None
+p3.ygrid.grid_line_color = None
+p3.yaxis.minor_tick_line_color = None
+p3.xaxis.minor_tick_line_color = None
+p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Total absolute revision")
+
+p3.legend.location = "bottom_left"
+
+output_file("p3.html")
+show(p3)
 
 
 p1.quad(top=temp_graph['THIRD'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10), legend="Third estimate") 

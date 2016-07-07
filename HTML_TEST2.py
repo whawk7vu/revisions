@@ -23,8 +23,6 @@ from bokeh.charts import Bar
 
 final_gdp_data = pd.read_pickle('final_gdp_data')
 
-test = final_gdp_data.loc[final_gdp_data['bea_code']=='A191RL1']
-
 
 for something in test['bea_code'].unique():
     temp_graph = final_gdp_data[(final_gdp_data['bea_code']==something)]
@@ -52,36 +50,41 @@ for something in test['bea_code'].unique():
 
     temp_bar = temp_graph[['THIRD', 'abs_third_simple', 'abs_third']].mean()
     temp_bar = temp_bar.reset_index()
-    temp_bar = temp_bar.rename(columns = {0:'values'})    
-    p2 = Bar(temp_bar, values='values', color=['red','blue', 'orange'], title=temp_graph['category'].iloc[0], plot_width=400, plot_height=600, outline_line_color = None)
+    temp_bar = temp_bar.rename(columns = {0:'values'})
+    p2 = figure(x_range=temp_bar['est'].values.tolist())
+    p2.quad(top=temp_bar['values'], bottom=0, left=temp_bar['est'].values.tolist(), right=temp_bar['est'].values.tolist(), line_width=100, color=["blue","yellow","red"]) 
+    #p2.text([.5, 2.5], [.5, .5], text=['Yes', 'No'], text_font_size="20pt", text_align='center')
+    
     #p2.xgrid.grid_line_color = None
     #p2.ygrid.grid_line_color = None
-    #p2.yaxis.minor_tick_line_color = None
-    #p2.xaxis.minor_tick_line_color = None    
-
-
-        # create another one
-    p3 = figure(width=600, height=300, title=temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+    p2.yaxis.minor_tick_line_color = None
+    p2.xaxis.minor_tick_line_color = None
+    #added these two lines
+    p2.y_range.start = 0
+    p2.y_range.end = temp_bar['values'].max()*1.1
+    
+    p3 = figure(width=1000, height=500, title=temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
     p3.xgrid.grid_line_color = None
     p3.ygrid.grid_line_color = None
     p3.yaxis.minor_tick_line_color = None
     p3.xaxis.minor_tick_line_color = None
-    p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Two-year absolute revision")
+    p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Total abs third less advanced")
     
     p3.legend.location = "bottom_left"
-    
 
-    
-
-    
-    p4 = figure(width=600, height=300, title=temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+        # create another one
+    p4 = figure(width=1000, height=500, title=temp_graph['category'].iloc[0], x_axis_type="datetime",  outline_line_color = None)
     p4.xgrid.grid_line_color = None
     p4.ygrid.grid_line_color = None
     p4.yaxis.minor_tick_line_color = None
     p4.xaxis.minor_tick_line_color = None
-    p4.line(temp_graph['date_t'], temp_graph['third_less_adv'], color='red', line_width=3, legend="Third less advanced")
+    p4.quad(top=temp_graph['abs_third'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10), legend="Absolute change in third estimate") 
+    
+    p4.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Total abs third less advanced")
     
     p4.legend.location = "bottom_left"
+       
+
     
     # put all the plots in a grid layout
     
@@ -288,7 +291,7 @@ for something in test['bea_code'].unique():
     js_resources = resources.render_js()
     css_resources = resources.render_css()
     
-    script, div = components({'p1': p1, 'p2': p2, 'p3': p3, 'p4': p4, 'data_table': data_table})
+    script, div = components({'p1': p1, 'p2': p2, 'p3': p3, 'p4': p4,'data_table': data_table})
     
     html = template.render(js_resources=js_resources,
                            css_resources=css_resources,

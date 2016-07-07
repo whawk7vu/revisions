@@ -56,6 +56,10 @@ section {
 .info {
 }
 
+.next {
+    padding-bottom: 500px;
+}
+
 .graph-container {
   width: 100%;
   padding: 10px;

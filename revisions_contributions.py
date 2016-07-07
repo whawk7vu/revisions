@@ -271,6 +271,8 @@ pivot_all['date_t'] = pd.to_datetime(pivot_all['year']+pivot_all['month'],format
 
 pivot_all.to_pickle('pivot_all')
 
+pivot = pd.read_pickle('pivot')
+
 comp_gdp = pivot
 
 line = comp_gdp[['line', 'code']].drop_duplicates(['line'], keep='last')
@@ -441,7 +443,11 @@ gdp_data = pd.concat(frames)
 
 gdp_data = gdp_data.reset_index(level=[]).reset_index().sort_values(by=['category', 'date'])
 
-final_gdp_data = gdp_data[['bea_code', 'category', 'date', 'ADVANCE', 'THIRD', 'abs_third', 'third_less_adv', 'abs_third_less_adv']]
+gdp_data['abs_adv_simple'] = abs(gdp_data['ADVANCE'])
+gdp_data['abs_second_simple'] = abs(gdp_data['SECOND'])
+gdp_data['abs_third_simple'] = abs(gdp_data['THIRD'])
+
+final_gdp_data = gdp_data[['bea_code', 'category', 'date', 'ADVANCE', 'THIRD', 'abs_third_simple', 'abs_third', 'third_less_adv', 'abs_third_less_adv']]
 #comp_gdp["id"] = comp_gdp["code"] + " - " + comp_gdp["category"] + " - " + comp_gdp["description"]
 
 final_gdp_data = pd.merge(final_gdp_data, line, how = 'left', left_on = 'bea_code', right_on = 'code')

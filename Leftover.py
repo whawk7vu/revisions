@@ -56,3 +56,33 @@ fedgovdef_list = ["A997RY2", 	"A788RY2"]
 fedgovnondef_list =["A542RY2", 	"A798RY2"]
 sandlgov_list = ["A991RY2", 	"A799RY2"]
 '''
+
+
+
+main_table = pivot.drop(['line', 'year', 'month', 'date_t'], axis=1)
+
+main_table = main_table[(main_table['date'] == main_table['date'].iloc[-1])]
+
+main_table.to_csv('gdp_revisions.csv')
+main_table.to_json('gdp_revisions.json')
+
+main_table.to_html('main_table.html', classes = 'my_class" id = "gdp_main')
+
+main_table_indexed = main_table.set_index(['code', 'description', 'date'])
+main_table_indexed = main_table_indexed.stack()
+main_table_indexed = main_table_indexed.reset_index()
+main_table_indexed = main_table_indexed.rename(columns = {0:'value'})
+
+main_table_indexed.to_csv('gdp_revisions.csv')
+
+main_table.to_pickle('main_table')
+
+#if I use line as an index then the codes don't combine, if I don't i get out of order
+abs_revision_index = pivot.pivot_table('abs_two_year', ['code', 'description'], 'date')
+abs_revision_t = abs_revision_index.reset_index()
+abs_revision_t = pd.merge(line, abs_revision_t, how='left', on=['code'])
+
+abs_revision_t.to_csv('Two_year_abs_revision.csv')
+
+abs_revision_t.to_pickle('abs_revision_t')
+abs_revision_index.to_pickle('abs_revision_index')

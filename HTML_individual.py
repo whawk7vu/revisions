@@ -15,7 +15,9 @@ from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 import os, sys
 from bokeh.charts import Bar
 
+
 final_gdp_data = pd.read_pickle('final_gdp_data')
+temp_graph = final_gdp_data[(final_gdp_data['bea_code']=='A191RL1')]
 
 for something in final_gdp_data['bea_code'].unique():
     temp_graph = final_gdp_data[(final_gdp_data['bea_code']==something)]
@@ -29,23 +31,23 @@ for something in final_gdp_data['bea_code'].unique():
     
     #output_file(str(newpath) + '\%s.html'%something)
     
-    p1 = figure(width=1000, height=500, title=temp_graph['category'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['THIRD'].min() - abs(temp_graph['THIRD'].min()*.1), temp_graph['THIRD'].max() + abs(temp_graph['THIRD'].max()*.1)), outline_line_color = None)
+    p1 = figure(width=1000, height=500, title="Revisions to " + temp_graph['category'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['THIRD'].min() - abs(temp_graph['THIRD'].min()*.1), temp_graph['THIRD'].max() + abs(temp_graph['THIRD'].max()*.1)), outline_line_color = None)
     p1.xgrid.grid_line_color = None
     p1.ygrid.grid_line_color = None
     p1.yaxis.minor_tick_line_color = None
     p1.xaxis.minor_tick_line_color = None
-    p1.quad(top=temp_graph['THIRD'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10), legend="Third estimate") 
+    p1.quad(top=temp_graph['THIRD'], bottom=0, left=temp_graph['date_t']+ pd.DateOffset(35) , right=temp_graph['date_t'] - pd.DateOffset(35), legend="Third estimate") 
     
     p1.line(temp_graph['date_t'], temp_graph['third_less_adv'], color='red', line_width=3, legend="Third est less advanced est")
     
     p1.legend.location = "bottom_left"
-
-
+    
+    
     temp_bar = temp_graph[['THIRD', 'abs_third_simple', 'abs_third']].mean()
     temp_bar = temp_bar.reset_index()
     temp_bar = temp_bar.rename(columns = {0:'values'})
-    p2 = figure(x_range=temp_bar['est'].values.tolist())
-    p2.quad(top=temp_bar['values'], bottom=0, left=temp_bar['est'].values.tolist(), right=temp_bar['est'].values.tolist(), line_width=100, color=["blue","yellow","red"]) 
+    p2 = figure(width=800, height=800, x_range=['Third estimate', 'Absolute value of third estimate', 'Sum of the absolute value of third estimate'], title= "Different estimates of " + temp_graph['category'].iloc[0])
+    p2.quad(top=temp_bar['values'], bottom=0, left=['Third estimate', 'Absolute value of third estimate', 'Sum of the absolute value of third estimate'], right=['Third estimate', 'Absolute value of third estimate', 'Sum of the absolute value of third estimate'], line_width=100, color=["blue","yellow","red"]) 
     #p2.text([.5, 2.5], [.5, .5], text=['Yes', 'No'], text_font_size="20pt", text_align='center')
     
     #p2.xgrid.grid_line_color = None
@@ -56,28 +58,28 @@ for something in final_gdp_data['bea_code'].unique():
     p2.y_range.start = 0
     p2.y_range.end = temp_bar['values'].max()*1.1
     
-    p3 = figure(width=1000, height=500, title=temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+    p3 = figure(width=1000, height=500, title= "Sum of the absoulte value (third less advanced): " + temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
     p3.xgrid.grid_line_color = None
     p3.ygrid.grid_line_color = None
     p3.yaxis.minor_tick_line_color = None
     p3.xaxis.minor_tick_line_color = None
-    p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Total abs third less advanced")
+    p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3)
     
-    p3.legend.location = "bottom_left"
-
+    #p3.legend.location = "bottom_left"
+    
         # create another one
     p4 = figure(width=1000, height=500, title=temp_graph['category'].iloc[0], x_axis_type="datetime",  outline_line_color = None)
     p4.xgrid.grid_line_color = None
     p4.ygrid.grid_line_color = None
     p4.yaxis.minor_tick_line_color = None
     p4.xaxis.minor_tick_line_color = None
-    p4.quad(top=temp_graph['abs_third'], bottom=0, left=temp_graph['date_t'][:-1] + pd.DateOffset(10) , right=temp_graph['date_t'][1:] - pd.DateOffset(10), legend="Absolute change in third estimate") 
+    p4.quad(top=temp_graph['abs_third'], bottom=0, left=temp_graph['date_t'] - pd.DateOffset(35) , right=temp_graph['date_t'] + pd.DateOffset(35), legend="Absolute change in third estimate") 
     
     p4.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Total abs third less advanced")
     
-    p4.legend.location = "bottom_left"
+    #p4.legend.location = "bottom_left"
        
-
+    
     
     # put all the plots in a grid layout
     
@@ -104,10 +106,10 @@ for something in final_gdp_data['bea_code'].unique():
     
     # Define our html template for out plots
     template = Template('''
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="html_page/styles/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -166,9 +168,9 @@ for something in final_gdp_data['bea_code'].unique():
             border-top: 0px;
         }
     </style>
-</head>
-
-<body>
+    </head>
+    
+    <body>
     <header>
         <div class="intro">
             <h1>GDP Revisions</h1>
@@ -262,21 +264,21 @@ for something in final_gdp_data['bea_code'].unique():
                 </li>
             </ul>
         </div>
-
+    
         <h2>Revisions to %s</h2> {{ plot_div.p1 }}
-        <h2>Revisions to </h2> {{ plot_div.p2 }}
-        <h2>Revisions to </h2> {{ plot_div.p3 }}
-        <h2>Revisions to </h2> {{ plot_div.p4 }}
-
+        <h2>Different ways to estimate GDP</h2> {{ plot_div.p2 }}
+        <h2>Sum of the absolute revision (third less advanced)</h2> {{ plot_div.p3 }}
+        <h2>Putting it all together: Absolute change and revision </h2> {{ plot_div.p4 }}
+    
         <h3>%s revisions</h3>
         <p><a href="%s.csv">Download %s revisions csv</a></p>
         {{ plot_div.data_table }} {{ plot_script }}
-
+    
     </main>
     <footer></footer>
-</body>
-
-</html>
+    </body>
+    
+    </html>
     ''' % (temp_graph['category'].iloc[0].strip().replace('\\', ''), temp_graph['category'].iloc[0].strip().replace('\\', ''), something, temp_graph['category'].iloc[0].strip().replace('\\', '')))
     
     resources = INLINE

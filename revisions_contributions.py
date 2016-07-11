@@ -331,7 +331,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(sandlgov_list)] = "A829RY2"
 comp_list1 = durgoods_list + nondurgoods_list + houseserv_list + info_list + intprop_list + inventory_list + export_list + import_list + fedgovdef_list + fedgovnondef_list + sandlgov_list
 
 cat1 = comp_gdp[comp_gdp['code'].isin(comp_list1)]
-cat1 = cat1.groupby([cat1['category'], comp_gdp['bea_code'], cat1['date']]).sum()
+cat1 = cat1.groupby([cat1['category'], comp_gdp['bea_code'], cat1['date']]).sum().round(4)
 
 #next level
 goods_list = durgoods_list + nondurgoods_list
@@ -358,7 +358,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(fed_list)] = "A823RY2"
 comp_list2 = goods_list + serv_list + equip_list + netexport_list + fed_list
 
 cat2 = comp_gdp[comp_gdp['code'].isin(comp_list2)]
-cat2 = cat2.groupby([cat2['category2'], comp_gdp['bea_code'], cat2['date']]).sum()
+cat2 = cat2.groupby([cat2['category2'], comp_gdp['bea_code'], cat2['date']]).sum().round(4)
 
 #next level
 pce_list = goods_list + serv_list
@@ -378,7 +378,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(gov_list)] = "A822RY2"
 comp_list3 = pce_list + nonres_list + gov_list
 
 cat3 = comp_gdp[comp_gdp['code'].isin(comp_list3)]
-cat3 = cat3.groupby([cat3['category3'], comp_gdp['bea_code'], cat3['date']]).sum()
+cat3 = cat3.groupby([cat3['category3'], comp_gdp['bea_code'], cat3['date']]).sum().round(4)
 
 #next level
 fixedinv_list = nonres_list + resinv_list
@@ -393,7 +393,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(fixedinv_list)] = "A007RY2"
 comp_list4 = fixedinv_list
 
 cat4 = comp_gdp[comp_gdp['code'].isin(comp_list4)]
-cat4 = cat4.groupby([cat4['category4'], comp_gdp['bea_code'], cat4['date']]).sum()
+cat4 = cat4.groupby([cat4['category4'], comp_gdp['bea_code'], cat4['date']]).sum().round(4)
 
 
 #next level
@@ -408,7 +408,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(inv_list)] = "A006RY2"
 comp_list5 = inv_list
 
 cat5 = comp_gdp[comp_gdp['code'].isin(comp_list5)]
-cat5 = cat5.groupby([cat5['category5'], comp_gdp['bea_code'], cat5['date']]).sum()
+cat5 = cat5.groupby([cat5['category5'], comp_gdp['bea_code'], cat5['date']]).sum().round(4)
 
 #next level
 gdp_list = pce_list + inv_list + netexport_list + gov_list
@@ -422,7 +422,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(gdp_list)] = "A191RL1"
 comp_list6 = gdp_list
 
 cat6 = comp_gdp[comp_gdp['code'].isin(comp_list6)]
-cat6 = cat6.groupby([cat6['category6'], comp_gdp['bea_code'], cat6['date']]).sum()
+cat6 = cat6.groupby([cat6['category6'], comp_gdp['bea_code'], cat6['date']]).sum().round(4)
 
 
 comp_gdp['category7'] = ""
@@ -434,7 +434,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(gdp_list)] = comp_gdp['code']
 comp_list7 = gdp_list
 
 cat7 = comp_gdp[comp_gdp['code'].isin(comp_list7)]
-cat7 = cat7.groupby([cat7['category7'], comp_gdp['bea_code'], cat7['date']]).sum()
+cat7 = cat7.groupby([cat7['category7'], comp_gdp['bea_code'], cat7['date']]).sum().round(4)
 
 
 frames = [cat1, cat2, cat3, cat4, cat5, cat6, cat7]
@@ -446,6 +446,8 @@ gdp_data = gdp_data.reset_index(level=[]).reset_index().sort_values(by=['categor
 gdp_data['abs_adv_simple'] = abs(gdp_data['ADVANCE'])
 gdp_data['abs_second_simple'] = abs(gdp_data['SECOND'])
 gdp_data['abs_third_simple'] = abs(gdp_data['THIRD'])
+
+gdp_data.to_pickle('gdp_data')
 
 final_gdp_data = gdp_data[['bea_code', 'category', 'date', 'ADVANCE', 'THIRD', 'abs_third_simple', 'abs_third', 'third_less_adv', 'abs_third_less_adv']]
 #comp_gdp["id"] = comp_gdp["code"] + " - " + comp_gdp["category"] + " - " + comp_gdp["description"]
@@ -468,69 +470,4 @@ final_gdp_data['date_t'] = pd.to_datetime(final_gdp_data['year']+final_gdp_data[
 
 final_gdp_data.to_pickle('final_gdp_data')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-main_table = pivot.drop(['line', 'year', 'month', 'date_t'], axis=1)
-
-main_table = main_table[(main_table['date'] == main_table['date'].iloc[-1])]
-
-main_table.to_csv('gdp_revisions.csv')
-main_table.to_json('gdp_revisions.json')
-
-main_table.to_html('main_table.html', classes = 'my_class" id = "gdp_main')
-
-main_table_indexed = main_table.set_index(['code', 'description', 'date'])
-main_table_indexed = main_table_indexed.stack()
-main_table_indexed = main_table_indexed.reset_index()
-main_table_indexed = main_table_indexed.rename(columns = {0:'value'})
-
-main_table_indexed.to_csv('gdp_revisions.csv')
-
-main_table.to_pickle('main_table')
-
-#if I use line as an index then the codes don't combine, if I don't i get out of order
-abs_revision_index = pivot.pivot_table('abs_two_year', ['code', 'description'], 'date')
-abs_revision_t = abs_revision_index.reset_index()
-abs_revision_t = pd.merge(line, abs_revision_t, how='left', on=['code'])
-
-abs_revision_t.to_csv('Two_year_abs_revision.csv')
-
-abs_revision_t.to_pickle('abs_revision_t')
-abs_revision_index.to_pickle('abs_revision_index')
-
-
-
-
-
-
-
-
-
-           
+         

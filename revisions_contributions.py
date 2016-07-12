@@ -144,6 +144,8 @@ for x in range(1, 150):
                 
 
 
+hist_file_all.to_pickle('hist_file_all')
+hist_file_all = pd.read_pickle('hist_file_all')
 
 test = hist_file_all
 
@@ -446,10 +448,14 @@ gdp_data = gdp_data.reset_index(level=[]).reset_index().sort_values(by=['categor
 gdp_data['abs_adv_simple'] = abs(gdp_data['ADVANCE'])
 gdp_data['abs_second_simple'] = abs(gdp_data['SECOND'])
 gdp_data['abs_third_simple'] = abs(gdp_data['THIRD'])
+gdp_data['abs_third_less_adv_simple'] = abs(gdp_data['third_less_adv'])
+
 
 gdp_data.to_pickle('gdp_data')
 
-final_gdp_data = gdp_data[['bea_code', 'category', 'date', 'ADVANCE', 'THIRD', 'abs_third_simple', 'abs_third', 'third_less_adv', 'abs_third_less_adv']]
+gdp_data = pd.read_pickle('gdp_data')
+
+final_gdp_data = gdp_data[['bea_code', 'category', 'date', 'ADVANCE', 'THIRD', 'abs_third_simple', 'abs_third', 'third_less_adv', 'abs_third_less_adv_simple', 'abs_third_less_adv']]
 #comp_gdp["id"] = comp_gdp["code"] + " - " + comp_gdp["category"] + " - " + comp_gdp["description"]
 
 final_gdp_data = pd.merge(final_gdp_data, line, how = 'left', left_on = 'bea_code', right_on = 'code')

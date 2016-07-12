@@ -2,7 +2,7 @@ import pandas as pd
 import datetime
 
 from bokeh.plotting import figure, output_file, show, save
-from bokeh.io import gridplot, output_file, show, vform
+from bokeh.io import gridplot, hplot, output_file, show, vform
 from bokeh.plotting import figure
 import random
 from jinja2 import Template
@@ -17,7 +17,7 @@ from bokeh.charts import Bar
 
 
 final_gdp_data = pd.read_pickle('final_gdp_data')
-temp_graph = final_gdp_data[(final_gdp_data['bea_code']=='A191RL1')]
+#temp_graph = final_gdp_data[(final_gdp_data['bea_code']=='A191RL1')]
 
 for something in final_gdp_data['bea_code'].unique():
     temp_graph = final_gdp_data[(final_gdp_data['bea_code']==something)]
@@ -46,8 +46,43 @@ for something in final_gdp_data['bea_code'].unique():
     temp_bar = temp_graph[['THIRD', 'abs_third_simple', 'abs_third']].mean()
     temp_bar = temp_bar.reset_index()
     temp_bar = temp_bar.rename(columns = {0:'values'})
-    p2 = figure(width=800, height=800, x_range=['Third estimate', 'Absolute value of third estimate', 'Sum of the absolute value of third estimate'], title= "Different estimates of " + temp_graph['category'].iloc[0])
-    p2.quad(top=temp_bar['values'], bottom=0, left=['Third estimate', 'Absolute value of third estimate', 'Sum of the absolute value of third estimate'], right=['Third estimate', 'Absolute value of third estimate', 'Sum of the absolute value of third estimate'], line_width=100, color=["blue","yellow","red"]) 
+    p2_1 = figure(width=500, height=800, x_range=['Third estimate', 'Absolute third est', 'Agg absolute third est'], title= "Third estimate")
+    p2_1.quad(top=temp_bar['values'], bottom=0, left=['Third estimate', 'Absolute third est', 'Agg absolute third est'], right=['Third estimate', 'Absolute third est', 'Agg absolute third est'], line_width=100, color=["blue","cyan","green"]) 
+    #p2.text([.5, 2.5], [.5, .5], text=['Yes', 'No'], text_font_size="20pt", text_align='center')
+    
+    #p2.xgrid.grid_line_color = None
+    #p2.ygrid.grid_line_color = None
+    p2_1.yaxis.minor_tick_line_color = None
+    p2_1.xaxis.minor_tick_line_color = None
+    #added these two lines
+    p2_1.y_range.start = 0
+    p2_1.y_range.end = temp_bar['values'].max()*1.1
+        
+    
+    temp_bar_2 = temp_graph[['third_less_adv', 'abs_third_less_adv_simple', 'abs_third_less_adv']].mean()
+    temp_bar_2 = temp_bar_2.reset_index()
+    temp_bar_2 = temp_bar_2.rename(columns = {0:'values'})
+    p2_2 = figure(width=500, height=800, x_range=['Third less adv', 'Abs third less adv', 'Agg abs third less adv'], title= "Third less advanced")
+    p2_2.quad(top=temp_bar_2['values'], bottom=0, left=['Third less adv', 'Abs third less adv', 'Agg abs third less adv'], right=['Third less adv', 'Abs third less adv', 'Agg abs third less adv'], line_width=100, color=["red","yellow","magenta"]) 
+    #p2.text([.5, 2.5], [.5, .5], text=['Yes', 'No'], text_font_size="20pt", text_align='center')
+    
+    #p2.xgrid.grid_line_color = None
+    #p2.ygrid.grid_line_color = None
+    p2_2.yaxis.minor_tick_line_color = None
+    p2_2.xaxis.minor_tick_line_color = None
+    #added these two lines
+    p2_2.y_range.start = 0
+    p2_2.y_range.end = temp_bar['values'].max()*1.1
+    
+    p2 = hplot(p2_1, p2_2)    
+    
+    
+    
+    ''' temp_bar = temp_graph[['third_less_adv', 'abs_third_less_adv_simple', 'abs_third_less_adv']].mean()
+    temp_bar = temp_bar.reset_index()
+    temp_bar = temp_bar.rename(columns = {0:'values'})
+    p2 = figure(width=800, height=800, x_range=['Third less adv', 'Absolute third less adv', 'Agg absolute third less adv'], title= "Different estimates of " + temp_graph['category'].iloc[0])
+    p2.quad(top=temp_bar['values'], bottom=0, left=['Third less adv', 'Absolute(third less adv)', 'Agg: absolute(third less adv)'], right=['Third less adv', 'Absolute(third less adv)', 'Agg: absolute(third less adv)'], line_width=100, color=["blue","green","red"]) 
     #p2.text([.5, 2.5], [.5, .5], text=['Yes', 'No'], text_font_size="20pt", text_align='center')
     
     #p2.xgrid.grid_line_color = None
@@ -58,14 +93,17 @@ for something in final_gdp_data['bea_code'].unique():
     p2.y_range.start = 0
     p2.y_range.end = temp_bar['values'].max()*1.1
     
-    p3 = figure(width=1000, height=500, title= "Sum of the absoulte value (third less advanced): " + temp_graph['category'].iloc[0], x_axis_type="datetime", outline_line_color = None)
+'''
+        
+    
+    p3 = figure(width=1000, height=500, title= "Agg: absolute (third less advanced)", x_axis_type="datetime", outline_line_color = None)
     p3.xgrid.grid_line_color = None
     p3.ygrid.grid_line_color = None
     p3.yaxis.minor_tick_line_color = None
     p3.xaxis.minor_tick_line_color = None
-    p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3)
+    p3.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color="magenta", line_width=3)
     
-    #p3.legend.location = "bottom_left"
+    #p4.legend.location = "bottom_left"
     
         # create another one
     p4 = figure(width=1000, height=500, title=temp_graph['category'].iloc[0], x_axis_type="datetime",  outline_line_color = None)
@@ -73,9 +111,9 @@ for something in final_gdp_data['bea_code'].unique():
     p4.ygrid.grid_line_color = None
     p4.yaxis.minor_tick_line_color = None
     p4.xaxis.minor_tick_line_color = None
-    p4.quad(top=temp_graph['abs_third'], bottom=0, left=temp_graph['date_t'] - pd.DateOffset(35) , right=temp_graph['date_t'] + pd.DateOffset(35), legend="Absolute change in third estimate") 
+    p4.quad(top=temp_graph['abs_third'], bottom=0, left=temp_graph['date_t'] - pd.DateOffset(35) , right=temp_graph['date_t'] + pd.DateOffset(35), color='green', legend="Absolute change in third estimate") 
     
-    p4.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color='red', line_width=3, legend="Total abs third less advanced")
+    p4.line(temp_graph['date_t'], temp_graph['abs_third_less_adv'], color="magenta", line_width=6, legend="Total abs third less advanced")
     
     #p4.legend.location = "bottom_left"
        
@@ -174,7 +212,7 @@ for something in final_gdp_data['bea_code'].unique():
     <header>
         <div class="intro">
             <h1>GDP Revisions</h1>
-            <p>GDP Revisions: <a href="C://Users//whawk//revisions//GDP_index.html">Home</a></p>
+            <p>GDP Revisions: <a href="A191RL1.html">Home</a></p>
             <p>More information on from the Bureau of Economic Analysis: <a href="http://www.bea.gov/newsreleases/national/gdp/gdpnewsrelease.htm">Gross Domestic Product</a></p>
         </div>
     </header>
@@ -286,7 +324,7 @@ for something in final_gdp_data['bea_code'].unique():
     js_resources = resources.render_js()
     css_resources = resources.render_css()
     
-    script, div = components({'p1': p1, 'p2': p2, 'p3': p3, 'p4': p4,'data_table': data_table})
+    script, div = components({'p1': p1, 'p2': p2, 'p3': p3, 'p4': p4, 'data_table': data_table})
     
     html = template.render(js_resources=js_resources,
                            css_resources=css_resources,

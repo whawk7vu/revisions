@@ -15,11 +15,17 @@ import numpy as np
 
 
 final_gdp_data = pd.read_pickle('final_gdp_data')
+
 gdp_data = pd.read_pickle('gdp_data')
 
-comp_list = ["DMOTRY2", 	"DFDHRY2", 	"DREQRY2", 	"DODGRY2", 	"DFXARY2", 	"DCLORY2", 	"DGOERY2", 	"DONGRY2", 	"DHUTRY2", 	"DHLCRY2", 	"DTRSRY2", 	"DRCARY2", 	"DFSARY2", 	"DIFSRY2", 	"DOTSRY2", 	"DNPIRY2", 	"A009RY2", 	"B935RY2", 	"A937RY2", 	"A680RY2", 	"A681RY2", 	"A862RY2", 	"B985RY2", 	"Y006RY2", 	"Y020RY2", 	"A011RY2", 	"B018RY2", 	"A015RY2", 	"A253RY2", 	"A646RY2", 	"A255RY2", 	"A656RY2", 	"A997RY2", 	"A788RY2", 	"A542RY2", 	"A798RY2", 	"A991RY2", 	"A799RY2"] 
+gdp_data.to_excel('gdp_revisions_data.xlsx')
 
-test = gdp_data[(gdp_data['bea_code'].isin(comp_list)) & (gdp_data['date'] == "2013_Q1")]
+comp_list_cur = ["DMOTRY2", 	"DFDHRY2", 	"DREQRY2", 	"DODGRY2", 	"DFXARY2", 	"DCLORY2", 	"DGOERY2", 	"DONGRY2", 	"DHUTRY2", 	"DHLCRY2", 	"DTRSRY2", 	"DRCARY2", 	"DFSARY2", 	"DIFSRY2", 	"DOTSRY2", 	"DNPIRY2", 	"A009RY2", 	"B935RY2", 	"A937RY2", 	"A680RY2", 	"A681RY2", 	"A862RY2", 	"B985RY2", 	"Y006RY2", 	"Y020RY2", 	"A011RY2", 	"B018RY2", 	"A015RY2", 	"A253RY2", 	"A646RY2", 	"A255RY2", 	"A656RY2", 	"A997RY2", 	"A788RY2", 	"A542RY2", 	"A798RY2", 	"A991RY2", 	"A799RY2"]
+
+comp_list_ext = comp_list_cur + ["A165RY2", "A166RY2", "A167RY2", "A168RY2", "A169RY2", "A173RY2", "A172RY2", "A174RY2", "A175RY2", "A176RY2", "A177RY2", "A494RY2", "A490RY2", "A178RY2"]
+
+
+test = gdp_data[(gdp_data['bea_code'].isin(comp_list_cur)) & (gdp_data['date'] == "2013_Q1")]
 
 test.sort_values('third_less_adv', inplace=True)
 
@@ -30,9 +36,9 @@ output_file('2013_Q1.html')
 show(p1)
 
 
-test2 = gdp_data[(gdp_data['bea_code'].isin(comp_list)) & (gdp_data['date'] >= "2011_Q1")]
+test2 = gdp_data[(gdp_data['bea_code'].isin(comp_list_ext)) & (gdp_data['date'] >= "2011_Q1")]
 
-test3 = test2.groupby(test2['category']).sum().round(4)
+test3 = test2.groupby(test2['category']).mean().round(4)
 
 test3.sort_values('third_less_adv', inplace=True)
 test3.reset_index(inplace=True)
@@ -40,12 +46,12 @@ test3.reset_index(inplace=True)
 source = ColumnDataSource(test3)
 p2 = Bar(test3, 'category', values='third_less_adv', title="GDP revisions for 2011 - 2015: Simple", plot_width=1000, plot_height=1000)
 
-output_file('2001_2015_change.html')
+output_file('2011_2015_change.html')
 show(p2)
 
 p3 = Bar(test3, 'category', values='abs_third_less_adv', title="GDP revisions for 2011 - 2015: absoulte value", plot_width=1000, plot_height=1000)
 
-output_file('2001_2015_abs_change.html')
+output_file('2011_2015_abs_change.html')
 show(p3)
 
 
@@ -66,8 +72,6 @@ show(p3)
 
 test2 = gdp_data[gdp_data['bea_code'] == "A191RL1"]
 
-test2['abs_third_less_adv_simple'] = abs(test2['third_less_adv'])
-test2['date']  = test2['date'].astype(object)
 
 output_file("scatter.html")
 

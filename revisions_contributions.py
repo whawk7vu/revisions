@@ -7,6 +7,7 @@ Created on Thu May  5 09:23:34 2016
 
 import pandas as pd
 import datetime
+import numpy as np
 
 
 ###
@@ -145,9 +146,12 @@ for x in range(1, 150):
 
 
 hist_file_all.to_pickle('hist_file_all')
-hist_file_all = pd.read_pickle('hist_file_all')
+descrip.to_pickle('descrip')
 
-test = hist_file_all
+
+#hist_file_all = pd.read_pickle('hist_file_all')
+#descrip = pd.read_pickle('descrip')
+
 
 
 #sort the file
@@ -157,11 +161,15 @@ hist_file_all.sort_values(by=['date_pub', 'line'], inplace=True)
 hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 1, 31).date(), 'date_pub'] = pd.datetime(2007, 1, 27).date()
 hist_file_all.ix[hist_file_all['date_pub']==pd.datetime(2007, 3, 29).date(), 'date_pub'] = pd.datetime(2007, 3, 30).date()
 
+
 hist_file_all = pd.merge(hist_file_all, descrip, how='left', on='code')
 
 hist_file_all["description_y"].fillna(hist_file_all["description_x"], inplace=True)
 hist_file_all.drop('description_x', axis=1, inplace=True)
 hist_file_all.rename(columns = {'description_y':'description'}, inplace = True)
+
+
+hist_file_all.to_pickle('hist_file_all')
 
 #create final_data
 final_data_cur = pd.merge(long_file, hist_file_all, how='left', on=['date_pub', 'code'])
@@ -275,17 +283,31 @@ pivot_all.to_pickle('pivot_all')
 
 pivot = pd.read_pickle('pivot')
 
-comp_gdp = pivot
+comp_gdp = pivot_all
+
+
+comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
+
+comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
+
+comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
+
+comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
+
 
 line = comp_gdp[['line', 'code']].drop_duplicates(['line'], keep='last')
 
 
+
+
 #Current vintage - lowest level
 gdp_list = ["A191RL1"]
-comp_list = ["DMOTRY2", 	"DFDHRY2", 	"DREQRY2", 	"DODGRY2", 	"DFXARY2", 	"DCLORY2", 	"DGOERY2", 	"DONGRY2", 	"DHUTRY2", 	"DHLCRY2", 	"DTRSRY2", 	"DRCARY2", 	"DFSARY2", 	"DIFSRY2", 	"DOTSRY2", 	"DNPIRY2", 	"A009RY2", 	"B935RY2", 	"A937RY2", 	"A680RY2", 	"A681RY2", 	"A862RY2", 	"B985RY2", 	"Y006RY2", 	"Y020RY2", 	"A011RY2", 	"B018RY2", 	"A015RY2", 	"A253RY2", 	"A646RY2", 	"A255RY2", 	"A656RY2", 	"A997RY2", 	"A788RY2", 	"A542RY2", 	"A798RY2", 	"A991RY2", 	"A799RY2"] 
 durgoods_list = ["DMOTRY2", 	"DFDHRY2", 	"DREQRY2", 	"DODGRY2"]
+durgoods_list.extend(["A165RY2", "A166RY2", "A167RY2"])
 nondurgoods_list = ["DFXARY2", 	"DCLORY2", 	"DGOERY2", 	"DONGRY2"]
+nondurgoods_list.extend(["A168RY2", "A169RY2", "A173RY2", "A172RY2"])
 houseserv_list = ["DHUTRY2", 	"DHLCRY2", 	"DTRSRY2", 	"DRCARY2", 	"DFSARY2", 	"DIFSRY2", 	"DOTSRY2"]
+houseserv_list.extend(["A174RY2", "A175RY2", "A176RY2", "A177RY2", "A494RY2", "A490RY2", "A178RY2"])
 nonprofserv_list = ["DNPIRY2"]
 struct_list = ["A009RY2"]
 info_list = ["B935RY2", "A937RY2"]
@@ -475,5 +497,12 @@ final_gdp_data['month'][final_gdp_data['month']=='2'] = '4'
 final_gdp_data['date_t'] = pd.to_datetime(final_gdp_data['year']+final_gdp_data['month'],format='%Y%m')
 
 final_gdp_data.to_pickle('final_gdp_data')
+
+
+
+#test = np.unique(final_data_all[['code','description']][final_data_all['code'].isin(new)].values)
+#test = pd.unique(final_data_all[['code','description']][final_data_all['code'].isin(new)].values.ravel())
+
+
 
          

@@ -1,49 +1,241 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-368,Y033RY2,Equipment,2004_Q1,0.65,0.44,0.44,0.74,-0.21,0.21,0.21,30.0,2004,1,2004-01-01
-369,Y033RY2,Equipment,2004_Q2,0.62,0.93,0.93,0.93,0.31,0.31,0.31,30.0,2004,4,2004-04-01
-370,Y033RY2,Equipment,2004_Q3,1.06,1.2,1.2,1.2,0.14,0.14,0.28,30.0,2004,7,2004-07-01
-371,Y033RY2,Equipment,2004_Q4,0.87,1.1,1.1,1.16,0.23,0.23,0.29,30.0,2004,10,2004-10-01
-372,Y033RY2,Equipment,2005_Q1,0.28,0.27,0.27,1.07,-0.01,0.01,0.17,30.0,2005,1,2005-01-01
-373,Y033RY2,Equipment,2005_Q2,0.72,0.53,0.53,1.07,-0.19,0.19,0.27,30.0,2005,4,2005-04-01
-374,Y033RY2,Equipment,2005_Q3,0.5,0.68,0.68,0.68,0.18,0.18,0.32,30.0,2005,7,2005-07-01
-375,Y033RY2,Equipment,2005_Q4,0.14,0.29,0.29,0.79,0.15,0.15,0.17,30.0,2005,10,2005-10-01
-376,Y033RY2,Equipment,2006_Q1,1.15,0.99,0.99,1.07,-0.16,0.16,0.44,30.0,2006,1,2006-01-01
-377,Y033RY2,Equipment,2006_Q2,-0.1,-0.18,0.18,0.74,-0.08,0.08,0.12,30.0,2006,4,2006-04-01
-378,Y033RY2,Equipment,2006_Q3,0.38,0.46,0.46,0.46,0.08,0.08,0.18,30.0,2006,7,2006-07-01
-379,Y033RY2,Equipment,2006_Q4,-0.29,-0.41,0.41,0.41,-0.12,0.12,0.16,30.0,2006,10,2006-10-01
-380,Y033RY2,Equipment,2007_Q1,0.03,-0.01,0.01,0.95,-0.04,0.04,0.22,30.0,2007,1,2007-01-01
-381,Y033RY2,Equipment,2007_Q2,0.07,0.17,0.17,0.81,0.1,0.1,0.22,30.0,2007,4,2007-04-01
-382,Y033RY2,Equipment,2007_Q3,0.31,0.37,0.37,0.37,0.06,0.06,0.1,30.0,2007,7,2007-07-01
-383,Y033RY2,Equipment,2007_Q4,0.14,0.04,0.04,0.78,-0.1,0.1,0.22,30.0,2007,10,2007-10-01
-384,Y033RY2,Equipment,2008_Q1,-0.18,-0.16,0.16,0.48,0.02,0.02,0.2,30.0,2008,1,2008-01-01
-385,Y033RY2,Equipment,2008_Q2,-0.32,-0.41,0.41,0.93,-0.09,0.09,0.19,30.0,2008,4,2008-04-01
-386,Y033RY2,Equipment,2008_Q3,-0.45,-0.47,0.47,1.03,-0.02,0.02,0.22,30.0,2008,7,2008-07-01
-387,Y033RY2,Equipment,2008_Q4,-2.04,-1.95,1.95,1.95,0.09,0.09,0.27,30.0,2008,10,2008-10-01
-388,Y033RY2,Equipment,2009_Q1,-2.26,-2.16,2.16,2.16,0.1,0.1,0.16,30.0,2009,1,2009-01-01
-389,Y033RY2,Equipment,2009_Q2,-0.38,-0.34,0.34,0.86,0.04,0.04,0.2,30.0,2009,4,2009-04-01
-390,Y033RY2,Equipment,2009_Q3,-0.08,0.01,0.01,0.55,0.09,0.09,0.17,30.0,2009,7,2009-07-01
-391,Y033RY2,Equipment,2009_Q4,0.72,0.77,0.77,0.97,0.05,0.05,0.11,30.0,2009,10,2009-10-01
-392,Y033RY2,Equipment,2010_Q1,0.48,0.53,0.53,0.53,0.05,0.05,0.37,30.0,2010,1,2010-01-01
-393,Y033RY2,Equipment,2010_Q2,1.24,1.37,1.37,1.37,0.13,0.13,0.29,30.0,2010,4,2010-04-01
-394,Y033RY2,Equipment,2010_Q3,0.66,0.83,0.83,0.83,0.17,0.17,0.25,30.0,2010,7,2010-07-01
-395,Y033RY2,Equipment,2010_Q4,0.25,0.33,0.33,0.73,0.08,0.08,0.16,30.0,2010,10,2010-10-01
-396,Y033RY2,Equipment,2011_Q1,0.63,0.55,0.55,0.63,-0.08,0.08,0.14,30.0,2011,1,2011-01-01
-397,Y033RY2,Equipment,2011_Q2,0.24,0.3,0.3,0.52,0.06,0.06,0.24,30.0,2011,4,2011-04-01
-398,Y033RY2,Equipment,2011_Q3,1.08,0.98,0.98,1.34,-0.1,0.1,0.1,30.0,2011,7,2011-07-01
-399,Y033RY2,Equipment,2011_Q4,0.29,0.37,0.37,0.79,0.08,0.08,0.32,30.0,2011,10,2011-10-01
-400,Y033RY2,Equipment,2012_Q1,-0.03,0.19,0.19,0.65,0.22,0.22,0.32,30.0,2012,1,2012-01-01
-401,Y033RY2,Equipment,2012_Q2,0.4,0.24,0.24,0.64,-0.16,0.16,0.22,30.0,2012,4,2012-04-01
-402,Y033RY2,Equipment,2012_Q3,-0.12,-0.25,0.25,0.57,-0.13,0.13,0.27,30.0,2012,7,2012-07-01
-403,Y033RY2,Equipment,2012_Q4,0.71,0.67,0.67,0.67,-0.04,0.04,0.26,30.0,2012,10,2012-10-01
-404,Y033RY2,Equipment,2013_Q1,0.17,0.21,0.21,0.39,0.04,0.04,0.28,30.0,2013,1,2013-01-01
-405,Y033RY2,Equipment,2013_Q2,0.23,0.18,0.18,0.44,-0.05,0.05,0.07,30.0,2013,4,2013-04-01
-406,Y033RY2,Equipment,2013_Q3,-0.2,0.03,0.03,0.49,0.23,0.23,0.27,30.0,2013,7,2013-07-01
-407,Y033RY2,Equipment,2013_Q4,0.37,0.59,0.59,0.95,0.22,0.22,0.22,30.0,2013,10,2013-10-01
-408,Y033RY2,Equipment,2014_Q1,-0.32,-0.16,0.16,0.56,0.16,0.16,0.32,30.0,2014,1,2014-01-01
-409,Y033RY2,Equipment,2014_Q2,0.39,0.62,0.62,0.9,0.23,0.23,0.23,30.0,2014,4,2014-04-01
-410,Y033RY2,Equipment,2014_Q3,0.4,0.64,0.64,1.06,0.24,0.24,0.24,30.0,2014,7,2014-07-01
-411,Y033RY2,Equipment,2014_Q4,-0.11,0.03,0.03,0.67,0.14,0.14,0.24,30.0,2014,10,2014-10-01
-412,Y033RY2,Equipment,2015_Q1,0.01,0.16,0.16,0.52,0.15,0.15,0.43,30.0,2015,1,2015-01-01
-413,Y033RY2,Equipment,2015_Q2,-0.25,0.03,0.03,0.71,0.28,0.28,0.28,30.0,2015,4,2015-04-01
-414,Y033RY2,Equipment,2015_Q3,0.31,0.57,0.57,0.87,0.26,0.26,0.26,30.0,2015,7,2015-07-01
-415,Y033RY2,Equipment,2015_Q4,-0.16,-0.13,0.13,0.81,0.03,0.03,0.19,30.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+491,Y033RY2,Equipment,Computers and peripheral equipment,2004_Q1,0.12,0.08,0.08,0.08,-0.04,0.04,0.04,30.0,2004,1,2004-01-01
+492,Y033RY2,Equipment,Industrial equipment,2004_Q1,0.07,0.07,0.07,0.07,0.0,0.0,0.0,30.0,2004,1,2004-01-01
+493,Y033RY2,Equipment,Information processing equipment - other,2004_Q1,0.32,0.3,0.3,0.3,-0.02,0.02,0.02,30.0,2004,1,2004-01-01
+494,Y033RY2,Equipment,Other equipment,2004_Q1,0.15,0.14,0.14,0.14,-0.01,0.01,0.01,30.0,2004,1,2004-01-01
+495,Y033RY2,Equipment,Transportation equipment,2004_Q1,-0.01,-0.15,0.15,0.15,-0.14,0.14,0.14,30.0,2004,1,2004-01-01
+496,Y033RY2,Equipment,Computers and peripheral equipment,2004_Q2,0.22,0.22,0.22,0.22,0.0,0.0,0.0,30.0,2004,4,2004-04-01
+497,Y033RY2,Equipment,Industrial equipment,2004_Q2,-0.02,0.03,0.03,0.03,0.05,0.05,0.05,30.0,2004,4,2004-04-01
+498,Y033RY2,Equipment,Information processing equipment - other,2004_Q2,0.19,0.2,0.2,0.2,0.01,0.01,0.01,30.0,2004,4,2004-04-01
+499,Y033RY2,Equipment,Other equipment,2004_Q2,0.12,0.2,0.2,0.2,0.08,0.08,0.08,30.0,2004,4,2004-04-01
+500,Y033RY2,Equipment,Transportation equipment,2004_Q2,0.11,0.28,0.28,0.28,0.17,0.17,0.17,30.0,2004,4,2004-04-01
+501,Y033RY2,Equipment,Computers and peripheral equipment,2004_Q3,0.08,0.18,0.18,0.18,0.1,0.1,0.1,30.0,2004,7,2004-07-01
+502,Y033RY2,Equipment,Industrial equipment,2004_Q3,0.34,0.31,0.31,0.31,-0.03,0.03,0.03,30.0,2004,7,2004-07-01
+503,Y033RY2,Equipment,Information processing equipment - other,2004_Q3,0.04,0.02,0.02,0.02,-0.02,0.02,0.02,30.0,2004,7,2004-07-01
+504,Y033RY2,Equipment,Other equipment,2004_Q3,0.3,0.28,0.28,0.28,-0.02,0.02,0.02,30.0,2004,7,2004-07-01
+505,Y033RY2,Equipment,Transportation equipment,2004_Q3,0.3,0.41,0.41,0.41,0.11,0.11,0.11,30.0,2004,7,2004-07-01
+506,Y033RY2,Equipment,Computers and peripheral equipment,2004_Q4,0.39,0.41,0.41,0.41,0.02,0.02,0.02,30.0,2004,10,2004-10-01
+507,Y033RY2,Equipment,Industrial equipment,2004_Q4,0.08,0.1,0.1,0.1,0.02,0.02,0.02,30.0,2004,10,2004-10-01
+508,Y033RY2,Equipment,Information processing equipment - other,2004_Q4,0.0,-0.03,0.03,0.03,-0.03,0.03,0.03,30.0,2004,10,2004-10-01
+509,Y033RY2,Equipment,Other equipment,2004_Q4,0.16,0.16,0.16,0.16,0.0,0.0,0.0,30.0,2004,10,2004-10-01
+510,Y033RY2,Equipment,Transportation equipment,2004_Q4,0.24,0.46,0.46,0.46,0.22,0.22,0.22,30.0,2004,10,2004-10-01
+511,Y033RY2,Equipment,Computers and peripheral equipment,2005_Q1,0.41,0.41,0.41,0.41,0.0,0.0,0.0,30.0,2005,1,2005-01-01
+512,Y033RY2,Equipment,Industrial equipment,2005_Q1,0.04,0.05,0.05,0.05,0.01,0.01,0.01,30.0,2005,1,2005-01-01
+513,Y033RY2,Equipment,Information processing equipment - other,2005_Q1,0.24,0.21,0.21,0.21,-0.03,0.03,0.03,30.0,2005,1,2005-01-01
+514,Y033RY2,Equipment,Other equipment,2005_Q1,-0.1,-0.16,0.16,0.16,-0.06,0.06,0.06,30.0,2005,1,2005-01-01
+515,Y033RY2,Equipment,Transportation equipment,2005_Q1,-0.31,-0.24,0.24,0.24,0.07,0.07,0.07,30.0,2005,1,2005-01-01
+516,Y033RY2,Equipment,Computers and peripheral equipment,2005_Q2,0.3,0.23,0.23,0.23,-0.07,0.07,0.07,30.0,2005,4,2005-04-01
+517,Y033RY2,Equipment,Industrial equipment,2005_Q2,-0.28,-0.27,0.27,0.27,0.01,0.01,0.01,30.0,2005,4,2005-04-01
+518,Y033RY2,Equipment,Information processing equipment - other,2005_Q2,0.02,0.01,0.01,0.01,-0.01,0.01,0.01,30.0,2005,4,2005-04-01
+519,Y033RY2,Equipment,Other equipment,2005_Q2,0.2,0.23,0.23,0.23,0.03,0.03,0.03,30.0,2005,4,2005-04-01
+520,Y033RY2,Equipment,Transportation equipment,2005_Q2,0.48,0.33,0.33,0.33,-0.15,0.15,0.15,30.0,2005,4,2005-04-01
+521,Y033RY2,Equipment,Computers and peripheral equipment,2005_Q3,0.1,0.11,0.11,0.11,0.01,0.01,0.01,30.0,2005,7,2005-07-01
+522,Y033RY2,Equipment,Industrial equipment,2005_Q3,0.24,0.2,0.2,0.2,-0.04,0.04,0.04,30.0,2005,7,2005-07-01
+523,Y033RY2,Equipment,Information processing equipment - other,2005_Q3,0.2,0.17,0.17,0.17,-0.03,0.03,0.03,30.0,2005,7,2005-07-01
+524,Y033RY2,Equipment,Other equipment,2005_Q3,-0.04,0.02,0.02,0.02,0.06,0.06,0.06,30.0,2005,7,2005-07-01
+525,Y033RY2,Equipment,Transportation equipment,2005_Q3,0.0,0.18,0.18,0.18,0.18,0.18,0.18,30.0,2005,7,2005-07-01
+526,Y033RY2,Equipment,Computers and peripheral equipment,2005_Q4,0.26,0.28,0.28,0.28,0.02,0.02,0.02,30.0,2005,10,2005-10-01
+527,Y033RY2,Equipment,Industrial equipment,2005_Q4,0.13,0.16,0.16,0.16,0.03,0.03,0.03,30.0,2005,10,2005-10-01
+528,Y033RY2,Equipment,Information processing equipment - other,2005_Q4,-0.05,-0.06,0.06,0.06,-0.01,0.01,0.01,30.0,2005,10,2005-10-01
+529,Y033RY2,Equipment,Other equipment,2005_Q4,0.07,0.1,0.1,0.1,0.03,0.03,0.03,30.0,2005,10,2005-10-01
+530,Y033RY2,Equipment,Transportation equipment,2005_Q4,-0.27,-0.19,0.19,0.19,0.08,0.08,0.08,30.0,2005,10,2005-10-01
+531,Y033RY2,Equipment,Computers and peripheral equipment,2006_Q1,0.12,0.14,0.14,0.14,0.02,0.02,0.02,30.0,2006,1,2006-01-01
+532,Y033RY2,Equipment,Industrial equipment,2006_Q1,0.12,-0.04,0.04,0.04,-0.16,0.16,0.16,30.0,2006,1,2006-01-01
+533,Y033RY2,Equipment,Information processing equipment - other,2006_Q1,0.34,0.46,0.46,0.46,0.12,0.12,0.12,30.0,2006,1,2006-01-01
+534,Y033RY2,Equipment,Other equipment,2006_Q1,0.1,0.05,0.05,0.05,-0.05,0.05,0.05,30.0,2006,1,2006-01-01
+535,Y033RY2,Equipment,Transportation equipment,2006_Q1,0.47,0.38,0.38,0.38,-0.09,0.09,0.09,30.0,2006,1,2006-01-01
+536,Y033RY2,Equipment,Computers and peripheral equipment,2006_Q2,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,30.0,2006,4,2006-04-01
+537,Y033RY2,Equipment,Industrial equipment,2006_Q2,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,30.0,2006,4,2006-04-01
+538,Y033RY2,Equipment,Information processing equipment - other,2006_Q2,-0.16,-0.14,0.14,0.14,0.02,0.02,0.02,30.0,2006,4,2006-04-01
+539,Y033RY2,Equipment,Other equipment,2006_Q2,0.13,0.09,0.09,0.09,-0.04,0.04,0.04,30.0,2006,4,2006-04-01
+540,Y033RY2,Equipment,Transportation equipment,2006_Q2,-0.3,-0.32,0.32,0.32,-0.02,0.02,0.02,30.0,2006,4,2006-04-01
+541,Y033RY2,Equipment,Computers and peripheral equipment,2006_Q3,0.14,0.13,0.13,0.13,-0.01,0.01,0.01,30.0,2006,7,2006-07-01
+542,Y033RY2,Equipment,Industrial equipment,2006_Q3,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,30.0,2006,7,2006-07-01
+543,Y033RY2,Equipment,Information processing equipment - other,2006_Q3,0.04,0.13,0.13,0.13,0.09,0.09,0.09,30.0,2006,7,2006-07-01
+544,Y033RY2,Equipment,Other equipment,2006_Q3,0.05,0.05,0.05,0.05,0.0,0.0,0.0,30.0,2006,7,2006-07-01
+545,Y033RY2,Equipment,Transportation equipment,2006_Q3,0.11,0.15,0.15,0.15,0.04,0.04,0.04,30.0,2006,7,2006-07-01
+546,Y033RY2,Equipment,Computers and peripheral equipment,2006_Q4,0.05,0.0,0.0,0.0,-0.05,0.05,0.05,30.0,2006,10,2006-10-01
+547,Y033RY2,Equipment,Industrial equipment,2006_Q4,-0.05,-0.07,0.07,0.07,-0.02,0.02,0.02,30.0,2006,10,2006-10-01
+548,Y033RY2,Equipment,Information processing equipment - other,2006_Q4,-0.13,-0.11,0.11,0.11,0.02,0.02,0.02,30.0,2006,10,2006-10-01
+549,Y033RY2,Equipment,Other equipment,2006_Q4,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,30.0,2006,10,2006-10-01
+550,Y033RY2,Equipment,Transportation equipment,2006_Q4,-0.15,-0.22,0.22,0.22,-0.07,0.07,0.07,30.0,2006,10,2006-10-01
+551,Y033RY2,Equipment,Computers and peripheral equipment,2007_Q1,0.28,0.26,0.26,0.26,-0.02,0.02,0.02,30.0,2007,1,2007-01-01
+552,Y033RY2,Equipment,Industrial equipment,2007_Q1,0.02,-0.04,0.04,0.04,-0.06,0.06,0.06,30.0,2007,1,2007-01-01
+553,Y033RY2,Equipment,Information processing equipment - other,2007_Q1,0.16,0.21,0.21,0.21,0.05,0.05,0.05,30.0,2007,1,2007-01-01
+554,Y033RY2,Equipment,Other equipment,2007_Q1,-0.26,-0.31,0.31,0.31,-0.05,0.05,0.05,30.0,2007,1,2007-01-01
+555,Y033RY2,Equipment,Transportation equipment,2007_Q1,-0.17,-0.13,0.13,0.13,0.04,0.04,0.04,30.0,2007,1,2007-01-01
+556,Y033RY2,Equipment,Computers and peripheral equipment,2007_Q2,0.03,0.08,0.08,0.08,0.05,0.05,0.05,30.0,2007,4,2007-04-01
+557,Y033RY2,Equipment,Industrial equipment,2007_Q2,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,30.0,2007,4,2007-04-01
+558,Y033RY2,Equipment,Information processing equipment - other,2007_Q2,0.15,0.11,0.11,0.11,-0.04,0.04,0.04,30.0,2007,4,2007-04-01
+559,Y033RY2,Equipment,Other equipment,2007_Q2,0.09,0.11,0.11,0.11,0.02,0.02,0.02,30.0,2007,4,2007-04-01
+560,Y033RY2,Equipment,Transportation equipment,2007_Q2,-0.41,-0.32,0.32,0.32,0.09,0.09,0.09,30.0,2007,4,2007-04-01
+561,Y033RY2,Equipment,Computers and peripheral equipment,2007_Q3,0.07,0.08,0.08,0.08,0.01,0.01,0.01,30.0,2007,7,2007-07-01
+562,Y033RY2,Equipment,Industrial equipment,2007_Q3,0.1,0.1,0.1,0.1,0.0,0.0,0.0,30.0,2007,7,2007-07-01
+563,Y033RY2,Equipment,Information processing equipment - other,2007_Q3,0.02,0.09,0.09,0.09,0.07,0.07,0.07,30.0,2007,7,2007-07-01
+564,Y033RY2,Equipment,Other equipment,2007_Q3,0.07,0.07,0.07,0.07,0.0,0.0,0.0,30.0,2007,7,2007-07-01
+565,Y033RY2,Equipment,Transportation equipment,2007_Q3,0.05,0.03,0.03,0.03,-0.02,0.02,0.02,30.0,2007,7,2007-07-01
+566,Y033RY2,Equipment,Computers and peripheral equipment,2007_Q4,0.14,0.2,0.2,0.2,0.06,0.06,0.06,30.0,2007,10,2007-10-01
+567,Y033RY2,Equipment,Industrial equipment,2007_Q4,-0.18,-0.18,0.18,0.18,0.0,0.0,0.0,30.0,2007,10,2007-10-01
+568,Y033RY2,Equipment,Information processing equipment - other,2007_Q4,0.18,0.13,0.13,0.13,-0.05,0.05,0.05,30.0,2007,10,2007-10-01
+569,Y033RY2,Equipment,Other equipment,2007_Q4,0.13,0.08,0.08,0.08,-0.05,0.05,0.05,30.0,2007,10,2007-10-01
+570,Y033RY2,Equipment,Transportation equipment,2007_Q4,-0.13,-0.19,0.19,0.19,-0.06,0.06,0.06,30.0,2007,10,2007-10-01
+571,Y033RY2,Equipment,Computers and peripheral equipment,2008_Q1,0.12,0.12,0.12,0.12,0.0,0.0,0.0,30.0,2008,1,2008-01-01
+572,Y033RY2,Equipment,Industrial equipment,2008_Q1,0.13,0.04,0.04,0.04,-0.09,0.09,0.09,30.0,2008,1,2008-01-01
+573,Y033RY2,Equipment,Information processing equipment - other,2008_Q1,-0.02,0.0,0.0,0.0,0.02,0.02,0.02,30.0,2008,1,2008-01-01
+574,Y033RY2,Equipment,Other equipment,2008_Q1,-0.18,-0.16,0.16,0.16,0.02,0.02,0.02,30.0,2008,1,2008-01-01
+575,Y033RY2,Equipment,Transportation equipment,2008_Q1,-0.23,-0.16,0.16,0.16,0.07,0.07,0.07,30.0,2008,1,2008-01-01
+576,Y033RY2,Equipment,Computers and peripheral equipment,2008_Q2,0.08,0.08,0.08,0.08,0.0,0.0,0.0,30.0,2008,4,2008-04-01
+577,Y033RY2,Equipment,Industrial equipment,2008_Q2,0.08,-0.05,0.05,0.05,-0.13,0.13,0.13,30.0,2008,4,2008-04-01
+578,Y033RY2,Equipment,Information processing equipment - other,2008_Q2,0.19,0.18,0.18,0.18,-0.01,0.01,0.01,30.0,2008,4,2008-04-01
+579,Y033RY2,Equipment,Other equipment,2008_Q2,-0.07,-0.04,0.04,0.04,0.03,0.03,0.03,30.0,2008,4,2008-04-01
+580,Y033RY2,Equipment,Transportation equipment,2008_Q2,-0.6,-0.58,0.58,0.58,0.02,0.02,0.02,30.0,2008,4,2008-04-01
+581,Y033RY2,Equipment,Computers and peripheral equipment,2008_Q3,-0.08,-0.16,0.16,0.16,-0.08,0.08,0.08,30.0,2008,7,2008-07-01
+582,Y033RY2,Equipment,Industrial equipment,2008_Q3,-0.14,-0.12,0.12,0.12,0.02,0.02,0.02,30.0,2008,7,2008-07-01
+583,Y033RY2,Equipment,Information processing equipment - other,2008_Q3,0.12,0.08,0.08,0.08,-0.04,0.04,0.04,30.0,2008,7,2008-07-01
+584,Y033RY2,Equipment,Other equipment,2008_Q3,0.2,0.2,0.2,0.2,0.0,0.0,0.0,30.0,2008,7,2008-07-01
+585,Y033RY2,Equipment,Transportation equipment,2008_Q3,-0.55,-0.47,0.47,0.47,0.08,0.08,0.08,30.0,2008,7,2008-07-01
+586,Y033RY2,Equipment,Computers and peripheral equipment,2008_Q4,-0.21,-0.28,0.28,0.28,-0.07,0.07,0.07,30.0,2008,10,2008-10-01
+587,Y033RY2,Equipment,Industrial equipment,2008_Q4,-0.22,-0.19,0.19,0.19,0.03,0.03,0.03,30.0,2008,10,2008-10-01
+588,Y033RY2,Equipment,Information processing equipment - other,2008_Q4,-0.4,-0.42,0.42,0.42,-0.02,0.02,0.02,30.0,2008,10,2008-10-01
+589,Y033RY2,Equipment,Other equipment,2008_Q4,-0.33,-0.31,0.31,0.31,0.02,0.02,0.02,30.0,2008,10,2008-10-01
+590,Y033RY2,Equipment,Transportation equipment,2008_Q4,-0.88,-0.75,0.75,0.75,0.13,0.13,0.13,30.0,2008,10,2008-10-01
+591,Y033RY2,Equipment,Computers and peripheral equipment,2009_Q1,-0.1,-0.06,0.06,0.06,0.04,0.04,0.04,30.0,2009,1,2009-01-01
+592,Y033RY2,Equipment,Industrial equipment,2009_Q1,-0.7,-0.72,0.72,0.72,-0.02,0.02,0.02,30.0,2009,1,2009-01-01
+593,Y033RY2,Equipment,Information processing equipment - other,2009_Q1,-0.31,-0.26,0.26,0.26,0.05,0.05,0.05,30.0,2009,1,2009-01-01
+594,Y033RY2,Equipment,Other equipment,2009_Q1,-0.5,-0.46,0.46,0.46,0.04,0.04,0.04,30.0,2009,1,2009-01-01
+595,Y033RY2,Equipment,Transportation equipment,2009_Q1,-0.65,-0.66,0.66,0.66,-0.01,0.01,0.01,30.0,2009,1,2009-01-01
+596,Y033RY2,Equipment,Computers and peripheral equipment,2009_Q2,0.02,0.08,0.08,0.08,0.06,0.06,0.06,30.0,2009,4,2009-04-01
+597,Y033RY2,Equipment,Industrial equipment,2009_Q2,-0.18,-0.18,0.18,0.18,0.0,0.0,0.0,30.0,2009,4,2009-04-01
+598,Y033RY2,Equipment,Information processing equipment - other,2009_Q2,0.03,0.09,0.09,0.09,0.06,0.06,0.06,30.0,2009,4,2009-04-01
+599,Y033RY2,Equipment,Other equipment,2009_Q2,-0.39,-0.42,0.42,0.42,-0.03,0.03,0.03,30.0,2009,4,2009-04-01
+600,Y033RY2,Equipment,Transportation equipment,2009_Q2,0.14,0.09,0.09,0.09,-0.05,0.05,0.05,30.0,2009,4,2009-04-01
+601,Y033RY2,Equipment,Computers and peripheral equipment,2009_Q3,0.01,0.05,0.05,0.05,0.04,0.04,0.04,30.0,2009,7,2009-07-01
+602,Y033RY2,Equipment,Industrial equipment,2009_Q3,-0.13,-0.15,0.15,0.15,-0.02,0.02,0.02,30.0,2009,7,2009-07-01
+603,Y033RY2,Equipment,Information processing equipment - other,2009_Q3,0.15,0.13,0.13,0.13,-0.02,0.02,0.02,30.0,2009,7,2009-07-01
+604,Y033RY2,Equipment,Other equipment,2009_Q3,-0.16,-0.12,0.12,0.12,0.04,0.04,0.04,30.0,2009,7,2009-07-01
+605,Y033RY2,Equipment,Transportation equipment,2009_Q3,0.05,0.1,0.1,0.1,0.05,0.05,0.05,30.0,2009,7,2009-07-01
+606,Y033RY2,Equipment,Computers and peripheral equipment,2009_Q4,0.33,0.37,0.37,0.37,0.04,0.04,0.04,30.0,2009,10,2009-10-01
+607,Y033RY2,Equipment,Industrial equipment,2009_Q4,-0.04,-0.07,0.07,0.07,-0.03,0.03,0.03,30.0,2009,10,2009-10-01
+608,Y033RY2,Equipment,Information processing equipment - other,2009_Q4,0.19,0.19,0.19,0.19,0.0,0.0,0.0,30.0,2009,10,2009-10-01
+609,Y033RY2,Equipment,Other equipment,2009_Q4,-0.07,-0.03,0.03,0.03,0.04,0.04,0.04,30.0,2009,10,2009-10-01
+610,Y033RY2,Equipment,Transportation equipment,2009_Q4,0.31,0.31,0.31,0.31,0.0,0.0,0.0,30.0,2009,10,2009-10-01
+611,Y033RY2,Equipment,Computers and peripheral equipment,2010_Q1,0.15,0.02,0.02,0.02,-0.13,0.13,0.13,30.0,2010,1,2010-01-01
+612,Y033RY2,Equipment,Industrial equipment,2010_Q1,0.0,0.01,0.01,0.01,0.01,0.01,0.01,30.0,2010,1,2010-01-01
+613,Y033RY2,Equipment,Information processing equipment - other,2010_Q1,0.06,0.03,0.03,0.03,-0.03,0.03,0.03,30.0,2010,1,2010-01-01
+614,Y033RY2,Equipment,Other equipment,2010_Q1,0.26,0.3,0.3,0.3,0.04,0.04,0.04,30.0,2010,1,2010-01-01
+615,Y033RY2,Equipment,Transportation equipment,2010_Q1,0.01,0.17,0.17,0.17,0.16,0.16,0.16,30.0,2010,1,2010-01-01
+616,Y033RY2,Equipment,Computers and peripheral equipment,2010_Q2,0.27,0.24,0.24,0.24,-0.03,0.03,0.03,30.0,2010,4,2010-04-01
+617,Y033RY2,Equipment,Industrial equipment,2010_Q2,0.44,0.39,0.39,0.39,-0.05,0.05,0.05,30.0,2010,4,2010-04-01
+618,Y033RY2,Equipment,Information processing equipment - other,2010_Q2,0.11,0.17,0.17,0.17,0.06,0.06,0.06,30.0,2010,4,2010-04-01
+619,Y033RY2,Equipment,Other equipment,2010_Q2,0.1,0.17,0.17,0.17,0.07,0.07,0.07,30.0,2010,4,2010-04-01
+620,Y033RY2,Equipment,Transportation equipment,2010_Q2,0.32,0.4,0.4,0.4,0.08,0.08,0.08,30.0,2010,4,2010-04-01
+621,Y033RY2,Equipment,Computers and peripheral equipment,2010_Q3,-0.03,0.01,0.01,0.01,0.04,0.04,0.04,30.0,2010,7,2010-07-01
+622,Y033RY2,Equipment,Industrial equipment,2010_Q3,0.08,0.07,0.07,0.07,-0.01,0.01,0.01,30.0,2010,7,2010-07-01
+623,Y033RY2,Equipment,Information processing equipment - other,2010_Q3,0.1,0.15,0.15,0.15,0.05,0.05,0.05,30.0,2010,7,2010-07-01
+624,Y033RY2,Equipment,Other equipment,2010_Q3,0.23,0.2,0.2,0.2,-0.03,0.03,0.03,30.0,2010,7,2010-07-01
+625,Y033RY2,Equipment,Transportation equipment,2010_Q3,0.28,0.4,0.4,0.4,0.12,0.12,0.12,30.0,2010,7,2010-07-01
+626,Y033RY2,Equipment,Computers and peripheral equipment,2010_Q4,0.18,0.16,0.16,0.16,-0.02,0.02,0.02,30.0,2010,10,2010-10-01
+627,Y033RY2,Equipment,Industrial equipment,2010_Q4,0.13,0.11,0.11,0.11,-0.02,0.02,0.02,30.0,2010,10,2010-10-01
+628,Y033RY2,Equipment,Information processing equipment - other,2010_Q4,0.15,0.19,0.19,0.19,0.04,0.04,0.04,30.0,2010,10,2010-10-01
+629,Y033RY2,Equipment,Other equipment,2010_Q4,0.04,0.07,0.07,0.07,0.03,0.03,0.03,30.0,2010,10,2010-10-01
+630,Y033RY2,Equipment,Transportation equipment,2010_Q4,-0.25,-0.2,0.2,0.2,0.05,0.05,0.05,30.0,2010,10,2010-10-01
+631,Y033RY2,Equipment,Computers and peripheral equipment,2011_Q1,-0.06,-0.04,0.04,0.04,0.02,0.02,0.02,30.0,2011,1,2011-01-01
+632,Y033RY2,Equipment,Industrial equipment,2011_Q1,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,30.0,2011,1,2011-01-01
+633,Y033RY2,Equipment,Information processing equipment - other,2011_Q1,0.02,0.03,0.03,0.03,0.01,0.01,0.01,30.0,2011,1,2011-01-01
+634,Y033RY2,Equipment,Other equipment,2011_Q1,0.18,0.11,0.11,0.11,-0.07,0.07,0.07,30.0,2011,1,2011-01-01
+635,Y033RY2,Equipment,Transportation equipment,2011_Q1,0.33,0.3,0.3,0.3,-0.03,0.03,0.03,30.0,2011,1,2011-01-01
+636,Y033RY2,Equipment,Computers and peripheral equipment,2011_Q2,0.32,0.27,0.27,0.27,-0.05,0.05,0.05,30.0,2011,4,2011-04-01
+637,Y033RY2,Equipment,Industrial equipment,2011_Q2,-0.12,-0.01,0.01,0.01,0.11,0.11,0.11,30.0,2011,4,2011-04-01
+638,Y033RY2,Equipment,Information processing equipment - other,2011_Q2,-0.07,-0.09,0.09,0.09,-0.02,0.02,0.02,30.0,2011,4,2011-04-01
+639,Y033RY2,Equipment,Other equipment,2011_Q2,-0.05,-0.01,0.01,0.01,0.04,0.04,0.04,30.0,2011,4,2011-04-01
+640,Y033RY2,Equipment,Transportation equipment,2011_Q2,0.16,0.14,0.14,0.14,-0.02,0.02,0.02,30.0,2011,4,2011-04-01
+641,Y033RY2,Equipment,Computers and peripheral equipment,2011_Q3,0.1,0.08,0.08,0.08,-0.02,0.02,0.02,30.0,2011,7,2011-07-01
+642,Y033RY2,Equipment,Industrial equipment,2011_Q3,0.37,0.36,0.36,0.36,-0.01,0.01,0.01,30.0,2011,7,2011-07-01
+643,Y033RY2,Equipment,Information processing equipment - other,2011_Q3,-0.15,-0.18,0.18,0.18,-0.03,0.03,0.03,30.0,2011,7,2011-07-01
+644,Y033RY2,Equipment,Other equipment,2011_Q3,0.42,0.42,0.42,0.42,0.0,0.0,0.0,30.0,2011,7,2011-07-01
+645,Y033RY2,Equipment,Transportation equipment,2011_Q3,0.34,0.3,0.3,0.3,-0.04,0.04,0.04,30.0,2011,7,2011-07-01
+646,Y033RY2,Equipment,Computers and peripheral equipment,2011_Q4,0.15,0.1,0.1,0.1,-0.05,0.05,0.05,30.0,2011,10,2011-10-01
+647,Y033RY2,Equipment,Industrial equipment,2011_Q4,0.25,0.22,0.22,0.22,-0.03,0.03,0.03,30.0,2011,10,2011-10-01
+648,Y033RY2,Equipment,Information processing equipment - other,2011_Q4,-0.02,0.07,0.07,0.07,0.09,0.09,0.09,30.0,2011,10,2011-10-01
+649,Y033RY2,Equipment,Other equipment,2011_Q4,-0.17,-0.21,0.21,0.21,-0.04,0.04,0.04,30.0,2011,10,2011-10-01
+650,Y033RY2,Equipment,Transportation equipment,2011_Q4,0.08,0.19,0.19,0.19,0.11,0.11,0.11,30.0,2011,10,2011-10-01
+651,Y033RY2,Equipment,Computers and peripheral equipment,2012_Q1,-0.12,-0.01,0.01,0.01,0.11,0.11,0.11,30.0,2012,1,2012-01-01
+652,Y033RY2,Equipment,Industrial equipment,2012_Q1,-0.17,-0.22,0.22,0.22,-0.05,0.05,0.05,30.0,2012,1,2012-01-01
+653,Y033RY2,Equipment,Information processing equipment - other,2012_Q1,-0.02,0.05,0.05,0.05,0.07,0.07,0.07,30.0,2012,1,2012-01-01
+654,Y033RY2,Equipment,Other equipment,2012_Q1,0.1,0.15,0.15,0.15,0.05,0.05,0.05,30.0,2012,1,2012-01-01
+655,Y033RY2,Equipment,Transportation equipment,2012_Q1,0.18,0.22,0.22,0.22,0.04,0.04,0.04,30.0,2012,1,2012-01-01
+656,Y033RY2,Equipment,Computers and peripheral equipment,2012_Q2,-0.03,-0.12,0.12,0.12,-0.09,0.09,0.09,30.0,2012,4,2012-04-01
+657,Y033RY2,Equipment,Industrial equipment,2012_Q2,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,30.0,2012,4,2012-04-01
+658,Y033RY2,Equipment,Information processing equipment - other,2012_Q2,-0.01,-0.08,0.08,0.08,-0.07,0.07,0.07,30.0,2012,4,2012-04-01
+659,Y033RY2,Equipment,Other equipment,2012_Q2,0.09,0.09,0.09,0.09,0.0,0.0,0.0,30.0,2012,4,2012-04-01
+660,Y033RY2,Equipment,Transportation equipment,2012_Q2,0.16,0.19,0.19,0.19,0.03,0.03,0.03,30.0,2012,4,2012-04-01
+661,Y033RY2,Equipment,Computers and peripheral equipment,2012_Q3,-0.13,-0.19,0.19,0.19,-0.06,0.06,0.06,30.0,2012,7,2012-07-01
+662,Y033RY2,Equipment,Industrial equipment,2012_Q3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,2012,7,2012-07-01
+663,Y033RY2,Equipment,Information processing equipment - other,2012_Q3,-0.03,0.04,0.04,0.04,0.07,0.07,0.07,30.0,2012,7,2012-07-01
+664,Y033RY2,Equipment,Other equipment,2012_Q3,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,30.0,2012,7,2012-07-01
+665,Y033RY2,Equipment,Transportation equipment,2012_Q3,-0.1,-0.22,0.22,0.22,-0.12,0.12,0.12,30.0,2012,7,2012-07-01
+666,Y033RY2,Equipment,Computers and peripheral equipment,2012_Q4,0.31,0.27,0.27,0.27,-0.04,0.04,0.04,30.0,2012,10,2012-10-01
+667,Y033RY2,Equipment,Industrial equipment,2012_Q4,0.1,0.12,0.12,0.12,0.02,0.02,0.02,30.0,2012,10,2012-10-01
+668,Y033RY2,Equipment,Information processing equipment - other,2012_Q4,0.04,0.09,0.09,0.09,0.05,0.05,0.05,30.0,2012,10,2012-10-01
+669,Y033RY2,Equipment,Other equipment,2012_Q4,0.06,0.1,0.1,0.1,0.04,0.04,0.04,30.0,2012,10,2012-10-01
+670,Y033RY2,Equipment,Transportation equipment,2012_Q4,0.2,0.09,0.09,0.09,-0.11,0.11,0.11,30.0,2012,10,2012-10-01
+671,Y033RY2,Equipment,Computers and peripheral equipment,2013_Q1,0.03,-0.07,0.07,0.07,-0.1,0.1,0.1,30.0,2013,1,2013-01-01
+672,Y033RY2,Equipment,Industrial equipment,2013_Q1,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,30.0,2013,1,2013-01-01
+673,Y033RY2,Equipment,Information processing equipment - other,2013_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,30.0,2013,1,2013-01-01
+674,Y033RY2,Equipment,Other equipment,2013_Q1,0.22,0.25,0.25,0.25,0.03,0.03,0.03,30.0,2013,1,2013-01-01
+675,Y033RY2,Equipment,Transportation equipment,2013_Q1,-0.11,0.02,0.02,0.02,0.13,0.13,0.13,30.0,2013,1,2013-01-01
+676,Y033RY2,Equipment,Computers and peripheral equipment,2013_Q2,-0.04,-0.08,0.08,0.08,-0.04,0.04,0.04,30.0,2013,4,2013-04-01
+677,Y033RY2,Equipment,Industrial equipment,2013_Q2,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,30.0,2013,4,2013-04-01
+678,Y033RY2,Equipment,Information processing equipment - other,2013_Q2,0.23,0.23,0.23,0.23,0.0,0.0,0.0,30.0,2013,4,2013-04-01
+679,Y033RY2,Equipment,Other equipment,2013_Q2,-0.03,-0.04,0.04,0.04,-0.01,0.01,0.01,30.0,2013,4,2013-04-01
+680,Y033RY2,Equipment,Transportation equipment,2013_Q2,0.07,0.08,0.08,0.08,0.01,0.01,0.01,30.0,2013,4,2013-04-01
+681,Y033RY2,Equipment,Computers and peripheral equipment,2013_Q3,-0.01,0.01,0.01,0.01,0.02,0.02,0.02,30.0,2013,7,2013-07-01
+682,Y033RY2,Equipment,Industrial equipment,2013_Q3,0.2,0.18,0.18,0.18,-0.02,0.02,0.02,30.0,2013,7,2013-07-01
+683,Y033RY2,Equipment,Information processing equipment - other,2013_Q3,-0.06,0.03,0.03,0.03,0.09,0.09,0.09,30.0,2013,7,2013-07-01
+684,Y033RY2,Equipment,Other equipment,2013_Q3,-0.28,-0.23,0.23,0.23,0.05,0.05,0.05,30.0,2013,7,2013-07-01
+685,Y033RY2,Equipment,Transportation equipment,2013_Q3,-0.05,0.04,0.04,0.04,0.09,0.09,0.09,30.0,2013,7,2013-07-01
+686,Y033RY2,Equipment,Computers and peripheral equipment,2013_Q4,0.09,0.13,0.13,0.13,0.04,0.04,0.04,30.0,2013,10,2013-10-01
+687,Y033RY2,Equipment,Industrial equipment,2013_Q4,-0.05,-0.04,0.04,0.04,0.01,0.01,0.01,30.0,2013,10,2013-10-01
+688,Y033RY2,Equipment,Information processing equipment - other,2013_Q4,-0.2,-0.14,0.14,0.14,0.06,0.06,0.06,30.0,2013,10,2013-10-01
+689,Y033RY2,Equipment,Other equipment,2013_Q4,0.29,0.31,0.31,0.31,0.02,0.02,0.02,30.0,2013,10,2013-10-01
+690,Y033RY2,Equipment,Transportation equipment,2013_Q4,0.24,0.33,0.33,0.33,0.09,0.09,0.09,30.0,2013,10,2013-10-01
+691,Y033RY2,Equipment,Computers and peripheral equipment,2014_Q1,-0.22,-0.23,0.23,0.23,-0.01,0.01,0.01,30.0,2014,1,2014-01-01
+692,Y033RY2,Equipment,Industrial equipment,2014_Q1,0.12,0.16,0.16,0.16,0.04,0.04,0.04,30.0,2014,1,2014-01-01
+693,Y033RY2,Equipment,Information processing equipment - other,2014_Q1,-0.05,0.04,0.04,0.04,0.09,0.09,0.09,30.0,2014,1,2014-01-01
+694,Y033RY2,Equipment,Other equipment,2014_Q1,-0.01,-0.08,0.08,0.08,-0.07,0.07,0.07,30.0,2014,1,2014-01-01
+695,Y033RY2,Equipment,Transportation equipment,2014_Q1,-0.16,-0.05,0.05,0.05,0.11,0.11,0.11,30.0,2014,1,2014-01-01
+696,Y033RY2,Equipment,Computers and peripheral equipment,2014_Q2,0.03,0.1,0.1,0.1,0.07,0.07,0.07,30.0,2014,4,2014-04-01
+697,Y033RY2,Equipment,Industrial equipment,2014_Q2,0.24,0.32,0.32,0.32,0.08,0.08,0.08,30.0,2014,4,2014-04-01
+698,Y033RY2,Equipment,Information processing equipment - other,2014_Q2,0.3,0.3,0.3,0.3,0.0,0.0,0.0,30.0,2014,4,2014-04-01
+699,Y033RY2,Equipment,Other equipment,2014_Q2,-0.17,-0.14,0.14,0.14,0.03,0.03,0.03,30.0,2014,4,2014-04-01
+700,Y033RY2,Equipment,Transportation equipment,2014_Q2,-0.01,0.04,0.04,0.04,0.05,0.05,0.05,30.0,2014,4,2014-04-01
+701,Y033RY2,Equipment,Computers and peripheral equipment,2014_Q3,0.03,0.05,0.05,0.05,0.02,0.02,0.02,30.0,2014,7,2014-07-01
+702,Y033RY2,Equipment,Industrial equipment,2014_Q3,0.31,0.35,0.35,0.35,0.04,0.04,0.04,30.0,2014,7,2014-07-01
+703,Y033RY2,Equipment,Information processing equipment - other,2014_Q3,-0.24,-0.16,0.16,0.16,0.08,0.08,0.08,30.0,2014,7,2014-07-01
+704,Y033RY2,Equipment,Other equipment,2014_Q3,-0.09,-0.05,0.05,0.05,0.04,0.04,0.04,30.0,2014,7,2014-07-01
+705,Y033RY2,Equipment,Transportation equipment,2014_Q3,0.39,0.45,0.45,0.45,0.06,0.06,0.06,30.0,2014,7,2014-07-01
+706,Y033RY2,Equipment,Computers and peripheral equipment,2014_Q4,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,30.0,2014,10,2014-10-01
+707,Y033RY2,Equipment,Industrial equipment,2014_Q4,-0.19,-0.24,0.24,0.24,-0.05,0.05,0.05,30.0,2014,10,2014-10-01
+708,Y033RY2,Equipment,Information processing equipment - other,2014_Q4,0.27,0.31,0.31,0.31,0.04,0.04,0.04,30.0,2014,10,2014-10-01
+709,Y033RY2,Equipment,Other equipment,2014_Q4,0.0,0.04,0.04,0.04,0.04,0.04,0.04,30.0,2014,10,2014-10-01
+710,Y033RY2,Equipment,Transportation equipment,2014_Q4,-0.17,-0.07,0.07,0.07,0.1,0.1,0.1,30.0,2014,10,2014-10-01
+711,Y033RY2,Equipment,Computers and peripheral equipment,2015_Q1,-0.14,-0.16,0.16,0.16,-0.02,0.02,0.02,30.0,2015,1,2015-01-01
+712,Y033RY2,Equipment,Industrial equipment,2015_Q1,-0.11,0.01,0.01,0.01,0.12,0.12,0.12,30.0,2015,1,2015-01-01
+713,Y033RY2,Equipment,Information processing equipment - other,2015_Q1,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,30.0,2015,1,2015-01-01
+714,Y033RY2,Equipment,Other equipment,2015_Q1,-0.07,0.1,0.1,0.1,0.17,0.17,0.17,30.0,2015,1,2015-01-01
+715,Y033RY2,Equipment,Transportation equipment,2015_Q1,0.33,0.23,0.23,0.23,-0.1,0.1,0.1,30.0,2015,1,2015-01-01
+716,Y033RY2,Equipment,Computers and peripheral equipment,2015_Q2,0.08,0.11,0.11,0.11,0.03,0.03,0.03,30.0,2015,4,2015-04-01
+717,Y033RY2,Equipment,Industrial equipment,2015_Q2,0.23,0.26,0.26,0.26,0.03,0.03,0.03,30.0,2015,4,2015-04-01
+718,Y033RY2,Equipment,Information processing equipment - other,2015_Q2,-0.34,-0.18,0.18,0.18,0.16,0.16,0.16,30.0,2015,4,2015-04-01
+719,Y033RY2,Equipment,Other equipment,2015_Q2,-0.12,-0.09,0.09,0.09,0.03,0.03,0.03,30.0,2015,4,2015-04-01
+720,Y033RY2,Equipment,Transportation equipment,2015_Q2,-0.1,-0.07,0.07,0.07,0.03,0.03,0.03,30.0,2015,4,2015-04-01
+721,Y033RY2,Equipment,Computers and peripheral equipment,2015_Q3,0.02,0.08,0.08,0.08,0.06,0.06,0.06,30.0,2015,7,2015-07-01
+722,Y033RY2,Equipment,Industrial equipment,2015_Q3,-0.06,-0.05,0.05,0.05,0.01,0.01,0.01,30.0,2015,7,2015-07-01
+723,Y033RY2,Equipment,Information processing equipment - other,2015_Q3,0.26,0.35,0.35,0.35,0.09,0.09,0.09,30.0,2015,7,2015-07-01
+724,Y033RY2,Equipment,Other equipment,2015_Q3,-0.12,-0.1,0.1,0.1,0.02,0.02,0.02,30.0,2015,7,2015-07-01
+725,Y033RY2,Equipment,Transportation equipment,2015_Q3,0.21,0.29,0.29,0.29,0.08,0.08,0.08,30.0,2015,7,2015-07-01
+726,Y033RY2,Equipment,Computers and peripheral equipment,2015_Q4,-0.11,-0.16,0.16,0.16,-0.05,0.05,0.05,30.0,2015,10,2015-10-01
+727,Y033RY2,Equipment,Industrial equipment,2015_Q4,0.1,0.14,0.14,0.14,0.04,0.04,0.04,30.0,2015,10,2015-10-01
+728,Y033RY2,Equipment,Information processing equipment - other,2015_Q4,0.22,0.2,0.2,0.2,-0.02,0.02,0.02,30.0,2015,10,2015-10-01
+729,Y033RY2,Equipment,Other equipment,2015_Q4,-0.12,-0.13,0.13,0.13,-0.01,0.01,0.01,30.0,2015,10,2015-10-01
+730,Y033RY2,Equipment,Transportation equipment,2015_Q4,-0.25,-0.18,0.18,0.18,0.07,0.07,0.07,30.0,2015,10,2015-10-01

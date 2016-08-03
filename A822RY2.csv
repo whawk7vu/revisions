@@ -1,49 +1,289 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-1073,A822RY2,Government,2004_Q1,0.37,0.54,0.54,0.66,0.17,0.17,0.47,52.0,2004,1,2004-01-01
-1074,A822RY2,Government,2004_Q2,0.43,0.41,0.41,0.59,-0.02,0.02,0.04,52.0,2004,4,2004-04-01
-1075,A822RY2,Government,2004_Q3,0.26,0.13,0.13,1.01,-0.13,0.13,0.25,52.0,2004,7,2004-07-01
-1076,A822RY2,Government,2004_Q4,0.18,0.16,0.16,0.62,-0.02,0.02,0.12,52.0,2004,10,2004-10-01
-1077,A822RY2,Government,2005_Q1,0.09,0.03,0.03,0.53,-0.06,0.06,0.14,52.0,2005,1,2005-01-01
-1078,A822RY2,Government,2005_Q2,0.37,0.47,0.47,0.65,0.1,0.1,0.12,52.0,2005,4,2005-04-01
-1079,A822RY2,Government,2005_Q3,0.62,0.55,0.55,0.87,-0.07,0.07,0.07,52.0,2005,7,2005-07-01
-1080,A822RY2,Government,2005_Q4,-0.46,-0.15,0.15,0.95,0.31,0.31,0.35,52.0,2005,10,2005-10-01
-1081,A822RY2,Government,2006_Q1,0.75,0.91,0.91,0.91,0.16,0.16,0.26,52.0,2006,1,2006-01-01
-1082,A822RY2,Government,2006_Q2,0.11,0.17,0.17,0.95,0.06,0.06,0.24,52.0,2006,4,2006-04-01
-1083,A822RY2,Government,2006_Q3,0.38,0.31,0.31,0.59,-0.07,0.07,0.19,52.0,2006,7,2006-07-01
-1084,A822RY2,Government,2006_Q4,0.71,0.64,0.64,1.1,-0.07,0.07,0.11,52.0,2006,10,2006-10-01
-1085,A822RY2,Government,2007_Q1,0.18,0.19,0.19,0.97,0.01,0.01,0.15,52.0,2007,1,2007-01-01
-1086,A822RY2,Government,2007_Q2,0.82,0.78,0.78,0.82,-0.04,0.04,0.2,52.0,2007,4,2007-04-01
-1087,A822RY2,Government,2007_Q3,0.72,0.74,0.74,0.76,0.02,0.02,0.04,52.0,2007,7,2007-07-01
-1088,A822RY2,Government,2007_Q4,0.51,0.37,0.37,0.53,-0.14,0.14,0.16,52.0,2007,10,2007-10-01
-1089,A822RY2,Government,2008_Q1,0.39,0.42,0.42,0.66,0.03,0.03,0.09,52.0,2008,1,2008-01-01
-1090,A822RY2,Government,2008_Q2,0.67,0.78,0.78,0.78,0.11,0.11,0.15,52.0,2008,4,2008-04-01
-1091,A822RY2,Government,2008_Q3,1.15,1.14,1.14,1.14,-0.01,0.01,0.07,52.0,2008,7,2008-07-01
-1092,A822RY2,Government,2008_Q4,0.39,0.28,0.28,0.78,-0.11,0.11,0.29,52.0,2008,10,2008-10-01
-1093,A822RY2,Government,2009_Q1,-0.8,-0.64,0.64,0.88,0.16,0.16,0.28,52.0,2009,1,2009-01-01
-1094,A822RY2,Government,2009_Q2,1.12,1.33,1.33,1.33,0.21,0.21,0.27,52.0,2009,4,2009-04-01
-1095,A822RY2,Government,2009_Q3,0.48,0.55,0.55,0.95,0.07,0.07,0.15,52.0,2009,7,2009-07-01
-1096,A822RY2,Government,2009_Q4,-0.02,-0.26,0.26,0.68,-0.24,0.24,0.32,52.0,2009,10,2009-10-01
-1097,A822RY2,Government,2010_Q1,-0.37,-0.39,0.39,0.61,-0.02,0.02,0.1,52.0,2010,1,2010-01-01
-1098,A822RY2,Government,2010_Q2,0.89,0.8,0.8,0.98,-0.09,0.09,0.09,52.0,2010,4,2010-04-01
-1099,A822RY2,Government,2010_Q3,0.68,0.79,0.79,1.07,0.11,0.11,0.15,52.0,2010,7,2010-07-01
-1100,A822RY2,Government,2010_Q4,-0.11,-0.33,0.33,0.95,-0.22,0.22,0.26,52.0,2010,10,2010-10-01
-1101,A822RY2,Government,2011_Q1,-1.09,-1.21,1.21,1.25,-0.12,0.12,0.16,52.0,2011,1,2011-01-01
-1102,A822RY2,Government,2011_Q2,-0.23,-0.18,0.18,1.02,0.05,0.05,0.11,52.0,2011,4,2011-04-01
-1103,A822RY2,Government,2011_Q3,0.0,-0.03,0.03,0.61,-0.03,0.03,0.11,52.0,2011,7,2011-07-01
-1104,A822RY2,Government,2011_Q4,-0.92,-0.84,0.84,1.16,0.08,0.08,0.12,52.0,2011,10,2011-10-01
-1105,A822RY2,Government,2012_Q1,-0.61,-0.8,0.8,0.8,-0.19,0.19,0.19,52.0,2012,1,2012-01-01
-1106,A822RY2,Government,2012_Q2,-0.28,-0.13,0.13,0.31,0.15,0.15,0.19,52.0,2012,4,2012-04-01
-1107,A822RY2,Government,2012_Q3,0.72,0.74,0.74,0.78,0.02,0.02,0.08,52.0,2012,7,2012-07-01
-1108,A822RY2,Government,2012_Q4,-1.33,-1.39,1.39,1.49,-0.06,0.06,0.12,52.0,2012,10,2012-10-01
-1109,A822RY2,Government,2013_Q1,-0.79,-0.94,0.94,0.94,-0.15,0.15,0.17,52.0,2013,1,2013-01-01
-1110,A822RY2,Government,2013_Q2,-0.09,-0.08,0.08,0.36,0.01,0.01,0.09,52.0,2013,4,2013-04-01
-1111,A822RY2,Government,2013_Q3,0.05,0.08,0.08,0.38,0.03,0.03,0.07,52.0,2013,7,2013-07-01
-1112,A822RY2,Government,2013_Q4,-0.93,-0.99,0.99,1.07,-0.06,0.06,0.12,52.0,2013,10,2013-10-01
-1113,A822RY2,Government,2014_Q1,-0.1,-0.13,0.13,0.81,-0.03,0.03,0.05,52.0,2014,1,2014-01-01
-1114,A822RY2,Government,2014_Q2,0.3,0.3,0.3,0.66,0.0,0.0,0.06,52.0,2014,4,2014-04-01
-1115,A822RY2,Government,2014_Q3,0.84,0.79,0.79,0.87,-0.05,0.05,0.05,52.0,2014,7,2014-07-01
-1116,A822RY2,Government,2014_Q4,-0.4,-0.34,0.34,0.84,0.06,0.06,0.08,52.0,2014,10,2014-10-01
-1117,A822RY2,Government,2015_Q1,-0.14,-0.11,0.11,0.35,0.03,0.03,0.11,52.0,2015,1,2015-01-01
-1118,A822RY2,Government,2015_Q2,0.13,0.47,0.47,0.61,0.34,0.34,0.34,52.0,2015,4,2015-04-01
-1119,A822RY2,Government,2015_Q3,0.31,0.32,0.32,0.44,0.01,0.01,0.11,52.0,2015,7,2015-07-01
-1120,A822RY2,Government,2015_Q4,0.12,0.02,0.02,0.34,-0.1,0.1,0.14,52.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+2280,A822RY2,Government,National defense - consumption expenditures,2004_Q1,0.34,0.26,0.26,0.26,-0.08,0.08,0.08,52.0,2004,1,2004-01-01
+2281,A822RY2,Government,National defense - gross investment,2004_Q1,0.31,0.32,0.32,0.32,0.01,0.01,0.01,52.0,2004,1,2004-01-01
+2282,A822RY2,Government,Nondefense - consumption expenditures,2004_Q1,0.04,-0.01,0.01,0.01,-0.05,0.05,0.05,52.0,2004,1,2004-01-01
+2283,A822RY2,Government,Nondefense - gross investment,2004_Q1,-0.03,0.0,0.0,0.0,0.03,0.03,0.03,52.0,2004,1,2004-01-01
+2284,A822RY2,Government,State and local - consumption expenditures,2004_Q1,0.04,0.02,0.02,0.02,-0.02,0.02,0.02,52.0,2004,1,2004-01-01
+2285,A822RY2,Government,State and local - gross investment,2004_Q1,-0.33,-0.05,0.05,0.05,0.28,0.28,0.28,52.0,2004,1,2004-01-01
+2286,A822RY2,Government,National defense - consumption expenditures,2004_Q2,0.16,0.16,0.16,0.16,0.0,0.0,0.0,52.0,2004,4,2004-04-01
+2287,A822RY2,Government,National defense - gross investment,2004_Q2,-0.07,-0.08,0.08,0.08,-0.01,0.01,0.01,52.0,2004,4,2004-04-01
+2288,A822RY2,Government,Nondefense - consumption expenditures,2004_Q2,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,52.0,2004,4,2004-04-01
+2289,A822RY2,Government,Nondefense - gross investment,2004_Q2,0.12,0.11,0.11,0.11,-0.01,0.01,0.01,52.0,2004,4,2004-04-01
+2290,A822RY2,Government,State and local - consumption expenditures,2004_Q2,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,52.0,2004,4,2004-04-01
+2291,A822RY2,Government,State and local - gross investment,2004_Q2,0.23,0.23,0.23,0.23,0.0,0.0,0.0,52.0,2004,4,2004-04-01
+2292,A822RY2,Government,National defense - consumption expenditures,2004_Q3,0.36,0.38,0.38,0.38,0.02,0.02,0.02,52.0,2004,7,2004-07-01
+2293,A822RY2,Government,National defense - gross investment,2004_Q3,0.06,0.07,0.07,0.07,0.01,0.01,0.01,52.0,2004,7,2004-07-01
+2294,A822RY2,Government,Nondefense - consumption expenditures,2004_Q3,-0.03,-0.05,0.05,0.05,-0.02,0.02,0.02,52.0,2004,7,2004-07-01
+2295,A822RY2,Government,Nondefense - gross investment,2004_Q3,-0.08,-0.07,0.07,0.07,0.01,0.01,0.01,52.0,2004,7,2004-07-01
+2296,A822RY2,Government,State and local - consumption expenditures,2004_Q3,0.1,0.12,0.12,0.12,0.02,0.02,0.02,52.0,2004,7,2004-07-01
+2297,A822RY2,Government,State and local - gross investment,2004_Q3,-0.15,-0.32,0.32,0.32,-0.17,0.17,0.17,52.0,2004,7,2004-07-01
+2298,A822RY2,Government,National defense - consumption expenditures,2004_Q4,-0.15,-0.2,0.2,0.2,-0.05,0.05,0.05,52.0,2004,10,2004-10-01
+2299,A822RY2,Government,National defense - gross investment,2004_Q4,0.15,0.17,0.17,0.17,0.02,0.02,0.02,52.0,2004,10,2004-10-01
+2300,A822RY2,Government,Nondefense - consumption expenditures,2004_Q4,0.09,0.08,0.08,0.08,-0.01,0.01,0.01,52.0,2004,10,2004-10-01
+2301,A822RY2,Government,Nondefense - gross investment,2004_Q4,0.02,0.03,0.03,0.03,0.01,0.01,0.01,52.0,2004,10,2004-10-01
+2302,A822RY2,Government,State and local - consumption expenditures,2004_Q4,0.12,0.11,0.11,0.11,-0.01,0.01,0.01,52.0,2004,10,2004-10-01
+2303,A822RY2,Government,State and local - gross investment,2004_Q4,-0.05,-0.03,0.03,0.03,0.02,0.02,0.02,52.0,2004,10,2004-10-01
+2304,A822RY2,Government,National defense - consumption expenditures,2005_Q1,0.23,0.21,0.21,0.21,-0.02,0.02,0.02,52.0,2005,1,2005-01-01
+2305,A822RY2,Government,National defense - gross investment,2005_Q1,-0.23,-0.19,0.19,0.19,0.04,0.04,0.04,52.0,2005,1,2005-01-01
+2306,A822RY2,Government,Nondefense - consumption expenditures,2005_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,52.0,2005,1,2005-01-01
+2307,A822RY2,Government,Nondefense - gross investment,2005_Q1,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,52.0,2005,1,2005-01-01
+2308,A822RY2,Government,State and local - consumption expenditures,2005_Q1,0.06,0.04,0.04,0.04,-0.02,0.02,0.02,52.0,2005,1,2005-01-01
+2309,A822RY2,Government,State and local - gross investment,2005_Q1,0.0,-0.05,0.05,0.05,-0.05,0.05,0.05,52.0,2005,1,2005-01-01
+2310,A822RY2,Government,National defense - consumption expenditures,2005_Q2,0.03,0.04,0.04,0.04,0.01,0.01,0.01,52.0,2005,4,2005-04-01
+2311,A822RY2,Government,National defense - gross investment,2005_Q2,0.06,0.13,0.13,0.13,0.07,0.07,0.07,52.0,2005,4,2005-04-01
+2312,A822RY2,Government,Nondefense - consumption expenditures,2005_Q2,-0.08,-0.09,0.09,0.09,-0.01,0.01,0.01,52.0,2005,4,2005-04-01
+2313,A822RY2,Government,Nondefense - gross investment,2005_Q2,0.07,0.08,0.08,0.08,0.01,0.01,0.01,52.0,2005,4,2005-04-01
+2314,A822RY2,Government,State and local - consumption expenditures,2005_Q2,0.08,0.08,0.08,0.08,0.0,0.0,0.0,52.0,2005,4,2005-04-01
+2315,A822RY2,Government,State and local - gross investment,2005_Q2,0.21,0.23,0.23,0.23,0.02,0.02,0.02,52.0,2005,4,2005-04-01
+2316,A822RY2,Government,National defense - consumption expenditures,2005_Q3,0.37,0.37,0.37,0.37,0.0,0.0,0.0,52.0,2005,7,2005-07-01
+2317,A822RY2,Government,National defense - gross investment,2005_Q3,0.11,0.09,0.09,0.09,-0.02,0.02,0.02,52.0,2005,7,2005-07-01
+2318,A822RY2,Government,Nondefense - consumption expenditures,2005_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,52.0,2005,7,2005-07-01
+2319,A822RY2,Government,Nondefense - gross investment,2005_Q3,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,52.0,2005,7,2005-07-01
+2320,A822RY2,Government,State and local - consumption expenditures,2005_Q3,0.18,0.17,0.17,0.17,-0.01,0.01,0.01,52.0,2005,7,2005-07-01
+2321,A822RY2,Government,State and local - gross investment,2005_Q3,-0.1,-0.14,0.14,0.14,-0.04,0.04,0.04,52.0,2005,7,2005-07-01
+2322,A822RY2,Government,National defense - consumption expenditures,2005_Q4,-0.67,-0.49,0.49,0.49,0.18,0.18,0.18,52.0,2005,10,2005-10-01
+2323,A822RY2,Government,National defense - gross investment,2005_Q4,0.01,0.05,0.05,0.05,0.04,0.04,0.04,52.0,2005,10,2005-10-01
+2324,A822RY2,Government,Nondefense - consumption expenditures,2005_Q4,0.05,0.14,0.14,0.14,0.09,0.09,0.09,52.0,2005,10,2005-10-01
+2325,A822RY2,Government,Nondefense - gross investment,2005_Q4,0.1,0.12,0.12,0.12,0.02,0.02,0.02,52.0,2005,10,2005-10-01
+2326,A822RY2,Government,State and local - consumption expenditures,2005_Q4,0.09,0.09,0.09,0.09,0.0,0.0,0.0,52.0,2005,10,2005-10-01
+2327,A822RY2,Government,State and local - gross investment,2005_Q4,-0.04,-0.06,0.06,0.06,-0.02,0.02,0.02,52.0,2005,10,2005-10-01
+2328,A822RY2,Government,National defense - consumption expenditures,2006_Q1,0.44,0.4,0.4,0.4,-0.04,0.04,0.04,52.0,2006,1,2006-01-01
+2329,A822RY2,Government,National defense - gross investment,2006_Q1,0.03,0.04,0.04,0.04,0.01,0.01,0.01,52.0,2006,1,2006-01-01
+2330,A822RY2,Government,Nondefense - consumption expenditures,2006_Q1,0.22,0.23,0.23,0.23,0.01,0.01,0.01,52.0,2006,1,2006-01-01
+2331,A822RY2,Government,Nondefense - gross investment,2006_Q1,0.05,0.05,0.05,0.05,0.0,0.0,0.0,52.0,2006,1,2006-01-01
+2332,A822RY2,Government,State and local - consumption expenditures,2006_Q1,0.13,0.12,0.12,0.12,-0.01,0.01,0.01,52.0,2006,1,2006-01-01
+2333,A822RY2,Government,State and local - gross investment,2006_Q1,-0.12,0.07,0.07,0.07,0.19,0.19,0.19,52.0,2006,1,2006-01-01
+2334,A822RY2,Government,National defense - consumption expenditures,2006_Q2,-0.15,-0.17,0.17,0.17,-0.02,0.02,0.02,52.0,2006,4,2006-04-01
+2335,A822RY2,Government,National defense - gross investment,2006_Q2,0.1,0.08,0.08,0.08,-0.02,0.02,0.02,52.0,2006,4,2006-04-01
+2336,A822RY2,Government,Nondefense - consumption expenditures,2006_Q2,-0.1,-0.1,0.1,0.1,0.0,0.0,0.0,52.0,2006,4,2006-04-01
+2337,A822RY2,Government,Nondefense - gross investment,2006_Q2,-0.09,-0.12,0.12,0.12,-0.03,0.03,0.03,52.0,2006,4,2006-04-01
+2338,A822RY2,Government,State and local - consumption expenditures,2006_Q2,0.22,0.2,0.2,0.2,-0.02,0.02,0.02,52.0,2006,4,2006-04-01
+2339,A822RY2,Government,State and local - gross investment,2006_Q2,0.13,0.28,0.28,0.28,0.15,0.15,0.15,52.0,2006,4,2006-04-01
+2340,A822RY2,Government,National defense - consumption expenditures,2006_Q3,-0.02,-0.04,0.04,0.04,-0.02,0.02,0.02,52.0,2006,7,2006-07-01
+2341,A822RY2,Government,National defense - gross investment,2006_Q3,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,52.0,2006,7,2006-07-01
+2342,A822RY2,Government,Nondefense - consumption expenditures,2006_Q3,0.15,0.13,0.13,0.13,-0.02,0.02,0.02,52.0,2006,7,2006-07-01
+2343,A822RY2,Government,Nondefense - gross investment,2006_Q3,0.01,0.02,0.02,0.02,0.01,0.01,0.01,52.0,2006,7,2006-07-01
+2344,A822RY2,Government,State and local - consumption expenditures,2006_Q3,0.25,0.3,0.3,0.3,0.05,0.05,0.05,52.0,2006,7,2006-07-01
+2345,A822RY2,Government,State and local - gross investment,2006_Q3,0.0,-0.08,0.08,0.08,-0.08,0.08,0.08,52.0,2006,7,2006-07-01
+2346,A822RY2,Government,National defense - consumption expenditures,2006_Q4,0.42,0.43,0.43,0.43,0.01,0.01,0.01,52.0,2006,10,2006-10-01
+2347,A822RY2,Government,National defense - gross investment,2006_Q4,0.11,0.11,0.11,0.11,0.0,0.0,0.0,52.0,2006,10,2006-10-01
+2348,A822RY2,Government,Nondefense - consumption expenditures,2006_Q4,-0.17,-0.19,0.19,0.19,-0.02,0.02,0.02,52.0,2006,10,2006-10-01
+2349,A822RY2,Government,Nondefense - gross investment,2006_Q4,-0.05,-0.04,0.04,0.04,0.01,0.01,0.01,52.0,2006,10,2006-10-01
+2350,A822RY2,Government,State and local - consumption expenditures,2006_Q4,0.33,0.33,0.33,0.33,0.0,0.0,0.0,52.0,2006,10,2006-10-01
+2351,A822RY2,Government,State and local - gross investment,2006_Q4,0.07,0.0,0.0,0.0,-0.07,0.07,0.07,52.0,2006,10,2006-10-01
+2352,A822RY2,Government,National defense - consumption expenditures,2007_Q1,-0.26,-0.3,0.3,0.3,-0.04,0.04,0.04,52.0,2007,1,2007-01-01
+2353,A822RY2,Government,National defense - gross investment,2007_Q1,-0.05,-0.06,0.06,0.06,-0.01,0.01,0.01,52.0,2007,1,2007-01-01
+2354,A822RY2,Government,Nondefense - consumption expenditures,2007_Q1,0.11,0.11,0.11,0.11,0.0,0.0,0.0,52.0,2007,1,2007-01-01
+2355,A822RY2,Government,Nondefense - gross investment,2007_Q1,-0.01,-0.03,0.03,0.03,-0.02,0.02,0.02,52.0,2007,1,2007-01-01
+2356,A822RY2,Government,State and local - consumption expenditures,2007_Q1,0.25,0.26,0.26,0.26,0.01,0.01,0.01,52.0,2007,1,2007-01-01
+2357,A822RY2,Government,State and local - gross investment,2007_Q1,0.14,0.21,0.21,0.21,0.07,0.07,0.07,52.0,2007,1,2007-01-01
+2358,A822RY2,Government,National defense - consumption expenditures,2007_Q2,0.39,0.35,0.35,0.35,-0.04,0.04,0.04,52.0,2007,4,2007-04-01
+2359,A822RY2,Government,National defense - gross investment,2007_Q2,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,52.0,2007,4,2007-04-01
+2360,A822RY2,Government,Nondefense - consumption expenditures,2007_Q2,0.01,-0.02,0.02,0.02,-0.03,0.03,0.03,52.0,2007,4,2007-04-01
+2361,A822RY2,Government,Nondefense - gross investment,2007_Q2,0.02,0.04,0.04,0.04,0.02,0.02,0.02,52.0,2007,4,2007-04-01
+2362,A822RY2,Government,State and local - consumption expenditures,2007_Q2,0.23,0.19,0.19,0.19,-0.04,0.04,0.04,52.0,2007,4,2007-04-01
+2363,A822RY2,Government,State and local - gross investment,2007_Q2,0.12,0.18,0.18,0.18,0.06,0.06,0.06,52.0,2007,4,2007-04-01
+2364,A822RY2,Government,National defense - consumption expenditures,2007_Q3,0.37,0.39,0.39,0.39,0.02,0.02,0.02,52.0,2007,7,2007-07-01
+2365,A822RY2,Government,National defense - gross investment,2007_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,52.0,2007,7,2007-07-01
+2366,A822RY2,Government,Nondefense - consumption expenditures,2007_Q3,0.03,0.04,0.04,0.04,0.01,0.01,0.01,52.0,2007,7,2007-07-01
+2367,A822RY2,Government,Nondefense - gross investment,2007_Q3,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,52.0,2007,7,2007-07-01
+2368,A822RY2,Government,State and local - consumption expenditures,2007_Q3,0.14,0.13,0.13,0.13,-0.01,0.01,0.01,52.0,2007,7,2007-07-01
+2369,A822RY2,Government,State and local - gross investment,2007_Q3,0.11,0.11,0.11,0.11,0.0,0.0,0.0,52.0,2007,7,2007-07-01
+2370,A822RY2,Government,National defense - consumption expenditures,2007_Q4,0.05,0.05,0.05,0.05,0.0,0.0,0.0,52.0,2007,10,2007-10-01
+2371,A822RY2,Government,National defense - gross investment,2007_Q4,-0.08,-0.08,0.08,0.08,0.0,0.0,0.0,52.0,2007,10,2007-10-01
+2372,A822RY2,Government,Nondefense - consumption expenditures,2007_Q4,0.04,0.04,0.04,0.04,0.0,0.0,0.0,52.0,2007,10,2007-10-01
+2373,A822RY2,Government,Nondefense - gross investment,2007_Q4,0.01,0.02,0.02,0.02,0.01,0.01,0.01,52.0,2007,10,2007-10-01
+2374,A822RY2,Government,State and local - consumption expenditures,2007_Q4,0.25,0.22,0.22,0.22,-0.03,0.03,0.03,52.0,2007,10,2007-10-01
+2375,A822RY2,Government,State and local - gross investment,2007_Q4,0.24,0.12,0.12,0.12,-0.12,0.12,0.12,52.0,2007,10,2007-10-01
+2376,A822RY2,Government,National defense - consumption expenditures,2008_Q1,0.25,0.24,0.24,0.24,-0.01,0.01,0.01,52.0,2008,1,2008-01-01
+2377,A822RY2,Government,National defense - gross investment,2008_Q1,0.03,0.03,0.03,0.03,0.0,0.0,0.0,52.0,2008,1,2008-01-01
+2378,A822RY2,Government,Nondefense - consumption expenditures,2008_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,52.0,2008,1,2008-01-01
+2379,A822RY2,Government,Nondefense - gross investment,2008_Q1,0.0,0.01,0.01,0.01,0.01,0.01,0.01,52.0,2008,1,2008-01-01
+2380,A822RY2,Government,State and local - consumption expenditures,2008_Q1,0.24,0.23,0.23,0.23,-0.01,0.01,0.01,52.0,2008,1,2008-01-01
+2381,A822RY2,Government,State and local - gross investment,2008_Q1,-0.17,-0.12,0.12,0.12,0.05,0.05,0.05,52.0,2008,1,2008-01-01
+2382,A822RY2,Government,National defense - consumption expenditures,2008_Q2,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,52.0,2008,4,2008-04-01
+2383,A822RY2,Government,National defense - gross investment,2008_Q2,0.2,0.21,0.21,0.21,0.01,0.01,0.01,52.0,2008,4,2008-04-01
+2384,A822RY2,Government,Nondefense - consumption expenditures,2008_Q2,0.08,0.08,0.08,0.08,0.0,0.0,0.0,52.0,2008,4,2008-04-01
+2385,A822RY2,Government,Nondefense - gross investment,2008_Q2,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,52.0,2008,4,2008-04-01
+2386,A822RY2,Government,State and local - consumption expenditures,2008_Q2,0.1,0.12,0.12,0.12,0.02,0.02,0.02,52.0,2008,4,2008-04-01
+2387,A822RY2,Government,State and local - gross investment,2008_Q2,0.09,0.19,0.19,0.19,0.1,0.1,0.1,52.0,2008,4,2008-04-01
+2388,A822RY2,Government,National defense - consumption expenditures,2008_Q3,0.72,0.72,0.72,0.72,0.0,0.0,0.0,52.0,2008,7,2008-07-01
+2389,A822RY2,Government,National defense - gross investment,2008_Q3,0.14,0.14,0.14,0.14,0.0,0.0,0.0,52.0,2008,7,2008-07-01
+2390,A822RY2,Government,Nondefense - consumption expenditures,2008_Q3,0.11,0.11,0.11,0.11,0.0,0.0,0.0,52.0,2008,7,2008-07-01
+2391,A822RY2,Government,Nondefense - gross investment,2008_Q3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.0,2008,7,2008-07-01
+2392,A822RY2,Government,State and local - consumption expenditures,2008_Q3,0.15,0.11,0.11,0.11,-0.04,0.04,0.04,52.0,2008,7,2008-07-01
+2393,A822RY2,Government,State and local - gross investment,2008_Q3,0.03,0.06,0.06,0.06,0.03,0.03,0.03,52.0,2008,7,2008-07-01
+2394,A822RY2,Government,National defense - consumption expenditures,2008_Q4,0.11,0.17,0.17,0.17,0.06,0.06,0.06,52.0,2008,10,2008-10-01
+2395,A822RY2,Government,National defense - gross investment,2008_Q4,0.01,0.01,0.01,0.01,0.0,0.0,0.0,52.0,2008,10,2008-10-01
+2396,A822RY2,Government,Nondefense - consumption expenditures,2008_Q4,0.18,0.21,0.21,0.21,0.03,0.03,0.03,52.0,2008,10,2008-10-01
+2397,A822RY2,Government,Nondefense - gross investment,2008_Q4,0.15,0.14,0.14,0.14,-0.01,0.01,0.01,52.0,2008,10,2008-10-01
+2398,A822RY2,Government,State and local - consumption expenditures,2008_Q4,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,52.0,2008,10,2008-10-01
+2399,A822RY2,Government,State and local - gross investment,2008_Q4,-0.07,-0.25,0.25,0.25,-0.18,0.18,0.18,52.0,2008,10,2008-10-01
+2400,A822RY2,Government,National defense - consumption expenditures,2009_Q1,-0.24,-0.27,0.27,0.27,-0.03,0.03,0.03,52.0,2009,1,2009-01-01
+2401,A822RY2,Government,National defense - gross investment,2009_Q1,-0.1,-0.1,0.1,0.1,0.0,0.0,0.0,52.0,2009,1,2009-01-01
+2402,A822RY2,Government,Nondefense - consumption expenditures,2009_Q1,0.12,0.12,0.12,0.12,0.0,0.0,0.0,52.0,2009,1,2009-01-01
+2403,A822RY2,Government,Nondefense - gross investment,2009_Q1,-0.09,-0.11,0.11,0.11,-0.02,0.02,0.02,52.0,2009,1,2009-01-01
+2404,A822RY2,Government,State and local - consumption expenditures,2009_Q1,-0.05,-0.06,0.06,0.06,-0.01,0.01,0.01,52.0,2009,1,2009-01-01
+2405,A822RY2,Government,State and local - gross investment,2009_Q1,-0.44,-0.22,0.22,0.22,0.22,0.22,0.22,52.0,2009,1,2009-01-01
+2406,A822RY2,Government,National defense - consumption expenditures,2009_Q2,0.52,0.53,0.53,0.53,0.01,0.01,0.01,52.0,2009,4,2009-04-01
+2407,A822RY2,Government,National defense - gross investment,2009_Q2,0.15,0.17,0.17,0.17,0.02,0.02,0.02,52.0,2009,4,2009-04-01
+2408,A822RY2,Government,Nondefense - consumption expenditures,2009_Q2,0.15,0.12,0.12,0.12,-0.03,0.03,0.03,52.0,2009,4,2009-04-01
+2409,A822RY2,Government,Nondefense - gross investment,2009_Q2,0.0,0.03,0.03,0.03,0.03,0.03,0.03,52.0,2009,4,2009-04-01
+2410,A822RY2,Government,State and local - consumption expenditures,2009_Q2,-0.01,0.01,0.01,0.01,0.02,0.02,0.02,52.0,2009,4,2009-04-01
+2411,A822RY2,Government,State and local - gross investment,2009_Q2,0.31,0.47,0.47,0.47,0.16,0.16,0.16,52.0,2009,4,2009-04-01
+2412,A822RY2,Government,National defense - consumption expenditures,2009_Q3,0.39,0.36,0.36,0.36,-0.03,0.03,0.03,52.0,2009,7,2009-07-01
+2413,A822RY2,Government,National defense - gross investment,2009_Q3,0.06,0.09,0.09,0.09,0.03,0.03,0.03,52.0,2009,7,2009-07-01
+2414,A822RY2,Government,Nondefense - consumption expenditures,2009_Q3,0.15,0.14,0.14,0.14,-0.01,0.01,0.01,52.0,2009,7,2009-07-01
+2415,A822RY2,Government,Nondefense - gross investment,2009_Q3,0.02,0.04,0.04,0.04,0.02,0.02,0.02,52.0,2009,7,2009-07-01
+2416,A822RY2,Government,State and local - consumption expenditures,2009_Q3,-0.21,-0.2,0.2,0.2,0.01,0.01,0.01,52.0,2009,7,2009-07-01
+2417,A822RY2,Government,State and local - gross investment,2009_Q3,0.07,0.12,0.12,0.12,0.05,0.05,0.05,52.0,2009,7,2009-07-01
+2418,A822RY2,Government,National defense - consumption expenditures,2009_Q4,-0.04,-0.06,0.06,0.06,-0.02,0.02,0.02,52.0,2009,10,2009-10-01
+2419,A822RY2,Government,National defense - gross investment,2009_Q4,-0.15,-0.14,0.14,0.14,0.01,0.01,0.01,52.0,2009,10,2009-10-01
+2420,A822RY2,Government,Nondefense - consumption expenditures,2009_Q4,0.22,0.19,0.19,0.19,-0.03,0.03,0.03,52.0,2009,10,2009-10-01
+2421,A822RY2,Government,Nondefense - gross investment,2009_Q4,-0.01,0.02,0.02,0.02,0.03,0.03,0.03,52.0,2009,10,2009-10-01
+2422,A822RY2,Government,State and local - consumption expenditures,2009_Q4,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,52.0,2009,10,2009-10-01
+2423,A822RY2,Government,State and local - gross investment,2009_Q4,-0.03,-0.26,0.26,0.26,-0.23,0.23,0.23,52.0,2009,10,2009-10-01
+2424,A822RY2,Government,National defense - consumption expenditures,2010_Q1,0.03,0.03,0.03,0.03,0.0,0.0,0.0,52.0,2010,1,2010-01-01
+2425,A822RY2,Government,National defense - gross investment,2010_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,52.0,2010,1,2010-01-01
+2426,A822RY2,Government,Nondefense - consumption expenditures,2010_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,52.0,2010,1,2010-01-01
+2427,A822RY2,Government,Nondefense - gross investment,2010_Q1,0.01,-0.01,0.01,0.01,-0.02,0.02,0.02,52.0,2010,1,2010-01-01
+2428,A822RY2,Government,State and local - consumption expenditures,2010_Q1,-0.1,-0.08,0.08,0.08,0.02,0.02,0.02,52.0,2010,1,2010-01-01
+2429,A822RY2,Government,State and local - gross investment,2010_Q1,-0.38,-0.41,0.41,0.41,-0.03,0.03,0.03,52.0,2010,1,2010-01-01
+2430,A822RY2,Government,National defense - consumption expenditures,2010_Q2,0.25,0.25,0.25,0.25,0.0,0.0,0.0,52.0,2010,4,2010-04-01
+2431,A822RY2,Government,National defense - gross investment,2010_Q2,0.15,0.15,0.15,0.15,0.0,0.0,0.0,52.0,2010,4,2010-04-01
+2432,A822RY2,Government,Nondefense - consumption expenditures,2010_Q2,0.28,0.27,0.27,0.27,-0.01,0.01,0.01,52.0,2010,4,2010-04-01
+2433,A822RY2,Government,Nondefense - gross investment,2010_Q2,0.05,0.05,0.05,0.05,0.0,0.0,0.0,52.0,2010,4,2010-04-01
+2434,A822RY2,Government,State and local - consumption expenditures,2010_Q2,-0.07,-0.09,0.09,0.09,-0.02,0.02,0.02,52.0,2010,4,2010-04-01
+2435,A822RY2,Government,State and local - gross investment,2010_Q2,0.23,0.17,0.17,0.17,-0.06,0.06,0.06,52.0,2010,4,2010-04-01
+2436,A822RY2,Government,National defense - consumption expenditures,2010_Q3,0.42,0.41,0.41,0.41,-0.01,0.01,0.01,52.0,2010,7,2010-07-01
+2437,A822RY2,Government,National defense - gross investment,2010_Q3,0.04,0.05,0.05,0.05,0.01,0.01,0.01,52.0,2010,7,2010-07-01
+2438,A822RY2,Government,Nondefense - consumption expenditures,2010_Q3,0.19,0.18,0.18,0.18,-0.01,0.01,0.01,52.0,2010,7,2010-07-01
+2439,A822RY2,Government,Nondefense - gross investment,2010_Q3,0.06,0.06,0.06,0.06,0.0,0.0,0.0,52.0,2010,7,2010-07-01
+2440,A822RY2,Government,State and local - consumption expenditures,2010_Q3,-0.15,-0.14,0.14,0.14,0.01,0.01,0.01,52.0,2010,7,2010-07-01
+2441,A822RY2,Government,State and local - gross investment,2010_Q3,0.12,0.23,0.23,0.23,0.11,0.11,0.11,52.0,2010,7,2010-07-01
+2442,A822RY2,Government,National defense - consumption expenditures,2010_Q4,-0.32,-0.33,0.33,0.33,-0.01,0.01,0.01,52.0,2010,10,2010-10-01
+2443,A822RY2,Government,National defense - gross investment,2010_Q4,0.21,0.21,0.21,0.21,0.0,0.0,0.0,52.0,2010,10,2010-10-01
+2444,A822RY2,Government,Nondefense - consumption expenditures,2010_Q4,0.04,0.06,0.06,0.06,0.02,0.02,0.02,52.0,2010,10,2010-10-01
+2445,A822RY2,Government,Nondefense - gross investment,2010_Q4,0.06,0.04,0.04,0.04,-0.02,0.02,0.02,52.0,2010,10,2010-10-01
+2446,A822RY2,Government,State and local - consumption expenditures,2010_Q4,-0.08,-0.1,0.1,0.1,-0.02,0.02,0.02,52.0,2010,10,2010-10-01
+2447,A822RY2,Government,State and local - gross investment,2010_Q4,-0.02,-0.21,0.21,0.21,-0.19,0.19,0.19,52.0,2010,10,2010-10-01
+2448,A822RY2,Government,National defense - consumption expenditures,2011_Q1,-0.37,-0.38,0.38,0.38,-0.01,0.01,0.01,52.0,2011,1,2011-01-01
+2449,A822RY2,Government,National defense - gross investment,2011_Q1,-0.31,-0.32,0.32,0.32,-0.01,0.01,0.01,52.0,2011,1,2011-01-01
+2450,A822RY2,Government,Nondefense - consumption expenditures,2011_Q1,0.0,0.02,0.02,0.02,0.02,0.02,0.02,52.0,2011,1,2011-01-01
+2451,A822RY2,Government,Nondefense - gross investment,2011_Q1,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,52.0,2011,1,2011-01-01
+2452,A822RY2,Government,State and local - consumption expenditures,2011_Q1,-0.05,-0.07,0.07,0.07,-0.02,0.02,0.02,52.0,2011,1,2011-01-01
+2453,A822RY2,Government,State and local - gross investment,2011_Q1,-0.36,-0.44,0.44,0.44,-0.08,0.08,0.08,52.0,2011,1,2011-01-01
+2454,A822RY2,Government,National defense - consumption expenditures,2011_Q2,0.43,0.42,0.42,0.42,-0.01,0.01,0.01,52.0,2011,4,2011-04-01
+2455,A822RY2,Government,National defense - gross investment,2011_Q2,-0.04,-0.04,0.04,0.04,0.0,0.0,0.0,52.0,2011,4,2011-04-01
+2456,A822RY2,Government,Nondefense - consumption expenditures,2011_Q2,-0.19,-0.2,0.2,0.2,-0.01,0.01,0.01,52.0,2011,4,2011-04-01
+2457,A822RY2,Government,Nondefense - gross investment,2011_Q2,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,52.0,2011,4,2011-04-01
+2458,A822RY2,Government,State and local - consumption expenditures,2011_Q2,-0.13,-0.14,0.14,0.14,-0.01,0.01,0.01,52.0,2011,4,2011-04-01
+2459,A822RY2,Government,State and local - gross investment,2011_Q2,-0.28,-0.2,0.2,0.2,0.08,0.08,0.08,52.0,2011,4,2011-04-01
+2460,A822RY2,Government,National defense - consumption expenditures,2011_Q3,0.19,0.19,0.19,0.19,0.0,0.0,0.0,52.0,2011,7,2011-07-01
+2461,A822RY2,Government,National defense - gross investment,2011_Q3,0.07,0.08,0.08,0.08,0.01,0.01,0.01,52.0,2011,7,2011-07-01
+2462,A822RY2,Government,Nondefense - consumption expenditures,2011_Q3,-0.11,-0.12,0.12,0.12,-0.01,0.01,0.01,52.0,2011,7,2011-07-01
+2463,A822RY2,Government,Nondefense - gross investment,2011_Q3,0.01,0.01,0.01,0.01,0.0,0.0,0.0,52.0,2011,7,2011-07-01
+2464,A822RY2,Government,State and local - consumption expenditures,2011_Q3,-0.23,-0.2,0.2,0.2,0.03,0.03,0.03,52.0,2011,7,2011-07-01
+2465,A822RY2,Government,State and local - gross investment,2011_Q3,0.07,0.01,0.01,0.01,-0.06,0.06,0.06,52.0,2011,7,2011-07-01
+2466,A822RY2,Government,National defense - consumption expenditures,2011_Q4,-0.58,-0.58,0.58,0.58,0.0,0.0,0.0,52.0,2011,10,2011-10-01
+2467,A822RY2,Government,National defense - gross investment,2011_Q4,-0.15,-0.12,0.12,0.12,0.03,0.03,0.03,52.0,2011,10,2011-10-01
+2468,A822RY2,Government,Nondefense - consumption expenditures,2011_Q4,0.16,0.14,0.14,0.14,-0.02,0.02,0.02,52.0,2011,10,2011-10-01
+2469,A822RY2,Government,Nondefense - gross investment,2011_Q4,-0.04,-0.02,0.02,0.02,0.02,0.02,0.02,52.0,2011,10,2011-10-01
+2470,A822RY2,Government,State and local - consumption expenditures,2011_Q4,-0.28,-0.28,0.28,0.28,0.0,0.0,0.0,52.0,2011,10,2011-10-01
+2471,A822RY2,Government,State and local - gross investment,2011_Q4,-0.03,0.02,0.02,0.02,0.05,0.05,0.05,52.0,2011,10,2011-10-01
+2472,A822RY2,Government,National defense - consumption expenditures,2012_Q1,-0.28,-0.29,0.29,0.29,-0.01,0.01,0.01,52.0,2012,1,2012-01-01
+2473,A822RY2,Government,National defense - gross investment,2012_Q1,-0.17,-0.17,0.17,0.17,0.0,0.0,0.0,52.0,2012,1,2012-01-01
+2474,A822RY2,Government,Nondefense - consumption expenditures,2012_Q1,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,52.0,2012,1,2012-01-01
+2475,A822RY2,Government,Nondefense - gross investment,2012_Q1,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,52.0,2012,1,2012-01-01
+2476,A822RY2,Government,State and local - consumption expenditures,2012_Q1,-0.06,-0.07,0.07,0.07,-0.01,0.01,0.01,52.0,2012,1,2012-01-01
+2477,A822RY2,Government,State and local - gross investment,2012_Q1,-0.09,-0.25,0.25,0.25,-0.16,0.16,0.16,52.0,2012,1,2012-01-01
+2478,A822RY2,Government,National defense - consumption expenditures,2012_Q2,-0.11,-0.1,0.1,0.1,0.01,0.01,0.01,52.0,2012,4,2012-04-01
+2479,A822RY2,Government,National defense - gross investment,2012_Q2,0.09,0.09,0.09,0.09,0.0,0.0,0.0,52.0,2012,4,2012-04-01
+2480,A822RY2,Government,Nondefense - consumption expenditures,2012_Q2,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,52.0,2012,4,2012-04-01
+2481,A822RY2,Government,Nondefense - gross investment,2012_Q2,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,52.0,2012,4,2012-04-01
+2482,A822RY2,Government,State and local - consumption expenditures,2012_Q2,-0.09,-0.1,0.1,0.1,-0.01,0.01,0.01,52.0,2012,4,2012-04-01
+2483,A822RY2,Government,State and local - gross investment,2012_Q2,-0.16,-0.01,0.01,0.01,0.15,0.15,0.15,52.0,2012,4,2012-04-01
+2484,A822RY2,Government,National defense - consumption expenditures,2012_Q3,0.65,0.64,0.64,0.64,-0.01,0.01,0.01,52.0,2012,7,2012-07-01
+2485,A822RY2,Government,National defense - gross investment,2012_Q3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.0,2012,7,2012-07-01
+2486,A822RY2,Government,Nondefense - consumption expenditures,2012_Q3,0.08,0.09,0.09,0.09,0.01,0.01,0.01,52.0,2012,7,2012-07-01
+2487,A822RY2,Government,Nondefense - gross investment,2012_Q3,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,52.0,2012,7,2012-07-01
+2488,A822RY2,Government,State and local - consumption expenditures,2012_Q3,-0.01,0.02,0.02,0.02,0.03,0.03,0.03,52.0,2012,7,2012-07-01
+2489,A822RY2,Government,State and local - gross investment,2012_Q3,0.0,0.01,0.01,0.01,0.01,0.01,0.01,52.0,2012,7,2012-07-01
+2490,A822RY2,Government,National defense - consumption expenditures,2012_Q4,-1.28,-1.27,1.27,1.27,0.01,0.01,0.01,52.0,2012,10,2012-10-01
+2491,A822RY2,Government,National defense - gross investment,2012_Q4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.0,2012,10,2012-10-01
+2492,A822RY2,Government,Nondefense - consumption expenditures,2012_Q4,0.02,0.03,0.03,0.03,0.01,0.01,0.01,52.0,2012,10,2012-10-01
+2493,A822RY2,Government,Nondefense - gross investment,2012_Q4,0.01,0.02,0.02,0.02,0.01,0.01,0.01,52.0,2012,10,2012-10-01
+2494,A822RY2,Government,State and local - consumption expenditures,2012_Q4,-0.11,-0.12,0.12,0.12,-0.01,0.01,0.01,52.0,2012,10,2012-10-01
+2495,A822RY2,Government,State and local - gross investment,2012_Q4,0.03,-0.05,0.05,0.05,-0.08,0.08,0.08,52.0,2012,10,2012-10-01
+2496,A822RY2,Government,National defense - consumption expenditures,2013_Q1,-0.37,-0.39,0.39,0.39,-0.02,0.02,0.02,52.0,2013,1,2013-01-01
+2497,A822RY2,Government,National defense - gross investment,2013_Q1,-0.23,-0.24,0.24,0.24,-0.01,0.01,0.01,52.0,2013,1,2013-01-01
+2498,A822RY2,Government,Nondefense - consumption expenditures,2013_Q1,-0.03,-0.02,0.02,0.02,0.01,0.01,0.01,52.0,2013,1,2013-01-01
+2499,A822RY2,Government,Nondefense - gross investment,2013_Q1,-0.02,-0.04,0.04,0.04,-0.02,0.02,0.02,52.0,2013,1,2013-01-01
+2500,A822RY2,Government,State and local - consumption expenditures,2013_Q1,-0.05,-0.06,0.06,0.06,-0.01,0.01,0.01,52.0,2013,1,2013-01-01
+2501,A822RY2,Government,State and local - gross investment,2013_Q1,-0.09,-0.19,0.19,0.19,-0.1,0.1,0.1,52.0,2013,1,2013-01-01
+2502,A822RY2,Government,National defense - consumption expenditures,2013_Q2,-0.15,-0.12,0.12,0.12,0.03,0.03,0.03,52.0,2013,4,2013-04-01
+2503,A822RY2,Government,National defense - gross investment,2013_Q2,0.12,0.09,0.09,0.09,-0.03,0.03,0.03,52.0,2013,4,2013-04-01
+2504,A822RY2,Government,Nondefense - consumption expenditures,2013_Q2,-0.08,-0.08,0.08,0.08,0.0,0.0,0.0,52.0,2013,4,2013-04-01
+2505,A822RY2,Government,Nondefense - gross investment,2013_Q2,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,52.0,2013,4,2013-04-01
+2506,A822RY2,Government,State and local - consumption expenditures,2013_Q2,0.04,0.04,0.04,0.04,0.0,0.0,0.0,52.0,2013,4,2013-04-01
+2507,A822RY2,Government,State and local - gross investment,2013_Q2,-0.01,0.01,0.01,0.01,0.02,0.02,0.02,52.0,2013,4,2013-04-01
+2508,A822RY2,Government,National defense - consumption expenditures,2013_Q3,-0.07,-0.06,0.06,0.06,0.01,0.01,0.01,52.0,2013,7,2013-07-01
+2509,A822RY2,Government,National defense - gross investment,2013_Q3,0.04,0.04,0.04,0.04,0.0,0.0,0.0,52.0,2013,7,2013-07-01
+2510,A822RY2,Government,Nondefense - consumption expenditures,2013_Q3,-0.08,-0.09,0.09,0.09,-0.01,0.01,0.01,52.0,2013,7,2013-07-01
+2511,A822RY2,Government,Nondefense - gross investment,2013_Q3,-0.01,0.0,0.0,0.0,0.01,0.01,0.01,52.0,2013,7,2013-07-01
+2512,A822RY2,Government,State and local - consumption expenditures,2013_Q3,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,52.0,2013,7,2013-07-01
+2513,A822RY2,Government,State and local - gross investment,2013_Q3,0.12,0.15,0.15,0.15,0.03,0.03,0.03,52.0,2013,7,2013-07-01
+2514,A822RY2,Government,National defense - consumption expenditures,2013_Q4,-0.51,-0.53,0.53,0.53,-0.02,0.02,0.02,52.0,2013,10,2013-10-01
+2515,A822RY2,Government,National defense - gross investment,2013_Q4,-0.17,-0.17,0.17,0.17,0.0,0.0,0.0,52.0,2013,10,2013-10-01
+2516,A822RY2,Government,Nondefense - consumption expenditures,2013_Q4,-0.27,-0.26,0.26,0.26,0.01,0.01,0.01,52.0,2013,10,2013-10-01
+2517,A822RY2,Government,Nondefense - gross investment,2013_Q4,-0.04,-0.03,0.03,0.03,0.01,0.01,0.01,52.0,2013,10,2013-10-01
+2518,A822RY2,Government,State and local - consumption expenditures,2013_Q4,0.03,0.04,0.04,0.04,0.01,0.01,0.01,52.0,2013,10,2013-10-01
+2519,A822RY2,Government,State and local - gross investment,2013_Q4,0.03,-0.04,0.04,0.04,-0.07,0.07,0.07,52.0,2013,10,2013-10-01
+2520,A822RY2,Government,National defense - consumption expenditures,2014_Q1,0.11,0.11,0.11,0.11,0.0,0.0,0.0,52.0,2014,1,2014-01-01
+2521,A822RY2,Government,National defense - gross investment,2014_Q1,-0.22,-0.22,0.22,0.22,0.0,0.0,0.0,52.0,2014,1,2014-01-01
+2522,A822RY2,Government,Nondefense - consumption expenditures,2014_Q1,0.17,0.17,0.17,0.17,0.0,0.0,0.0,52.0,2014,1,2014-01-01
+2523,A822RY2,Government,Nondefense - gross investment,2014_Q1,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,52.0,2014,1,2014-01-01
+2524,A822RY2,Government,State and local - consumption expenditures,2014_Q1,0.05,0.06,0.06,0.06,0.01,0.01,0.01,52.0,2014,1,2014-01-01
+2525,A822RY2,Government,State and local - gross investment,2014_Q1,-0.2,-0.24,0.24,0.24,-0.04,0.04,0.04,52.0,2014,1,2014-01-01
+2526,A822RY2,Government,National defense - consumption expenditures,2014_Q2,-0.06,-0.07,0.07,0.07,-0.01,0.01,0.01,52.0,2014,4,2014-04-01
+2527,A822RY2,Government,National defense - gross investment,2014_Q2,0.11,0.11,0.11,0.11,0.0,0.0,0.0,52.0,2014,4,2014-04-01
+2528,A822RY2,Government,Nondefense - consumption expenditures,2014_Q2,-0.07,-0.08,0.08,0.08,-0.01,0.01,0.01,52.0,2014,4,2014-04-01
+2529,A822RY2,Government,Nondefense - gross investment,2014_Q2,-0.03,-0.03,0.03,0.03,0.0,0.0,0.0,52.0,2014,4,2014-04-01
+2530,A822RY2,Government,State and local - consumption expenditures,2014_Q2,0.12,0.11,0.11,0.11,-0.01,0.01,0.01,52.0,2014,4,2014-04-01
+2531,A822RY2,Government,State and local - gross investment,2014_Q2,0.23,0.26,0.26,0.26,0.03,0.03,0.03,52.0,2014,4,2014-04-01
+2532,A822RY2,Government,National defense - consumption expenditures,2014_Q3,0.69,0.69,0.69,0.69,0.0,0.0,0.0,52.0,2014,7,2014-07-01
+2533,A822RY2,Government,National defense - gross investment,2014_Q3,-0.03,-0.03,0.03,0.03,0.0,0.0,0.0,52.0,2014,7,2014-07-01
+2534,A822RY2,Government,Nondefense - consumption expenditures,2014_Q3,0.03,0.02,0.02,0.02,-0.01,0.01,0.01,52.0,2014,7,2014-07-01
+2535,A822RY2,Government,Nondefense - gross investment,2014_Q3,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,52.0,2014,7,2014-07-01
+2536,A822RY2,Government,State and local - consumption expenditures,2014_Q3,0.09,0.08,0.08,0.08,-0.01,0.01,0.01,52.0,2014,7,2014-07-01
+2537,A822RY2,Government,State and local - gross investment,2014_Q3,0.07,0.04,0.04,0.04,-0.03,0.03,0.03,52.0,2014,7,2014-07-01
+2538,A822RY2,Government,National defense - consumption expenditures,2014_Q4,-0.61,-0.59,0.59,0.59,0.02,0.02,0.02,52.0,2014,10,2014-10-01
+2539,A822RY2,Government,National defense - gross investment,2014_Q4,0.03,0.03,0.03,0.03,0.0,0.0,0.0,52.0,2014,10,2014-10-01
+2540,A822RY2,Government,Nondefense - consumption expenditures,2014_Q4,0.0,0.01,0.01,0.01,0.01,0.01,0.01,52.0,2014,10,2014-10-01
+2541,A822RY2,Government,Nondefense - gross investment,2014_Q4,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,52.0,2014,10,2014-10-01
+2542,A822RY2,Government,State and local - consumption expenditures,2014_Q4,0.1,0.1,0.1,0.1,0.0,0.0,0.0,52.0,2014,10,2014-10-01
+2543,A822RY2,Government,State and local - gross investment,2014_Q4,0.04,0.08,0.08,0.08,0.04,0.04,0.04,52.0,2014,10,2014-10-01
+2544,A822RY2,Government,National defense - consumption expenditures,2015_Q1,0.02,0.0,0.0,0.0,-0.02,0.02,0.02,52.0,2015,1,2015-01-01
+2545,A822RY2,Government,National defense - gross investment,2015_Q1,-0.05,-0.05,0.05,0.05,0.0,0.0,0.0,52.0,2015,1,2015-01-01
+2546,A822RY2,Government,Nondefense - consumption expenditures,2015_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,52.0,2015,1,2015-01-01
+2547,A822RY2,Government,Nondefense - gross investment,2015_Q1,0.02,0.0,0.0,0.0,-0.02,0.02,0.02,52.0,2015,1,2015-01-01
+2548,A822RY2,Government,State and local - consumption expenditures,2015_Q1,0.07,0.07,0.07,0.07,0.0,0.0,0.0,52.0,2015,1,2015-01-01
+2549,A822RY2,Government,State and local - gross investment,2015_Q1,-0.23,-0.18,0.18,0.18,0.05,0.05,0.05,52.0,2015,1,2015-01-01
+2550,A822RY2,Government,National defense - consumption expenditures,2015_Q2,-0.1,-0.03,0.03,0.03,0.07,0.07,0.07,52.0,2015,4,2015-04-01
+2551,A822RY2,Government,National defense - gross investment,2015_Q2,0.04,0.05,0.05,0.05,0.01,0.01,0.01,52.0,2015,4,2015-04-01
+2552,A822RY2,Government,Nondefense - consumption expenditures,2015_Q2,-0.05,-0.04,0.04,0.04,0.01,0.01,0.01,52.0,2015,4,2015-04-01
+2553,A822RY2,Government,Nondefense - gross investment,2015_Q2,0.03,0.03,0.03,0.03,0.0,0.0,0.0,52.0,2015,4,2015-04-01
+2554,A822RY2,Government,State and local - consumption expenditures,2015_Q2,0.03,0.04,0.04,0.04,0.01,0.01,0.01,52.0,2015,4,2015-04-01
+2555,A822RY2,Government,State and local - gross investment,2015_Q2,0.18,0.42,0.42,0.42,0.24,0.24,0.24,52.0,2015,4,2015-04-01
+2556,A822RY2,Government,National defense - consumption expenditures,2015_Q3,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,52.0,2015,7,2015-07-01
+2557,A822RY2,Government,National defense - gross investment,2015_Q3,-0.04,-0.04,0.04,0.04,0.0,0.0,0.0,52.0,2015,7,2015-07-01
+2558,A822RY2,Government,Nondefense - consumption expenditures,2015_Q3,0.05,0.06,0.06,0.06,0.01,0.01,0.01,52.0,2015,7,2015-07-01
+2559,A822RY2,Government,Nondefense - gross investment,2015_Q3,0.03,0.01,0.01,0.01,-0.02,0.02,0.02,52.0,2015,7,2015-07-01
+2560,A822RY2,Government,State and local - consumption expenditures,2015_Q3,0.17,0.14,0.14,0.14,-0.03,0.03,0.03,52.0,2015,7,2015-07-01
+2561,A822RY2,Government,State and local - gross investment,2015_Q3,0.12,0.17,0.17,0.17,0.05,0.05,0.05,52.0,2015,7,2015-07-01
+2562,A822RY2,Government,National defense - consumption expenditures,2015_Q4,0.07,0.04,0.04,0.04,-0.03,0.03,0.03,52.0,2015,10,2015-10-01
+2563,A822RY2,Government,National defense - gross investment,2015_Q4,0.07,0.07,0.07,0.07,0.0,0.0,0.0,52.0,2015,10,2015-10-01
+2564,A822RY2,Government,Nondefense - consumption expenditures,2015_Q4,0.0,0.02,0.02,0.02,0.02,0.02,0.02,52.0,2015,10,2015-10-01
+2565,A822RY2,Government,Nondefense - gross investment,2015_Q4,0.04,0.02,0.02,0.02,-0.02,0.02,0.02,52.0,2015,10,2015-10-01
+2566,A822RY2,Government,State and local - consumption expenditures,2015_Q4,0.05,0.03,0.03,0.03,-0.02,0.02,0.02,52.0,2015,10,2015-10-01
+2567,A822RY2,Government,State and local - gross investment,2015_Q4,-0.11,-0.16,0.16,0.16,-0.05,0.05,0.05,52.0,2015,10,2015-10-01

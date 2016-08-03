@@ -19,6 +19,7 @@ from bokeh.charts import Bar
 final_gdp_data = pd.read_pickle('final_gdp_data')
 #temp_graph = final_gdp_data[(final_gdp_data['bea_code']=='A191RL1')]
 
+
 for something in final_gdp_data['bea_code'].unique():
     temp_graph = final_gdp_data[(final_gdp_data['bea_code']==something)]
 
@@ -31,7 +32,7 @@ for something in final_gdp_data['bea_code'].unique():
     
     #output_file(str(newpath) + '\%s.html'%something)
     
-    p1 = figure(width=1000, height=500, title="Revisions to " + temp_graph['category'].iloc[0], x_axis_type="datetime", y_range=(temp_graph['THIRD'].min() - abs(temp_graph['THIRD'].min()*.1), temp_graph['THIRD'].max() + abs(temp_graph['THIRD'].max()*.1)), outline_line_color = None)
+    p1 = figure(width=1000, height=500, title="Revisions to " + temp_graph['category'].iloc[0], x_axis_type="datetime", y_range=(temp_graph[['THIRD','third_less_adv']].min().min() - abs(temp_graph[['THIRD','third_less_adv']].min().min()*.1), temp_graph[['THIRD','third_less_adv']].max().max() + abs(temp_graph[['THIRD','third_less_adv']].max().max()*.1)), outline_line_color = None)
     p1.xgrid.grid_line_color = None
     p1.ygrid.grid_line_color = None
     p1.yaxis.minor_tick_line_color = None

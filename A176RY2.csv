@@ -1,22 +1,22 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-2123,A176RY2,Other household operation - A176RY2,2004_Q1,0.07,0.05,0.05,0.05,-0.02,0.02,0.02,,2004,1,2004-01-01
-2124,A176RY2,Other household operation - A176RY2,2004_Q2,0.12,0.09,0.09,0.09,-0.03,0.03,0.03,,2004,4,2004-04-01
-2125,A176RY2,Other household operation - A176RY2,2004_Q3,0.04,0.06,0.06,0.06,0.02,0.02,0.02,,2004,7,2004-07-01
-2126,A176RY2,Other household operation - A176RY2,2004_Q4,0.05,0.02,0.02,0.02,-0.03,0.03,0.03,,2004,10,2004-10-01
-2127,A176RY2,Other household operation - A176RY2,2005_Q1,0.06,0.07,0.07,0.07,0.01,0.01,0.01,,2005,1,2005-01-01
-2128,A176RY2,Other household operation - A176RY2,2005_Q2,0.05,0.06,0.06,0.06,0.01,0.01,0.01,,2005,4,2005-04-01
-2129,A176RY2,Other household operation - A176RY2,2005_Q3,0.04,0.08,0.08,0.08,0.04,0.04,0.04,,2005,7,2005-07-01
-2130,A176RY2,Other household operation - A176RY2,2005_Q4,0.06,-0.02,0.02,0.02,-0.08,0.08,0.08,,2005,10,2005-10-01
-2131,A176RY2,Other household operation - A176RY2,2006_Q1,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,,2006,1,2006-01-01
-2132,A176RY2,Other household operation - A176RY2,2006_Q2,0.02,0.08,0.08,0.08,0.06,0.06,0.06,,2006,4,2006-04-01
-2133,A176RY2,Other household operation - A176RY2,2006_Q3,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,,2006,7,2006-07-01
-2134,A176RY2,Other household operation - A176RY2,2006_Q4,0.01,0.05,0.05,0.05,0.04,0.04,0.04,,2006,10,2006-10-01
-2135,A176RY2,Other household operation - A176RY2,2007_Q1,0.06,0.04,0.04,0.04,-0.02,0.02,0.02,,2007,1,2007-01-01
-2136,A176RY2,Other household operation - A176RY2,2007_Q2,0.03,0.03,0.03,0.03,0.0,0.0,0.0,,2007,4,2007-04-01
-2137,A176RY2,Other household operation - A176RY2,2007_Q3,0.05,0.02,0.02,0.02,-0.03,0.03,0.03,,2007,7,2007-07-01
-2138,A176RY2,Other household operation - A176RY2,2007_Q4,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,,2007,10,2007-10-01
-2139,A176RY2,Other household operation - A176RY2,2008_Q1,0.04,-0.06,0.06,0.06,-0.1,0.1,0.1,,2008,1,2008-01-01
-2140,A176RY2,Other household operation - A176RY2,2008_Q2,0.02,0.02,0.02,0.02,0.0,0.0,0.0,,2008,4,2008-04-01
-2141,A176RY2,Other household operation - A176RY2,2008_Q3,0.05,0.05,0.05,0.05,0.0,0.0,0.0,,2008,7,2008-07-01
-2142,A176RY2,Other household operation - A176RY2,2008_Q4,0.05,0.02,0.02,0.02,-0.03,0.03,0.03,,2008,10,2008-10-01
-2143,A176RY2,Other household operation - A176RY2,2009_Q1,0.01,-0.03,0.03,0.03,-0.04,0.04,0.04,,2009,1,2009-01-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+6742,A176RY2,Other household operation - A176RY2,Other household operation,2004_Q1,0.07,0.05,0.05,0.05,-0.02,0.02,0.02,,2004,1,2004-01-01
+6743,A176RY2,Other household operation - A176RY2,Other household operation,2004_Q2,0.12,0.09,0.09,0.09,-0.03,0.03,0.03,,2004,4,2004-04-01
+6744,A176RY2,Other household operation - A176RY2,Other household operation,2004_Q3,0.04,0.06,0.06,0.06,0.02,0.02,0.02,,2004,7,2004-07-01
+6745,A176RY2,Other household operation - A176RY2,Other household operation,2004_Q4,0.05,0.02,0.02,0.02,-0.03,0.03,0.03,,2004,10,2004-10-01
+6746,A176RY2,Other household operation - A176RY2,Other household operation,2005_Q1,0.06,0.07,0.07,0.07,0.01,0.01,0.01,,2005,1,2005-01-01
+6747,A176RY2,Other household operation - A176RY2,Other household operation,2005_Q2,0.05,0.06,0.06,0.06,0.01,0.01,0.01,,2005,4,2005-04-01
+6748,A176RY2,Other household operation - A176RY2,Other household operation,2005_Q3,0.04,0.08,0.08,0.08,0.04,0.04,0.04,,2005,7,2005-07-01
+6749,A176RY2,Other household operation - A176RY2,Other household operation,2005_Q4,0.06,-0.02,0.02,0.02,-0.08,0.08,0.08,,2005,10,2005-10-01
+6750,A176RY2,Other household operation - A176RY2,Other household operation,2006_Q1,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,,2006,1,2006-01-01
+6751,A176RY2,Other household operation - A176RY2,Other household operation,2006_Q2,0.02,0.08,0.08,0.08,0.06,0.06,0.06,,2006,4,2006-04-01
+6752,A176RY2,Other household operation - A176RY2,Other household operation,2006_Q3,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,,2006,7,2006-07-01
+6753,A176RY2,Other household operation - A176RY2,Other household operation,2006_Q4,0.01,0.05,0.05,0.05,0.04,0.04,0.04,,2006,10,2006-10-01
+6754,A176RY2,Other household operation - A176RY2,Other household operation,2007_Q1,0.06,0.04,0.04,0.04,-0.02,0.02,0.02,,2007,1,2007-01-01
+6755,A176RY2,Other household operation - A176RY2,Other household operation,2007_Q2,0.03,0.03,0.03,0.03,0.0,0.0,0.0,,2007,4,2007-04-01
+6756,A176RY2,Other household operation - A176RY2,Other household operation,2007_Q3,0.05,0.02,0.02,0.02,-0.03,0.03,0.03,,2007,7,2007-07-01
+6757,A176RY2,Other household operation - A176RY2,Other household operation,2007_Q4,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,,2007,10,2007-10-01
+6758,A176RY2,Other household operation - A176RY2,Other household operation,2008_Q1,0.04,-0.06,0.06,0.06,-0.1,0.1,0.1,,2008,1,2008-01-01
+6759,A176RY2,Other household operation - A176RY2,Other household operation,2008_Q2,0.02,0.02,0.02,0.02,0.0,0.0,0.0,,2008,4,2008-04-01
+6760,A176RY2,Other household operation - A176RY2,Other household operation,2008_Q3,0.05,0.05,0.05,0.05,0.0,0.0,0.0,,2008,7,2008-07-01
+6761,A176RY2,Other household operation - A176RY2,Other household operation,2008_Q4,0.05,0.02,0.02,0.02,-0.03,0.03,0.03,,2008,10,2008-10-01
+6762,A176RY2,Other household operation - A176RY2,Other household operation,2009_Q1,0.01,-0.03,0.03,0.03,-0.04,0.04,0.04,,2009,1,2009-01-01

@@ -1,28 +1,28 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-2737,DTRSRY2,Transportation services - DTRSRY2,2009_Q2,0.0,0.02,0.02,0.02,0.02,0.02,0.02,18.0,2009,4,2009-04-01
-2738,DTRSRY2,Transportation services - DTRSRY2,2009_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,18.0,2009,7,2009-07-01
-2739,DTRSRY2,Transportation services - DTRSRY2,2009_Q4,0.02,0.02,0.02,0.02,0.0,0.0,0.0,18.0,2009,10,2009-10-01
-2740,DTRSRY2,Transportation services - DTRSRY2,2010_Q1,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,18.0,2010,1,2010-01-01
-2741,DTRSRY2,Transportation services - DTRSRY2,2010_Q2,0.1,0.08,0.08,0.08,-0.02,0.02,0.02,18.0,2010,4,2010-04-01
-2742,DTRSRY2,Transportation services - DTRSRY2,2010_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,18.0,2010,7,2010-07-01
-2743,DTRSRY2,Transportation services - DTRSRY2,2010_Q4,0.04,0.01,0.01,0.01,-0.03,0.03,0.03,18.0,2010,10,2010-10-01
-2744,DTRSRY2,Transportation services - DTRSRY2,2011_Q1,-0.06,-0.02,0.02,0.02,0.04,0.04,0.04,18.0,2011,1,2011-01-01
-2745,DTRSRY2,Transportation services - DTRSRY2,2011_Q2,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,18.0,2011,4,2011-04-01
-2746,DTRSRY2,Transportation services - DTRSRY2,2011_Q3,-0.01,0.01,0.01,0.01,0.02,0.02,0.02,18.0,2011,7,2011-07-01
-2747,DTRSRY2,Transportation services - DTRSRY2,2011_Q4,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,18.0,2011,10,2011-10-01
-2748,DTRSRY2,Transportation services - DTRSRY2,2012_Q1,0.03,0.04,0.04,0.04,0.01,0.01,0.01,18.0,2012,1,2012-01-01
-2749,DTRSRY2,Transportation services - DTRSRY2,2012_Q2,0.02,0.06,0.06,0.06,0.04,0.04,0.04,18.0,2012,4,2012-04-01
-2750,DTRSRY2,Transportation services - DTRSRY2,2012_Q3,0.01,0.03,0.03,0.03,0.02,0.02,0.02,18.0,2012,7,2012-07-01
-2751,DTRSRY2,Transportation services - DTRSRY2,2012_Q4,0.03,0.01,0.01,0.01,-0.02,0.02,0.02,18.0,2012,10,2012-10-01
-2752,DTRSRY2,Transportation services - DTRSRY2,2013_Q1,0.07,0.05,0.05,0.05,-0.02,0.02,0.02,18.0,2013,1,2013-01-01
-2753,DTRSRY2,Transportation services - DTRSRY2,2013_Q2,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,18.0,2013,4,2013-04-01
-2754,DTRSRY2,Transportation services - DTRSRY2,2013_Q3,0.02,-0.04,0.04,0.04,-0.06,0.06,0.06,18.0,2013,7,2013-07-01
-2755,DTRSRY2,Transportation services - DTRSRY2,2013_Q4,0.02,0.04,0.04,0.04,0.02,0.02,0.02,18.0,2013,10,2013-10-01
-2756,DTRSRY2,Transportation services - DTRSRY2,2014_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,18.0,2014,1,2014-01-01
-2757,DTRSRY2,Transportation services - DTRSRY2,2014_Q2,0.05,0.07,0.07,0.07,0.02,0.02,0.02,18.0,2014,4,2014-04-01
-2758,DTRSRY2,Transportation services - DTRSRY2,2014_Q3,0.04,0.05,0.05,0.05,0.01,0.01,0.01,18.0,2014,7,2014-07-01
-2759,DTRSRY2,Transportation services - DTRSRY2,2014_Q4,0.06,0.07,0.07,0.07,0.01,0.01,0.01,18.0,2014,10,2014-10-01
-2760,DTRSRY2,Transportation services - DTRSRY2,2015_Q1,0.07,0.13,0.13,0.13,0.06,0.06,0.06,18.0,2015,1,2015-01-01
-2761,DTRSRY2,Transportation services - DTRSRY2,2015_Q2,0.07,0.14,0.14,0.14,0.07,0.07,0.07,18.0,2015,4,2015-04-01
-2762,DTRSRY2,Transportation services - DTRSRY2,2015_Q3,0.12,0.08,0.08,0.08,-0.04,0.04,0.04,18.0,2015,7,2015-07-01
-2763,DTRSRY2,Transportation services - DTRSRY2,2015_Q4,0.05,0.14,0.14,0.14,0.09,0.09,0.09,18.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+8355,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2009_Q2,0.0,0.02,0.02,0.02,0.02,0.02,0.02,18.0,2009,4,2009-04-01
+8356,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2009_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,18.0,2009,7,2009-07-01
+8357,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2009_Q4,0.02,0.02,0.02,0.02,0.0,0.0,0.0,18.0,2009,10,2009-10-01
+8358,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2010_Q1,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,18.0,2010,1,2010-01-01
+8359,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2010_Q2,0.1,0.08,0.08,0.08,-0.02,0.02,0.02,18.0,2010,4,2010-04-01
+8360,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2010_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,18.0,2010,7,2010-07-01
+8361,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2010_Q4,0.04,0.01,0.01,0.01,-0.03,0.03,0.03,18.0,2010,10,2010-10-01
+8362,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2011_Q1,-0.06,-0.02,0.02,0.02,0.04,0.04,0.04,18.0,2011,1,2011-01-01
+8363,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2011_Q2,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,18.0,2011,4,2011-04-01
+8364,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2011_Q3,-0.01,0.01,0.01,0.01,0.02,0.02,0.02,18.0,2011,7,2011-07-01
+8365,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2011_Q4,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,18.0,2011,10,2011-10-01
+8366,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2012_Q1,0.03,0.04,0.04,0.04,0.01,0.01,0.01,18.0,2012,1,2012-01-01
+8367,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2012_Q2,0.02,0.06,0.06,0.06,0.04,0.04,0.04,18.0,2012,4,2012-04-01
+8368,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2012_Q3,0.01,0.03,0.03,0.03,0.02,0.02,0.02,18.0,2012,7,2012-07-01
+8369,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2012_Q4,0.03,0.01,0.01,0.01,-0.02,0.02,0.02,18.0,2012,10,2012-10-01
+8370,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2013_Q1,0.07,0.05,0.05,0.05,-0.02,0.02,0.02,18.0,2013,1,2013-01-01
+8371,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2013_Q2,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,18.0,2013,4,2013-04-01
+8372,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2013_Q3,0.02,-0.04,0.04,0.04,-0.06,0.06,0.06,18.0,2013,7,2013-07-01
+8373,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2013_Q4,0.02,0.04,0.04,0.04,0.02,0.02,0.02,18.0,2013,10,2013-10-01
+8374,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2014_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,18.0,2014,1,2014-01-01
+8375,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2014_Q2,0.05,0.07,0.07,0.07,0.02,0.02,0.02,18.0,2014,4,2014-04-01
+8376,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2014_Q3,0.04,0.05,0.05,0.05,0.01,0.01,0.01,18.0,2014,7,2014-07-01
+8377,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2014_Q4,0.06,0.07,0.07,0.07,0.01,0.01,0.01,18.0,2014,10,2014-10-01
+8378,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2015_Q1,0.07,0.13,0.13,0.13,0.06,0.06,0.06,18.0,2015,1,2015-01-01
+8379,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2015_Q2,0.07,0.14,0.14,0.14,0.07,0.07,0.07,18.0,2015,4,2015-04-01
+8380,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2015_Q3,0.12,0.08,0.08,0.08,-0.04,0.04,0.04,18.0,2015,7,2015-07-01
+8381,DTRSRY2,Transportation services - DTRSRY2,Transportation services,2015_Q4,0.05,0.14,0.14,0.14,0.09,0.09,0.09,18.0,2015,10,2015-10-01

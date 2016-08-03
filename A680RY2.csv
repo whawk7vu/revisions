@@ -1,49 +1,49 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-1484,A680RY2,Industrial equipment - A680RY2,2004_Q1,0.07,0.07,0.07,0.07,0.0,0.0,0.0,34.0,2004,1,2004-01-01
-1485,A680RY2,Industrial equipment - A680RY2,2004_Q2,-0.02,0.03,0.03,0.03,0.05,0.05,0.05,34.0,2004,4,2004-04-01
-1486,A680RY2,Industrial equipment - A680RY2,2004_Q3,0.34,0.31,0.31,0.31,-0.03,0.03,0.03,34.0,2004,7,2004-07-01
-1487,A680RY2,Industrial equipment - A680RY2,2004_Q4,0.08,0.1,0.1,0.1,0.02,0.02,0.02,34.0,2004,10,2004-10-01
-1488,A680RY2,Industrial equipment - A680RY2,2005_Q1,0.04,0.05,0.05,0.05,0.01,0.01,0.01,34.0,2005,1,2005-01-01
-1489,A680RY2,Industrial equipment - A680RY2,2005_Q2,-0.28,-0.27,0.27,0.27,0.01,0.01,0.01,34.0,2005,4,2005-04-01
-1490,A680RY2,Industrial equipment - A680RY2,2005_Q3,0.24,0.2,0.2,0.2,-0.04,0.04,0.04,34.0,2005,7,2005-07-01
-1491,A680RY2,Industrial equipment - A680RY2,2005_Q4,0.13,0.16,0.16,0.16,0.03,0.03,0.03,34.0,2005,10,2005-10-01
-1492,A680RY2,Industrial equipment - A680RY2,2006_Q1,0.12,-0.04,0.04,0.04,-0.16,0.16,0.16,34.0,2006,1,2006-01-01
-1493,A680RY2,Industrial equipment - A680RY2,2006_Q2,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,34.0,2006,4,2006-04-01
-1494,A680RY2,Industrial equipment - A680RY2,2006_Q3,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,34.0,2006,7,2006-07-01
-1495,A680RY2,Industrial equipment - A680RY2,2006_Q4,-0.05,-0.07,0.07,0.07,-0.02,0.02,0.02,34.0,2006,10,2006-10-01
-1496,A680RY2,Industrial equipment - A680RY2,2007_Q1,0.02,-0.04,0.04,0.04,-0.06,0.06,0.06,34.0,2007,1,2007-01-01
-1497,A680RY2,Industrial equipment - A680RY2,2007_Q2,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,34.0,2007,4,2007-04-01
-1498,A680RY2,Industrial equipment - A680RY2,2007_Q3,0.1,0.1,0.1,0.1,0.0,0.0,0.0,34.0,2007,7,2007-07-01
-1499,A680RY2,Industrial equipment - A680RY2,2007_Q4,-0.18,-0.18,0.18,0.18,0.0,0.0,0.0,34.0,2007,10,2007-10-01
-1500,A680RY2,Industrial equipment - A680RY2,2008_Q1,0.13,0.04,0.04,0.04,-0.09,0.09,0.09,34.0,2008,1,2008-01-01
-1501,A680RY2,Industrial equipment - A680RY2,2008_Q2,0.08,-0.05,0.05,0.05,-0.13,0.13,0.13,34.0,2008,4,2008-04-01
-1502,A680RY2,Industrial equipment - A680RY2,2008_Q3,-0.14,-0.12,0.12,0.12,0.02,0.02,0.02,34.0,2008,7,2008-07-01
-1503,A680RY2,Industrial equipment - A680RY2,2008_Q4,-0.22,-0.19,0.19,0.19,0.03,0.03,0.03,34.0,2008,10,2008-10-01
-1504,A680RY2,Industrial equipment - A680RY2,2009_Q1,-0.7,-0.72,0.72,0.72,-0.02,0.02,0.02,34.0,2009,1,2009-01-01
-1505,A680RY2,Industrial equipment - A680RY2,2009_Q2,-0.18,-0.18,0.18,0.18,0.0,0.0,0.0,34.0,2009,4,2009-04-01
-1506,A680RY2,Industrial equipment - A680RY2,2009_Q3,-0.13,-0.15,0.15,0.15,-0.02,0.02,0.02,34.0,2009,7,2009-07-01
-1507,A680RY2,Industrial equipment - A680RY2,2009_Q4,-0.04,-0.07,0.07,0.07,-0.03,0.03,0.03,34.0,2009,10,2009-10-01
-1508,A680RY2,Industrial equipment - A680RY2,2010_Q1,0.0,0.01,0.01,0.01,0.01,0.01,0.01,34.0,2010,1,2010-01-01
-1509,A680RY2,Industrial equipment - A680RY2,2010_Q2,0.44,0.39,0.39,0.39,-0.05,0.05,0.05,34.0,2010,4,2010-04-01
-1510,A680RY2,Industrial equipment - A680RY2,2010_Q3,0.08,0.07,0.07,0.07,-0.01,0.01,0.01,34.0,2010,7,2010-07-01
-1511,A680RY2,Industrial equipment - A680RY2,2010_Q4,0.13,0.11,0.11,0.11,-0.02,0.02,0.02,34.0,2010,10,2010-10-01
-1512,A680RY2,Industrial equipment - A680RY2,2011_Q1,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,34.0,2011,1,2011-01-01
-1513,A680RY2,Industrial equipment - A680RY2,2011_Q2,-0.12,-0.01,0.01,0.01,0.11,0.11,0.11,34.0,2011,4,2011-04-01
-1514,A680RY2,Industrial equipment - A680RY2,2011_Q3,0.37,0.36,0.36,0.36,-0.01,0.01,0.01,34.0,2011,7,2011-07-01
-1515,A680RY2,Industrial equipment - A680RY2,2011_Q4,0.25,0.22,0.22,0.22,-0.03,0.03,0.03,34.0,2011,10,2011-10-01
-1516,A680RY2,Industrial equipment - A680RY2,2012_Q1,-0.17,-0.22,0.22,0.22,-0.05,0.05,0.05,34.0,2012,1,2012-01-01
-1517,A680RY2,Industrial equipment - A680RY2,2012_Q2,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,34.0,2012,4,2012-04-01
-1518,A680RY2,Industrial equipment - A680RY2,2012_Q3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,2012,7,2012-07-01
-1519,A680RY2,Industrial equipment - A680RY2,2012_Q4,0.1,0.12,0.12,0.12,0.02,0.02,0.02,34.0,2012,10,2012-10-01
-1520,A680RY2,Industrial equipment - A680RY2,2013_Q1,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,34.0,2013,1,2013-01-01
-1521,A680RY2,Industrial equipment - A680RY2,2013_Q2,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,34.0,2013,4,2013-04-01
-1522,A680RY2,Industrial equipment - A680RY2,2013_Q3,0.2,0.18,0.18,0.18,-0.02,0.02,0.02,34.0,2013,7,2013-07-01
-1523,A680RY2,Industrial equipment - A680RY2,2013_Q4,-0.05,-0.04,0.04,0.04,0.01,0.01,0.01,34.0,2013,10,2013-10-01
-1524,A680RY2,Industrial equipment - A680RY2,2014_Q1,0.12,0.16,0.16,0.16,0.04,0.04,0.04,34.0,2014,1,2014-01-01
-1525,A680RY2,Industrial equipment - A680RY2,2014_Q2,0.24,0.32,0.32,0.32,0.08,0.08,0.08,34.0,2014,4,2014-04-01
-1526,A680RY2,Industrial equipment - A680RY2,2014_Q3,0.31,0.35,0.35,0.35,0.04,0.04,0.04,34.0,2014,7,2014-07-01
-1527,A680RY2,Industrial equipment - A680RY2,2014_Q4,-0.19,-0.24,0.24,0.24,-0.05,0.05,0.05,34.0,2014,10,2014-10-01
-1528,A680RY2,Industrial equipment - A680RY2,2015_Q1,-0.11,0.01,0.01,0.01,0.12,0.12,0.12,34.0,2015,1,2015-01-01
-1529,A680RY2,Industrial equipment - A680RY2,2015_Q2,0.23,0.26,0.26,0.26,0.03,0.03,0.03,34.0,2015,4,2015-04-01
-1530,A680RY2,Industrial equipment - A680RY2,2015_Q3,-0.06,-0.05,0.05,0.05,0.01,0.01,0.01,34.0,2015,7,2015-07-01
-1531,A680RY2,Industrial equipment - A680RY2,2015_Q4,0.1,0.14,0.14,0.14,0.04,0.04,0.04,34.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+4837,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2004_Q1,0.07,0.07,0.07,0.07,0.0,0.0,0.0,34.0,2004,1,2004-01-01
+4838,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2004_Q2,-0.02,0.03,0.03,0.03,0.05,0.05,0.05,34.0,2004,4,2004-04-01
+4839,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2004_Q3,0.34,0.31,0.31,0.31,-0.03,0.03,0.03,34.0,2004,7,2004-07-01
+4840,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2004_Q4,0.08,0.1,0.1,0.1,0.02,0.02,0.02,34.0,2004,10,2004-10-01
+4841,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2005_Q1,0.04,0.05,0.05,0.05,0.01,0.01,0.01,34.0,2005,1,2005-01-01
+4842,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2005_Q2,-0.28,-0.27,0.27,0.27,0.01,0.01,0.01,34.0,2005,4,2005-04-01
+4843,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2005_Q3,0.24,0.2,0.2,0.2,-0.04,0.04,0.04,34.0,2005,7,2005-07-01
+4844,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2005_Q4,0.13,0.16,0.16,0.16,0.03,0.03,0.03,34.0,2005,10,2005-10-01
+4845,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2006_Q1,0.12,-0.04,0.04,0.04,-0.16,0.16,0.16,34.0,2006,1,2006-01-01
+4846,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2006_Q2,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,34.0,2006,4,2006-04-01
+4847,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2006_Q3,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,34.0,2006,7,2006-07-01
+4848,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2006_Q4,-0.05,-0.07,0.07,0.07,-0.02,0.02,0.02,34.0,2006,10,2006-10-01
+4849,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2007_Q1,0.02,-0.04,0.04,0.04,-0.06,0.06,0.06,34.0,2007,1,2007-01-01
+4850,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2007_Q2,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,34.0,2007,4,2007-04-01
+4851,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2007_Q3,0.1,0.1,0.1,0.1,0.0,0.0,0.0,34.0,2007,7,2007-07-01
+4852,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2007_Q4,-0.18,-0.18,0.18,0.18,0.0,0.0,0.0,34.0,2007,10,2007-10-01
+4853,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2008_Q1,0.13,0.04,0.04,0.04,-0.09,0.09,0.09,34.0,2008,1,2008-01-01
+4854,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2008_Q2,0.08,-0.05,0.05,0.05,-0.13,0.13,0.13,34.0,2008,4,2008-04-01
+4855,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2008_Q3,-0.14,-0.12,0.12,0.12,0.02,0.02,0.02,34.0,2008,7,2008-07-01
+4856,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2008_Q4,-0.22,-0.19,0.19,0.19,0.03,0.03,0.03,34.0,2008,10,2008-10-01
+4857,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2009_Q1,-0.7,-0.72,0.72,0.72,-0.02,0.02,0.02,34.0,2009,1,2009-01-01
+4858,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2009_Q2,-0.18,-0.18,0.18,0.18,0.0,0.0,0.0,34.0,2009,4,2009-04-01
+4859,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2009_Q3,-0.13,-0.15,0.15,0.15,-0.02,0.02,0.02,34.0,2009,7,2009-07-01
+4860,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2009_Q4,-0.04,-0.07,0.07,0.07,-0.03,0.03,0.03,34.0,2009,10,2009-10-01
+4861,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2010_Q1,0.0,0.01,0.01,0.01,0.01,0.01,0.01,34.0,2010,1,2010-01-01
+4862,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2010_Q2,0.44,0.39,0.39,0.39,-0.05,0.05,0.05,34.0,2010,4,2010-04-01
+4863,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2010_Q3,0.08,0.07,0.07,0.07,-0.01,0.01,0.01,34.0,2010,7,2010-07-01
+4864,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2010_Q4,0.13,0.11,0.11,0.11,-0.02,0.02,0.02,34.0,2010,10,2010-10-01
+4865,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2011_Q1,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,34.0,2011,1,2011-01-01
+4866,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2011_Q2,-0.12,-0.01,0.01,0.01,0.11,0.11,0.11,34.0,2011,4,2011-04-01
+4867,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2011_Q3,0.37,0.36,0.36,0.36,-0.01,0.01,0.01,34.0,2011,7,2011-07-01
+4868,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2011_Q4,0.25,0.22,0.22,0.22,-0.03,0.03,0.03,34.0,2011,10,2011-10-01
+4869,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2012_Q1,-0.17,-0.22,0.22,0.22,-0.05,0.05,0.05,34.0,2012,1,2012-01-01
+4870,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2012_Q2,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,34.0,2012,4,2012-04-01
+4871,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2012_Q3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,2012,7,2012-07-01
+4872,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2012_Q4,0.1,0.12,0.12,0.12,0.02,0.02,0.02,34.0,2012,10,2012-10-01
+4873,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2013_Q1,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,34.0,2013,1,2013-01-01
+4874,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2013_Q2,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,34.0,2013,4,2013-04-01
+4875,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2013_Q3,0.2,0.18,0.18,0.18,-0.02,0.02,0.02,34.0,2013,7,2013-07-01
+4876,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2013_Q4,-0.05,-0.04,0.04,0.04,0.01,0.01,0.01,34.0,2013,10,2013-10-01
+4877,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2014_Q1,0.12,0.16,0.16,0.16,0.04,0.04,0.04,34.0,2014,1,2014-01-01
+4878,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2014_Q2,0.24,0.32,0.32,0.32,0.08,0.08,0.08,34.0,2014,4,2014-04-01
+4879,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2014_Q3,0.31,0.35,0.35,0.35,0.04,0.04,0.04,34.0,2014,7,2014-07-01
+4880,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2014_Q4,-0.19,-0.24,0.24,0.24,-0.05,0.05,0.05,34.0,2014,10,2014-10-01
+4881,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2015_Q1,-0.11,0.01,0.01,0.01,0.12,0.12,0.12,34.0,2015,1,2015-01-01
+4882,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2015_Q2,0.23,0.26,0.26,0.26,0.03,0.03,0.03,34.0,2015,4,2015-04-01
+4883,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2015_Q3,-0.06,-0.05,0.05,0.05,0.01,0.01,0.01,34.0,2015,7,2015-07-01
+4884,A680RY2,Industrial equipment - A680RY2,Industrial equipment,2015_Q4,0.1,0.14,0.14,0.14,0.04,0.04,0.04,34.0,2015,10,2015-10-01

@@ -1,28 +1,28 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-2048,DODGRY2,Other durable goods - DODGRY2,2009_Q2,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,8.0,2009,4,2009-04-01
-2049,DODGRY2,Other durable goods - DODGRY2,2009_Q3,0.06,0.06,0.06,0.06,0.0,0.0,0.0,8.0,2009,7,2009-07-01
-2050,DODGRY2,Other durable goods - DODGRY2,2009_Q4,0.02,0.02,0.02,0.02,0.0,0.0,0.0,8.0,2009,10,2009-10-01
-2051,DODGRY2,Other durable goods - DODGRY2,2010_Q1,0.24,0.29,0.29,0.29,0.05,0.05,0.05,8.0,2010,1,2010-01-01
-2052,DODGRY2,Other durable goods - DODGRY2,2010_Q2,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,8.0,2010,4,2010-04-01
-2053,DODGRY2,Other durable goods - DODGRY2,2010_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,8.0,2010,7,2010-07-01
-2054,DODGRY2,Other durable goods - DODGRY2,2010_Q4,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,8.0,2010,10,2010-10-01
-2055,DODGRY2,Other durable goods - DODGRY2,2011_Q1,0.05,0.09,0.09,0.09,0.04,0.04,0.04,8.0,2011,1,2011-01-01
-2056,DODGRY2,Other durable goods - DODGRY2,2011_Q2,0.07,0.07,0.07,0.07,0.0,0.0,0.0,8.0,2011,4,2011-04-01
-2057,DODGRY2,Other durable goods - DODGRY2,2011_Q3,0.05,0.03,0.03,0.03,-0.02,0.02,0.02,8.0,2011,7,2011-07-01
-2058,DODGRY2,Other durable goods - DODGRY2,2011_Q4,-0.09,-0.09,0.09,0.09,0.0,0.0,0.0,8.0,2011,10,2011-10-01
-2059,DODGRY2,Other durable goods - DODGRY2,2012_Q1,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,8.0,2012,1,2012-01-01
-2060,DODGRY2,Other durable goods - DODGRY2,2012_Q2,0.11,0.1,0.1,0.1,-0.01,0.01,0.01,8.0,2012,4,2012-04-01
-2061,DODGRY2,Other durable goods - DODGRY2,2012_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,8.0,2012,7,2012-07-01
-2062,DODGRY2,Other durable goods - DODGRY2,2012_Q4,0.08,0.15,0.15,0.15,0.07,0.07,0.07,8.0,2012,10,2012-10-01
-2063,DODGRY2,Other durable goods - DODGRY2,2013_Q1,0.1,0.07,0.07,0.07,-0.03,0.03,0.03,8.0,2013,1,2013-01-01
-2064,DODGRY2,Other durable goods - DODGRY2,2013_Q2,0.12,0.1,0.1,0.1,-0.02,0.02,0.02,8.0,2013,4,2013-04-01
-2065,DODGRY2,Other durable goods - DODGRY2,2013_Q3,-0.01,0.0,0.0,0.0,0.01,0.01,0.01,8.0,2013,7,2013-07-01
-2066,DODGRY2,Other durable goods - DODGRY2,2013_Q4,0.15,0.11,0.11,0.11,-0.04,0.04,0.04,8.0,2013,10,2013-10-01
-2067,DODGRY2,Other durable goods - DODGRY2,2014_Q1,0.0,0.02,0.02,0.02,0.02,0.02,0.02,8.0,2014,1,2014-01-01
-2068,DODGRY2,Other durable goods - DODGRY2,2014_Q2,0.11,0.08,0.08,0.08,-0.03,0.03,0.03,8.0,2014,4,2014-04-01
-2069,DODGRY2,Other durable goods - DODGRY2,2014_Q3,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,8.0,2014,7,2014-07-01
-2070,DODGRY2,Other durable goods - DODGRY2,2014_Q4,0.09,0.06,0.06,0.06,-0.03,0.03,0.03,8.0,2014,10,2014-10-01
-2071,DODGRY2,Other durable goods - DODGRY2,2015_Q1,0.03,0.03,0.03,0.03,0.0,0.0,0.0,8.0,2015,1,2015-01-01
-2072,DODGRY2,Other durable goods - DODGRY2,2015_Q2,0.05,0.09,0.09,0.09,0.04,0.04,0.04,8.0,2015,4,2015-04-01
-2073,DODGRY2,Other durable goods - DODGRY2,2015_Q3,0.07,0.06,0.06,0.06,-0.01,0.01,0.01,8.0,2015,7,2015-07-01
-2074,DODGRY2,Other durable goods - DODGRY2,2015_Q4,0.12,0.08,0.08,0.08,-0.04,0.04,0.04,8.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+6667,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2009_Q2,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,8.0,2009,4,2009-04-01
+6668,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2009_Q3,0.06,0.06,0.06,0.06,0.0,0.0,0.0,8.0,2009,7,2009-07-01
+6669,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2009_Q4,0.02,0.02,0.02,0.02,0.0,0.0,0.0,8.0,2009,10,2009-10-01
+6670,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2010_Q1,0.24,0.29,0.29,0.29,0.05,0.05,0.05,8.0,2010,1,2010-01-01
+6671,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2010_Q2,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,8.0,2010,4,2010-04-01
+6672,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2010_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,8.0,2010,7,2010-07-01
+6673,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2010_Q4,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,8.0,2010,10,2010-10-01
+6674,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2011_Q1,0.05,0.09,0.09,0.09,0.04,0.04,0.04,8.0,2011,1,2011-01-01
+6675,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2011_Q2,0.07,0.07,0.07,0.07,0.0,0.0,0.0,8.0,2011,4,2011-04-01
+6676,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2011_Q3,0.05,0.03,0.03,0.03,-0.02,0.02,0.02,8.0,2011,7,2011-07-01
+6677,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2011_Q4,-0.09,-0.09,0.09,0.09,0.0,0.0,0.0,8.0,2011,10,2011-10-01
+6678,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2012_Q1,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,8.0,2012,1,2012-01-01
+6679,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2012_Q2,0.11,0.1,0.1,0.1,-0.01,0.01,0.01,8.0,2012,4,2012-04-01
+6680,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2012_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,8.0,2012,7,2012-07-01
+6681,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2012_Q4,0.08,0.15,0.15,0.15,0.07,0.07,0.07,8.0,2012,10,2012-10-01
+6682,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2013_Q1,0.1,0.07,0.07,0.07,-0.03,0.03,0.03,8.0,2013,1,2013-01-01
+6683,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2013_Q2,0.12,0.1,0.1,0.1,-0.02,0.02,0.02,8.0,2013,4,2013-04-01
+6684,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2013_Q3,-0.01,0.0,0.0,0.0,0.01,0.01,0.01,8.0,2013,7,2013-07-01
+6685,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2013_Q4,0.15,0.11,0.11,0.11,-0.04,0.04,0.04,8.0,2013,10,2013-10-01
+6686,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2014_Q1,0.0,0.02,0.02,0.02,0.02,0.02,0.02,8.0,2014,1,2014-01-01
+6687,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2014_Q2,0.11,0.08,0.08,0.08,-0.03,0.03,0.03,8.0,2014,4,2014-04-01
+6688,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2014_Q3,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,8.0,2014,7,2014-07-01
+6689,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2014_Q4,0.09,0.06,0.06,0.06,-0.03,0.03,0.03,8.0,2014,10,2014-10-01
+6690,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2015_Q1,0.03,0.03,0.03,0.03,0.0,0.0,0.0,8.0,2015,1,2015-01-01
+6691,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2015_Q2,0.05,0.09,0.09,0.09,0.04,0.04,0.04,8.0,2015,4,2015-04-01
+6692,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2015_Q3,0.07,0.06,0.06,0.06,-0.01,0.01,0.01,8.0,2015,7,2015-07-01
+6693,DODGRY2,Other durable goods - DODGRY2,Other durable goods,2015_Q4,0.12,0.08,0.08,0.08,-0.04,0.04,0.04,8.0,2015,10,2015-10-01

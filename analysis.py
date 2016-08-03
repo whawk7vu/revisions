@@ -10,7 +10,10 @@ import pandas as pd
 from bokeh.charts import Bar, Scatter, output_file, show
 from bokeh.models import HoverTool, Range1d
 from bokeh.plotting import figure, ColumnDataSource
-import numpy as np
+from bokeh.charts.attributes import ColorAttr, CatAttr
+from bokeh.charts.builders.bar_builder import BarBuilder
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
+
 
 
 
@@ -27,20 +30,44 @@ comp_list_ext = comp_list_cur + ["A165RY2", "A166RY2", "A167RY2", "A168RY2", "A1
 
 test = gdp_data[(gdp_data['bea_code'].isin(comp_list_cur)) & (gdp_data['date'] == "2013_Q1")]
 
-test.sort_values('third_less_adv', inplace=True)
+test.sort_values('abs_third_less_adv_simple', ascending=False, inplace=True)
+test = test.head(10)
+test.sort_values('line', inplace=True)
 
 source = ColumnDataSource(test)
-p1 = Bar(test, 'category', values='third_less_adv', title="GDP revisions for 2013_Q1", plot_width=1000, plot_height=1000)
-
+p1 = Bar(test, values='third_less_adv', title="GDP revisions for 2013_Q1", label=CatAttr(columns=['description'], sort=False), ylabel='Revision', xlabel='GDP Component', plot_width=1000, plot_height=1000)
+#p1.x_range = FactorRange(factors=test['description'].tolist())
 output_file('2013_Q1.html')
 show(p1)
 
 
-test2 = gdp_data[(gdp_data['bea_code'].isin(comp_list_ext)) & (gdp_data['date'] >= "2011_Q1")]
+test2 = gdp_data[(gdp_data['bea_code'].isin(comp_list_cur)) & (gdp_data['date'] >= "2011_Q1")]
 
-test3 = test2.groupby(test2['category']).mean().round(4)
+test3 = test2.groupby(test2['category']).mean().round(2)
+test3.sort_values('line', inplace=True, ascending=True)
+test3.reset_index(inplace=True)
 
-test3.sort_values('third_less_adv', inplace=True)
+test3[['category','third_less_adv']].to_excel('simple_revision.xlsx')
+test3[['category', 'THIRD', 'abs_third_less_adv']].to_excel('abs_revision.xlsx')
+
+source = ColumnDataSource(test3)
+columns = [
+        TableColumn(field='category', title = "category", width = test3['category'].map(len).max()),
+        TableColumn(field='abs_third_less_adv', title = "Revision (third est less advance est)", width = 10)
+    ]
+data_table = DataTable(source=source, columns=columns, width=500, height=1000)
+output_file('data_table.html')
+show(data_table)
+
+
+
+
+
+
+
+
+
+test3.sort_values('abs_third_less_adv', inplace=True, ascending=False)
 test3.reset_index(inplace=True)
 
 source = ColumnDataSource(test3)

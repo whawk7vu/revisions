@@ -1,49 +1,193 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-512,A823RY2,Federal government,2004_Q1,0.66,0.57,0.57,0.59,-0.09,0.09,0.17,53.0,2004,1,2004-01-01
-513,A823RY2,Federal government,2004_Q2,0.19,0.18,0.18,0.36,-0.01,0.01,0.03,53.0,2004,4,2004-04-01
-514,A823RY2,Federal government,2004_Q3,0.31,0.33,0.33,0.57,0.02,0.02,0.06,53.0,2004,7,2004-07-01
-515,A823RY2,Federal government,2004_Q4,0.11,0.08,0.08,0.48,-0.03,0.03,0.09,53.0,2004,10,2004-10-01
-516,A823RY2,Federal government,2005_Q1,0.03,0.04,0.04,0.44,0.01,0.01,0.07,53.0,2005,1,2005-01-01
-517,A823RY2,Federal government,2005_Q2,0.08,0.16,0.16,0.34,0.08,0.08,0.1,53.0,2005,4,2005-04-01
-518,A823RY2,Federal government,2005_Q3,0.54,0.52,0.52,0.56,-0.02,0.02,0.02,53.0,2005,7,2005-07-01
-519,A823RY2,Federal government,2005_Q4,-0.51,-0.18,0.18,0.8,0.33,0.33,0.33,53.0,2005,10,2005-10-01
-520,A823RY2,Federal government,2006_Q1,0.74,0.72,0.72,0.72,-0.02,0.02,0.06,53.0,2006,1,2006-01-01
-521,A823RY2,Federal government,2006_Q2,-0.24,-0.31,0.31,0.47,-0.07,0.07,0.07,53.0,2006,4,2006-04-01
-522,A823RY2,Federal government,2006_Q3,0.13,0.09,0.09,0.21,-0.04,0.04,0.06,53.0,2006,7,2006-07-01
-523,A823RY2,Federal government,2006_Q4,0.31,0.31,0.31,0.77,0.0,0.0,0.04,53.0,2006,10,2006-10-01
-524,A823RY2,Federal government,2007_Q1,-0.21,-0.28,0.28,0.5,-0.07,0.07,0.07,53.0,2007,1,2007-01-01
-525,A823RY2,Federal government,2007_Q2,0.47,0.41,0.41,0.45,-0.06,0.06,0.1,53.0,2007,4,2007-04-01
-526,A823RY2,Federal government,2007_Q3,0.47,0.5,0.5,0.52,0.03,0.03,0.03,53.0,2007,7,2007-07-01
-527,A823RY2,Federal government,2007_Q4,0.02,0.03,0.03,0.19,0.01,0.01,0.01,53.0,2007,10,2007-10-01
-528,A823RY2,Federal government,2008_Q1,0.32,0.31,0.31,0.31,-0.01,0.01,0.03,53.0,2008,1,2008-01-01
-529,A823RY2,Federal government,2008_Q2,0.48,0.47,0.47,0.47,-0.01,0.01,0.03,53.0,2008,4,2008-04-01
-530,A823RY2,Federal government,2008_Q3,0.97,0.97,0.97,0.97,0.0,0.0,0.0,53.0,2008,7,2008-07-01
-531,A823RY2,Federal government,2008_Q4,0.45,0.53,0.53,0.53,0.08,0.08,0.1,53.0,2008,10,2008-10-01
-532,A823RY2,Federal government,2009_Q1,-0.31,-0.36,0.36,0.6,-0.05,0.05,0.05,53.0,2009,1,2009-01-01
-533,A823RY2,Federal government,2009_Q2,0.82,0.85,0.85,0.85,0.03,0.03,0.09,53.0,2009,4,2009-04-01
-534,A823RY2,Federal government,2009_Q3,0.62,0.63,0.63,0.63,0.01,0.01,0.09,53.0,2009,7,2009-07-01
-535,A823RY2,Federal government,2009_Q4,0.02,0.01,0.01,0.41,-0.01,0.01,0.09,53.0,2009,10,2009-10-01
-536,A823RY2,Federal government,2010_Q1,0.11,0.1,0.1,0.12,-0.01,0.01,0.05,53.0,2010,1,2010-01-01
-537,A823RY2,Federal government,2010_Q2,0.73,0.72,0.72,0.72,-0.01,0.01,0.01,53.0,2010,4,2010-04-01
-538,A823RY2,Federal government,2010_Q3,0.71,0.7,0.7,0.7,-0.01,0.01,0.03,53.0,2010,7,2010-07-01
-539,A823RY2,Federal government,2010_Q4,-0.01,-0.02,0.02,0.64,-0.01,0.01,0.05,53.0,2010,10,2010-10-01
-540,A823RY2,Federal government,2011_Q1,-0.68,-0.7,0.7,0.74,-0.02,0.02,0.06,53.0,2011,1,2011-01-01
-541,A823RY2,Federal government,2011_Q2,0.18,0.16,0.16,0.68,-0.02,0.02,0.02,53.0,2011,4,2011-04-01
-542,A823RY2,Federal government,2011_Q3,0.16,0.16,0.16,0.4,0.0,0.0,0.02,53.0,2011,7,2011-07-01
-543,A823RY2,Federal government,2011_Q4,-0.61,-0.58,0.58,0.86,0.03,0.03,0.07,53.0,2011,10,2011-10-01
-544,A823RY2,Federal government,2012_Q1,-0.46,-0.48,0.48,0.48,-0.02,0.02,0.02,53.0,2012,1,2012-01-01
-545,A823RY2,Federal government,2012_Q2,-0.03,-0.02,0.02,0.2,0.01,0.01,0.03,53.0,2012,4,2012-04-01
-546,A823RY2,Federal government,2012_Q3,0.73,0.71,0.71,0.75,-0.02,0.02,0.04,53.0,2012,7,2012-07-01
-547,A823RY2,Federal government,2012_Q4,-1.25,-1.22,1.22,1.32,0.03,0.03,0.03,53.0,2012,10,2012-10-01
-548,A823RY2,Federal government,2013_Q1,-0.65,-0.69,0.69,0.69,-0.04,0.04,0.06,53.0,2013,1,2013-01-01
-549,A823RY2,Federal government,2013_Q2,-0.12,-0.13,0.13,0.31,-0.01,0.01,0.07,53.0,2013,4,2013-04-01
-550,A823RY2,Federal government,2013_Q3,-0.12,-0.11,0.11,0.19,0.01,0.01,0.03,53.0,2013,7,2013-07-01
-551,A823RY2,Federal government,2013_Q4,-0.99,-0.99,0.99,0.99,0.0,0.0,0.04,53.0,2013,10,2013-10-01
-552,A823RY2,Federal government,2014_Q1,0.05,0.05,0.05,0.51,0.0,0.0,0.0,53.0,2014,1,2014-01-01
-553,A823RY2,Federal government,2014_Q2,-0.05,-0.07,0.07,0.29,-0.02,0.02,0.02,53.0,2014,4,2014-04-01
-554,A823RY2,Federal government,2014_Q3,0.68,0.67,0.67,0.75,-0.01,0.01,0.01,53.0,2014,7,2014-07-01
-555,A823RY2,Federal government,2014_Q4,-0.54,-0.52,0.52,0.66,0.02,0.02,0.04,53.0,2014,10,2014-10-01
-556,A823RY2,Federal government,2015_Q1,0.02,0.0,0.0,0.1,-0.02,0.02,0.06,53.0,2015,1,2015-01-01
-557,A823RY2,Federal government,2015_Q2,-0.08,0.01,0.01,0.15,0.09,0.09,0.09,53.0,2015,4,2015-04-01
-558,A823RY2,Federal government,2015_Q3,0.02,0.01,0.01,0.13,-0.01,0.01,0.03,53.0,2015,7,2015-07-01
-559,A823RY2,Federal government,2015_Q4,0.18,0.15,0.15,0.15,-0.03,0.03,0.07,53.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+923,A823RY2,Federal government,National defense - consumption expenditures,2004_Q1,0.34,0.26,0.26,0.26,-0.08,0.08,0.08,53.0,2004,1,2004-01-01
+924,A823RY2,Federal government,National defense - gross investment,2004_Q1,0.31,0.32,0.32,0.32,0.01,0.01,0.01,53.0,2004,1,2004-01-01
+925,A823RY2,Federal government,Nondefense - consumption expenditures,2004_Q1,0.04,-0.01,0.01,0.01,-0.05,0.05,0.05,53.0,2004,1,2004-01-01
+926,A823RY2,Federal government,Nondefense - gross investment,2004_Q1,-0.03,0.0,0.0,0.0,0.03,0.03,0.03,53.0,2004,1,2004-01-01
+927,A823RY2,Federal government,National defense - consumption expenditures,2004_Q2,0.16,0.16,0.16,0.16,0.0,0.0,0.0,53.0,2004,4,2004-04-01
+928,A823RY2,Federal government,National defense - gross investment,2004_Q2,-0.07,-0.08,0.08,0.08,-0.01,0.01,0.01,53.0,2004,4,2004-04-01
+929,A823RY2,Federal government,Nondefense - consumption expenditures,2004_Q2,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,53.0,2004,4,2004-04-01
+930,A823RY2,Federal government,Nondefense - gross investment,2004_Q2,0.12,0.11,0.11,0.11,-0.01,0.01,0.01,53.0,2004,4,2004-04-01
+931,A823RY2,Federal government,National defense - consumption expenditures,2004_Q3,0.36,0.38,0.38,0.38,0.02,0.02,0.02,53.0,2004,7,2004-07-01
+932,A823RY2,Federal government,National defense - gross investment,2004_Q3,0.06,0.07,0.07,0.07,0.01,0.01,0.01,53.0,2004,7,2004-07-01
+933,A823RY2,Federal government,Nondefense - consumption expenditures,2004_Q3,-0.03,-0.05,0.05,0.05,-0.02,0.02,0.02,53.0,2004,7,2004-07-01
+934,A823RY2,Federal government,Nondefense - gross investment,2004_Q3,-0.08,-0.07,0.07,0.07,0.01,0.01,0.01,53.0,2004,7,2004-07-01
+935,A823RY2,Federal government,National defense - consumption expenditures,2004_Q4,-0.15,-0.2,0.2,0.2,-0.05,0.05,0.05,53.0,2004,10,2004-10-01
+936,A823RY2,Federal government,National defense - gross investment,2004_Q4,0.15,0.17,0.17,0.17,0.02,0.02,0.02,53.0,2004,10,2004-10-01
+937,A823RY2,Federal government,Nondefense - consumption expenditures,2004_Q4,0.09,0.08,0.08,0.08,-0.01,0.01,0.01,53.0,2004,10,2004-10-01
+938,A823RY2,Federal government,Nondefense - gross investment,2004_Q4,0.02,0.03,0.03,0.03,0.01,0.01,0.01,53.0,2004,10,2004-10-01
+939,A823RY2,Federal government,National defense - consumption expenditures,2005_Q1,0.23,0.21,0.21,0.21,-0.02,0.02,0.02,53.0,2005,1,2005-01-01
+940,A823RY2,Federal government,National defense - gross investment,2005_Q1,-0.23,-0.19,0.19,0.19,0.04,0.04,0.04,53.0,2005,1,2005-01-01
+941,A823RY2,Federal government,Nondefense - consumption expenditures,2005_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,53.0,2005,1,2005-01-01
+942,A823RY2,Federal government,Nondefense - gross investment,2005_Q1,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,53.0,2005,1,2005-01-01
+943,A823RY2,Federal government,National defense - consumption expenditures,2005_Q2,0.03,0.04,0.04,0.04,0.01,0.01,0.01,53.0,2005,4,2005-04-01
+944,A823RY2,Federal government,National defense - gross investment,2005_Q2,0.06,0.13,0.13,0.13,0.07,0.07,0.07,53.0,2005,4,2005-04-01
+945,A823RY2,Federal government,Nondefense - consumption expenditures,2005_Q2,-0.08,-0.09,0.09,0.09,-0.01,0.01,0.01,53.0,2005,4,2005-04-01
+946,A823RY2,Federal government,Nondefense - gross investment,2005_Q2,0.07,0.08,0.08,0.08,0.01,0.01,0.01,53.0,2005,4,2005-04-01
+947,A823RY2,Federal government,National defense - consumption expenditures,2005_Q3,0.37,0.37,0.37,0.37,0.0,0.0,0.0,53.0,2005,7,2005-07-01
+948,A823RY2,Federal government,National defense - gross investment,2005_Q3,0.11,0.09,0.09,0.09,-0.02,0.02,0.02,53.0,2005,7,2005-07-01
+949,A823RY2,Federal government,Nondefense - consumption expenditures,2005_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,53.0,2005,7,2005-07-01
+950,A823RY2,Federal government,Nondefense - gross investment,2005_Q3,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,53.0,2005,7,2005-07-01
+951,A823RY2,Federal government,National defense - consumption expenditures,2005_Q4,-0.67,-0.49,0.49,0.49,0.18,0.18,0.18,53.0,2005,10,2005-10-01
+952,A823RY2,Federal government,National defense - gross investment,2005_Q4,0.01,0.05,0.05,0.05,0.04,0.04,0.04,53.0,2005,10,2005-10-01
+953,A823RY2,Federal government,Nondefense - consumption expenditures,2005_Q4,0.05,0.14,0.14,0.14,0.09,0.09,0.09,53.0,2005,10,2005-10-01
+954,A823RY2,Federal government,Nondefense - gross investment,2005_Q4,0.1,0.12,0.12,0.12,0.02,0.02,0.02,53.0,2005,10,2005-10-01
+955,A823RY2,Federal government,National defense - consumption expenditures,2006_Q1,0.44,0.4,0.4,0.4,-0.04,0.04,0.04,53.0,2006,1,2006-01-01
+956,A823RY2,Federal government,National defense - gross investment,2006_Q1,0.03,0.04,0.04,0.04,0.01,0.01,0.01,53.0,2006,1,2006-01-01
+957,A823RY2,Federal government,Nondefense - consumption expenditures,2006_Q1,0.22,0.23,0.23,0.23,0.01,0.01,0.01,53.0,2006,1,2006-01-01
+958,A823RY2,Federal government,Nondefense - gross investment,2006_Q1,0.05,0.05,0.05,0.05,0.0,0.0,0.0,53.0,2006,1,2006-01-01
+959,A823RY2,Federal government,National defense - consumption expenditures,2006_Q2,-0.15,-0.17,0.17,0.17,-0.02,0.02,0.02,53.0,2006,4,2006-04-01
+960,A823RY2,Federal government,National defense - gross investment,2006_Q2,0.1,0.08,0.08,0.08,-0.02,0.02,0.02,53.0,2006,4,2006-04-01
+961,A823RY2,Federal government,Nondefense - consumption expenditures,2006_Q2,-0.1,-0.1,0.1,0.1,0.0,0.0,0.0,53.0,2006,4,2006-04-01
+962,A823RY2,Federal government,Nondefense - gross investment,2006_Q2,-0.09,-0.12,0.12,0.12,-0.03,0.03,0.03,53.0,2006,4,2006-04-01
+963,A823RY2,Federal government,National defense - consumption expenditures,2006_Q3,-0.02,-0.04,0.04,0.04,-0.02,0.02,0.02,53.0,2006,7,2006-07-01
+964,A823RY2,Federal government,National defense - gross investment,2006_Q3,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,53.0,2006,7,2006-07-01
+965,A823RY2,Federal government,Nondefense - consumption expenditures,2006_Q3,0.15,0.13,0.13,0.13,-0.02,0.02,0.02,53.0,2006,7,2006-07-01
+966,A823RY2,Federal government,Nondefense - gross investment,2006_Q3,0.01,0.02,0.02,0.02,0.01,0.01,0.01,53.0,2006,7,2006-07-01
+967,A823RY2,Federal government,National defense - consumption expenditures,2006_Q4,0.42,0.43,0.43,0.43,0.01,0.01,0.01,53.0,2006,10,2006-10-01
+968,A823RY2,Federal government,National defense - gross investment,2006_Q4,0.11,0.11,0.11,0.11,0.0,0.0,0.0,53.0,2006,10,2006-10-01
+969,A823RY2,Federal government,Nondefense - consumption expenditures,2006_Q4,-0.17,-0.19,0.19,0.19,-0.02,0.02,0.02,53.0,2006,10,2006-10-01
+970,A823RY2,Federal government,Nondefense - gross investment,2006_Q4,-0.05,-0.04,0.04,0.04,0.01,0.01,0.01,53.0,2006,10,2006-10-01
+971,A823RY2,Federal government,National defense - consumption expenditures,2007_Q1,-0.26,-0.3,0.3,0.3,-0.04,0.04,0.04,53.0,2007,1,2007-01-01
+972,A823RY2,Federal government,National defense - gross investment,2007_Q1,-0.05,-0.06,0.06,0.06,-0.01,0.01,0.01,53.0,2007,1,2007-01-01
+973,A823RY2,Federal government,Nondefense - consumption expenditures,2007_Q1,0.11,0.11,0.11,0.11,0.0,0.0,0.0,53.0,2007,1,2007-01-01
+974,A823RY2,Federal government,Nondefense - gross investment,2007_Q1,-0.01,-0.03,0.03,0.03,-0.02,0.02,0.02,53.0,2007,1,2007-01-01
+975,A823RY2,Federal government,National defense - consumption expenditures,2007_Q2,0.39,0.35,0.35,0.35,-0.04,0.04,0.04,53.0,2007,4,2007-04-01
+976,A823RY2,Federal government,National defense - gross investment,2007_Q2,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,53.0,2007,4,2007-04-01
+977,A823RY2,Federal government,Nondefense - consumption expenditures,2007_Q2,0.01,-0.02,0.02,0.02,-0.03,0.03,0.03,53.0,2007,4,2007-04-01
+978,A823RY2,Federal government,Nondefense - gross investment,2007_Q2,0.02,0.04,0.04,0.04,0.02,0.02,0.02,53.0,2007,4,2007-04-01
+979,A823RY2,Federal government,National defense - consumption expenditures,2007_Q3,0.37,0.39,0.39,0.39,0.02,0.02,0.02,53.0,2007,7,2007-07-01
+980,A823RY2,Federal government,National defense - gross investment,2007_Q3,0.08,0.08,0.08,0.08,0.0,0.0,0.0,53.0,2007,7,2007-07-01
+981,A823RY2,Federal government,Nondefense - consumption expenditures,2007_Q3,0.03,0.04,0.04,0.04,0.01,0.01,0.01,53.0,2007,7,2007-07-01
+982,A823RY2,Federal government,Nondefense - gross investment,2007_Q3,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,53.0,2007,7,2007-07-01
+983,A823RY2,Federal government,National defense - consumption expenditures,2007_Q4,0.05,0.05,0.05,0.05,0.0,0.0,0.0,53.0,2007,10,2007-10-01
+984,A823RY2,Federal government,National defense - gross investment,2007_Q4,-0.08,-0.08,0.08,0.08,0.0,0.0,0.0,53.0,2007,10,2007-10-01
+985,A823RY2,Federal government,Nondefense - consumption expenditures,2007_Q4,0.04,0.04,0.04,0.04,0.0,0.0,0.0,53.0,2007,10,2007-10-01
+986,A823RY2,Federal government,Nondefense - gross investment,2007_Q4,0.01,0.02,0.02,0.02,0.01,0.01,0.01,53.0,2007,10,2007-10-01
+987,A823RY2,Federal government,National defense - consumption expenditures,2008_Q1,0.25,0.24,0.24,0.24,-0.01,0.01,0.01,53.0,2008,1,2008-01-01
+988,A823RY2,Federal government,National defense - gross investment,2008_Q1,0.03,0.03,0.03,0.03,0.0,0.0,0.0,53.0,2008,1,2008-01-01
+989,A823RY2,Federal government,Nondefense - consumption expenditures,2008_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,53.0,2008,1,2008-01-01
+990,A823RY2,Federal government,Nondefense - gross investment,2008_Q1,0.0,0.01,0.01,0.01,0.01,0.01,0.01,53.0,2008,1,2008-01-01
+991,A823RY2,Federal government,National defense - consumption expenditures,2008_Q2,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,53.0,2008,4,2008-04-01
+992,A823RY2,Federal government,National defense - gross investment,2008_Q2,0.2,0.21,0.21,0.21,0.01,0.01,0.01,53.0,2008,4,2008-04-01
+993,A823RY2,Federal government,Nondefense - consumption expenditures,2008_Q2,0.08,0.08,0.08,0.08,0.0,0.0,0.0,53.0,2008,4,2008-04-01
+994,A823RY2,Federal government,Nondefense - gross investment,2008_Q2,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,53.0,2008,4,2008-04-01
+995,A823RY2,Federal government,National defense - consumption expenditures,2008_Q3,0.72,0.72,0.72,0.72,0.0,0.0,0.0,53.0,2008,7,2008-07-01
+996,A823RY2,Federal government,National defense - gross investment,2008_Q3,0.14,0.14,0.14,0.14,0.0,0.0,0.0,53.0,2008,7,2008-07-01
+997,A823RY2,Federal government,Nondefense - consumption expenditures,2008_Q3,0.11,0.11,0.11,0.11,0.0,0.0,0.0,53.0,2008,7,2008-07-01
+998,A823RY2,Federal government,Nondefense - gross investment,2008_Q3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.0,2008,7,2008-07-01
+999,A823RY2,Federal government,National defense - consumption expenditures,2008_Q4,0.11,0.17,0.17,0.17,0.06,0.06,0.06,53.0,2008,10,2008-10-01
+1000,A823RY2,Federal government,National defense - gross investment,2008_Q4,0.01,0.01,0.01,0.01,0.0,0.0,0.0,53.0,2008,10,2008-10-01
+1001,A823RY2,Federal government,Nondefense - consumption expenditures,2008_Q4,0.18,0.21,0.21,0.21,0.03,0.03,0.03,53.0,2008,10,2008-10-01
+1002,A823RY2,Federal government,Nondefense - gross investment,2008_Q4,0.15,0.14,0.14,0.14,-0.01,0.01,0.01,53.0,2008,10,2008-10-01
+1003,A823RY2,Federal government,National defense - consumption expenditures,2009_Q1,-0.24,-0.27,0.27,0.27,-0.03,0.03,0.03,53.0,2009,1,2009-01-01
+1004,A823RY2,Federal government,National defense - gross investment,2009_Q1,-0.1,-0.1,0.1,0.1,0.0,0.0,0.0,53.0,2009,1,2009-01-01
+1005,A823RY2,Federal government,Nondefense - consumption expenditures,2009_Q1,0.12,0.12,0.12,0.12,0.0,0.0,0.0,53.0,2009,1,2009-01-01
+1006,A823RY2,Federal government,Nondefense - gross investment,2009_Q1,-0.09,-0.11,0.11,0.11,-0.02,0.02,0.02,53.0,2009,1,2009-01-01
+1007,A823RY2,Federal government,National defense - consumption expenditures,2009_Q2,0.52,0.53,0.53,0.53,0.01,0.01,0.01,53.0,2009,4,2009-04-01
+1008,A823RY2,Federal government,National defense - gross investment,2009_Q2,0.15,0.17,0.17,0.17,0.02,0.02,0.02,53.0,2009,4,2009-04-01
+1009,A823RY2,Federal government,Nondefense - consumption expenditures,2009_Q2,0.15,0.12,0.12,0.12,-0.03,0.03,0.03,53.0,2009,4,2009-04-01
+1010,A823RY2,Federal government,Nondefense - gross investment,2009_Q2,0.0,0.03,0.03,0.03,0.03,0.03,0.03,53.0,2009,4,2009-04-01
+1011,A823RY2,Federal government,National defense - consumption expenditures,2009_Q3,0.39,0.36,0.36,0.36,-0.03,0.03,0.03,53.0,2009,7,2009-07-01
+1012,A823RY2,Federal government,National defense - gross investment,2009_Q3,0.06,0.09,0.09,0.09,0.03,0.03,0.03,53.0,2009,7,2009-07-01
+1013,A823RY2,Federal government,Nondefense - consumption expenditures,2009_Q3,0.15,0.14,0.14,0.14,-0.01,0.01,0.01,53.0,2009,7,2009-07-01
+1014,A823RY2,Federal government,Nondefense - gross investment,2009_Q3,0.02,0.04,0.04,0.04,0.02,0.02,0.02,53.0,2009,7,2009-07-01
+1015,A823RY2,Federal government,National defense - consumption expenditures,2009_Q4,-0.04,-0.06,0.06,0.06,-0.02,0.02,0.02,53.0,2009,10,2009-10-01
+1016,A823RY2,Federal government,National defense - gross investment,2009_Q4,-0.15,-0.14,0.14,0.14,0.01,0.01,0.01,53.0,2009,10,2009-10-01
+1017,A823RY2,Federal government,Nondefense - consumption expenditures,2009_Q4,0.22,0.19,0.19,0.19,-0.03,0.03,0.03,53.0,2009,10,2009-10-01
+1018,A823RY2,Federal government,Nondefense - gross investment,2009_Q4,-0.01,0.02,0.02,0.02,0.03,0.03,0.03,53.0,2009,10,2009-10-01
+1019,A823RY2,Federal government,National defense - consumption expenditures,2010_Q1,0.03,0.03,0.03,0.03,0.0,0.0,0.0,53.0,2010,1,2010-01-01
+1020,A823RY2,Federal government,National defense - gross investment,2010_Q1,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,53.0,2010,1,2010-01-01
+1021,A823RY2,Federal government,Nondefense - consumption expenditures,2010_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,53.0,2010,1,2010-01-01
+1022,A823RY2,Federal government,Nondefense - gross investment,2010_Q1,0.01,-0.01,0.01,0.01,-0.02,0.02,0.02,53.0,2010,1,2010-01-01
+1023,A823RY2,Federal government,National defense - consumption expenditures,2010_Q2,0.25,0.25,0.25,0.25,0.0,0.0,0.0,53.0,2010,4,2010-04-01
+1024,A823RY2,Federal government,National defense - gross investment,2010_Q2,0.15,0.15,0.15,0.15,0.0,0.0,0.0,53.0,2010,4,2010-04-01
+1025,A823RY2,Federal government,Nondefense - consumption expenditures,2010_Q2,0.28,0.27,0.27,0.27,-0.01,0.01,0.01,53.0,2010,4,2010-04-01
+1026,A823RY2,Federal government,Nondefense - gross investment,2010_Q2,0.05,0.05,0.05,0.05,0.0,0.0,0.0,53.0,2010,4,2010-04-01
+1027,A823RY2,Federal government,National defense - consumption expenditures,2010_Q3,0.42,0.41,0.41,0.41,-0.01,0.01,0.01,53.0,2010,7,2010-07-01
+1028,A823RY2,Federal government,National defense - gross investment,2010_Q3,0.04,0.05,0.05,0.05,0.01,0.01,0.01,53.0,2010,7,2010-07-01
+1029,A823RY2,Federal government,Nondefense - consumption expenditures,2010_Q3,0.19,0.18,0.18,0.18,-0.01,0.01,0.01,53.0,2010,7,2010-07-01
+1030,A823RY2,Federal government,Nondefense - gross investment,2010_Q3,0.06,0.06,0.06,0.06,0.0,0.0,0.0,53.0,2010,7,2010-07-01
+1031,A823RY2,Federal government,National defense - consumption expenditures,2010_Q4,-0.32,-0.33,0.33,0.33,-0.01,0.01,0.01,53.0,2010,10,2010-10-01
+1032,A823RY2,Federal government,National defense - gross investment,2010_Q4,0.21,0.21,0.21,0.21,0.0,0.0,0.0,53.0,2010,10,2010-10-01
+1033,A823RY2,Federal government,Nondefense - consumption expenditures,2010_Q4,0.04,0.06,0.06,0.06,0.02,0.02,0.02,53.0,2010,10,2010-10-01
+1034,A823RY2,Federal government,Nondefense - gross investment,2010_Q4,0.06,0.04,0.04,0.04,-0.02,0.02,0.02,53.0,2010,10,2010-10-01
+1035,A823RY2,Federal government,National defense - consumption expenditures,2011_Q1,-0.37,-0.38,0.38,0.38,-0.01,0.01,0.01,53.0,2011,1,2011-01-01
+1036,A823RY2,Federal government,National defense - gross investment,2011_Q1,-0.31,-0.32,0.32,0.32,-0.01,0.01,0.01,53.0,2011,1,2011-01-01
+1037,A823RY2,Federal government,Nondefense - consumption expenditures,2011_Q1,0.0,0.02,0.02,0.02,0.02,0.02,0.02,53.0,2011,1,2011-01-01
+1038,A823RY2,Federal government,Nondefense - gross investment,2011_Q1,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,53.0,2011,1,2011-01-01
+1039,A823RY2,Federal government,National defense - consumption expenditures,2011_Q2,0.43,0.42,0.42,0.42,-0.01,0.01,0.01,53.0,2011,4,2011-04-01
+1040,A823RY2,Federal government,National defense - gross investment,2011_Q2,-0.04,-0.04,0.04,0.04,0.0,0.0,0.0,53.0,2011,4,2011-04-01
+1041,A823RY2,Federal government,Nondefense - consumption expenditures,2011_Q2,-0.19,-0.2,0.2,0.2,-0.01,0.01,0.01,53.0,2011,4,2011-04-01
+1042,A823RY2,Federal government,Nondefense - gross investment,2011_Q2,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,53.0,2011,4,2011-04-01
+1043,A823RY2,Federal government,National defense - consumption expenditures,2011_Q3,0.19,0.19,0.19,0.19,0.0,0.0,0.0,53.0,2011,7,2011-07-01
+1044,A823RY2,Federal government,National defense - gross investment,2011_Q3,0.07,0.08,0.08,0.08,0.01,0.01,0.01,53.0,2011,7,2011-07-01
+1045,A823RY2,Federal government,Nondefense - consumption expenditures,2011_Q3,-0.11,-0.12,0.12,0.12,-0.01,0.01,0.01,53.0,2011,7,2011-07-01
+1046,A823RY2,Federal government,Nondefense - gross investment,2011_Q3,0.01,0.01,0.01,0.01,0.0,0.0,0.0,53.0,2011,7,2011-07-01
+1047,A823RY2,Federal government,National defense - consumption expenditures,2011_Q4,-0.58,-0.58,0.58,0.58,0.0,0.0,0.0,53.0,2011,10,2011-10-01
+1048,A823RY2,Federal government,National defense - gross investment,2011_Q4,-0.15,-0.12,0.12,0.12,0.03,0.03,0.03,53.0,2011,10,2011-10-01
+1049,A823RY2,Federal government,Nondefense - consumption expenditures,2011_Q4,0.16,0.14,0.14,0.14,-0.02,0.02,0.02,53.0,2011,10,2011-10-01
+1050,A823RY2,Federal government,Nondefense - gross investment,2011_Q4,-0.04,-0.02,0.02,0.02,0.02,0.02,0.02,53.0,2011,10,2011-10-01
+1051,A823RY2,Federal government,National defense - consumption expenditures,2012_Q1,-0.28,-0.29,0.29,0.29,-0.01,0.01,0.01,53.0,2012,1,2012-01-01
+1052,A823RY2,Federal government,National defense - gross investment,2012_Q1,-0.17,-0.17,0.17,0.17,0.0,0.0,0.0,53.0,2012,1,2012-01-01
+1053,A823RY2,Federal government,Nondefense - consumption expenditures,2012_Q1,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,53.0,2012,1,2012-01-01
+1054,A823RY2,Federal government,Nondefense - gross investment,2012_Q1,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,53.0,2012,1,2012-01-01
+1055,A823RY2,Federal government,National defense - consumption expenditures,2012_Q2,-0.11,-0.1,0.1,0.1,0.01,0.01,0.01,53.0,2012,4,2012-04-01
+1056,A823RY2,Federal government,National defense - gross investment,2012_Q2,0.09,0.09,0.09,0.09,0.0,0.0,0.0,53.0,2012,4,2012-04-01
+1057,A823RY2,Federal government,Nondefense - consumption expenditures,2012_Q2,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,53.0,2012,4,2012-04-01
+1058,A823RY2,Federal government,Nondefense - gross investment,2012_Q2,0.01,0.0,0.0,0.0,-0.01,0.01,0.01,53.0,2012,4,2012-04-01
+1059,A823RY2,Federal government,National defense - consumption expenditures,2012_Q3,0.65,0.64,0.64,0.64,-0.01,0.01,0.01,53.0,2012,7,2012-07-01
+1060,A823RY2,Federal government,National defense - gross investment,2012_Q3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.0,2012,7,2012-07-01
+1061,A823RY2,Federal government,Nondefense - consumption expenditures,2012_Q3,0.08,0.09,0.09,0.09,0.01,0.01,0.01,53.0,2012,7,2012-07-01
+1062,A823RY2,Federal government,Nondefense - gross investment,2012_Q3,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,53.0,2012,7,2012-07-01
+1063,A823RY2,Federal government,National defense - consumption expenditures,2012_Q4,-1.28,-1.27,1.27,1.27,0.01,0.01,0.01,53.0,2012,10,2012-10-01
+1064,A823RY2,Federal government,National defense - gross investment,2012_Q4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.0,2012,10,2012-10-01
+1065,A823RY2,Federal government,Nondefense - consumption expenditures,2012_Q4,0.02,0.03,0.03,0.03,0.01,0.01,0.01,53.0,2012,10,2012-10-01
+1066,A823RY2,Federal government,Nondefense - gross investment,2012_Q4,0.01,0.02,0.02,0.02,0.01,0.01,0.01,53.0,2012,10,2012-10-01
+1067,A823RY2,Federal government,National defense - consumption expenditures,2013_Q1,-0.37,-0.39,0.39,0.39,-0.02,0.02,0.02,53.0,2013,1,2013-01-01
+1068,A823RY2,Federal government,National defense - gross investment,2013_Q1,-0.23,-0.24,0.24,0.24,-0.01,0.01,0.01,53.0,2013,1,2013-01-01
+1069,A823RY2,Federal government,Nondefense - consumption expenditures,2013_Q1,-0.03,-0.02,0.02,0.02,0.01,0.01,0.01,53.0,2013,1,2013-01-01
+1070,A823RY2,Federal government,Nondefense - gross investment,2013_Q1,-0.02,-0.04,0.04,0.04,-0.02,0.02,0.02,53.0,2013,1,2013-01-01
+1071,A823RY2,Federal government,National defense - consumption expenditures,2013_Q2,-0.15,-0.12,0.12,0.12,0.03,0.03,0.03,53.0,2013,4,2013-04-01
+1072,A823RY2,Federal government,National defense - gross investment,2013_Q2,0.12,0.09,0.09,0.09,-0.03,0.03,0.03,53.0,2013,4,2013-04-01
+1073,A823RY2,Federal government,Nondefense - consumption expenditures,2013_Q2,-0.08,-0.08,0.08,0.08,0.0,0.0,0.0,53.0,2013,4,2013-04-01
+1074,A823RY2,Federal government,Nondefense - gross investment,2013_Q2,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,53.0,2013,4,2013-04-01
+1075,A823RY2,Federal government,National defense - consumption expenditures,2013_Q3,-0.07,-0.06,0.06,0.06,0.01,0.01,0.01,53.0,2013,7,2013-07-01
+1076,A823RY2,Federal government,National defense - gross investment,2013_Q3,0.04,0.04,0.04,0.04,0.0,0.0,0.0,53.0,2013,7,2013-07-01
+1077,A823RY2,Federal government,Nondefense - consumption expenditures,2013_Q3,-0.08,-0.09,0.09,0.09,-0.01,0.01,0.01,53.0,2013,7,2013-07-01
+1078,A823RY2,Federal government,Nondefense - gross investment,2013_Q3,-0.01,0.0,0.0,0.0,0.01,0.01,0.01,53.0,2013,7,2013-07-01
+1079,A823RY2,Federal government,National defense - consumption expenditures,2013_Q4,-0.51,-0.53,0.53,0.53,-0.02,0.02,0.02,53.0,2013,10,2013-10-01
+1080,A823RY2,Federal government,National defense - gross investment,2013_Q4,-0.17,-0.17,0.17,0.17,0.0,0.0,0.0,53.0,2013,10,2013-10-01
+1081,A823RY2,Federal government,Nondefense - consumption expenditures,2013_Q4,-0.27,-0.26,0.26,0.26,0.01,0.01,0.01,53.0,2013,10,2013-10-01
+1082,A823RY2,Federal government,Nondefense - gross investment,2013_Q4,-0.04,-0.03,0.03,0.03,0.01,0.01,0.01,53.0,2013,10,2013-10-01
+1083,A823RY2,Federal government,National defense - consumption expenditures,2014_Q1,0.11,0.11,0.11,0.11,0.0,0.0,0.0,53.0,2014,1,2014-01-01
+1084,A823RY2,Federal government,National defense - gross investment,2014_Q1,-0.22,-0.22,0.22,0.22,0.0,0.0,0.0,53.0,2014,1,2014-01-01
+1085,A823RY2,Federal government,Nondefense - consumption expenditures,2014_Q1,0.17,0.17,0.17,0.17,0.0,0.0,0.0,53.0,2014,1,2014-01-01
+1086,A823RY2,Federal government,Nondefense - gross investment,2014_Q1,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,53.0,2014,1,2014-01-01
+1087,A823RY2,Federal government,National defense - consumption expenditures,2014_Q2,-0.06,-0.07,0.07,0.07,-0.01,0.01,0.01,53.0,2014,4,2014-04-01
+1088,A823RY2,Federal government,National defense - gross investment,2014_Q2,0.11,0.11,0.11,0.11,0.0,0.0,0.0,53.0,2014,4,2014-04-01
+1089,A823RY2,Federal government,Nondefense - consumption expenditures,2014_Q2,-0.07,-0.08,0.08,0.08,-0.01,0.01,0.01,53.0,2014,4,2014-04-01
+1090,A823RY2,Federal government,Nondefense - gross investment,2014_Q2,-0.03,-0.03,0.03,0.03,0.0,0.0,0.0,53.0,2014,4,2014-04-01
+1091,A823RY2,Federal government,National defense - consumption expenditures,2014_Q3,0.69,0.69,0.69,0.69,0.0,0.0,0.0,53.0,2014,7,2014-07-01
+1092,A823RY2,Federal government,National defense - gross investment,2014_Q3,-0.03,-0.03,0.03,0.03,0.0,0.0,0.0,53.0,2014,7,2014-07-01
+1093,A823RY2,Federal government,Nondefense - consumption expenditures,2014_Q3,0.03,0.02,0.02,0.02,-0.01,0.01,0.01,53.0,2014,7,2014-07-01
+1094,A823RY2,Federal government,Nondefense - gross investment,2014_Q3,-0.01,-0.01,0.01,0.01,0.0,0.0,0.0,53.0,2014,7,2014-07-01
+1095,A823RY2,Federal government,National defense - consumption expenditures,2014_Q4,-0.61,-0.59,0.59,0.59,0.02,0.02,0.02,53.0,2014,10,2014-10-01
+1096,A823RY2,Federal government,National defense - gross investment,2014_Q4,0.03,0.03,0.03,0.03,0.0,0.0,0.0,53.0,2014,10,2014-10-01
+1097,A823RY2,Federal government,Nondefense - consumption expenditures,2014_Q4,0.0,0.01,0.01,0.01,0.01,0.01,0.01,53.0,2014,10,2014-10-01
+1098,A823RY2,Federal government,Nondefense - gross investment,2014_Q4,0.04,0.03,0.03,0.03,-0.01,0.01,0.01,53.0,2014,10,2014-10-01
+1099,A823RY2,Federal government,National defense - consumption expenditures,2015_Q1,0.02,0.0,0.0,0.0,-0.02,0.02,0.02,53.0,2015,1,2015-01-01
+1100,A823RY2,Federal government,National defense - gross investment,2015_Q1,-0.05,-0.05,0.05,0.05,0.0,0.0,0.0,53.0,2015,1,2015-01-01
+1101,A823RY2,Federal government,Nondefense - consumption expenditures,2015_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,53.0,2015,1,2015-01-01
+1102,A823RY2,Federal government,Nondefense - gross investment,2015_Q1,0.02,0.0,0.0,0.0,-0.02,0.02,0.02,53.0,2015,1,2015-01-01
+1103,A823RY2,Federal government,National defense - consumption expenditures,2015_Q2,-0.1,-0.03,0.03,0.03,0.07,0.07,0.07,53.0,2015,4,2015-04-01
+1104,A823RY2,Federal government,National defense - gross investment,2015_Q2,0.04,0.05,0.05,0.05,0.01,0.01,0.01,53.0,2015,4,2015-04-01
+1105,A823RY2,Federal government,Nondefense - consumption expenditures,2015_Q2,-0.05,-0.04,0.04,0.04,0.01,0.01,0.01,53.0,2015,4,2015-04-01
+1106,A823RY2,Federal government,Nondefense - gross investment,2015_Q2,0.03,0.03,0.03,0.03,0.0,0.0,0.0,53.0,2015,4,2015-04-01
+1107,A823RY2,Federal government,National defense - consumption expenditures,2015_Q3,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,53.0,2015,7,2015-07-01
+1108,A823RY2,Federal government,National defense - gross investment,2015_Q3,-0.04,-0.04,0.04,0.04,0.0,0.0,0.0,53.0,2015,7,2015-07-01
+1109,A823RY2,Federal government,Nondefense - consumption expenditures,2015_Q3,0.05,0.06,0.06,0.06,0.01,0.01,0.01,53.0,2015,7,2015-07-01
+1110,A823RY2,Federal government,Nondefense - gross investment,2015_Q3,0.03,0.01,0.01,0.01,-0.02,0.02,0.02,53.0,2015,7,2015-07-01
+1111,A823RY2,Federal government,National defense - consumption expenditures,2015_Q4,0.07,0.04,0.04,0.04,-0.03,0.03,0.03,53.0,2015,10,2015-10-01
+1112,A823RY2,Federal government,National defense - gross investment,2015_Q4,0.07,0.07,0.07,0.07,0.0,0.0,0.0,53.0,2015,10,2015-10-01
+1113,A823RY2,Federal government,Nondefense - consumption expenditures,2015_Q4,0.0,0.02,0.02,0.02,0.02,0.02,0.02,53.0,2015,10,2015-10-01
+1114,A823RY2,Federal government,Nondefense - gross investment,2015_Q4,0.04,0.02,0.02,0.02,-0.02,0.02,0.02,53.0,2015,10,2015-10-01

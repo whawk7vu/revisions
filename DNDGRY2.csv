@@ -1,49 +1,193 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-1793,DNDGRY2,Nondurable goods,2004_Q1,1.29,1.35,1.35,1.49,0.06,0.06,0.18,9.0,2004,1,2004-01-01
-1794,DNDGRY2,Nondurable goods,2004_Q2,-0.01,0.03,0.03,0.91,0.04,0.04,0.42,9.0,2004,4,2004-04-01
-1795,DNDGRY2,Nondurable goods,2004_Q3,0.79,0.93,0.93,0.93,0.14,0.14,0.32,9.0,2004,7,2004-07-01
-1796,DNDGRY2,Nondurable goods,2004_Q4,1.16,1.19,1.19,1.23,0.03,0.03,0.13,9.0,2004,10,2004-10-01
-1797,DNDGRY2,Nondurable goods,2005_Q1,0.98,1.11,1.11,1.11,0.13,0.13,0.15,9.0,2005,1,2005-01-01
-1798,DNDGRY2,Nondurable goods,2005_Q2,0.66,0.74,0.74,0.96,0.08,0.08,0.14,9.0,2005,4,2005-04-01
-1799,DNDGRY2,Nondurable goods,2005_Q3,0.54,0.73,0.73,0.95,0.19,0.19,0.19,9.0,2005,7,2005-07-01
-1800,DNDGRY2,Nondurable goods,2005_Q4,1.03,1.01,1.01,1.01,-0.02,0.02,0.1,9.0,2005,10,2005-10-01
-1801,DNDGRY2,Nondurable goods,2006_Q1,1.11,1.21,1.21,1.23,0.1,0.1,0.16,9.0,2006,1,2006-01-01
-1802,DNDGRY2,Nondurable goods,2006_Q2,0.34,0.3,0.3,0.5,-0.04,0.04,0.04,9.0,2006,4,2006-04-01
-1803,DNDGRY2,Nondurable goods,2006_Q3,0.33,0.33,0.33,0.47,-0.0,0.0,0.06,9.0,2006,7,2006-07-01
-1804,DNDGRY2,Nondurable goods,2006_Q4,1.38,1.18,1.18,1.18,-0.2,0.2,0.2,9.0,2006,10,2006-10-01
-1805,DNDGRY2,Nondurable goods,2007_Q1,0.59,0.66,0.66,0.66,0.07,0.07,0.21,9.0,2007,1,2007-01-01
-1806,DNDGRY2,Nondurable goods,2007_Q2,-0.16,-0.1,0.1,0.42,0.06,0.06,0.18,9.0,2007,4,2007-04-01
-1807,DNDGRY2,Nondurable goods,2007_Q3,0.55,0.46,0.46,0.5,-0.09,0.09,0.09,9.0,2007,7,2007-07-01
-1808,DNDGRY2,Nondurable goods,2007_Q4,0.37,0.24,0.24,0.54,-0.13,0.13,0.13,9.0,2007,10,2007-10-01
-1809,DNDGRY2,Nondurable goods,2008_Q1,-0.27,-0.03,0.03,0.43,0.24,0.24,0.5,9.0,2008,1,2008-01-01
-1810,DNDGRY2,Nondurable goods,2008_Q2,0.83,0.81,0.81,1.21,-0.02,0.02,0.3,9.0,2008,4,2008-04-01
-1811,DNDGRY2,Nondurable goods,2008_Q3,-1.41,-1.57,1.57,1.59,-0.16,0.16,0.44,9.0,2008,7,2008-07-01
-1812,DNDGRY2,Nondurable goods,2008_Q4,-1.5,-1.96,1.96,2.42,-0.46,0.46,0.5,9.0,2008,10,2008-10-01
-1813,DNDGRY2,Nondurable goods,2009_Q1,0.27,-0.07,0.07,0.49,-0.34,0.34,0.36,9.0,2009,1,2009-01-01
-1814,DNDGRY2,Nondurable goods,2009_Q2,-0.39,-0.3,0.3,0.74,0.09,0.09,0.27,9.0,2009,4,2009-04-01
-1815,DNDGRY2,Nondurable goods,2009_Q3,0.32,0.23,0.23,0.33,-0.09,0.09,0.19,9.0,2009,7,2009-07-01
-1816,DNDGRY2,Nondurable goods,2009_Q4,0.67,0.64,0.64,0.74,-0.03,0.03,0.13,9.0,2009,10,2009-10-01
-1817,DNDGRY2,Nondurable goods,2010_Q1,0.63,0.61,0.61,0.61,-0.02,0.02,0.08,9.0,2010,1,2010-01-01
-1818,DNDGRY2,Nondurable goods,2010_Q2,0.26,0.3,0.3,0.62,0.04,0.04,0.08,9.0,2010,4,2010-04-01
-1819,DNDGRY2,Nondurable goods,2010_Q3,0.2,0.39,0.39,0.45,0.19,0.19,0.25,9.0,2010,7,2010-07-01
-1820,DNDGRY2,Nondurable goods,2010_Q4,0.78,0.66,0.66,0.96,-0.12,0.12,0.12,9.0,2010,10,2010-10-01
-1821,DNDGRY2,Nondurable goods,2011_Q1,0.34,0.22,0.22,0.54,-0.12,0.12,0.24,9.0,2011,1,2011-01-01
-1822,DNDGRY2,Nondurable goods,2011_Q2,0.01,0.03,0.03,0.51,0.02,0.02,0.1,9.0,2011,4,2011-04-01
-1823,DNDGRY2,Nondurable goods,2011_Q3,0.04,-0.09,0.09,0.39,-0.13,0.13,0.17,9.0,2011,7,2011-07-01
-1824,DNDGRY2,Nondurable goods,2011_Q4,0.28,0.12,0.12,0.42,-0.16,0.16,0.18,9.0,2011,10,2011-10-01
-1825,DNDGRY2,Nondurable goods,2012_Q1,0.35,0.34,0.34,0.52,-0.01,0.01,0.11,9.0,2012,1,2012-01-01
-1826,DNDGRY2,Nondurable goods,2012_Q2,0.25,0.1,0.1,0.4,-0.15,0.15,0.17,9.0,2012,4,2012-04-01
-1827,DNDGRY2,Nondurable goods,2012_Q3,0.4,0.19,0.19,0.35,-0.21,0.21,0.21,9.0,2012,7,2012-07-01
-1828,DNDGRY2,Nondurable goods,2012_Q4,0.06,0.01,0.01,0.45,-0.05,0.05,0.15,9.0,2012,10,2012-10-01
-1829,DNDGRY2,Nondurable goods,2013_Q1,0.16,0.46,0.46,0.46,0.3,0.3,0.3,9.0,2013,1,2013-01-01
-1830,DNDGRY2,Nondurable goods,2013_Q2,0.31,0.26,0.26,0.42,-0.05,0.05,0.27,9.0,2013,4,2013-04-01
-1831,DNDGRY2,Nondurable goods,2013_Q3,0.41,0.46,0.46,0.64,0.05,0.05,0.17,9.0,2013,7,2013-07-01
-1832,DNDGRY2,Nondurable goods,2013_Q4,0.69,0.45,0.45,0.47,-0.24,0.24,0.24,9.0,2013,10,2013-10-01
-1833,DNDGRY2,Nondurable goods,2014_Q1,0.03,-0.05,0.05,0.25,-0.08,0.08,0.12,9.0,2014,1,2014-01-01
-1834,DNDGRY2,Nondurable goods,2014_Q2,0.38,0.34,0.34,0.64,-0.04,0.04,0.08,9.0,2014,4,2014-04-01
-1835,DNDGRY2,Nondurable goods,2014_Q3,0.17,0.39,0.39,0.39,0.22,0.22,0.22,9.0,2014,7,2014-07-01
-1836,DNDGRY2,Nondurable goods,2014_Q4,0.64,0.61,0.61,0.65,-0.03,0.03,0.23,9.0,2014,10,2014-10-01
-1837,DNDGRY2,Nondurable goods,2015_Q1,-0.04,0.12,0.12,0.2,0.16,0.16,0.16,9.0,2015,1,2015-01-01
-1838,DNDGRY2,Nondurable goods,2015_Q2,0.52,0.63,0.63,0.65,0.11,0.11,0.13,9.0,2015,4,2015-04-01
-1839,DNDGRY2,Nondurable goods,2015_Q3,0.51,0.61,0.61,0.61,0.1,0.1,0.14,9.0,2015,7,2015-07-01
-1840,DNDGRY2,Nondurable goods,2015_Q4,0.21,0.08,0.08,0.2,-0.13,0.13,0.27,9.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+6054,DNDGRY2,Nondurable goods,Clothing and shoes,2004_Q1,0.4,0.4,0.4,0.4,0.0,0.0,0.0,9.0,2004,1,2004-01-01
+6055,DNDGRY2,Nondurable goods,Food,2004_Q1,0.77,0.82,0.82,0.82,0.05,0.05,0.05,9.0,2004,1,2004-01-01
+6056,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2004_Q1,-0.01,-0.07,0.07,0.07,-0.06,0.06,0.06,9.0,2004,1,2004-01-01
+6057,DNDGRY2,Nondurable goods,Other,2004_Q1,0.13,0.2,0.2,0.2,0.07,0.07,0.07,9.0,2004,1,2004-01-01
+6058,DNDGRY2,Nondurable goods,Clothing and shoes,2004_Q2,-0.17,-0.15,0.15,0.15,0.02,0.02,0.02,9.0,2004,4,2004-04-01
+6059,DNDGRY2,Nondurable goods,Food,2004_Q2,0.01,0.22,0.22,0.22,0.21,0.21,0.21,9.0,2004,4,2004-04-01
+6060,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2004_Q2,-0.1,-0.29,0.29,0.29,-0.19,0.19,0.19,9.0,2004,4,2004-04-01
+6061,DNDGRY2,Nondurable goods,Other,2004_Q2,0.25,0.25,0.25,0.25,0.0,0.0,0.0,9.0,2004,4,2004-04-01
+6062,DNDGRY2,Nondurable goods,Clothing and shoes,2004_Q3,0.13,0.16,0.16,0.16,0.03,0.03,0.03,9.0,2004,7,2004-07-01
+6063,DNDGRY2,Nondurable goods,Food,2004_Q3,0.27,0.42,0.42,0.42,0.15,0.15,0.15,9.0,2004,7,2004-07-01
+6064,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2004_Q3,0.14,0.05,0.05,0.05,-0.09,0.09,0.09,9.0,2004,7,2004-07-01
+6065,DNDGRY2,Nondurable goods,Other,2004_Q3,0.25,0.3,0.3,0.3,0.05,0.05,0.05,9.0,2004,7,2004-07-01
+6066,DNDGRY2,Nondurable goods,Clothing and shoes,2004_Q4,0.26,0.27,0.27,0.27,0.01,0.01,0.01,9.0,2004,10,2004-10-01
+6067,DNDGRY2,Nondurable goods,Food,2004_Q4,0.67,0.74,0.74,0.74,0.07,0.07,0.07,9.0,2004,10,2004-10-01
+6068,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2004_Q4,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,9.0,2004,10,2004-10-01
+6069,DNDGRY2,Nondurable goods,Other,2004_Q4,0.23,0.2,0.2,0.2,-0.03,0.03,0.03,9.0,2004,10,2004-10-01
+6070,DNDGRY2,Nondurable goods,Clothing and shoes,2005_Q1,0.11,0.16,0.16,0.16,0.05,0.05,0.05,9.0,2005,1,2005-01-01
+6071,DNDGRY2,Nondurable goods,Food,2005_Q1,0.48,0.57,0.57,0.57,0.09,0.09,0.09,9.0,2005,1,2005-01-01
+6072,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2005_Q1,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,9.0,2005,1,2005-01-01
+6073,DNDGRY2,Nondurable goods,Other,2005_Q1,0.23,0.23,0.23,0.23,0.0,0.0,0.0,9.0,2005,1,2005-01-01
+6074,DNDGRY2,Nondurable goods,Clothing and shoes,2005_Q2,0.2,0.2,0.2,0.2,0.0,0.0,0.0,9.0,2005,4,2005-04-01
+6075,DNDGRY2,Nondurable goods,Food,2005_Q2,0.33,0.42,0.42,0.42,0.09,0.09,0.09,9.0,2005,4,2005-04-01
+6076,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2005_Q2,-0.08,-0.11,0.11,0.11,-0.03,0.03,0.03,9.0,2005,4,2005-04-01
+6077,DNDGRY2,Nondurable goods,Other,2005_Q2,0.21,0.23,0.23,0.23,0.02,0.02,0.02,9.0,2005,4,2005-04-01
+6078,DNDGRY2,Nondurable goods,Clothing and shoes,2005_Q3,0.05,0.08,0.08,0.08,0.03,0.03,0.03,9.0,2005,7,2005-07-01
+6079,DNDGRY2,Nondurable goods,Food,2005_Q3,0.53,0.61,0.61,0.61,0.08,0.08,0.08,9.0,2005,7,2005-07-01
+6080,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2005_Q3,-0.16,-0.11,0.11,0.11,0.05,0.05,0.05,9.0,2005,7,2005-07-01
+6081,DNDGRY2,Nondurable goods,Other,2005_Q3,0.12,0.15,0.15,0.15,0.03,0.03,0.03,9.0,2005,7,2005-07-01
+6082,DNDGRY2,Nondurable goods,Clothing and shoes,2005_Q4,0.28,0.27,0.27,0.27,-0.01,0.01,0.01,9.0,2005,10,2005-10-01
+6083,DNDGRY2,Nondurable goods,Food,2005_Q4,0.51,0.5,0.5,0.5,-0.01,0.01,0.01,9.0,2005,10,2005-10-01
+6084,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2005_Q4,0.07,0.03,0.03,0.03,-0.04,0.04,0.04,9.0,2005,10,2005-10-01
+6085,DNDGRY2,Nondurable goods,Other,2005_Q4,0.17,0.21,0.21,0.21,0.04,0.04,0.04,9.0,2005,10,2005-10-01
+6086,DNDGRY2,Nondurable goods,Clothing and shoes,2006_Q1,0.21,0.22,0.22,0.22,0.01,0.01,0.01,9.0,2006,1,2006-01-01
+6087,DNDGRY2,Nondurable goods,Food,2006_Q1,0.58,0.65,0.65,0.65,0.07,0.07,0.07,9.0,2006,1,2006-01-01
+6088,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2006_Q1,0.02,-0.01,0.01,0.01,-0.03,0.03,0.03,9.0,2006,1,2006-01-01
+6089,DNDGRY2,Nondurable goods,Other,2006_Q1,0.3,0.35,0.35,0.35,0.05,0.05,0.05,9.0,2006,1,2006-01-01
+6090,DNDGRY2,Nondurable goods,Clothing and shoes,2006_Q2,-0.1,-0.1,0.1,0.1,0.0,0.0,0.0,9.0,2006,4,2006-04-01
+6091,DNDGRY2,Nondurable goods,Food,2006_Q2,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,9.0,2006,4,2006-04-01
+6092,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2006_Q2,0.02,0.02,0.02,0.02,0.0,0.0,0.0,9.0,2006,4,2006-04-01
+6093,DNDGRY2,Nondurable goods,Other,2006_Q2,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,9.0,2006,4,2006-04-01
+6094,DNDGRY2,Nondurable goods,Clothing and shoes,2006_Q3,0.15,0.15,0.15,0.15,0.0,0.0,0.0,9.0,2006,7,2006-07-01
+6095,DNDGRY2,Nondurable goods,Food,2006_Q3,-0.06,-0.07,0.07,0.07,-0.01,0.01,0.01,9.0,2006,7,2006-07-01
+6096,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2006_Q3,0.11,0.14,0.14,0.14,0.03,0.03,0.03,9.0,2006,7,2006-07-01
+6097,DNDGRY2,Nondurable goods,Other,2006_Q3,0.13,0.11,0.11,0.11,-0.02,0.02,0.02,9.0,2006,7,2006-07-01
+6098,DNDGRY2,Nondurable goods,Clothing and shoes,2006_Q4,0.19,0.18,0.18,0.18,-0.01,0.01,0.01,9.0,2006,10,2006-10-01
+6099,DNDGRY2,Nondurable goods,Food,2006_Q4,0.69,0.62,0.62,0.62,-0.07,0.07,0.07,9.0,2006,10,2006-10-01
+6100,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2006_Q4,0.09,0.03,0.03,0.03,-0.06,0.06,0.06,9.0,2006,10,2006-10-01
+6101,DNDGRY2,Nondurable goods,Other,2006_Q4,0.41,0.35,0.35,0.35,-0.06,0.06,0.06,9.0,2006,10,2006-10-01
+6102,DNDGRY2,Nondurable goods,Clothing and shoes,2007_Q1,0.18,0.21,0.21,0.21,0.03,0.03,0.03,9.0,2007,1,2007-01-01
+6103,DNDGRY2,Nondurable goods,Food,2007_Q1,0.08,0.14,0.14,0.14,0.06,0.06,0.06,9.0,2007,1,2007-01-01
+6104,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2007_Q1,0.21,0.14,0.14,0.14,-0.07,0.07,0.07,9.0,2007,1,2007-01-01
+6105,DNDGRY2,Nondurable goods,Other,2007_Q1,0.12,0.17,0.17,0.17,0.05,0.05,0.05,9.0,2007,1,2007-01-01
+6106,DNDGRY2,Nondurable goods,Clothing and shoes,2007_Q2,0.05,0.06,0.06,0.06,0.01,0.01,0.01,9.0,2007,4,2007-04-01
+6107,DNDGRY2,Nondurable goods,Food,2007_Q2,-0.2,-0.14,0.14,0.14,0.06,0.06,0.06,9.0,2007,4,2007-04-01
+6108,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2007_Q2,-0.06,-0.12,0.12,0.12,-0.06,0.06,0.06,9.0,2007,4,2007-04-01
+6109,DNDGRY2,Nondurable goods,Other,2007_Q2,0.05,0.1,0.1,0.1,0.05,0.05,0.05,9.0,2007,4,2007-04-01
+6110,DNDGRY2,Nondurable goods,Clothing and shoes,2007_Q3,0.2,0.17,0.17,0.17,-0.03,0.03,0.03,9.0,2007,7,2007-07-01
+6111,DNDGRY2,Nondurable goods,Food,2007_Q3,0.17,0.13,0.13,0.13,-0.04,0.04,0.04,9.0,2007,7,2007-07-01
+6112,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2007_Q3,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,9.0,2007,7,2007-07-01
+6113,DNDGRY2,Nondurable goods,Other,2007_Q3,0.19,0.18,0.18,0.18,-0.01,0.01,0.01,9.0,2007,7,2007-07-01
+6114,DNDGRY2,Nondurable goods,Clothing and shoes,2007_Q4,-0.06,-0.1,0.1,0.1,-0.04,0.04,0.04,9.0,2007,10,2007-10-01
+6115,DNDGRY2,Nondurable goods,Food,2007_Q4,0.42,0.39,0.39,0.39,-0.03,0.03,0.03,9.0,2007,10,2007-10-01
+6116,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2007_Q4,-0.01,-0.04,0.04,0.04,-0.03,0.03,0.03,9.0,2007,10,2007-10-01
+6117,DNDGRY2,Nondurable goods,Other,2007_Q4,0.02,-0.01,0.01,0.01,-0.03,0.03,0.03,9.0,2007,10,2007-10-01
+6118,DNDGRY2,Nondurable goods,Clothing and shoes,2008_Q1,0.02,0.05,0.05,0.05,0.03,0.03,0.03,9.0,2008,1,2008-01-01
+6119,DNDGRY2,Nondurable goods,Food,2008_Q1,-0.05,0.15,0.15,0.15,0.2,0.2,0.2,9.0,2008,1,2008-01-01
+6120,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2008_Q1,-0.05,-0.18,0.18,0.18,-0.13,0.13,0.13,9.0,2008,1,2008-01-01
+6121,DNDGRY2,Nondurable goods,Other,2008_Q1,-0.19,-0.05,0.05,0.05,0.14,0.14,0.14,9.0,2008,1,2008-01-01
+6122,DNDGRY2,Nondurable goods,Clothing and shoes,2008_Q2,0.26,0.28,0.28,0.28,0.02,0.02,0.02,9.0,2008,4,2008-04-01
+6123,DNDGRY2,Nondurable goods,Food,2008_Q2,0.28,0.4,0.4,0.4,0.12,0.12,0.12,9.0,2008,4,2008-04-01
+6124,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2008_Q2,-0.04,-0.2,0.2,0.2,-0.16,0.16,0.16,9.0,2008,4,2008-04-01
+6125,DNDGRY2,Nondurable goods,Other,2008_Q2,0.33,0.33,0.33,0.33,0.0,0.0,0.0,9.0,2008,4,2008-04-01
+6126,DNDGRY2,Nondurable goods,Clothing and shoes,2008_Q3,-0.31,-0.38,0.38,0.38,-0.07,0.07,0.07,9.0,2008,7,2008-07-01
+6127,DNDGRY2,Nondurable goods,Food,2008_Q3,-0.89,-0.75,0.75,0.75,0.14,0.14,0.14,9.0,2008,7,2008-07-01
+6128,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2008_Q3,-0.23,-0.45,0.45,0.45,-0.22,0.22,0.22,9.0,2008,7,2008-07-01
+6129,DNDGRY2,Nondurable goods,Other,2008_Q3,0.02,0.01,0.01,0.01,-0.01,0.01,0.01,9.0,2008,7,2008-07-01
+6130,DNDGRY2,Nondurable goods,Clothing and shoes,2008_Q4,-0.26,-0.24,0.24,0.24,0.02,0.02,0.02,9.0,2008,10,2008-10-01
+6131,DNDGRY2,Nondurable goods,Food,2008_Q4,-1.44,-1.52,1.52,1.52,-0.08,0.08,0.08,9.0,2008,10,2008-10-01
+6132,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2008_Q4,0.63,0.23,0.23,0.23,-0.4,0.4,0.4,9.0,2008,10,2008-10-01
+6133,DNDGRY2,Nondurable goods,Other,2008_Q4,-0.43,-0.43,0.43,0.43,0.0,0.0,0.0,9.0,2008,10,2008-10-01
+6134,DNDGRY2,Nondurable goods,Clothing and shoes,2009_Q1,0.1,-0.01,0.01,0.01,-0.11,0.11,0.11,9.0,2009,1,2009-01-01
+6135,DNDGRY2,Nondurable goods,Food,2009_Q1,-0.08,-0.27,0.27,0.27,-0.19,0.19,0.19,9.0,2009,1,2009-01-01
+6136,DNDGRY2,Nondurable goods,"Gasoline, fuel oil, and other energy goods",2009_Q1,0.13,0.14,0.14,0.14,0.01,0.01,0.01,9.0,2009,1,2009-01-01
+6137,DNDGRY2,Nondurable goods,Other,2009_Q1,0.12,0.07,0.07,0.07,-0.05,0.05,0.05,9.0,2009,1,2009-01-01
+6138,DNDGRY2,Nondurable goods,Clothing and footwear,2009_Q2,-0.16,-0.2,0.2,0.2,-0.04,0.04,0.04,9.0,2009,4,2009-04-01
+6139,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2009_Q2,0.25,0.2,0.2,0.2,-0.05,0.05,0.05,9.0,2009,4,2009-04-01
+6140,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2009_Q2,-0.03,0.02,0.02,0.02,0.05,0.05,0.05,9.0,2009,4,2009-04-01
+6141,DNDGRY2,Nondurable goods,Other nondurable goods,2009_Q2,-0.45,-0.32,0.32,0.32,0.13,0.13,0.13,9.0,2009,4,2009-04-01
+6142,DNDGRY2,Nondurable goods,Clothing and footwear,2009_Q3,-0.03,-0.01,0.01,0.01,0.02,0.02,0.02,9.0,2009,7,2009-07-01
+6143,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2009_Q3,0.27,0.21,0.21,0.21,-0.06,0.06,0.06,9.0,2009,7,2009-07-01
+6144,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2009_Q3,0.04,-0.04,0.04,0.04,-0.08,0.08,0.08,9.0,2009,7,2009-07-01
+6145,DNDGRY2,Nondurable goods,Other nondurable goods,2009_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,9.0,2009,7,2009-07-01
+6146,DNDGRY2,Nondurable goods,Clothing and footwear,2009_Q4,0.17,0.17,0.17,0.17,0.0,0.0,0.0,9.0,2009,10,2009-10-01
+6147,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2009_Q4,0.23,0.27,0.27,0.27,0.04,0.04,0.04,9.0,2009,10,2009-10-01
+6148,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2009_Q4,-0.06,-0.05,0.05,0.05,0.01,0.01,0.01,9.0,2009,10,2009-10-01
+6149,DNDGRY2,Nondurable goods,Other nondurable goods,2009_Q4,0.33,0.25,0.25,0.25,-0.08,0.08,0.08,9.0,2009,10,2009-10-01
+6150,DNDGRY2,Nondurable goods,Clothing and footwear,2010_Q1,0.23,0.26,0.26,0.26,0.03,0.03,0.03,9.0,2010,1,2010-01-01
+6151,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2010_Q1,0.18,0.17,0.17,0.17,-0.01,0.01,0.01,9.0,2010,1,2010-01-01
+6152,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2010_Q1,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,9.0,2010,1,2010-01-01
+6153,DNDGRY2,Nondurable goods,Other nondurable goods,2010_Q1,0.18,0.18,0.18,0.18,0.0,0.0,0.0,9.0,2010,1,2010-01-01
+6154,DNDGRY2,Nondurable goods,Clothing and footwear,2010_Q2,0.15,0.14,0.14,0.14,-0.01,0.01,0.01,9.0,2010,4,2010-04-01
+6155,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2010_Q2,-0.15,-0.16,0.16,0.16,-0.01,0.01,0.01,9.0,2010,4,2010-04-01
+6156,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2010_Q2,0.02,0.07,0.07,0.07,0.05,0.05,0.05,9.0,2010,4,2010-04-01
+6157,DNDGRY2,Nondurable goods,Other nondurable goods,2010_Q2,0.24,0.25,0.25,0.25,0.01,0.01,0.01,9.0,2010,4,2010-04-01
+6158,DNDGRY2,Nondurable goods,Clothing and footwear,2010_Q3,-0.03,-0.03,0.03,0.03,0.0,0.0,0.0,9.0,2010,7,2010-07-01
+6159,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2010_Q3,0.2,0.17,0.17,0.17,-0.03,0.03,0.03,9.0,2010,7,2010-07-01
+6160,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2010_Q3,-0.17,0.0,0.0,0.0,0.17,0.17,0.17,9.0,2010,7,2010-07-01
+6161,DNDGRY2,Nondurable goods,Other nondurable goods,2010_Q3,0.2,0.25,0.25,0.25,0.05,0.05,0.05,9.0,2010,7,2010-07-01
+6162,DNDGRY2,Nondurable goods,Clothing and footwear,2010_Q4,0.31,0.27,0.27,0.27,-0.04,0.04,0.04,9.0,2010,10,2010-10-01
+6163,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2010_Q4,0.26,0.26,0.26,0.26,0.0,0.0,0.0,9.0,2010,10,2010-10-01
+6164,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2010_Q4,-0.08,-0.15,0.15,0.15,-0.07,0.07,0.07,9.0,2010,10,2010-10-01
+6165,DNDGRY2,Nondurable goods,Other nondurable goods,2010_Q4,0.29,0.28,0.28,0.28,-0.01,0.01,0.01,9.0,2010,10,2010-10-01
+6166,DNDGRY2,Nondurable goods,Clothing and footwear,2011_Q1,0.12,0.06,0.06,0.06,-0.06,0.06,0.06,9.0,2011,1,2011-01-01
+6167,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2011_Q1,0.07,0.08,0.08,0.08,0.01,0.01,0.01,9.0,2011,1,2011-01-01
+6168,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2011_Q1,-0.04,-0.16,0.16,0.16,-0.12,0.12,0.12,9.0,2011,1,2011-01-01
+6169,DNDGRY2,Nondurable goods,Other nondurable goods,2011_Q1,0.19,0.24,0.24,0.24,0.05,0.05,0.05,9.0,2011,1,2011-01-01
+6170,DNDGRY2,Nondurable goods,Clothing and footwear,2011_Q2,0.03,0.05,0.05,0.05,0.02,0.02,0.02,9.0,2011,4,2011-04-01
+6171,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2011_Q2,0.04,0.06,0.06,0.06,0.02,0.02,0.02,9.0,2011,4,2011-04-01
+6172,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2011_Q2,-0.2,-0.24,0.24,0.24,-0.04,0.04,0.04,9.0,2011,4,2011-04-01
+6173,DNDGRY2,Nondurable goods,Other nondurable goods,2011_Q2,0.14,0.16,0.16,0.16,0.02,0.02,0.02,9.0,2011,4,2011-04-01
+6174,DNDGRY2,Nondurable goods,Clothing and footwear,2011_Q3,-0.2,-0.19,0.19,0.19,0.01,0.01,0.01,9.0,2011,7,2011-07-01
+6175,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2011_Q3,0.01,-0.01,0.01,0.01,-0.02,0.02,0.02,9.0,2011,7,2011-07-01
+6176,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2011_Q3,0.09,-0.04,0.04,0.04,-0.13,0.13,0.13,9.0,2011,7,2011-07-01
+6177,DNDGRY2,Nondurable goods,Other nondurable goods,2011_Q3,0.14,0.15,0.15,0.15,0.01,0.01,0.01,9.0,2011,7,2011-07-01
+6178,DNDGRY2,Nondurable goods,Clothing and footwear,2011_Q4,0.07,0.08,0.08,0.08,0.01,0.01,0.01,9.0,2011,10,2011-10-01
+6179,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2011_Q4,0.01,-0.07,0.07,0.07,-0.08,0.08,0.08,9.0,2011,10,2011-10-01
+6180,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2011_Q4,-0.01,-0.08,0.08,0.08,-0.07,0.07,0.07,9.0,2011,10,2011-10-01
+6181,DNDGRY2,Nondurable goods,Other nondurable goods,2011_Q4,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,9.0,2011,10,2011-10-01
+6182,DNDGRY2,Nondurable goods,Clothing and footwear,2012_Q1,0.15,0.13,0.13,0.13,-0.02,0.02,0.02,9.0,2012,1,2012-01-01
+6183,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2012_Q1,0.09,0.08,0.08,0.08,-0.01,0.01,0.01,9.0,2012,1,2012-01-01
+6184,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2012_Q1,-0.14,-0.09,0.09,0.09,0.05,0.05,0.05,9.0,2012,1,2012-01-01
+6185,DNDGRY2,Nondurable goods,Other nondurable goods,2012_Q1,0.25,0.22,0.22,0.22,-0.03,0.03,0.03,9.0,2012,1,2012-01-01
+6186,DNDGRY2,Nondurable goods,Clothing and footwear,2012_Q2,-0.13,-0.12,0.12,0.12,0.01,0.01,0.01,9.0,2012,4,2012-04-01
+6187,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2012_Q2,-0.02,-0.03,0.03,0.03,-0.01,0.01,0.01,9.0,2012,4,2012-04-01
+6188,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2012_Q2,0.38,0.23,0.23,0.23,-0.15,0.15,0.15,9.0,2012,4,2012-04-01
+6189,DNDGRY2,Nondurable goods,Other nondurable goods,2012_Q2,0.02,0.02,0.02,0.02,0.0,0.0,0.0,9.0,2012,4,2012-04-01
+6190,DNDGRY2,Nondurable goods,Clothing and footwear,2012_Q3,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,9.0,2012,7,2012-07-01
+6191,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2012_Q3,0.07,0.01,0.01,0.01,-0.06,0.06,0.06,9.0,2012,7,2012-07-01
+6192,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2012_Q3,0.01,-0.08,0.08,0.08,-0.09,0.09,0.09,9.0,2012,7,2012-07-01
+6193,DNDGRY2,Nondurable goods,Other nondurable goods,2012_Q3,0.18,0.14,0.14,0.14,-0.04,0.04,0.04,9.0,2012,7,2012-07-01
+6194,DNDGRY2,Nondurable goods,Clothing and footwear,2012_Q4,-0.01,-0.04,0.04,0.04,-0.03,0.03,0.03,9.0,2012,10,2012-10-01
+6195,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2012_Q4,-0.03,-0.01,0.01,0.01,0.02,0.02,0.02,9.0,2012,10,2012-10-01
+6196,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2012_Q4,-0.1,-0.17,0.17,0.17,-0.07,0.07,0.07,9.0,2012,10,2012-10-01
+6197,DNDGRY2,Nondurable goods,Other nondurable goods,2012_Q4,0.2,0.23,0.23,0.23,0.03,0.03,0.03,9.0,2012,10,2012-10-01
+6198,DNDGRY2,Nondurable goods,Clothing and footwear,2013_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,9.0,2013,1,2013-01-01
+6199,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2013_Q1,0.05,0.11,0.11,0.11,0.06,0.06,0.06,9.0,2013,1,2013-01-01
+6200,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2013_Q1,-0.1,0.12,0.12,0.12,0.22,0.22,0.22,9.0,2013,1,2013-01-01
+6201,DNDGRY2,Nondurable goods,Other nondurable goods,2013_Q1,0.18,0.18,0.18,0.18,0.0,0.0,0.0,9.0,2013,1,2013-01-01
+6202,DNDGRY2,Nondurable goods,Clothing and footwear,2013_Q2,0.16,0.13,0.13,0.13,-0.03,0.03,0.03,9.0,2013,4,2013-04-01
+6203,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2013_Q2,-0.07,-0.06,0.06,0.06,0.01,0.01,0.01,9.0,2013,4,2013-04-01
+6204,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2013_Q2,0.11,-0.02,0.02,0.02,-0.13,0.13,0.13,9.0,2013,4,2013-04-01
+6205,DNDGRY2,Nondurable goods,Other nondurable goods,2013_Q2,0.11,0.21,0.21,0.21,0.1,0.1,0.1,9.0,2013,4,2013-04-01
+6206,DNDGRY2,Nondurable goods,Clothing and footwear,2013_Q3,-0.07,-0.09,0.09,0.09,-0.02,0.02,0.02,9.0,2013,7,2013-07-01
+6207,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2013_Q3,0.14,0.14,0.14,0.14,0.0,0.0,0.0,9.0,2013,7,2013-07-01
+6208,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2013_Q3,-0.03,0.08,0.08,0.08,0.11,0.11,0.11,9.0,2013,7,2013-07-01
+6209,DNDGRY2,Nondurable goods,Other nondurable goods,2013_Q3,0.37,0.33,0.33,0.33,-0.04,0.04,0.04,9.0,2013,7,2013-07-01
+6210,DNDGRY2,Nondurable goods,Clothing and footwear,2013_Q4,0.18,0.09,0.09,0.09,-0.09,0.09,0.09,9.0,2013,10,2013-10-01
+6211,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2013_Q4,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,9.0,2013,10,2013-10-01
+6212,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2013_Q4,0.04,-0.01,0.01,0.01,-0.05,0.05,0.05,9.0,2013,10,2013-10-01
+6213,DNDGRY2,Nondurable goods,Other nondurable goods,2013_Q4,0.28,0.21,0.21,0.21,-0.07,0.07,0.07,9.0,2013,10,2013-10-01
+6214,DNDGRY2,Nondurable goods,Clothing and footwear,2014_Q1,-0.09,-0.09,0.09,0.09,0.0,0.0,0.0,9.0,2014,1,2014-01-01
+6215,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2014_Q1,0.03,-0.06,0.06,0.06,-0.09,0.09,0.09,9.0,2014,1,2014-01-01
+6216,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2014_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,9.0,2014,1,2014-01-01
+6217,DNDGRY2,Nondurable goods,Other nondurable goods,2014_Q1,0.06,0.05,0.05,0.05,-0.01,0.01,0.01,9.0,2014,1,2014-01-01
+6218,DNDGRY2,Nondurable goods,Clothing and footwear,2014_Q2,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,9.0,2014,4,2014-04-01
+6219,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2014_Q2,-0.08,-0.07,0.07,0.07,0.01,0.01,0.01,9.0,2014,4,2014-04-01
+6220,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2014_Q2,-0.09,-0.08,0.08,0.08,0.01,0.01,0.01,9.0,2014,4,2014-04-01
+6221,DNDGRY2,Nondurable goods,Other nondurable goods,2014_Q2,0.41,0.37,0.37,0.37,-0.04,0.04,0.04,9.0,2014,4,2014-04-01
+6222,DNDGRY2,Nondurable goods,Clothing and footwear,2014_Q3,0.02,0.03,0.03,0.03,0.01,0.01,0.01,9.0,2014,7,2014-07-01
+6223,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2014_Q3,-0.06,0.0,0.0,0.0,0.06,0.06,0.06,9.0,2014,7,2014-07-01
+6224,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2014_Q3,-0.06,0.02,0.02,0.02,0.08,0.08,0.08,9.0,2014,7,2014-07-01
+6225,DNDGRY2,Nondurable goods,Other nondurable goods,2014_Q3,0.27,0.34,0.34,0.34,0.07,0.07,0.07,9.0,2014,7,2014-07-01
+6226,DNDGRY2,Nondurable goods,Clothing and footwear,2014_Q4,0.26,0.19,0.19,0.19,-0.07,0.07,0.07,9.0,2014,10,2014-10-01
+6227,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2014_Q4,-0.08,-0.02,0.02,0.02,0.06,0.06,0.06,9.0,2014,10,2014-10-01
+6228,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2014_Q4,0.25,0.19,0.19,0.19,-0.06,0.06,0.06,9.0,2014,10,2014-10-01
+6229,DNDGRY2,Nondurable goods,Other nondurable goods,2014_Q4,0.21,0.25,0.25,0.25,0.04,0.04,0.04,9.0,2014,10,2014-10-01
+6230,DNDGRY2,Nondurable goods,Clothing and footwear,2015_Q1,-0.06,-0.04,0.04,0.04,0.02,0.02,0.02,9.0,2015,1,2015-01-01
+6231,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2015_Q1,-0.13,0.0,0.0,0.0,0.13,0.13,0.13,9.0,2015,1,2015-01-01
+6232,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2015_Q1,0.1,0.1,0.1,0.1,0.0,0.0,0.0,9.0,2015,1,2015-01-01
+6233,DNDGRY2,Nondurable goods,Other nondurable goods,2015_Q1,0.05,0.06,0.06,0.06,0.01,0.01,0.01,9.0,2015,1,2015-01-01
+6234,DNDGRY2,Nondurable goods,Clothing and footwear,2015_Q2,0.11,0.14,0.14,0.14,0.03,0.03,0.03,9.0,2015,4,2015-04-01
+6235,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2015_Q2,0.14,0.14,0.14,0.14,0.0,0.0,0.0,9.0,2015,4,2015-04-01
+6236,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2015_Q2,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,9.0,2015,4,2015-04-01
+6237,DNDGRY2,Nondurable goods,Other nondurable goods,2015_Q2,0.27,0.36,0.36,0.36,0.09,0.09,0.09,9.0,2015,4,2015-04-01
+6238,DNDGRY2,Nondurable goods,Clothing and footwear,2015_Q3,0.05,0.03,0.03,0.03,-0.02,0.02,0.02,9.0,2015,7,2015-07-01
+6239,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2015_Q3,0.0,0.01,0.01,0.01,0.01,0.01,0.01,9.0,2015,7,2015-07-01
+6240,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2015_Q3,0.05,0.09,0.09,0.09,0.04,0.04,0.04,9.0,2015,7,2015-07-01
+6241,DNDGRY2,Nondurable goods,Other nondurable goods,2015_Q3,0.41,0.48,0.48,0.48,0.07,0.07,0.07,9.0,2015,7,2015-07-01
+6242,DNDGRY2,Nondurable goods,Clothing and footwear,2015_Q4,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,9.0,2015,10,2015-10-01
+6243,DNDGRY2,Nondurable goods,Food and beverages purchased for off-premises consumption,2015_Q4,-0.09,-0.02,0.02,0.02,0.07,0.07,0.07,9.0,2015,10,2015-10-01
+6244,DNDGRY2,Nondurable goods,Gasoline and other energy goods,2015_Q4,-0.01,-0.04,0.04,0.04,-0.03,0.03,0.03,9.0,2015,10,2015-10-01
+6245,DNDGRY2,Nondurable goods,Other nondurable goods,2015_Q4,0.27,0.14,0.14,0.14,-0.13,0.13,0.13,9.0,2015,10,2015-10-01

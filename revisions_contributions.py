@@ -281,22 +281,37 @@ pivot_all['date_t'] = pd.to_datetime(pivot_all['year']+pivot_all['month'],format
 
 pivot_all.to_pickle('pivot_all')
 
+pivot_all = pd.read_pickle('pivot_all')
+
 pivot = pd.read_pickle('pivot')
 
 comp_gdp = pivot_all
 
 
-comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
+#comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
 
-comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
-
-comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
-
-comp_gdp['code'][comp_gdp['code']=="A165RY2"] = "DMOTRY2"
 
 
 line = comp_gdp[['line', 'code']].drop_duplicates(['line'], keep='last')
 
+
+comp_gdp['description'][comp_gdp['code']=='A937RY2'] = "Information processing equipment - other"
+comp_gdp['description'][comp_gdp['code']=='B018RY2'] = "Change in private inventories - Farm"
+comp_gdp['description'][comp_gdp['code']=='A015RY2'] = "Change in private inventories - Nonfarm"
+
+comp_gdp['description'][comp_gdp['code']=='A253RY2'] = "Exports - goods"
+comp_gdp['description'][comp_gdp['code']=='A646RY2'] = "Exports - services"
+comp_gdp['description'][comp_gdp['code']=='A255RY2'] = "Imports - goods"
+comp_gdp['description'][comp_gdp['code']=='A656RY2'] = "Imports - services"
+
+comp_gdp['description'][comp_gdp['code']=='A997RY2'] = "National defense - consumption expenditures"
+comp_gdp['description'][comp_gdp['code']=='A788RY2'] = "National defense - gross investment"
+
+comp_gdp['description'][comp_gdp['code']=='A542RY2'] = "Nondefense - consumption expenditures"
+comp_gdp['description'][comp_gdp['code']=='A798RY2'] = "Nondefense - gross investment"
+
+comp_gdp['description'][comp_gdp['code']=='A991RY2'] = "State and local - consumption expenditures"
+comp_gdp['description'][comp_gdp['code']=='A799RY2'] = "State and local - gross investment"
 
 
 
@@ -328,6 +343,7 @@ sandlgov_list = ["A991RY2", 	"A799RY2"]
 comp_gdp['category'] = ""
 comp_gdp['bea_code'] = ""
 
+
 #lowest Level
 comp_gdp['category'][comp_gdp['code'].isin(durgoods_list)] = "Durable goods"
 comp_gdp['bea_code'][comp_gdp['code'].isin(durgoods_list)] = "DDURRY2"
@@ -355,7 +371,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(sandlgov_list)] = "A829RY2"
 comp_list1 = durgoods_list + nondurgoods_list + houseserv_list + info_list + intprop_list + inventory_list + export_list + import_list + fedgovdef_list + fedgovnondef_list + sandlgov_list
 
 cat1 = comp_gdp[comp_gdp['code'].isin(comp_list1)]
-cat1 = cat1.groupby([cat1['category'], comp_gdp['bea_code'], cat1['date']]).sum().round(4)
+cat1 = cat1.groupby([cat1['category'], comp_gdp['bea_code'], comp_gdp['description'].str.strip(), cat1['date']]).sum().round(4)
 
 #next level
 goods_list = durgoods_list + nondurgoods_list
@@ -382,7 +398,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(fed_list)] = "A823RY2"
 comp_list2 = goods_list + serv_list + equip_list + netexport_list + fed_list
 
 cat2 = comp_gdp[comp_gdp['code'].isin(comp_list2)]
-cat2 = cat2.groupby([cat2['category2'], comp_gdp['bea_code'], cat2['date']]).sum().round(4)
+cat2 = cat2.groupby([cat2['category2'], comp_gdp['bea_code'], comp_gdp['description'].str.strip(), cat2['date']]).sum().round(4)
 
 #next level
 pce_list = goods_list + serv_list
@@ -402,7 +418,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(gov_list)] = "A822RY2"
 comp_list3 = pce_list + nonres_list + gov_list
 
 cat3 = comp_gdp[comp_gdp['code'].isin(comp_list3)]
-cat3 = cat3.groupby([cat3['category3'], comp_gdp['bea_code'], cat3['date']]).sum().round(4)
+cat3 = cat3.groupby([cat3['category3'], comp_gdp['bea_code'], comp_gdp['description'].str.strip(), cat3['date']]).sum().round(4)
 
 #next level
 fixedinv_list = nonres_list + resinv_list
@@ -417,7 +433,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(fixedinv_list)] = "A007RY2"
 comp_list4 = fixedinv_list
 
 cat4 = comp_gdp[comp_gdp['code'].isin(comp_list4)]
-cat4 = cat4.groupby([cat4['category4'], comp_gdp['bea_code'], cat4['date']]).sum().round(4)
+cat4 = cat4.groupby([cat4['category4'], comp_gdp['bea_code'], comp_gdp['description'].str.strip(), cat4['date']]).sum().round(4)
 
 
 #next level
@@ -432,7 +448,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(inv_list)] = "A006RY2"
 comp_list5 = inv_list
 
 cat5 = comp_gdp[comp_gdp['code'].isin(comp_list5)]
-cat5 = cat5.groupby([cat5['category5'], comp_gdp['bea_code'], cat5['date']]).sum().round(4)
+cat5 = cat5.groupby([cat5['category5'], comp_gdp['bea_code'], comp_gdp['description'].str.strip(), cat5['date']]).sum().round(4)
 
 #next level
 gdp_list = pce_list + inv_list + netexport_list + gov_list
@@ -446,7 +462,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(gdp_list)] = "A191RL1"
 comp_list6 = gdp_list
 
 cat6 = comp_gdp[comp_gdp['code'].isin(comp_list6)]
-cat6 = cat6.groupby([cat6['category6'], comp_gdp['bea_code'], cat6['date']]).sum().round(4)
+cat6 = cat6.groupby([cat6['category6'], comp_gdp['bea_code'], comp_gdp['description'].str.strip(), cat6['date']]).sum().round(4)
 
 
 comp_gdp['category7'] = ""
@@ -458,7 +474,7 @@ comp_gdp['bea_code'][comp_gdp['code'].isin(gdp_list)] = comp_gdp['code']
 comp_list7 = gdp_list
 
 cat7 = comp_gdp[comp_gdp['code'].isin(comp_list7)]
-cat7 = cat7.groupby([cat7['category7'], comp_gdp['bea_code'], cat7['date']]).sum().round(4)
+cat7 = cat7.groupby([cat7['category7'], comp_gdp['bea_code'], comp_gdp['description'].str.strip(), cat7['date']]).sum().round(4)
 
 
 frames = [cat1, cat2, cat3, cat4, cat5, cat6, cat7]
@@ -477,7 +493,7 @@ gdp_data.to_pickle('gdp_data')
 
 gdp_data = pd.read_pickle('gdp_data')
 
-final_gdp_data = gdp_data[['bea_code', 'category', 'date', 'ADVANCE', 'THIRD', 'abs_third_simple', 'abs_third', 'third_less_adv', 'abs_third_less_adv_simple', 'abs_third_less_adv']]
+final_gdp_data = gdp_data[['bea_code', 'category', 'description', 'date', 'ADVANCE', 'THIRD', 'abs_third_simple', 'abs_third', 'third_less_adv', 'abs_third_less_adv_simple', 'abs_third_less_adv']]
 #comp_gdp["id"] = comp_gdp["code"] + " - " + comp_gdp["category"] + " - " + comp_gdp["description"]
 
 final_gdp_data = pd.merge(final_gdp_data, line, how = 'left', left_on = 'bea_code', right_on = 'code')

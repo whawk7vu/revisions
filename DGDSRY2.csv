@@ -1,49 +1,343 @@
-,bea_code,category,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
-929,DGDSRY2,Goods,2004_Q1,0.88,1.03,1.03,2.57,0.15,0.15,0.27,3.0,2004,1,2004-01-01
-930,DGDSRY2,Goods,2004_Q2,-0.22,0.01,0.01,1.37,0.23,0.23,0.61,3.0,2004,4,2004-04-01
-931,DGDSRY2,Goods,2004_Q3,2.13,2.3,2.3,2.3,0.17,0.17,0.45,3.0,2004,7,2004-07-01
-932,DGDSRY2,Goods,2004_Q4,1.72,1.51,1.51,1.59,-0.21,0.21,0.37,3.0,2004,10,2004-10-01
-933,DGDSRY2,Goods,2005_Q1,0.98,1.27,1.27,1.97,0.29,0.29,0.31,3.0,2005,1,2005-01-01
-934,DGDSRY2,Goods,2005_Q2,1.34,1.38,1.38,1.6,0.04,0.04,0.26,3.0,2005,4,2005-04-01
-935,DGDSRY2,Goods,2005_Q3,1.42,1.49,1.49,1.83,0.07,0.07,0.41,3.0,2005,7,2005-07-01
-936,DGDSRY2,Goods,2005_Q4,-0.54,-0.46,0.46,3.38,0.08,0.08,0.28,3.0,2005,10,2005-10-01
-937,DGDSRY2,Goods,2006_Q1,2.62,2.73,2.73,2.75,0.11,0.11,0.19,3.0,2006,1,2006-01-01
-938,DGDSRY2,Goods,2006_Q2,0.3,0.3,0.3,0.7,0.0,0.0,0.14,3.0,2006,4,2006-04-01
-939,DGDSRY2,Goods,2006_Q3,0.98,0.84,0.84,0.98,-0.14,0.14,0.2,3.0,2006,7,2006-07-01
-940,DGDSRY2,Goods,2006_Q4,1.85,1.53,1.53,1.83,-0.32,0.32,0.32,3.0,2006,10,2006-10-01
-941,DGDSRY2,Goods,2007_Q1,1.16,1.34,1.34,1.34,0.18,0.18,0.32,3.0,2007,1,2007-01-01
-942,DGDSRY2,Goods,2007_Q2,-0.03,0.04,0.04,0.76,0.07,0.07,0.35,3.0,2007,4,2007-04-01
-943,DGDSRY2,Goods,2007_Q3,0.89,0.8,0.8,1.18,-0.09,0.09,0.15,3.0,2007,7,2007-07-01
-944,DGDSRY2,Goods,2007_Q4,0.69,0.4,0.4,0.82,-0.29,0.29,0.29,3.0,2007,10,2007-10-01
-945,DGDSRY2,Goods,2008_Q1,-0.75,-0.5,0.5,0.96,0.25,0.25,0.65,3.0,2008,1,2008-01-01
-946,DGDSRY2,Goods,2008_Q2,0.6,0.6,0.6,2.28,-0.0,0.0,0.4,3.0,2008,4,2008-04-01
-947,DGDSRY2,Goods,2008_Q3,-2.51,-2.73,2.73,2.75,-0.22,0.22,0.5,3.0,2008,7,2008-07-01
-948,DGDSRY2,Goods,2008_Q4,-3.21,-3.63,3.63,4.09,-0.42,0.42,0.54,3.0,2008,10,2008-10-01
-949,DGDSRY2,Goods,2009_Q1,0.88,0.54,0.54,1.1,-0.34,0.34,0.44,3.0,2009,1,2009-01-01
-950,DGDSRY2,Goods,2009_Q2,-0.92,-0.72,0.72,1.16,0.2,0.2,0.42,3.0,2009,4,2009-04-01
-951,DGDSRY2,Goods,2009_Q3,1.79,1.59,1.59,1.69,-0.2,0.2,0.48,3.0,2009,7,2009-07-01
-952,DGDSRY2,Goods,2009_Q4,0.61,0.67,0.67,1.83,0.06,0.06,0.22,3.0,2009,10,2009-10-01
-953,DGDSRY2,Goods,2010_Q1,1.41,1.43,1.43,1.47,0.02,0.02,0.16,3.0,2010,1,2010-01-01
-954,DGDSRY2,Goods,2010_Q2,0.79,0.78,0.78,1.14,-0.01,0.01,0.19,3.0,2010,4,2010-04-01
-955,DGDSRY2,Goods,2010_Q3,0.64,0.94,0.94,1.0,0.3,0.3,0.38,3.0,2010,7,2010-07-01
-956,DGDSRY2,Goods,2010_Q4,2.26,2.11,2.11,2.41,-0.15,0.15,0.31,3.0,2010,10,2010-10-01
-957,DGDSRY2,Goods,2011_Q1,1.12,0.89,0.89,1.21,-0.23,0.23,0.43,3.0,2011,1,2011-01-01
-958,DGDSRY2,Goods,2011_Q2,-0.33,-0.39,0.39,1.57,-0.06,0.06,0.2,3.0,2011,4,2011-04-01
-959,DGDSRY2,Goods,2011_Q3,0.35,0.33,0.33,0.81,-0.02,0.02,0.32,3.0,2011,7,2011-07-01
-960,DGDSRY2,Goods,2011_Q4,1.35,1.28,1.28,1.76,-0.07,0.07,0.27,3.0,2011,10,2011-10-01
-961,DGDSRY2,Goods,2012_Q1,1.48,1.35,1.35,1.53,-0.13,0.13,0.39,3.0,2012,1,2012-01-01
-962,DGDSRY2,Goods,2012_Q2,0.17,0.09,0.09,0.93,-0.08,0.08,0.26,3.0,2012,4,2012-04-01
-963,DGDSRY2,Goods,2012_Q3,1.03,0.85,0.85,1.01,-0.18,0.18,0.38,3.0,2012,7,2012-07-01
-964,DGDSRY2,Goods,2012_Q4,1.08,1.01,1.01,1.45,-0.07,0.07,0.31,3.0,2012,10,2012-10-01
-965,DGDSRY2,Goods,2013_Q1,0.78,1.04,1.04,1.04,0.26,0.26,0.4,3.0,2013,1,2013-01-01
-966,DGDSRY2,Goods,2013_Q2,0.78,0.72,0.72,0.92,-0.06,0.06,0.34,3.0,2013,4,2013-04-01
-967,DGDSRY2,Goods,2013_Q3,0.98,1.03,1.03,1.21,0.05,0.05,0.25,3.0,2013,7,2013-07-01
-968,DGDSRY2,Goods,2013_Q4,1.12,0.67,0.67,0.69,-0.45,0.45,0.45,3.0,2013,10,2013-10-01
-969,DGDSRY2,Goods,2014_Q1,0.08,0.04,0.04,0.4,-0.04,0.04,0.22,3.0,2014,1,2014-01-01
-970,DGDSRY2,Goods,2014_Q2,1.38,1.33,1.33,1.63,-0.05,0.05,0.15,3.0,2014,4,2014-04-01
-971,DGDSRY2,Goods,2014_Q3,0.7,1.07,1.07,1.09,0.37,0.37,0.37,3.0,2014,7,2014-07-01
-972,DGDSRY2,Goods,2014_Q4,1.18,1.07,1.07,1.11,-0.11,0.11,0.35,3.0,2014,10,2014-10-01
-973,DGDSRY2,Goods,2015_Q1,0.04,0.21,0.21,0.51,0.17,0.17,0.23,3.0,2015,1,2015-01-01
-974,DGDSRY2,Goods,2015_Q2,1.05,1.2,1.2,1.22,0.15,0.15,0.21,3.0,2015,4,2015-04-01
-975,DGDSRY2,Goods,2015_Q3,0.99,1.09,1.09,1.09,0.1,0.1,0.26,3.0,2015,7,2015-07-01
-976,DGDSRY2,Goods,2015_Q4,0.53,0.36,0.36,0.78,-0.17,0.17,0.35,3.0,2015,10,2015-10-01
+,bea_code,category,description,date,ADVANCE,THIRD,abs_third_simple,abs_third,third_less_adv,abs_third_less_adv_simple,abs_third_less_adv,line,year,month,date_t
+1938,DGDSRY2,Goods,Clothing and shoes,2004_Q1,0.4,0.4,0.4,0.4,0.0,0.0,0.0,3.0,2004,1,2004-01-01
+1939,DGDSRY2,Goods,Food,2004_Q1,0.77,0.82,0.82,0.82,0.05,0.05,0.05,3.0,2004,1,2004-01-01
+1940,DGDSRY2,Goods,Furniture and household equipment,2004_Q1,0.29,0.31,0.31,0.31,0.02,0.02,0.02,3.0,2004,1,2004-01-01
+1941,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2004_Q1,-0.01,-0.07,0.07,0.07,-0.06,0.06,0.06,3.0,2004,1,2004-01-01
+1942,DGDSRY2,Goods,Motor vehicles and parts,2004_Q1,-0.75,-0.7,0.7,0.7,0.05,0.05,0.05,3.0,2004,1,2004-01-01
+1943,DGDSRY2,Goods,Other,2004_Q1,0.18,0.27,0.27,0.27,0.09,0.09,0.09,3.0,2004,1,2004-01-01
+1944,DGDSRY2,Goods,Clothing and shoes,2004_Q2,-0.17,-0.15,0.15,0.15,0.02,0.02,0.02,3.0,2004,4,2004-04-01
+1945,DGDSRY2,Goods,Food,2004_Q2,0.01,0.22,0.22,0.22,0.21,0.21,0.21,3.0,2004,4,2004-04-01
+1946,DGDSRY2,Goods,Furniture and household equipment,2004_Q2,0.15,0.22,0.22,0.22,0.07,0.07,0.07,3.0,2004,4,2004-04-01
+1947,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2004_Q2,-0.1,-0.29,0.29,0.29,-0.19,0.19,0.19,3.0,2004,4,2004-04-01
+1948,DGDSRY2,Goods,Motor vehicles and parts,2004_Q2,-0.33,-0.24,0.24,0.24,0.09,0.09,0.09,3.0,2004,4,2004-04-01
+1949,DGDSRY2,Goods,Other,2004_Q2,0.22,0.25,0.25,0.25,0.03,0.03,0.03,3.0,2004,4,2004-04-01
+1950,DGDSRY2,Goods,Clothing and shoes,2004_Q3,0.13,0.16,0.16,0.16,0.03,0.03,0.03,3.0,2004,7,2004-07-01
+1951,DGDSRY2,Goods,Food,2004_Q3,0.27,0.42,0.42,0.42,0.15,0.15,0.15,3.0,2004,7,2004-07-01
+1952,DGDSRY2,Goods,Furniture and household equipment,2004_Q3,0.3,0.33,0.33,0.33,0.03,0.03,0.03,3.0,2004,7,2004-07-01
+1953,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2004_Q3,0.14,0.05,0.05,0.05,-0.09,0.09,0.09,3.0,2004,7,2004-07-01
+1954,DGDSRY2,Goods,Motor vehicles and parts,2004_Q3,0.93,0.98,0.98,0.98,0.05,0.05,0.05,3.0,2004,7,2004-07-01
+1955,DGDSRY2,Goods,Other,2004_Q3,0.36,0.36,0.36,0.36,0.0,0.0,0.1,3.0,2004,7,2004-07-01
+1956,DGDSRY2,Goods,Clothing and shoes,2004_Q4,0.26,0.27,0.27,0.27,0.01,0.01,0.01,3.0,2004,10,2004-10-01
+1957,DGDSRY2,Goods,Food,2004_Q4,0.67,0.74,0.74,0.74,0.07,0.07,0.07,3.0,2004,10,2004-10-01
+1958,DGDSRY2,Goods,Furniture and household equipment,2004_Q4,0.25,0.21,0.21,0.21,-0.04,0.04,0.04,3.0,2004,10,2004-10-01
+1959,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2004_Q4,0.0,-0.02,0.02,0.02,-0.02,0.02,0.02,3.0,2004,10,2004-10-01
+1960,DGDSRY2,Goods,Motor vehicles and parts,2004_Q4,0.18,-0.02,0.02,0.02,-0.2,0.2,0.2,3.0,2004,10,2004-10-01
+1961,DGDSRY2,Goods,Other,2004_Q4,0.36,0.33,0.33,0.33,-0.03,0.03,0.03,3.0,2004,10,2004-10-01
+1962,DGDSRY2,Goods,Clothing and shoes,2005_Q1,0.11,0.16,0.16,0.16,0.05,0.05,0.05,3.0,2005,1,2005-01-01
+1963,DGDSRY2,Goods,Food,2005_Q1,0.48,0.57,0.57,0.57,0.09,0.09,0.09,3.0,2005,1,2005-01-01
+1964,DGDSRY2,Goods,Furniture and household equipment,2005_Q1,0.31,0.32,0.32,0.32,0.01,0.01,0.01,3.0,2005,1,2005-01-01
+1965,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2005_Q1,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,3.0,2005,1,2005-01-01
+1966,DGDSRY2,Goods,Motor vehicles and parts,2005_Q1,-0.42,-0.35,0.35,0.35,0.07,0.07,0.07,3.0,2005,1,2005-01-01
+1967,DGDSRY2,Goods,Other,2005_Q1,0.34,0.42,0.42,0.42,0.08,0.08,0.08,3.0,2005,1,2005-01-01
+1968,DGDSRY2,Goods,Clothing and shoes,2005_Q2,0.2,0.2,0.2,0.2,0.0,0.0,0.0,3.0,2005,4,2005-04-01
+1969,DGDSRY2,Goods,Food,2005_Q2,0.33,0.42,0.42,0.42,0.09,0.09,0.09,3.0,2005,4,2005-04-01
+1970,DGDSRY2,Goods,Furniture and household equipment,2005_Q2,0.16,0.17,0.17,0.17,0.01,0.01,0.01,3.0,2005,4,2005-04-01
+1971,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2005_Q2,-0.08,-0.11,0.11,0.11,-0.03,0.03,0.03,3.0,2005,4,2005-04-01
+1972,DGDSRY2,Goods,Motor vehicles and parts,2005_Q2,0.35,0.27,0.27,0.27,-0.08,0.08,0.08,3.0,2005,4,2005-04-01
+1973,DGDSRY2,Goods,Other,2005_Q2,0.38,0.43,0.43,0.43,0.05,0.05,0.05,3.0,2005,4,2005-04-01
+1974,DGDSRY2,Goods,Clothing and shoes,2005_Q3,0.05,0.08,0.08,0.08,0.03,0.03,0.03,3.0,2005,7,2005-07-01
+1975,DGDSRY2,Goods,Food,2005_Q3,0.53,0.61,0.61,0.61,0.08,0.08,0.08,3.0,2005,7,2005-07-01
+1976,DGDSRY2,Goods,Furniture and household equipment,2005_Q3,0.35,0.37,0.37,0.37,0.02,0.02,0.02,3.0,2005,7,2005-07-01
+1977,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2005_Q3,-0.16,-0.11,0.11,0.11,0.05,0.05,0.05,3.0,2005,7,2005-07-01
+1978,DGDSRY2,Goods,Motor vehicles and parts,2005_Q3,0.62,0.45,0.45,0.45,-0.17,0.17,0.17,3.0,2005,7,2005-07-01
+1979,DGDSRY2,Goods,Other,2005_Q3,0.03,0.09,0.09,0.21,0.06,0.06,0.06,3.0,2005,7,2005-07-01
+1980,DGDSRY2,Goods,Clothing and shoes,2005_Q4,0.28,0.27,0.27,0.27,-0.01,0.01,0.01,3.0,2005,10,2005-10-01
+1981,DGDSRY2,Goods,Food,2005_Q4,0.51,0.5,0.5,0.5,-0.01,0.01,0.01,3.0,2005,10,2005-10-01
+1982,DGDSRY2,Goods,Furniture and household equipment,2005_Q4,0.35,0.33,0.33,0.33,-0.02,0.02,0.02,3.0,2005,10,2005-10-01
+1983,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2005_Q4,0.07,0.03,0.03,0.03,-0.04,0.04,0.04,3.0,2005,10,2005-10-01
+1984,DGDSRY2,Goods,Motor vehicles and parts,2005_Q4,-2.06,-1.92,1.92,1.92,0.14,0.14,0.14,3.0,2005,10,2005-10-01
+1985,DGDSRY2,Goods,Other,2005_Q4,0.31,0.33,0.33,0.33,0.02,0.02,0.06,3.0,2005,10,2005-10-01
+1986,DGDSRY2,Goods,Clothing and shoes,2006_Q1,0.21,0.22,0.22,0.22,0.01,0.01,0.01,3.0,2006,1,2006-01-01
+1987,DGDSRY2,Goods,Food,2006_Q1,0.58,0.65,0.65,0.65,0.07,0.07,0.07,3.0,2006,1,2006-01-01
+1988,DGDSRY2,Goods,Furniture and household equipment,2006_Q1,0.64,0.66,0.66,0.66,0.02,0.02,0.02,3.0,2006,1,2006-01-01
+1989,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2006_Q1,0.02,-0.01,0.01,0.01,-0.03,0.03,0.03,3.0,2006,1,2006-01-01
+1990,DGDSRY2,Goods,Motor vehicles and parts,2006_Q1,0.6,0.6,0.6,0.6,0.0,0.0,0.0,3.0,2006,1,2006-01-01
+1991,DGDSRY2,Goods,Other,2006_Q1,0.57,0.61,0.61,0.61,0.04,0.04,0.06,3.0,2006,1,2006-01-01
+1992,DGDSRY2,Goods,Clothing and shoes,2006_Q2,-0.1,-0.1,0.1,0.1,0.0,0.0,0.0,3.0,2006,4,2006-04-01
+1993,DGDSRY2,Goods,Food,2006_Q2,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,3.0,2006,4,2006-04-01
+1994,DGDSRY2,Goods,Furniture and household equipment,2006_Q2,0.11,0.1,0.1,0.1,-0.01,0.01,0.01,3.0,2006,4,2006-04-01
+1995,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2006_Q2,0.02,0.02,0.02,0.02,0.0,0.0,0.0,3.0,2006,4,2006-04-01
+1996,DGDSRY2,Goods,Motor vehicles and parts,2006_Q2,-0.11,-0.04,0.04,0.04,0.07,0.07,0.07,3.0,2006,4,2006-04-01
+1997,DGDSRY2,Goods,Other,2006_Q2,0.17,0.13,0.13,0.25,-0.04,0.04,0.04,3.0,2006,4,2006-04-01
+1998,DGDSRY2,Goods,Clothing and shoes,2006_Q3,0.15,0.15,0.15,0.15,0.0,0.0,0.0,3.0,2006,7,2006-07-01
+1999,DGDSRY2,Goods,Food,2006_Q3,-0.06,-0.07,0.07,0.07,-0.01,0.01,0.01,3.0,2006,7,2006-07-01
+2000,DGDSRY2,Goods,Furniture and household equipment,2006_Q3,0.21,0.2,0.2,0.2,-0.01,0.01,0.01,3.0,2006,7,2006-07-01
+2001,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2006_Q3,0.11,0.14,0.14,0.14,0.03,0.03,0.03,3.0,2006,7,2006-07-01
+2002,DGDSRY2,Goods,Motor vehicles and parts,2006_Q3,0.41,0.28,0.28,0.28,-0.13,0.13,0.13,3.0,2006,7,2006-07-01
+2003,DGDSRY2,Goods,Other,2006_Q3,0.16,0.14,0.14,0.14,-0.02,0.02,0.02,3.0,2006,7,2006-07-01
+2004,DGDSRY2,Goods,Clothing and shoes,2006_Q4,0.19,0.18,0.18,0.18,-0.01,0.01,0.01,3.0,2006,10,2006-10-01
+2005,DGDSRY2,Goods,Food,2006_Q4,0.69,0.62,0.62,0.62,-0.07,0.07,0.07,3.0,2006,10,2006-10-01
+2006,DGDSRY2,Goods,Furniture and household equipment,2006_Q4,0.43,0.38,0.38,0.38,-0.05,0.05,0.05,3.0,2006,10,2006-10-01
+2007,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2006_Q4,0.09,0.03,0.03,0.03,-0.06,0.06,0.06,3.0,2006,10,2006-10-01
+2008,DGDSRY2,Goods,Motor vehicles and parts,2006_Q4,-0.08,-0.15,0.15,0.15,-0.07,0.07,0.07,3.0,2006,10,2006-10-01
+2009,DGDSRY2,Goods,Other,2006_Q4,0.53,0.47,0.47,0.47,-0.06,0.06,0.06,3.0,2006,10,2006-10-01
+2010,DGDSRY2,Goods,Clothing and shoes,2007_Q1,0.18,0.21,0.21,0.21,0.03,0.03,0.03,3.0,2007,1,2007-01-01
+2011,DGDSRY2,Goods,Food,2007_Q1,0.08,0.14,0.14,0.14,0.06,0.06,0.06,3.0,2007,1,2007-01-01
+2012,DGDSRY2,Goods,Furniture and household equipment,2007_Q1,0.22,0.27,0.27,0.27,0.05,0.05,0.05,3.0,2007,1,2007-01-01
+2013,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2007_Q1,0.21,0.14,0.14,0.14,-0.07,0.07,0.07,3.0,2007,1,2007-01-01
+2014,DGDSRY2,Goods,Motor vehicles and parts,2007_Q1,0.36,0.38,0.38,0.38,0.02,0.02,0.02,3.0,2007,1,2007-01-01
+2015,DGDSRY2,Goods,Other,2007_Q1,0.11,0.2,0.2,0.2,0.09,0.09,0.09,3.0,2007,1,2007-01-01
+2016,DGDSRY2,Goods,Clothing and shoes,2007_Q2,0.05,0.06,0.06,0.06,0.01,0.01,0.01,3.0,2007,4,2007-04-01
+2017,DGDSRY2,Goods,Food,2007_Q2,-0.2,-0.14,0.14,0.14,0.06,0.06,0.06,3.0,2007,4,2007-04-01
+2018,DGDSRY2,Goods,Furniture and household equipment,2007_Q2,0.09,0.13,0.13,0.13,0.04,0.04,0.04,3.0,2007,4,2007-04-01
+2019,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2007_Q2,-0.06,-0.12,0.12,0.12,-0.06,0.06,0.06,3.0,2007,4,2007-04-01
+2020,DGDSRY2,Goods,Motor vehicles and parts,2007_Q2,-0.02,-0.1,0.1,0.1,-0.08,0.08,0.08,3.0,2007,4,2007-04-01
+2021,DGDSRY2,Goods,Other,2007_Q2,0.11,0.21,0.21,0.21,0.1,0.1,0.1,3.0,2007,4,2007-04-01
+2022,DGDSRY2,Goods,Clothing and shoes,2007_Q3,0.2,0.17,0.17,0.17,-0.03,0.03,0.03,3.0,2007,7,2007-07-01
+2023,DGDSRY2,Goods,Food,2007_Q3,0.17,0.13,0.13,0.13,-0.04,0.04,0.04,3.0,2007,7,2007-07-01
+2024,DGDSRY2,Goods,Furniture and household equipment,2007_Q3,0.34,0.31,0.31,0.31,-0.03,0.03,0.03,3.0,2007,7,2007-07-01
+2025,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2007_Q3,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,3.0,2007,7,2007-07-01
+2026,DGDSRY2,Goods,Motor vehicles and parts,2007_Q3,-0.18,-0.17,0.17,0.17,0.01,0.01,0.01,3.0,2007,7,2007-07-01
+2027,DGDSRY2,Goods,Other,2007_Q3,0.37,0.38,0.38,0.38,0.01,0.01,0.03,3.0,2007,7,2007-07-01
+2028,DGDSRY2,Goods,Clothing and shoes,2007_Q4,-0.06,-0.1,0.1,0.1,-0.04,0.04,0.04,3.0,2007,10,2007-10-01
+2029,DGDSRY2,Goods,Food,2007_Q4,0.42,0.39,0.39,0.39,-0.03,0.03,0.03,3.0,2007,10,2007-10-01
+2030,DGDSRY2,Goods,Furniture and household equipment,2007_Q4,0.23,0.13,0.13,0.13,-0.1,0.1,0.1,3.0,2007,10,2007-10-01
+2031,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2007_Q4,-0.01,-0.04,0.04,0.04,-0.03,0.03,0.03,3.0,2007,10,2007-10-01
+2032,DGDSRY2,Goods,Motor vehicles and parts,2007_Q4,0.1,0.09,0.09,0.09,-0.01,0.01,0.01,3.0,2007,10,2007-10-01
+2033,DGDSRY2,Goods,Other,2007_Q4,0.01,-0.07,0.07,0.07,-0.08,0.08,0.08,3.0,2007,10,2007-10-01
+2034,DGDSRY2,Goods,Clothing and shoes,2008_Q1,0.02,0.05,0.05,0.05,0.03,0.03,0.03,3.0,2008,1,2008-01-01
+2035,DGDSRY2,Goods,Food,2008_Q1,-0.05,0.15,0.15,0.15,0.2,0.2,0.2,3.0,2008,1,2008-01-01
+2036,DGDSRY2,Goods,Furniture and household equipment,2008_Q1,-0.03,0.03,0.03,0.03,0.06,0.06,0.06,3.0,2008,1,2008-01-01
+2037,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2008_Q1,-0.05,-0.18,0.18,0.18,-0.13,0.13,0.13,3.0,2008,1,2008-01-01
+2038,DGDSRY2,Goods,Motor vehicles and parts,2008_Q1,-0.37,-0.44,0.44,0.44,-0.07,0.07,0.07,3.0,2008,1,2008-01-01
+2039,DGDSRY2,Goods,Other,2008_Q1,-0.27,-0.11,0.11,0.11,0.16,0.16,0.16,3.0,2008,1,2008-01-01
+2040,DGDSRY2,Goods,Clothing and shoes,2008_Q2,0.26,0.28,0.28,0.28,0.02,0.02,0.02,3.0,2008,4,2008-04-01
+2041,DGDSRY2,Goods,Food,2008_Q2,0.28,0.4,0.4,0.4,0.12,0.12,0.12,3.0,2008,4,2008-04-01
+2042,DGDSRY2,Goods,Furniture and household equipment,2008_Q2,0.37,0.39,0.39,0.39,0.02,0.02,0.02,3.0,2008,4,2008-04-01
+2043,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2008_Q2,-0.04,-0.2,0.2,0.2,-0.16,0.16,0.16,3.0,2008,4,2008-04-01
+2044,DGDSRY2,Goods,Motor vehicles and parts,2008_Q2,-0.6,-0.64,0.64,0.64,-0.04,0.04,0.04,3.0,2008,4,2008-04-01
+2045,DGDSRY2,Goods,Other,2008_Q2,0.33,0.37,0.37,0.37,0.04,0.04,0.04,3.0,2008,4,2008-04-01
+2046,DGDSRY2,Goods,Clothing and shoes,2008_Q3,-0.31,-0.38,0.38,0.38,-0.07,0.07,0.07,3.0,2008,7,2008-07-01
+2047,DGDSRY2,Goods,Food,2008_Q3,-0.89,-0.75,0.75,0.75,0.14,0.14,0.14,3.0,2008,7,2008-07-01
+2048,DGDSRY2,Goods,Furniture and household equipment,2008_Q3,-0.23,-0.25,0.25,0.25,-0.02,0.02,0.02,3.0,2008,7,2008-07-01
+2049,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2008_Q3,-0.23,-0.45,0.45,0.45,-0.22,0.22,0.22,3.0,2008,7,2008-07-01
+2050,DGDSRY2,Goods,Motor vehicles and parts,2008_Q3,-0.8,-0.83,0.83,0.83,-0.03,0.03,0.03,3.0,2008,7,2008-07-01
+2051,DGDSRY2,Goods,Other,2008_Q3,-0.05,-0.07,0.07,0.09,-0.02,0.02,0.02,3.0,2008,7,2008-07-01
+2052,DGDSRY2,Goods,Clothing and shoes,2008_Q4,-0.26,-0.24,0.24,0.24,0.02,0.02,0.02,3.0,2008,10,2008-10-01
+2053,DGDSRY2,Goods,Food,2008_Q4,-1.44,-1.52,1.52,1.52,-0.08,0.08,0.08,3.0,2008,10,2008-10-01
+2054,DGDSRY2,Goods,Furniture and household equipment,2008_Q4,-0.27,-0.25,0.25,0.25,0.02,0.02,0.02,3.0,2008,10,2008-10-01
+2055,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2008_Q4,0.63,0.23,0.23,0.23,-0.4,0.4,0.4,3.0,2008,10,2008-10-01
+2056,DGDSRY2,Goods,Motor vehicles and parts,2008_Q4,-1.15,-1.13,1.13,1.13,0.02,0.02,0.02,3.0,2008,10,2008-10-01
+2057,DGDSRY2,Goods,Other,2008_Q4,-0.72,-0.72,0.72,0.72,0.0,0.0,0.0,3.0,2008,10,2008-10-01
+2058,DGDSRY2,Goods,Clothing and shoes,2009_Q1,0.1,-0.01,0.01,0.01,-0.11,0.11,0.11,3.0,2009,1,2009-01-01
+2059,DGDSRY2,Goods,Food,2009_Q1,-0.08,-0.27,0.27,0.27,-0.19,0.19,0.19,3.0,2009,1,2009-01-01
+2060,DGDSRY2,Goods,Furniture and household equipment,2009_Q1,0.12,0.11,0.11,0.11,-0.01,0.01,0.01,3.0,2009,1,2009-01-01
+2061,DGDSRY2,Goods,"Gasoline, fuel oil, and other energy goods",2009_Q1,0.13,0.14,0.14,0.14,0.01,0.01,0.01,3.0,2009,1,2009-01-01
+2062,DGDSRY2,Goods,Motor vehicles and parts,2009_Q1,0.44,0.41,0.41,0.41,-0.03,0.03,0.03,3.0,2009,1,2009-01-01
+2063,DGDSRY2,Goods,Other,2009_Q1,0.17,0.16,0.16,0.16,-0.01,0.01,0.09,3.0,2009,1,2009-01-01
+2064,DGDSRY2,Goods,Clothing and footwear,2009_Q2,-0.16,-0.2,0.2,0.2,-0.04,0.04,0.04,3.0,2009,4,2009-04-01
+2065,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2009_Q2,0.25,0.2,0.2,0.2,-0.05,0.05,0.05,3.0,2009,4,2009-04-01
+2066,DGDSRY2,Goods,Furnishings and durable household equipment,2009_Q2,-0.15,-0.15,0.15,0.15,0.0,0.0,0.0,3.0,2009,4,2009-04-01
+2067,DGDSRY2,Goods,Gasoline and other energy goods,2009_Q2,-0.03,0.02,0.02,0.02,0.05,0.05,0.05,3.0,2009,4,2009-04-01
+2068,DGDSRY2,Goods,Motor vehicles and parts,2009_Q2,-0.27,-0.14,0.14,0.14,0.13,0.13,0.13,3.0,2009,4,2009-04-01
+2069,DGDSRY2,Goods,Other durable goods,2009_Q2,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,3.0,2009,4,2009-04-01
+2070,DGDSRY2,Goods,Other nondurable goods,2009_Q2,-0.45,-0.32,0.32,0.32,0.13,0.13,0.13,3.0,2009,4,2009-04-01
+2071,DGDSRY2,Goods,Recreational goods and vehicles,2009_Q2,-0.09,-0.11,0.11,0.11,-0.02,0.02,0.02,3.0,2009,4,2009-04-01
+2072,DGDSRY2,Goods,Clothing and footwear,2009_Q3,-0.03,-0.01,0.01,0.01,0.02,0.02,0.02,3.0,2009,7,2009-07-01
+2073,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2009_Q3,0.27,0.21,0.21,0.21,-0.06,0.06,0.06,3.0,2009,7,2009-07-01
+2074,DGDSRY2,Goods,Furnishings and durable household equipment,2009_Q3,0.11,0.12,0.12,0.12,0.01,0.01,0.01,3.0,2009,7,2009-07-01
+2075,DGDSRY2,Goods,Gasoline and other energy goods,2009_Q3,0.04,-0.04,0.04,0.04,-0.08,0.08,0.08,3.0,2009,7,2009-07-01
+2076,DGDSRY2,Goods,Motor vehicles and parts,2009_Q3,1.01,0.81,0.81,0.81,-0.2,0.2,0.2,3.0,2009,7,2009-07-01
+2077,DGDSRY2,Goods,Other durable goods,2009_Q3,0.06,0.06,0.06,0.06,0.0,0.0,0.0,3.0,2009,7,2009-07-01
+2078,DGDSRY2,Goods,Other nondurable goods,2009_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,3.0,2009,7,2009-07-01
+2079,DGDSRY2,Goods,Recreational goods and vehicles,2009_Q3,0.29,0.37,0.37,0.37,0.08,0.08,0.08,3.0,2009,7,2009-07-01
+2080,DGDSRY2,Goods,Clothing and footwear,2009_Q4,0.17,0.17,0.17,0.17,0.0,0.0,0.0,3.0,2009,10,2009-10-01
+2081,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2009_Q4,0.23,0.27,0.27,0.27,0.04,0.04,0.04,3.0,2009,10,2009-10-01
+2082,DGDSRY2,Goods,Furnishings and durable household equipment,2009_Q4,0.16,0.19,0.19,0.19,0.03,0.03,0.03,3.0,2009,10,2009-10-01
+2083,DGDSRY2,Goods,Gasoline and other energy goods,2009_Q4,-0.06,-0.05,0.05,0.05,0.01,0.01,0.01,3.0,2009,10,2009-10-01
+2084,DGDSRY2,Goods,Motor vehicles and parts,2009_Q4,-0.57,-0.53,0.53,0.53,0.04,0.04,0.04,3.0,2009,10,2009-10-01
+2085,DGDSRY2,Goods,Other durable goods,2009_Q4,0.02,0.02,0.02,0.02,0.0,0.0,0.0,3.0,2009,10,2009-10-01
+2086,DGDSRY2,Goods,Other nondurable goods,2009_Q4,0.33,0.25,0.25,0.25,-0.08,0.08,0.08,3.0,2009,10,2009-10-01
+2087,DGDSRY2,Goods,Recreational goods and vehicles,2009_Q4,0.33,0.35,0.35,0.35,0.02,0.02,0.02,3.0,2009,10,2009-10-01
+2088,DGDSRY2,Goods,Clothing and footwear,2010_Q1,0.23,0.26,0.26,0.26,0.03,0.03,0.03,3.0,2010,1,2010-01-01
+2089,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2010_Q1,0.18,0.17,0.17,0.17,-0.01,0.01,0.01,3.0,2010,1,2010-01-01
+2090,DGDSRY2,Goods,Furnishings and durable household equipment,2010_Q1,0.24,0.25,0.25,0.25,0.01,0.01,0.01,3.0,2010,1,2010-01-01
+2091,DGDSRY2,Goods,Gasoline and other energy goods,2010_Q1,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,3.0,2010,1,2010-01-01
+2092,DGDSRY2,Goods,Motor vehicles and parts,2010_Q1,-0.02,-0.02,0.02,0.02,0.0,0.0,0.0,3.0,2010,1,2010-01-01
+2093,DGDSRY2,Goods,Other durable goods,2010_Q1,0.24,0.29,0.29,0.29,0.05,0.05,0.05,3.0,2010,1,2010-01-01
+2094,DGDSRY2,Goods,Other nondurable goods,2010_Q1,0.18,0.18,0.18,0.18,0.0,0.0,0.0,3.0,2010,1,2010-01-01
+2095,DGDSRY2,Goods,Recreational goods and vehicles,2010_Q1,0.32,0.3,0.3,0.3,-0.02,0.02,0.02,3.0,2010,1,2010-01-01
+2096,DGDSRY2,Goods,Clothing and footwear,2010_Q2,0.15,0.14,0.14,0.14,-0.01,0.01,0.01,3.0,2010,4,2010-04-01
+2097,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2010_Q2,-0.15,-0.16,0.16,0.16,-0.01,0.01,0.01,3.0,2010,4,2010-04-01
+2098,DGDSRY2,Goods,Furnishings and durable household equipment,2010_Q2,0.16,0.15,0.15,0.15,-0.01,0.01,0.01,3.0,2010,4,2010-04-01
+2099,DGDSRY2,Goods,Gasoline and other energy goods,2010_Q2,0.02,0.07,0.07,0.07,0.05,0.05,0.05,3.0,2010,4,2010-04-01
+2100,DGDSRY2,Goods,Motor vehicles and parts,2010_Q2,0.21,0.15,0.15,0.15,-0.06,0.06,0.06,3.0,2010,4,2010-04-01
+2101,DGDSRY2,Goods,Other durable goods,2010_Q2,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,3.0,2010,4,2010-04-01
+2102,DGDSRY2,Goods,Other nondurable goods,2010_Q2,0.24,0.25,0.25,0.25,0.01,0.01,0.01,3.0,2010,4,2010-04-01
+2103,DGDSRY2,Goods,Recreational goods and vehicles,2010_Q2,0.17,0.2,0.2,0.2,0.03,0.03,0.03,3.0,2010,4,2010-04-01
+2104,DGDSRY2,Goods,Clothing and footwear,2010_Q3,-0.03,-0.03,0.03,0.03,0.0,0.0,0.0,3.0,2010,7,2010-07-01
+2105,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2010_Q3,0.2,0.17,0.17,0.17,-0.03,0.03,0.03,3.0,2010,7,2010-07-01
+2106,DGDSRY2,Goods,Furnishings and durable household equipment,2010_Q3,0.1,0.1,0.1,0.1,0.0,0.0,0.0,3.0,2010,7,2010-07-01
+2107,DGDSRY2,Goods,Gasoline and other energy goods,2010_Q3,-0.17,0.0,0.0,0.0,0.17,0.17,0.17,3.0,2010,7,2010-07-01
+2108,DGDSRY2,Goods,Motor vehicles and parts,2010_Q3,0.03,0.12,0.12,0.12,0.09,0.09,0.09,3.0,2010,7,2010-07-01
+2109,DGDSRY2,Goods,Other durable goods,2010_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,3.0,2010,7,2010-07-01
+2110,DGDSRY2,Goods,Other nondurable goods,2010_Q3,0.2,0.25,0.25,0.25,0.05,0.05,0.05,3.0,2010,7,2010-07-01
+2111,DGDSRY2,Goods,Recreational goods and vehicles,2010_Q3,0.27,0.26,0.26,0.26,-0.01,0.01,0.01,3.0,2010,7,2010-07-01
+2112,DGDSRY2,Goods,Clothing and footwear,2010_Q4,0.31,0.27,0.27,0.27,-0.04,0.04,0.04,3.0,2010,10,2010-10-01
+2113,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2010_Q4,0.26,0.26,0.26,0.26,0.0,0.0,0.0,3.0,2010,10,2010-10-01
+2114,DGDSRY2,Goods,Furnishings and durable household equipment,2010_Q4,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,3.0,2010,10,2010-10-01
+2115,DGDSRY2,Goods,Gasoline and other energy goods,2010_Q4,-0.08,-0.15,0.15,0.15,-0.07,0.07,0.07,3.0,2010,10,2010-10-01
+2116,DGDSRY2,Goods,Motor vehicles and parts,2010_Q4,0.9,0.98,0.98,0.98,0.08,0.08,0.08,3.0,2010,10,2010-10-01
+2117,DGDSRY2,Goods,Other durable goods,2010_Q4,0.05,0.04,0.04,0.04,-0.01,0.01,0.01,3.0,2010,10,2010-10-01
+2118,DGDSRY2,Goods,Other nondurable goods,2010_Q4,0.29,0.28,0.28,0.28,-0.01,0.01,0.01,3.0,2010,10,2010-10-01
+2119,DGDSRY2,Goods,Recreational goods and vehicles,2010_Q4,0.34,0.27,0.27,0.27,-0.07,0.07,0.07,3.0,2010,10,2010-10-01
+2120,DGDSRY2,Goods,Clothing and footwear,2011_Q1,0.12,0.06,0.06,0.06,-0.06,0.06,0.06,3.0,2011,1,2011-01-01
+2121,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2011_Q1,0.07,0.08,0.08,0.08,0.01,0.01,0.01,3.0,2011,1,2011-01-01
+2122,DGDSRY2,Goods,Furnishings and durable household equipment,2011_Q1,0.12,0.06,0.06,0.06,-0.06,0.06,0.06,3.0,2011,1,2011-01-01
+2123,DGDSRY2,Goods,Gasoline and other energy goods,2011_Q1,-0.04,-0.16,0.16,0.16,-0.12,0.12,0.12,3.0,2011,1,2011-01-01
+2124,DGDSRY2,Goods,Motor vehicles and parts,2011_Q1,0.32,0.24,0.24,0.24,-0.08,0.08,0.08,3.0,2011,1,2011-01-01
+2125,DGDSRY2,Goods,Other durable goods,2011_Q1,0.05,0.09,0.09,0.09,0.04,0.04,0.04,3.0,2011,1,2011-01-01
+2126,DGDSRY2,Goods,Other nondurable goods,2011_Q1,0.19,0.24,0.24,0.24,0.05,0.05,0.05,3.0,2011,1,2011-01-01
+2127,DGDSRY2,Goods,Recreational goods and vehicles,2011_Q1,0.29,0.28,0.28,0.28,-0.01,0.01,0.01,3.0,2011,1,2011-01-01
+2128,DGDSRY2,Goods,Clothing and footwear,2011_Q2,0.03,0.05,0.05,0.05,0.02,0.02,0.02,3.0,2011,4,2011-04-01
+2129,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2011_Q2,0.04,0.06,0.06,0.06,0.02,0.02,0.02,3.0,2011,4,2011-04-01
+2130,DGDSRY2,Goods,Furnishings and durable household equipment,2011_Q2,0.05,0.05,0.05,0.05,0.0,0.0,0.0,3.0,2011,4,2011-04-01
+2131,DGDSRY2,Goods,Gasoline and other energy goods,2011_Q2,-0.2,-0.24,0.24,0.24,-0.04,0.04,0.04,3.0,2011,4,2011-04-01
+2132,DGDSRY2,Goods,Motor vehicles and parts,2011_Q2,-0.65,-0.74,0.74,0.74,-0.09,0.09,0.09,3.0,2011,4,2011-04-01
+2133,DGDSRY2,Goods,Other durable goods,2011_Q2,0.07,0.07,0.07,0.07,0.0,0.0,0.0,3.0,2011,4,2011-04-01
+2134,DGDSRY2,Goods,Other nondurable goods,2011_Q2,0.14,0.16,0.16,0.16,0.02,0.02,0.02,3.0,2011,4,2011-04-01
+2135,DGDSRY2,Goods,Recreational goods and vehicles,2011_Q2,0.19,0.2,0.2,0.2,0.01,0.01,0.01,3.0,2011,4,2011-04-01
+2136,DGDSRY2,Goods,Clothing and footwear,2011_Q3,-0.2,-0.19,0.19,0.19,0.01,0.01,0.01,3.0,2011,7,2011-07-01
+2137,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2011_Q3,0.01,-0.01,0.01,0.01,-0.02,0.02,0.02,3.0,2011,7,2011-07-01
+2138,DGDSRY2,Goods,Furnishings and durable household equipment,2011_Q3,0.08,0.09,0.09,0.09,0.01,0.01,0.01,3.0,2011,7,2011-07-01
+2139,DGDSRY2,Goods,Gasoline and other energy goods,2011_Q3,0.09,-0.04,0.04,0.04,-0.13,0.13,0.13,3.0,2011,7,2011-07-01
+2140,DGDSRY2,Goods,Motor vehicles and parts,2011_Q3,-0.08,0.04,0.04,0.04,0.12,0.12,0.12,3.0,2011,7,2011-07-01
+2141,DGDSRY2,Goods,Other durable goods,2011_Q3,0.05,0.03,0.03,0.03,-0.02,0.02,0.02,3.0,2011,7,2011-07-01
+2142,DGDSRY2,Goods,Other nondurable goods,2011_Q3,0.14,0.15,0.15,0.15,0.01,0.01,0.01,3.0,2011,7,2011-07-01
+2143,DGDSRY2,Goods,Recreational goods and vehicles,2011_Q3,0.26,0.26,0.26,0.26,0.0,0.0,0.0,3.0,2011,7,2011-07-01
+2144,DGDSRY2,Goods,Clothing and footwear,2011_Q4,0.07,0.08,0.08,0.08,0.01,0.01,0.01,3.0,2011,10,2011-10-01
+2145,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2011_Q4,0.01,-0.07,0.07,0.07,-0.08,0.08,0.08,3.0,2011,10,2011-10-01
+2146,DGDSRY2,Goods,Furnishings and durable household equipment,2011_Q4,0.14,0.15,0.15,0.15,0.01,0.01,0.01,3.0,2011,10,2011-10-01
+2147,DGDSRY2,Goods,Gasoline and other energy goods,2011_Q4,-0.01,-0.08,0.08,0.08,-0.07,0.07,0.07,3.0,2011,10,2011-10-01
+2148,DGDSRY2,Goods,Motor vehicles and parts,2011_Q4,0.81,0.83,0.83,0.83,0.02,0.02,0.02,3.0,2011,10,2011-10-01
+2149,DGDSRY2,Goods,Other durable goods,2011_Q4,-0.09,-0.09,0.09,0.09,0.0,0.0,0.0,3.0,2011,10,2011-10-01
+2150,DGDSRY2,Goods,Other nondurable goods,2011_Q4,0.21,0.19,0.19,0.19,-0.02,0.02,0.02,3.0,2011,10,2011-10-01
+2151,DGDSRY2,Goods,Recreational goods and vehicles,2011_Q4,0.21,0.27,0.27,0.27,0.06,0.06,0.06,3.0,2011,10,2011-10-01
+2152,DGDSRY2,Goods,Clothing and footwear,2012_Q1,0.15,0.13,0.13,0.13,-0.02,0.02,0.02,3.0,2012,1,2012-01-01
+2153,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2012_Q1,0.09,0.08,0.08,0.08,-0.01,0.01,0.01,3.0,2012,1,2012-01-01
+2154,DGDSRY2,Goods,Furnishings and durable household equipment,2012_Q1,0.17,0.15,0.15,0.15,-0.02,0.02,0.02,3.0,2012,1,2012-01-01
+2155,DGDSRY2,Goods,Gasoline and other energy goods,2012_Q1,-0.14,-0.09,0.09,0.09,0.05,0.05,0.05,3.0,2012,1,2012-01-01
+2156,DGDSRY2,Goods,Motor vehicles and parts,2012_Q1,0.68,0.52,0.52,0.52,-0.16,0.16,0.16,3.0,2012,1,2012-01-01
+2157,DGDSRY2,Goods,Other durable goods,2012_Q1,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,3.0,2012,1,2012-01-01
+2158,DGDSRY2,Goods,Other nondurable goods,2012_Q1,0.25,0.22,0.22,0.22,-0.03,0.03,0.03,3.0,2012,1,2012-01-01
+2159,DGDSRY2,Goods,Recreational goods and vehicles,2012_Q1,0.14,0.22,0.22,0.22,0.08,0.08,0.08,3.0,2012,1,2012-01-01
+2160,DGDSRY2,Goods,Clothing and footwear,2012_Q2,-0.13,-0.12,0.12,0.12,0.01,0.01,0.01,3.0,2012,4,2012-04-01
+2161,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2012_Q2,-0.02,-0.03,0.03,0.03,-0.01,0.01,0.01,3.0,2012,4,2012-04-01
+2162,DGDSRY2,Goods,Furnishings and durable household equipment,2012_Q2,-0.03,-0.01,0.01,0.01,0.02,0.02,0.02,3.0,2012,4,2012-04-01
+2163,DGDSRY2,Goods,Gasoline and other energy goods,2012_Q2,0.38,0.23,0.23,0.23,-0.15,0.15,0.15,3.0,2012,4,2012-04-01
+2164,DGDSRY2,Goods,Motor vehicles and parts,2012_Q2,-0.29,-0.26,0.26,0.26,0.03,0.03,0.03,3.0,2012,4,2012-04-01
+2165,DGDSRY2,Goods,Other durable goods,2012_Q2,0.11,0.1,0.1,0.1,-0.01,0.01,0.01,3.0,2012,4,2012-04-01
+2166,DGDSRY2,Goods,Other nondurable goods,2012_Q2,0.02,0.02,0.02,0.02,0.0,0.0,0.0,3.0,2012,4,2012-04-01
+2167,DGDSRY2,Goods,Recreational goods and vehicles,2012_Q2,0.13,0.16,0.16,0.16,0.03,0.03,0.03,3.0,2012,4,2012-04-01
+2168,DGDSRY2,Goods,Clothing and footwear,2012_Q3,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,3.0,2012,7,2012-07-01
+2169,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2012_Q3,0.07,0.01,0.01,0.01,-0.06,0.06,0.06,3.0,2012,7,2012-07-01
+2170,DGDSRY2,Goods,Furnishings and durable household equipment,2012_Q3,0.13,0.09,0.09,0.09,-0.04,0.04,0.04,3.0,2012,7,2012-07-01
+2171,DGDSRY2,Goods,Gasoline and other energy goods,2012_Q3,0.01,-0.08,0.08,0.08,-0.09,0.09,0.09,3.0,2012,7,2012-07-01
+2172,DGDSRY2,Goods,Motor vehicles and parts,2012_Q3,0.18,0.25,0.25,0.25,0.07,0.07,0.07,3.0,2012,7,2012-07-01
+2173,DGDSRY2,Goods,Other durable goods,2012_Q3,0.04,0.07,0.07,0.07,0.03,0.03,0.03,3.0,2012,7,2012-07-01
+2174,DGDSRY2,Goods,Other nondurable goods,2012_Q3,0.18,0.14,0.14,0.14,-0.04,0.04,0.04,3.0,2012,7,2012-07-01
+2175,DGDSRY2,Goods,Recreational goods and vehicles,2012_Q3,0.28,0.25,0.25,0.25,-0.03,0.03,0.03,3.0,2012,7,2012-07-01
+2176,DGDSRY2,Goods,Clothing and footwear,2012_Q4,-0.01,-0.04,0.04,0.04,-0.03,0.03,0.03,3.0,2012,10,2012-10-01
+2177,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2012_Q4,-0.03,-0.01,0.01,0.01,0.02,0.02,0.02,3.0,2012,10,2012-10-01
+2178,DGDSRY2,Goods,Furnishings and durable household equipment,2012_Q4,0.07,0.07,0.07,0.07,0.0,0.0,0.0,3.0,2012,10,2012-10-01
+2179,DGDSRY2,Goods,Gasoline and other energy goods,2012_Q4,-0.1,-0.17,0.17,0.17,-0.07,0.07,0.07,3.0,2012,10,2012-10-01
+2180,DGDSRY2,Goods,Motor vehicles and parts,2012_Q4,0.62,0.53,0.53,0.53,-0.09,0.09,0.09,3.0,2012,10,2012-10-01
+2181,DGDSRY2,Goods,Other durable goods,2012_Q4,0.08,0.15,0.15,0.15,0.07,0.07,0.07,3.0,2012,10,2012-10-01
+2182,DGDSRY2,Goods,Other nondurable goods,2012_Q4,0.2,0.23,0.23,0.23,0.03,0.03,0.03,3.0,2012,10,2012-10-01
+2183,DGDSRY2,Goods,Recreational goods and vehicles,2012_Q4,0.25,0.25,0.25,0.25,0.0,0.0,0.0,3.0,2012,10,2012-10-01
+2184,DGDSRY2,Goods,Clothing and footwear,2013_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,3.0,2013,1,2013-01-01
+2185,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2013_Q1,0.05,0.11,0.11,0.11,0.06,0.06,0.06,3.0,2013,1,2013-01-01
+2186,DGDSRY2,Goods,Furnishings and durable household equipment,2013_Q1,0.06,0.08,0.08,0.08,0.02,0.02,0.02,3.0,2013,1,2013-01-01
+2187,DGDSRY2,Goods,Gasoline and other energy goods,2013_Q1,-0.1,0.12,0.12,0.12,0.22,0.22,0.22,3.0,2013,1,2013-01-01
+2188,DGDSRY2,Goods,Motor vehicles and parts,2013_Q1,0.27,0.23,0.23,0.23,-0.04,0.04,0.04,3.0,2013,1,2013-01-01
+2189,DGDSRY2,Goods,Other durable goods,2013_Q1,0.1,0.07,0.07,0.07,-0.03,0.03,0.03,3.0,2013,1,2013-01-01
+2190,DGDSRY2,Goods,Other nondurable goods,2013_Q1,0.18,0.18,0.18,0.18,0.0,0.0,0.0,3.0,2013,1,2013-01-01
+2191,DGDSRY2,Goods,Recreational goods and vehicles,2013_Q1,0.19,0.2,0.2,0.2,0.01,0.01,0.01,3.0,2013,1,2013-01-01
+2192,DGDSRY2,Goods,Clothing and footwear,2013_Q2,0.16,0.13,0.13,0.13,-0.03,0.03,0.03,3.0,2013,4,2013-04-01
+2193,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2013_Q2,-0.07,-0.06,0.06,0.06,0.01,0.01,0.01,3.0,2013,4,2013-04-01
+2194,DGDSRY2,Goods,Furnishings and durable household equipment,2013_Q2,0.12,0.15,0.15,0.15,0.03,0.03,0.03,3.0,2013,4,2013-04-01
+2195,DGDSRY2,Goods,Gasoline and other energy goods,2013_Q2,0.11,-0.02,0.02,0.02,-0.13,0.13,0.13,3.0,2013,4,2013-04-01
+2196,DGDSRY2,Goods,Motor vehicles and parts,2013_Q2,-0.01,-0.02,0.02,0.02,-0.01,0.01,0.01,3.0,2013,4,2013-04-01
+2197,DGDSRY2,Goods,Other durable goods,2013_Q2,0.12,0.1,0.1,0.1,-0.02,0.02,0.02,3.0,2013,4,2013-04-01
+2198,DGDSRY2,Goods,Other nondurable goods,2013_Q2,0.11,0.21,0.21,0.21,0.1,0.1,0.1,3.0,2013,4,2013-04-01
+2199,DGDSRY2,Goods,Recreational goods and vehicles,2013_Q2,0.24,0.23,0.23,0.23,-0.01,0.01,0.01,3.0,2013,4,2013-04-01
+2200,DGDSRY2,Goods,Clothing and footwear,2013_Q3,-0.07,-0.09,0.09,0.09,-0.02,0.02,0.02,3.0,2013,7,2013-07-01
+2201,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2013_Q3,0.14,0.14,0.14,0.14,0.0,0.0,0.0,3.0,2013,7,2013-07-01
+2202,DGDSRY2,Goods,Furnishings and durable household equipment,2013_Q3,0.19,0.21,0.21,0.21,0.02,0.02,0.02,3.0,2013,7,2013-07-01
+2203,DGDSRY2,Goods,Gasoline and other energy goods,2013_Q3,-0.03,0.08,0.08,0.08,0.11,0.11,0.11,3.0,2013,7,2013-07-01
+2204,DGDSRY2,Goods,Motor vehicles and parts,2013_Q3,0.16,0.12,0.12,0.12,-0.04,0.04,0.04,3.0,2013,7,2013-07-01
+2205,DGDSRY2,Goods,Other durable goods,2013_Q3,-0.01,0.0,0.0,0.0,0.01,0.01,0.01,3.0,2013,7,2013-07-01
+2206,DGDSRY2,Goods,Other nondurable goods,2013_Q3,0.37,0.33,0.33,0.33,-0.04,0.04,0.04,3.0,2013,7,2013-07-01
+2207,DGDSRY2,Goods,Recreational goods and vehicles,2013_Q3,0.23,0.24,0.24,0.24,0.01,0.01,0.01,3.0,2013,7,2013-07-01
+2208,DGDSRY2,Goods,Clothing and footwear,2013_Q4,0.18,0.09,0.09,0.09,-0.09,0.09,0.09,3.0,2013,10,2013-10-01
+2209,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2013_Q4,0.19,0.16,0.16,0.16,-0.03,0.03,0.03,3.0,2013,10,2013-10-01
+2210,DGDSRY2,Goods,Furnishings and durable household equipment,2013_Q4,0.1,0.04,0.04,0.04,-0.06,0.06,0.06,3.0,2013,10,2013-10-01
+2211,DGDSRY2,Goods,Gasoline and other energy goods,2013_Q4,0.04,-0.01,0.01,0.01,-0.05,0.05,0.05,3.0,2013,10,2013-10-01
+2212,DGDSRY2,Goods,Motor vehicles and parts,2013_Q4,0.02,0.0,0.0,0.0,-0.02,0.02,0.02,3.0,2013,10,2013-10-01
+2213,DGDSRY2,Goods,Other durable goods,2013_Q4,0.15,0.11,0.11,0.11,-0.04,0.04,0.04,3.0,2013,10,2013-10-01
+2214,DGDSRY2,Goods,Other nondurable goods,2013_Q4,0.28,0.21,0.21,0.21,-0.07,0.07,0.07,3.0,2013,10,2013-10-01
+2215,DGDSRY2,Goods,Recreational goods and vehicles,2013_Q4,0.16,0.07,0.07,0.07,-0.09,0.09,0.09,3.0,2013,10,2013-10-01
+2216,DGDSRY2,Goods,Clothing and footwear,2014_Q1,-0.09,-0.09,0.09,0.09,0.0,0.0,0.0,3.0,2014,1,2014-01-01
+2217,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2014_Q1,0.03,-0.06,0.06,0.06,-0.09,0.09,0.09,3.0,2014,1,2014-01-01
+2218,DGDSRY2,Goods,Furnishings and durable household equipment,2014_Q1,-0.03,-0.03,0.03,0.03,0.0,0.0,0.0,3.0,2014,1,2014-01-01
+2219,DGDSRY2,Goods,Gasoline and other energy goods,2014_Q1,0.03,0.05,0.05,0.05,0.02,0.02,0.02,3.0,2014,1,2014-01-01
+2220,DGDSRY2,Goods,Motor vehicles and parts,2014_Q1,0.02,0.07,0.07,0.07,0.05,0.05,0.05,3.0,2014,1,2014-01-01
+2221,DGDSRY2,Goods,Other durable goods,2014_Q1,0.0,0.02,0.02,0.02,0.02,0.02,0.02,3.0,2014,1,2014-01-01
+2222,DGDSRY2,Goods,Other nondurable goods,2014_Q1,0.06,0.05,0.05,0.05,-0.01,0.01,0.01,3.0,2014,1,2014-01-01
+2223,DGDSRY2,Goods,Recreational goods and vehicles,2014_Q1,0.06,0.03,0.03,0.03,-0.03,0.03,0.03,3.0,2014,1,2014-01-01
+2224,DGDSRY2,Goods,Clothing and footwear,2014_Q2,0.14,0.12,0.12,0.12,-0.02,0.02,0.02,3.0,2014,4,2014-04-01
+2225,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2014_Q2,-0.08,-0.07,0.07,0.07,0.01,0.01,0.01,3.0,2014,4,2014-04-01
+2226,DGDSRY2,Goods,Furnishings and durable household equipment,2014_Q2,0.21,0.2,0.2,0.2,-0.01,0.01,0.01,3.0,2014,4,2014-04-01
+2227,DGDSRY2,Goods,Gasoline and other energy goods,2014_Q2,-0.09,-0.08,0.08,0.08,0.01,0.01,0.01,3.0,2014,4,2014-04-01
+2228,DGDSRY2,Goods,Motor vehicles and parts,2014_Q2,0.42,0.45,0.45,0.45,0.03,0.03,0.03,3.0,2014,4,2014-04-01
+2229,DGDSRY2,Goods,Other durable goods,2014_Q2,0.11,0.08,0.08,0.08,-0.03,0.03,0.03,3.0,2014,4,2014-04-01
+2230,DGDSRY2,Goods,Other nondurable goods,2014_Q2,0.41,0.37,0.37,0.37,-0.04,0.04,0.04,3.0,2014,4,2014-04-01
+2231,DGDSRY2,Goods,Recreational goods and vehicles,2014_Q2,0.26,0.26,0.26,0.26,0.0,0.0,0.0,3.0,2014,4,2014-04-01
+2232,DGDSRY2,Goods,Clothing and footwear,2014_Q3,0.02,0.03,0.03,0.03,0.01,0.01,0.01,3.0,2014,7,2014-07-01
+2233,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2014_Q3,-0.06,0.0,0.0,0.0,0.06,0.06,0.06,3.0,2014,7,2014-07-01
+2234,DGDSRY2,Goods,Furnishings and durable household equipment,2014_Q3,0.06,0.1,0.1,0.1,0.04,0.04,0.04,3.0,2014,7,2014-07-01
+2235,DGDSRY2,Goods,Gasoline and other energy goods,2014_Q3,-0.06,0.02,0.02,0.02,0.08,0.08,0.08,3.0,2014,7,2014-07-01
+2236,DGDSRY2,Goods,Motor vehicles and parts,2014_Q3,0.25,0.28,0.28,0.28,0.03,0.03,0.03,3.0,2014,7,2014-07-01
+2237,DGDSRY2,Goods,Other durable goods,2014_Q3,-0.02,-0.01,0.01,0.01,0.01,0.01,0.01,3.0,2014,7,2014-07-01
+2238,DGDSRY2,Goods,Other nondurable goods,2014_Q3,0.27,0.34,0.34,0.34,0.07,0.07,0.07,3.0,2014,7,2014-07-01
+2239,DGDSRY2,Goods,Recreational goods and vehicles,2014_Q3,0.24,0.31,0.31,0.31,0.07,0.07,0.07,3.0,2014,7,2014-07-01
+2240,DGDSRY2,Goods,Clothing and footwear,2014_Q4,0.26,0.19,0.19,0.19,-0.07,0.07,0.07,3.0,2014,10,2014-10-01
+2241,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2014_Q4,-0.08,-0.02,0.02,0.02,0.06,0.06,0.06,3.0,2014,10,2014-10-01
+2242,DGDSRY2,Goods,Furnishings and durable household equipment,2014_Q4,0.09,0.11,0.11,0.11,0.02,0.02,0.02,3.0,2014,10,2014-10-01
+2243,DGDSRY2,Goods,Gasoline and other energy goods,2014_Q4,0.25,0.19,0.19,0.19,-0.06,0.06,0.06,3.0,2014,10,2014-10-01
+2244,DGDSRY2,Goods,Motor vehicles and parts,2014_Q4,0.16,0.1,0.1,0.1,-0.06,0.06,0.06,3.0,2014,10,2014-10-01
+2245,DGDSRY2,Goods,Other durable goods,2014_Q4,0.09,0.06,0.06,0.06,-0.03,0.03,0.03,3.0,2014,10,2014-10-01
+2246,DGDSRY2,Goods,Other nondurable goods,2014_Q4,0.21,0.25,0.25,0.25,0.04,0.04,0.04,3.0,2014,10,2014-10-01
+2247,DGDSRY2,Goods,Recreational goods and vehicles,2014_Q4,0.2,0.19,0.19,0.19,-0.01,0.01,0.01,3.0,2014,10,2014-10-01
+2248,DGDSRY2,Goods,Clothing and footwear,2015_Q1,-0.06,-0.04,0.04,0.04,0.02,0.02,0.02,3.0,2015,1,2015-01-01
+2249,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2015_Q1,-0.13,0.0,0.0,0.0,0.13,0.13,0.13,3.0,2015,1,2015-01-01
+2250,DGDSRY2,Goods,Furnishings and durable household equipment,2015_Q1,0.05,0.09,0.09,0.09,0.04,0.04,0.04,3.0,2015,1,2015-01-01
+2251,DGDSRY2,Goods,Gasoline and other energy goods,2015_Q1,0.1,0.1,0.1,0.1,0.0,0.0,0.0,3.0,2015,1,2015-01-01
+2252,DGDSRY2,Goods,Motor vehicles and parts,2015_Q1,-0.08,-0.11,0.11,0.11,-0.03,0.03,0.03,3.0,2015,1,2015-01-01
+2253,DGDSRY2,Goods,Other durable goods,2015_Q1,0.03,0.03,0.03,0.03,0.0,0.0,0.0,3.0,2015,1,2015-01-01
+2254,DGDSRY2,Goods,Other nondurable goods,2015_Q1,0.05,0.06,0.06,0.06,0.01,0.01,0.01,3.0,2015,1,2015-01-01
+2255,DGDSRY2,Goods,Recreational goods and vehicles,2015_Q1,0.08,0.08,0.08,0.08,0.0,0.0,0.0,3.0,2015,1,2015-01-01
+2256,DGDSRY2,Goods,Clothing and footwear,2015_Q2,0.11,0.14,0.14,0.14,0.03,0.03,0.03,3.0,2015,4,2015-04-01
+2257,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2015_Q2,0.14,0.14,0.14,0.14,0.0,0.0,0.0,3.0,2015,4,2015-04-01
+2258,DGDSRY2,Goods,Furnishings and durable household equipment,2015_Q2,0.05,0.07,0.07,0.07,0.02,0.02,0.02,3.0,2015,4,2015-04-01
+2259,DGDSRY2,Goods,Gasoline and other energy goods,2015_Q2,0.0,-0.01,0.01,0.01,-0.01,0.01,0.01,3.0,2015,4,2015-04-01
+2260,DGDSRY2,Goods,Motor vehicles and parts,2015_Q2,0.26,0.24,0.24,0.24,-0.02,0.02,0.02,3.0,2015,4,2015-04-01
+2261,DGDSRY2,Goods,Other durable goods,2015_Q2,0.05,0.09,0.09,0.09,0.04,0.04,0.04,3.0,2015,4,2015-04-01
+2262,DGDSRY2,Goods,Other nondurable goods,2015_Q2,0.27,0.36,0.36,0.36,0.09,0.09,0.09,3.0,2015,4,2015-04-01
+2263,DGDSRY2,Goods,Recreational goods and vehicles,2015_Q2,0.17,0.17,0.17,0.17,0.0,0.0,0.0,3.0,2015,4,2015-04-01
+2264,DGDSRY2,Goods,Clothing and footwear,2015_Q3,0.05,0.03,0.03,0.03,-0.02,0.02,0.02,3.0,2015,7,2015-07-01
+2265,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2015_Q3,0.0,0.01,0.01,0.01,0.01,0.01,0.01,3.0,2015,7,2015-07-01
+2266,DGDSRY2,Goods,Furnishings and durable household equipment,2015_Q3,0.12,0.14,0.14,0.14,0.02,0.02,0.02,3.0,2015,7,2015-07-01
+2267,DGDSRY2,Goods,Gasoline and other energy goods,2015_Q3,0.05,0.09,0.09,0.09,0.04,0.04,0.04,3.0,2015,7,2015-07-01
+2268,DGDSRY2,Goods,Motor vehicles and parts,2015_Q3,0.13,0.08,0.08,0.08,-0.05,0.05,0.05,3.0,2015,7,2015-07-01
+2269,DGDSRY2,Goods,Other durable goods,2015_Q3,0.07,0.06,0.06,0.06,-0.01,0.01,0.01,3.0,2015,7,2015-07-01
+2270,DGDSRY2,Goods,Other nondurable goods,2015_Q3,0.41,0.48,0.48,0.48,0.07,0.07,0.07,3.0,2015,7,2015-07-01
+2271,DGDSRY2,Goods,Recreational goods and vehicles,2015_Q3,0.16,0.2,0.2,0.2,0.04,0.04,0.04,3.0,2015,7,2015-07-01
+2272,DGDSRY2,Goods,Clothing and footwear,2015_Q4,0.04,0.0,0.0,0.0,-0.04,0.04,0.04,3.0,2015,10,2015-10-01
+2273,DGDSRY2,Goods,Food and beverages purchased for off-premises consumption,2015_Q4,-0.09,-0.02,0.02,0.02,0.07,0.07,0.07,3.0,2015,10,2015-10-01
+2274,DGDSRY2,Goods,Furnishings and durable household equipment,2015_Q4,0.09,0.09,0.09,0.09,0.0,0.0,0.0,3.0,2015,10,2015-10-01
+2275,DGDSRY2,Goods,Gasoline and other energy goods,2015_Q4,-0.01,-0.04,0.04,0.04,-0.03,0.03,0.03,3.0,2015,10,2015-10-01
+2276,DGDSRY2,Goods,Motor vehicles and parts,2015_Q4,-0.13,-0.15,0.15,0.15,-0.02,0.02,0.02,3.0,2015,10,2015-10-01
+2277,DGDSRY2,Goods,Other durable goods,2015_Q4,0.12,0.08,0.08,0.08,-0.04,0.04,0.04,3.0,2015,10,2015-10-01
+2278,DGDSRY2,Goods,Other nondurable goods,2015_Q4,0.27,0.14,0.14,0.14,-0.13,0.13,0.13,3.0,2015,10,2015-10-01
+2279,DGDSRY2,Goods,Recreational goods and vehicles,2015_Q4,0.24,0.26,0.26,0.26,0.02,0.02,0.02,3.0,2015,10,2015-10-01
